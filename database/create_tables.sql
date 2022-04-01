@@ -24,10 +24,16 @@ CREATE TABLE majors(
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
 
- CREATE TABLE courses_in_ges(
+CREATE TABLE courses_in_ges(
     id INT NOT NULL AUTO_INCREMENT,
     courseId VARCHAR(25) NOT NULL,
     geId VARCHAR(5) NOT NULL,
+    PRIMARY KEY(id));
+
+CREATE TABLE generalEducations(
+    id VARCHAR(5) NOT NULL,
+    name VARCHAR(55) NOT NULL,
+    note VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
 
 /*   FOREIGN KEY(geId) REFERENCES generalEducations(id),
@@ -36,6 +42,7 @@ CREATE TABLE majors(
 /* CREATE TABLE generalEducations(
     id VARCHAR(10) NOT NULL,
     name VARCHAR(55) NOT NULL,
+    
     PRIMARY KEY(id));
 
  CREATE TABLE courses_in_ge(
@@ -43,13 +50,14 @@ CREATE TABLE majors(
     geIds VARCHAR(20) NOT NULL,
     FOREIGN KEY(courseId) REFERENCES courses(id));
 
-INSERT INTO generalEducations VALUES ("IA","Lower-Division Requirement");
-INSERT INTO generalEducations VALUES ("IB","Upper-Division Requirement");
-INSERT INTO generalEducations VALUES ("II","Science and Technology");
-INSERT INTO generalEducations VALUES ("III","Social and Behavioral Sciences");
-INSERT INTO generalEducations VALUES ("IV","Arts and Humanities");
-INSERT INTO generalEducations VALUES ("VA","Quantitative Literacy");
-INSERT INTO generalEducations VALUES ("VB","Formal Reasoning");
-INSERT INTO generalEducations VALUES ("VI", "Language Other Than English");
-INSERT INTO generalEducations VALUES ("VII","Multicultural Studies");
-INSERT INTO generalEducations VALUES ("VIII", "International/Global Issues"); */
+INSERT INTO generalEducations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
+INSERT INTO generalEducations VALUES ("IB","Upper-Division Requirement","One upper-division course");
+INSERT INTO generalEducations VALUES ("II","Science and Technology","Three courses");
+INSERT INTO generalEducations VALUES ("III","Social and Behavioral Sciences", "Three courses");
+INSERT INTO generalEducations VALUES ("IV","Arts and Humanities", "Three courses");
+INSERT INTO generalEducations VALUES ("VA","Quantitative Literacy", "One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO generalEducations VALUES ("VB","Formal Reasoning","One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO generalEducations VALUES ("VI", "Language Other Than English","One course");
+INSERT INTO generalEducations VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
+INSERT INTO generalEducations VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
+ */
