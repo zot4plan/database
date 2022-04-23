@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Basic Requirements",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MATH 2D",
+                    "PHYSICS 7C",
+                    "PHYSICS 7D",
+                    "PHYSICS 7E",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7LD"
+                ]
+            },
+            {
+                "name": "Select one of the following sequences and accompanying labs:",
+                "child": [
+                    "CHEM M2A",
+                    "CHEM M2B",
+                    "CHEM M2C",
+                    "CHEM M2LA",
+                    "CHEM M2LB"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "CHEM H2A",
+                    "CHEM H2B",
+                    "CHEM H2C",
+                    "CHEM H2LA",
+                    "CHEM H2LB"
+                ]
+            },
+            {
+                "name": "Complete the analytical chemistry laboratory",
+                "child": [
+                    "CHEM M3LC"
+                ]
+            },
+            {
+                "name": "Select one of the following organic chemistry sequences and accompanying labs:",
+                "child": [
+                    "CHEM 51A",
+                    "CHEM 51B",
+                    "CHEM 51C",
+                    "CHEM M52LA",
+                    "CHEM M52LB",
+                    "CHEM M52LC"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "CHEM H52LA",
+                    "CHEM H52LB",
+                    "CHEM H52LC"
+                ]
+            },
+            {
+                "name": "Complete:",
+                "child": [
+                    "CHEM 5",
+                    "CHEM 107",
+                    "CHEM 107L",
+                    "CHEM 152",
+                    "CHEM 132A",
+                    "CHEM 132B",
+                    "CHEM 132C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Elective Requirements",
+        "child": [
+            {
+                "name": "Select at least five electives from the following lists, including at least two courses selected from the lecture list and at least two courses selected from the laboratory list:",
+                "child": []
+            },
+            {
+                "name": "Lectures:",
+                "child": [
+                    "BIO SCI 98",
+                    "BIO SCI 99",
+                    "BIO SCI M114",
+                    "BIO SCI M116",
+                    "BIO SCI M123",
+                    "CBE 110",
+                    "CBE 130",
+                    "CBE 145",
+                    "CBE 161",
+                    "CBE 181",
+                    "CBE 183",
+                    "CHEM 100",
+                    "CHEM 125",
+                    "CHEM 127",
+                    "CHEM 128",
+                    "CHEM 133",
+                    "CHEM 137",
+                    "CHEM 138",
+                    "CHEM 141",
+                    "CHEM 145A",
+                    "CHEM 145B",
+                    "CHEM 150",
+                    "CHEM 177"
+                ]
+            },
+            {
+                "name": "Any level 200 four-unit course numbered between 201-205, 210-269",
+                "child": [
+                    "EARTHSS 142",
+                    "EARTHSS 144",
+                    "EARTHSS 171",
+                    "ENGRCEE 162",
+                    "ENGRMAE 114",
+                    "ENGRMAE 164",
+                    "MSE 141",
+                    "MSE 164",
+                    "PHRMSCI 170A",
+                    "PHRMSCI 170B",
+                    "PHRMSCI 171",
+                    "PHYSICS 111A",
+                    "PHYSICS 111B",
+                    "PHYSICS 112A",
+                    "PHYSICS 112B",
+                    "PUBHLTH 171"
+                ]
+            },
+            {
+                "name": "Laboratories:",
+                "child": [
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "CBE 140A",
+                    "CBE 140B",
+                    "CHEM 128L",
+                    "CHEM 133L",
+                    "CHEM 150L",
+                    "CHEM 153",
+                    "CHEM 156",
+                    "CHEM 160",
+                    "CHEM 177L",
+                    "CHEM 180",
+                    "CHEM 197",
+                    "EARTHSS 114"
+                ]
+            }
+        ]
+    }
+]

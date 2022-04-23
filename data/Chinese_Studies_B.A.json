@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Emphasis in Chinese Language and Literature",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "CHINESE 3C"
+                ]
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "CHINESE 100A",
+                    "CHINESE 100B",
+                    "CHINESE 100C"
+                ]
+            },
+            {
+                "name": "C. Complete:",
+                "child": [
+                    "EAS 15C",
+                    "EAS 190"
+                ]
+            },
+            {
+                "name": "D. Select one upper-division course dealing with the literature or culture of another East Asian country.",
+                "child": []
+            },
+            {
+                "name": "E. Select five additional courses in Chinese literature, history, art history, linguistics, professional Chinese, comparative literature, film and media, religion, gender studies, or philosophy, of which two may be lower-division courses offered by the East Asian Studies department.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Emphasis in Chinese Culture and Society",
+        "child": [
+            {
+                "name": "A. Complete one of the following:",
+                "child": [
+                    "CHINESE 2C",
+                    "CHINESE 2MC"
+                ]
+            },
+            {
+                "name": "Or equivalent.",
+                "child": []
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "HISTORY 171D",
+                    "HISTORY 171E"
+                ]
+            },
+            {
+                "name": "C. Complete:",
+                "child": [
+                    "EAS 15C",
+                    "EAS 190"
+                ]
+            },
+            {
+                "name": "D. Select three upper-division courses on China offered by the Department.",
+                "child": []
+            },
+            {
+                "name": "E. Select two approved upper-division courses dealing with the literature, religion, culture, history, or society of another East Asian country.",
+                "child": []
+            },
+            {
+                "name": "F. Select two approved upper-division courses in the School of Social Sciences dealing with China.",
+                "child": []
+            },
+            {
+                "name": "G. Select two additional courses in Chinese language, literature, history, art history, linguistics, professional Chinese, comparative literature, film and media, religion, gender studies, or philosophy, of which one or both may be lower-division courses offered by the East Asian Studies Department. (Courses from the School of Social Sciences may be substituted with departmental approval by petition.)",
+                "child": []
+            }
+        ]
+    }
+]

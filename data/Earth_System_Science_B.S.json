@@ -1,0 +1,207 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "EARTHSS 1",
+                        "EARTHSS 3",
+                        "EARTHSS 5"
+                    ],
+                    "EARTHSS 51",
+                    "EARTHSS 53",
+                    "EARTHSS 55",
+                    [
+                        "EARTHSS 114",
+                        "EARTHSS 115"
+                    ],
+                    "EARTHSS 116",
+                    "EARTHSS 192",
+                    "MATH 2A",
+                    "MATH 2B",
+                    "STATS 7"
+                ]
+            },
+            {
+                "name": "Select one of the following sequences and accompanying labs:",
+                "child": [
+                    "CHEM 1A",
+                    "CHEM 1B",
+                    "CHEM 1C",
+                    "CHEM 1LC",
+                    "CHEM 1LD"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "CHEM H2A",
+                    "CHEM H2B",
+                    "CHEM H2C",
+                    "CHEM H2LA",
+                    "CHEM H2LB",
+                    "CHEM H2LC"
+                ]
+            },
+            {
+                "name": "Select one of the following sequences and accompanying labs:",
+                "child": [
+                    "PHYSICS 3A",
+                    "PHYSICS 3B",
+                    "PHYSICS 3C",
+                    "PHYSICS 3LB",
+                    "PHYSICS 3LC"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "PHYSICS 7C",
+                    "PHYSICS 7E",
+                    "PHYSICS 7LC"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select seven electives from the following:",
+        "child": [
+            {
+                "name": "At least four must be Earth System Science courses",
+                "child": []
+            },
+            {
+                "name": "All 4-unit upper-division EARTHSS courses except EARTHSS 114, EARTHSS 115, EARTHSS 116, and EARTHSS H198 (EARTHSS 199 or one quarter of H199A-B-C may count only once toward the elective requirement)",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 94",
+                    "BIO SCI 98",
+                    "BIO SCI D105",
+                    "BIO SCI E106",
+                    "BIO SCI E120",
+                    "BIO SCI E150",
+                    "BIO SCI E179",
+                    "BIO SCI E179L",
+                    "BIO SCI E189",
+                    "CHEM 51A",
+                    "CHEM 51B",
+                    "CHEM 51LB",
+                    "CHEM 51C",
+                    "CHEM 51LC",
+                    "CHEM 141",
+                    "ENGRCEE 162",
+                    "ENGRCEE 171",
+                    "ENGRCEE 172",
+                    "ENGRCEE 176",
+                    "ENGRCEE 178",
+                    "ENGRMAE 91",
+                    "ENGRMAE 130A",
+                    "ENGRMAE 164",
+                    "MATH 2D",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "MATH 105A",
+                    "MATH 112A",
+                    "MATH 115",
+                    "PHYSICS 115A",
+                    "UPPP 133",
+                    "UPPP 139",
+                    "UPPP 145",
+                    "PUBHLTH 161",
+                    "PUBHLTH 163",
+                    "PUBHLTH 167",
+                    "PUBHLTH 171",
+                    "PUBHLTH 172",
+                    "PUBHLTH 173"
+                ]
+            },
+            {
+                "name": "Computing Skills (one of the following may be counted toward degree): EECS 10, ENGRMAE 10, I&C SCI 31, PHYSICS 53, or an approved programming course.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Atmospheric Science",
+        "child": [
+            {
+                "name": "Three courses selected from the following:",
+                "child": [
+                    "EARTHSS 122",
+                    "EARTHSS 124",
+                    "EARTHSS 142",
+                    "EARTHSS 199"
+                ]
+            },
+            {
+                "name": "One advanced tools courses selected from the following:",
+                "child": [
+                    "EARTHSS 118",
+                    "EARTHSS 134",
+                    "EARTHSS 138"
+                ]
+            },
+            {
+                "name": "(These courses may overlap in Major Requirements, Section B.)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": " Specialization in Hydrology and Terrestrial Ecosystems",
+        "child": [
+            {
+                "name": "Three courses selected from the following:",
+                "child": [
+                    "EARTHSS 132",
+                    [
+                        "EARTHSS 140",
+                        "EARTHSS 133"
+                    ],
+                    "EARTHSS 156",
+                    "EARTHSS 199"
+                ]
+            },
+            {
+                "name": "One advanced tools course selected from the following:",
+                "child": [
+                    "EARTHSS 118",
+                    "EARTHSS 134",
+                    "EARTHSS 138"
+                ]
+            },
+            {
+                "name": "(These courses may overlap in Major Requirements, Section B.)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "  Specialization in Oceanography",
+        "child": [
+            {
+                "name": "Three courses selected from the following:",
+                "child": [
+                    "EARTHSS 130",
+                    "EARTHSS 144",
+                    "EARTHSS 148",
+                    "EARTHSS 171",
+                    "EARTHSS 199"
+                ]
+            },
+            {
+                "name": "One advanced tools course selected from the following:",
+                "child": [
+                    "EARTHSS 118",
+                    "EARTHSS 138"
+                ]
+            },
+            {
+                "name": "(These courses may overlap in Major Requirements, Section B.)",
+                "child": []
+            }
+        ]
+    }
+]

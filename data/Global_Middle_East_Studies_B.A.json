@@ -1,0 +1,45 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "GLBL ME 60A",
+                    "GLBL ME 60B",
+                    "GLBL ME 60C",
+                    "GLBL ME 100W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "Course work equivalent to UCI's sixth quarter of study (2C level) in one of the following single languages: Arabic, Persian, or Hebrew. Students may also petition to complete the requirement in other languages."
+            }
+        ]
+    },
+    {
+        "name": "C. Complete four upper-division courses, selected from two of the following emphases (eight total):",
+        "child": [
+            {
+                "name": "1. Environment, Economies, and Conflicts",
+                "child": []
+            },
+            {
+                "name": "2. Histories, Cultures, and Identities",
+                "child": []
+            },
+            {
+                "name": "3. Geographies, Migrations, and Politics",
+                "child": []
+            },
+            {
+                "name": "Courses must be selected from the approved lists published on the Global Middle East Studies website.",
+                "child": []
+            }
+        ]
+    }
+]

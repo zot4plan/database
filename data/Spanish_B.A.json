@@ -1,0 +1,24 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "SPANISH 101A",
+                    "SPANISH 101B",
+                    "SPANISH 113B",
+                    "SPANISH 119",
+                    "SPANISH 190"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete seven additional Spanish courses by the Department of Spanish and Portuguese",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

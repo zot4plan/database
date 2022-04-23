@@ -1,0 +1,45 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Required Major Courses:",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI E109",
+                    "BIO SCI E117A",
+                    "BIO SCI  E117B",
+                    "BIO SCI  E117C",
+                    "BIO SCI E136",
+                    "BIO SCI E139",
+                    [
+                        "BIO SCI E155",
+                        "BIO SCI D170"
+                    ],
+                    "BIO SCI E183",
+                    "BIO SCI N110"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Upper-Division Laboratories:",
+                "child": [
+                    "BIO SCI E112L",
+                    "BIO SCI M116L"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and either",
+                "child": [
+                    [
+                        "BIO SCI N113L",
+                        "BIO SCI M114L"
+                    ]
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

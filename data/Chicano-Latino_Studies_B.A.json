@@ -1,0 +1,60 @@
+[
+    {
+        "name": "A. Complete the following five core courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHC/LAT 61",
+                    "CHC/LAT 62",
+                    "CHC/LAT 63",
+                    "CHC/LAT 101",
+                    "CHC/LAT 102W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "SPANISH 2A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Complete one comparative ethnic studies course selected from African American Studies, Asian American Studies, or",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EDUC 124"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select three upper-division electives, one from each of the following categories:",
+        "child": [
+            {
+                "name": "Literature, Arts, and Media (CHC/LAT 110-129)",
+                "child": []
+            },
+            {
+                "name": "History (CHC/LAT 130-139)",
+                "child": []
+            },
+            {
+                "name": "Inequalities and Social Context (CHC/LAT 140-189)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "E. Select four additional elective courses, three of which must be upper-division, selected from CHC/LAT courses.",
+        "child": []
+    }
+]

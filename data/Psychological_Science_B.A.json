@@ -1,0 +1,81 @@
+[
+    {
+        "name": "A. Psychology Fundamentals (12 units):",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSCI 11A",
+                    "PSCI 11B",
+                    "PSCI 11C"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "B. Four upper-division core courses (16 units):",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSCI 101D",
+                    "PSCI 102C",
+                    "PSCI 103H",
+                    "PSCI 104S"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "C. Six upper-division courses (24 units) chosen from the following:",
+        "child": [
+            {
+                "name": "C-1. Choose one course from three different groups:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Group 1: Developmental Psychology (PSCI 110D-134D)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Group 2: Health Psychology (PSCI 118D, 135H-149H)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Group 3: Pre-Clinical/Psychopathology (PSCI 139H, 150C-169C)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Group 4: Social, Personality, and Environmental Psychology (PSCI 170S-189S)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C-2. Three additional upper-division courses chosen from the specialty areas in C-1 above or from:",
+                "child": [
+                    "PSCI 100"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PSCI 190A-193Z",
+                "child": [
+                    "PSCI 196",
+                    "SOCECOL 190",
+                    "SOCECOL H190A",
+                    "SOCECOL H190W"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

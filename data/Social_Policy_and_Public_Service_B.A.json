@@ -1,0 +1,140 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. An understanding of the fundamental concepts, analytical tools, and methods of social science:",
+                "child": [
+                    "SOC SCI 1A",
+                    "SOC SCI 2A",
+                    "SOC SCI 3A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. One course in Introduction to Social Policy and Public Service:",
+                "child": [
+                    "SOC SCI 40"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. One course in Cultural Competency:",
+                "child": [
+                    [
+                        "SOC SCI 70C",
+                        "SOCIOL 63"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. One course in Leadership:",
+                "child": [
+                    "SOC SCI 181A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Two courses in Research Methods:",
+                "child": [
+                    "SOC SCI 102A",
+                    "SOC SCI 170A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Three quarters of Field Studies:",
+                "child": [
+                    "SOC SCI 193A",
+                    "SOC SCI 193B",
+                    "SOC SCI 193C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "G. Four units of off-campus internship experience:",
+                "child": [
+                    "SOC SCI 194A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "H. Functional Focus: 12 units in one of the following areas:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Education:",
+                "child": [
+                    "EDUC 124",
+                    "EDUC 126",
+                    "EDUC 132",
+                    "EDUC 150",
+                    "EDUC 157",
+                    "EDUC 175",
+                    "EDUC 180",
+                    "CHC/LAT 189",
+                    "ECON 158",
+                    "SOC SCI 196"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Governance:",
+                "child": [
+                    "ANTHRO 121J",
+                    "INTL ST 161A",
+                    "INTL ST 165",
+                    "INTL ST 177C",
+                    "INTL ST 177E",
+                    "POL SCI 122A",
+                    "POL SCI 122B",
+                    "POL SCI 124A",
+                    "POL SCI 124B",
+                    "POL SCI 124C",
+                    "POL SCI 124E",
+                    "POL SCI 125A",
+                    "POL SCI 126C",
+                    "POL SCI 126D",
+                    "POL SCI 130A",
+                    "POL SCI 130B",
+                    "POL SCI 142D",
+                    "POL SCI 151H",
+                    "POL SCI 171D",
+                    "POL SCI 171F",
+                    "POL SCI 172A",
+                    "POL SCI 174A",
+                    "POL SCI 174C",
+                    "POL SCI 179",
+                    "SOC SCI 152A",
+                    "SOC SCI 188A",
+                    "SOCIOL 138",
+                    "SOCIOL 141",
+                    "SOCIOL 144",
+                    "SOCIOL 177W"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Health:",
+                "child": [
+                    "ANTHRO 128B",
+                    "ANTHRO 132A",
+                    "ANTHRO 134A",
+                    "ANTHRO 134G",
+                    "CHC/LAT 168",
+                    "CHC/LAT 179",
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 121S",
+                    "PSYCH 174E",
+                    "SOCIOL 135",
+                    "SOCIOL 154"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

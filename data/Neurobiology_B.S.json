@@ -1,0 +1,104 @@
+[
+    {
+        "name": "A. Upper-Division Core:",
+        "child": [
+            {
+                "name": "Select one of the following:",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI D104",
+                    "BIO SCI E109"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Required Major Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI N115A",
+                    "BIO SCI N115B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Upper-Division Laboratories:",
+        "child": [
+            {
+                "name": "", 
+                "child": [
+                    "BIO SCI N113L"
+                ]
+            },
+            {
+                "name": "And select two of the following:",
+                "child": [
+                    "BIO SCI D111L",
+                    "BIO SCI E106L",
+                    "BIO SCI E112L",
+                    "BIO SCI E115L",
+                    "BIO SCI E131L",
+                    "BIO SCI E140L",
+                    "BIO SCI E160L",
+                    "BIO SCI E166L",
+                    "BIO SCI E179L",
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "BIO SCI M121L",
+                    "BIO SCI M130L"
+                ]
+            },
+            {
+                "name": "One of these two laboratories can be satisfied by completion of Excellence in Research in the Biological Sciences.",
+                "child": []
+            }
+        ]
+    },
+
+    {
+        "name": "D. Upper-Division Biology Electives:",
+        "child": [
+            {
+                "name": "Select three of the following:",
+                "child": []
+            },
+            {
+                "name": "BIO SCI N119-N190",
+                "child": []
+            },
+            {
+                "name": "And select one four-unit course from the following:",
+                "child": []
+            },
+            {
+                "name": "BIO SCI D103-D190, E106-E190, M114-M190, N110-N190",
+                "child": []
+            },
+            {
+                "name": "No course may be used to satisfy more than one requirement.",
+                "child": []
+            }
+        ]
+    },
+
+    {
+        "name": "E. Honors Track of the Neurobiology Major:",
+        "child": [
+            {
+                "name": "BIO SCI H195 in the area of neurobiology and Excellence in Research in the Biological Sciences - presenting neurobiology related research.",
+                "child": []
+            },
+            {
+                "name": "Requirements to enter the Honors Track: A 3.3 or better average GPA in BIO SCI N115A-BIO SCI N115B and a 3.0 or better average GPA in all required biology courses.",
+                "child": [
+                    "BIO SCI N115A",
+                    "BIO SCI N115B"
+                ]
+            }
+        ]
+    }
+]

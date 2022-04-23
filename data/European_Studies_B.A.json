@@ -1,0 +1,52 @@
+[
+    {
+        "name": "A. Select two of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 70B",
+                    "EURO ST 9",
+                    "EURO ST 10",
+                    "EURO ST S10",
+                    "EURO ST 11",
+                    "EURO ST S11",
+                    "EURO ST 12",
+                    "EURO ST 13"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EURO ST 101A",
+                    "EURO ST 101B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Seven courses from:",
+        "child": [
+            {
+                "name": "the generally approved and quarterly approved lists, four of which must be upper-division and five of which must be in the student's specialization."
+            }
+        ]
+    },
+    {
+        "name": "D. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EURO ST 190W"
+                ]
+            }
+
+        ]
+    }
+]

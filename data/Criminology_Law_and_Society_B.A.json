@@ -1,0 +1,75 @@
+[
+    {
+        "name": "A. Complete one lower-division gateway course:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                        "CRM/LAW C10"
+                ]
+            }
+        ] 
+    },
+    {
+        "name": "B. Select one course from each of the following four groups:",
+        "child": [
+            {
+                "name": "(1) The Legal System, Law and Society",
+                "child": [
+                    "CRM/LAW C101",
+                    "CRM/LAW C102",
+                    "CRM/LAW C103",
+                    "CRM/LAW C104",
+                    "CRM/LAW C105",
+                    "CRM/LAW C122",
+                    "CRM/LAW C123"
+                ]
+            },
+            {
+                "name": "(2) Crime and Criminology",
+                "child": [
+                    "CRM/LAW C106",
+                    "CRM/LAW C107",
+                    "CRM/LAW C108",
+                    "CRM/LAW C109",
+                    "CRM/LAW C110",
+                    "CRM/LAW C134"
+                ]
+            },
+            {
+                "name": "(3) Formal Institutions of Social Control",
+                "child": [
+                    "CRM/LAW C111",
+                    "CRM/LAW C112",
+                    "CRM/LAW C114",
+                    "CRM/LAW C115",
+                    "CRM/LAW C124",
+                    "CRM/LAW C139",
+                    "CRM/LAW C164",
+                    "CRM/LAW C180"
+                ]
+            },
+            {
+                "name": "(4) Justice and Inequalities",
+                "child": [
+                    "CRM/LAW C113",
+                    "CRM/LAW C116",
+                    "CRM/LAW C120",
+                    "CRM/LAW C127",
+                    "CRM/LAW C135",
+                    "CRM/LAW C178",
+                    "CRM/LAW C174"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Six upper-division elective courses (24 units).",
+        "child": [
+            {
+                "name": "Select from courses numbered CRM/LAW C100-C191.",
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,9 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json 
-import re
 
-from requests.api import get 
 
 f = open('../data/data.json')   
 in_list = json.load(f)

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "A. Lower-division:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ECON 20A",
+                    "ECON 20B",
+                    "ECON 15A",
+                    "ECON 15B",
+                    "MATH 2A",
+                    "MATH 2B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-division:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ECON 100A",
+                    "ECON 100B",
+                    "ECON 100C",
+                    "ECON 122A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Six additional ECON courses, one of which may be lower-division.",
+        "child": [
+            {
+                "name": "",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. A maximum of three four-unit courses selected from:",
+        "child": [
+            {
+                "name": "ECON 190-199 may be counted toward the major.",
+                "child": []
+            }
+        ]
+    }
+
+]

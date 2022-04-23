@@ -1,0 +1,77 @@
+[
+    {
+        "name": "A. Lower-division:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ECON 20A",
+                    "ECON 20B",
+                    "ECON 15A",
+                    "ECON 15B",
+                    "ECON 25",
+                    "MATH 2A",
+                    "MATH 2B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-division:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ECON 100A",
+                    "ECON 100B",
+                    "ECON 100C",
+                    "ECON 122A",
+                    "ECON 122B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Seven additional Economics courses, including at least four four-unit upper-division courses.",
+        "child": [
+            {
+                "name": "Two of the electives must be selected from following business electives list:",
+                "child": [
+                    "ECON 125",
+                    "ECON 131A",
+                    "ECON 132A",
+                    "ECON 134A",
+                    "ECON 135",
+                    "ECON 142A",
+                    "ECON 143",
+                    "ECON 161A",
+                    "ECON 161B",
+                    "ECON 167"
+                ]
+            },
+            {
+                "name": "And two of the electives must be selected from the following management electives list:",
+                "child": [
+                    "ECON 140",
+                    "ECON 145L",
+                    "ECON 147A",
+                    "ECON 147B",
+                    "ECON 148",
+                    "ECON 115",
+                    "ECON 151A",
+                    "ECON 165"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. A maximum of three four-unit courses selected from ECON 190-199 may be counted toward the major.",
+        "child": [
+            {
+                "name": "",
+                "child": []
+            }
+        ]
+    }
+
+]

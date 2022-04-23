@@ -1,0 +1,61 @@
+[
+    {
+        "name": "A. Complete one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHINESE 2C",
+                    "CHINESE 2MC",
+                    "JAPANSE 2C",
+                    "KOREAN 2C",
+                    "KOREAN 2KC"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select two quarters of:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EAS 155"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EAS 190"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select one of the following, corresponding to language of specialization:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EAS 15C",
+                    "EAS 15J",
+                    "EAS 15K"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select eight additional courses in the areas of:",
+        "child": [
+            {
+                "name": "East Asian literature, culture, history, art history, linguistics, professional language, film and media, religion, philosophy, gender studies, or comparative literature, at least three of which must pertain to a country other than the one of language specialization, and up to two of which can be lower-division courses offered by the East Asian Studies Department. Up to four of these courses (or more by petition) may be taken outside the Department, with the approval of the undergraduate advisor.",
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "name": "A. Lower-Division:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MGMT 1",
+                    [
+                        "MGMT 4A",
+                        "ECON 20A"
+                    ],
+                    [
+                        "MGMT 4B",
+                        "ECON 20B"
+                    ],
+                    "MGMT 7",
+                    "MGMT 30A",
+                    "MGMT 30B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-Division Core:",
+        "child": [
+            {
+                "name": "", 
+                "child": [
+                    "MGMT 101",
+                    "MGMT 102",
+                    "MGMT 105",
+                    "MGMT 107",
+                    "MGMT 109",
+                    "MGMT 110",
+                    "MGMT 191W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Business Electives:",
+        "child": [
+            {
+                "name": "Select 5 upper-division Merage School electives numbered 111-196, to include completion of one of the defined emphases below:",
+                "child": []
+            },
+            {
+                "name": "Emphasis in Accounting:",
+                "child": [
+                    "MGMT 131A"
+                ]
+            },
+            {
+                "name": "And select two of the following:",
+                "child": [
+                    "MGMT 131B",
+                    "MGMT 131C",
+                    "MGMT 132A",
+                    "MGMT 133",
+                    "MGMT 134",
+                    "MGMT 137",
+                    "MGMT 138",
+                    "MGMT 194"
+                ]
+            },
+            {
+                "name": "Emphasis in Finance:",
+                "child": [
+                    "MGMT 141"
+                ]
+            },
+            {
+                "name": "And select two of the following:",
+                "child": [
+                    "MGMT 144",
+                    "MGMT 147",
+                    "MGMT 149"
+                ]
+            },
+            {
+                "name": "Emphasis in Information Systems:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
+                "child": [
+                    "MGMT 171",
+                    "MGMT 173",
+                    "MGMT 174",
+                    "MGMT 178"
+                ]
+            },
+            {
+                "name": "Emphasis in Marketing:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
+                "child": [
+                    "MGMT 150",
+                    "MGMT 151",
+                    "MGMT 154",
+                    "MGMT 155"
+                ]
+            },
+            {
+                "name": "Emphasis in Operations and Decision Technologies:",
+                "child": [
+                    "MGMT 189"
+                ]
+            },
+            {
+                "name": "And complete the following:",
+                "child": [
+                    "MGMT 182",
+                    "MGMT 196"
+                ]
+            },
+            {
+                "name": "Emphasis in Organization and Management:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
+                "child": [
+                    "MGMT 125",
+                    "MGMT 126",
+                    "MGMT 128",
+                    "MGMT 129"
+                ]
+            }
+
+
+        ]
+    },
+    {
+        "name": "D. International Business Requirement:",
+        "child": [
+            {
+                "name": "Fulfillment of the International Business requirement by:",
+                "child": []
+            },
+            {
+                "name": "1. Selecting one of the following (which may also be used for specified category C requirements above):",
+                "child": [
+                    "MGMT 128",
+                    "MGMT 144",
+                    "MGMT 154"
+                ]
+            },
+            {
+                "name": "2. or, participating in select UC Education Abroad Program options, with prior approval of the Associate Dean.",
+                "child": []
+            }
+        ]
+    }
+]

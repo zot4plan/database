@@ -1,0 +1,100 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "INTL ST 1"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select four from the following:",
+                "child": [
+                    "INTL ST 11",
+                    "INTL ST 12",
+                    "INTL ST 15",
+                    "INTL ST 16",
+                    "INTL ST 17"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select one from the following:",
+                "child": [
+                    "ANTHRO 2A",
+                    "HISTORY 21A",
+                    "HISTORY 21B",
+                    "HISTORY 21C",
+                    "INTL ST 13",
+                    "INTL ST 14",
+                    "POL SCI 51A",
+                    "SOC SCI 5D",
+                    "SOCIOL 2"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Competency in a language other than English.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Geographic Focus: Select two upper-division courses in any one geographic area.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Global Focus: Select five upper-division courses. At least two courses must be from Module A.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Module A:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "INTL ST 100",
+                    "INTL ST 101A",
+                    "INTL ST 101B",
+                    "INTL ST 102A",
+                    "INTL ST 103A",
+                    "INTL ST 104A",
+                    "INTL ST 104BW",
+                    "INTL ST 106A",
+                    "INTL ST 106B",
+                    "INTL ST 150",
+                    "INTL ST 163"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Module B:",
+        "child": [
+            {
+                "name": "For a quarterly list of approved upper-division courses, please visit the Social Sciences Undergraduate Student Affairs Office: https://www.undergrad.socsci.uci.edu/policies/index.php",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "G. Two quarters of INTL ST 183A, one quarter of which must be taken during the junior or senior year as a capstone experience.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "H. At least one quarter of international experience.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

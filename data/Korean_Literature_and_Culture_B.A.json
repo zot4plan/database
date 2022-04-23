@@ -1,0 +1,47 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select one of the following:",
+                "child": [
+                    "KOREAN 3A",
+                    "KOREAN 3B",
+                    "KOREAN 3C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "EAS 15K",
+                    "EAS 130",
+                    "EAS 140",
+                    "EAS 190"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select four courses in Korean literature, culture, history, art history, linguistics, film and media, religion, philosophy, gender studies, or comparative literature, of which two may be lower-division courses offered by the East Asian Studies Department.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select two upper-division courses dealing with the literature or culture of another East Asian country.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. One upper-division course dealing with Korea either in Anthropology or History.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Select one course from either E ASIAN 155 or any upper-division course in translated literature and culture of foreign languages offered in Comparative Literature, European Languages and Studies, or Spanish and Portuguese, or courses in literature and culture offered by the English or Asian American Studies Departments.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "JAPANSE 3C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "EAS 15J",
+                    "EAS 190"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select one of the following:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Two upper-division courses dealing with premodern Japanese literature or culture or",
+                "child": [
+                    "JAPANSE 100A",
+                    "JAPANSE 100B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select one of the following:",
+                "child": [
+                    "JAPANSE 101A",
+                    "JAPANSE 101B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Select one upper-division course dealing with modern Japanese literature and culture",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Select one upper-division course dealing with the literature or culture of another East Asian country",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "G. Select five additional courses in Japanese literature, culture, history, art history, linguistics, film and media, religion, philosophy, gender studies, or comparative literature, of which two may be lower-division courses offered by the East Asian Studies Department.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

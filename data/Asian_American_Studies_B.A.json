@@ -1,0 +1,76 @@
+[
+    {
+        "name": "A. Three introductory Asian American Studies core courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "ASIANAM 50",
+                        "ASIANAM 51"
+                    ]
+                ]
+            },
+            {
+                "name": "And",
+                "child": [
+                    [
+                        "ASIANAM 52",
+                        "ASIANAM 53"
+                    ]
+                ]
+            },
+            {
+                "name": "And",
+                "child": [
+                    [
+                        "ASIANAM 54",
+                        "ASIANAM 55"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ASIANAM 100W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one course from each of the following areas:",
+        "child": [            
+            {
+                "name": "Humanities/Arts: Asian American Studies 110-129",
+                "child": []
+            },
+            {
+                "name": "Social Science/Social Ecology: Asian American Studies 130-149",
+                "child": []
+            },
+            {
+                "name": "Asian American Sub-groups: Asian American Studies 151-160",
+                "child": []
+            },
+            {
+                "name": "Ethnic/Race/Gender Relations: Asian American Studies 161-170",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Select:",
+        "child": [
+            {
+                "name": "Four additional upper-division elective Asian American Studies courses. Students may request, by petition, one lower-division course to count as an elective. This course must be primarily focused on issues relevant to Asian American Studies.",
+                "child": []
+            }
+        ]
+    }
+
+]

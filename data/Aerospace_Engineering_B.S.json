@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Mathematics and Basic Science Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "CHEM 1A",
+                        "ENGR 1A"
+                    ],
+                    "CHEM 1LE",
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MATH 2D",
+                    "MATH 2E",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7D",
+                    "PHYSICS 7E",
+                    "PHYSICS 7LD",
+                    "PHYSICS 52A"
+                ]
+            },
+            {
+                "name": "One additional General Education Category II course offered by the Schools of Physical Sciences, Biological Sciences, or Information and Computer Sciences.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses:",
+        "child": [
+            {
+                "name": "Students must complete a minimum of 24 units of engineering design.",
+                "child": []
+            },
+            {
+                "name": "Core Courses:",
+                "child": [
+                    "ENGR 54",
+                    "ENGRMAE 10",
+                    "ENGRMAE 30",
+                    [
+                        "ENGRMAE 60",
+                        "EECS 70A"
+                    ],
+                    "ENGRMAE 80",
+                    "ENGRMAE 91",
+                    "ENGRMAE 106",
+                    "ENGRMAE 108",
+                    "ENGRMAE 112",
+                    "ENGRMAE 130A",
+                    "ENGRMAE 130B",
+                    "ENGRMAE 135",
+                    "ENGRMAE 136",
+                    "ENGRMAE 146",
+                    "ENGRMAE 150",
+                    "ENGRMAE 150L",
+                    "ENGRMAE 157",
+                    "ENGRMAE 158",
+                    "ENGRMAE 159",
+                    "ENGRMAE 170",
+                    "ENGRMAE 175"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Technical Elective Courses:",
+        "child": [
+            {
+                "name": "Students select a minimum of 12 units of technical electives. For students majoring in both Aerospace Engineering and Mechanical Engineering, a core course in one major cannot be counted as a technical elective in the other major. Any upper-division course in the department not used for the degree may be used as a technical elective. At least 4 units of technical electives must come from ENGRMAE upper-division courses and no more than 4 units of the technical electives should come from ENGRMAE 188, ENGRMAE 189, and ENGRMAE 199. With approval of the Undergraduate Advisor, students may choose from other departments\u2019 upper-division courses that have primarily technical content. Preapproved courses are listed on the MAE website: http://engineering.uci.edu/files/mae-technical-electives.pdf",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering Professional Topics Course:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "ECON 20A",
+                        "ECON 23"
+                    ],
+                    "ENGR 190W"
+                ]
+            }
+        ]
+    }
+]

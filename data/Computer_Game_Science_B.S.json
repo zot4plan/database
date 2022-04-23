@@ -86,7 +86,19 @@
                 ]
             },
             {
-                "name": "C. CGS Elective Courses:\nFive additional courses:\n1. Two courses from A-C.\n2. Three courses must be in the same Bren ICS track.",
+                "name": "C. CGS Elective Courses:",
+                "child": []
+            },
+            {
+                "name": "Five additional courses:",
+                "child": []
+            },
+            {
+                "name": "1. Two courses from A-C.",
+                "child": []
+            },
+            {
+                "name": "2. Three courses must be in the same Bren ICS track.",
                 "child": []
             }
         ]
@@ -95,7 +107,7 @@
         "name": "Bren ICS Tracks:",
         "child": [
             {
-                "name": "Algorithms",
+                "name": "Algorithms:",
                 "child": [
                     "COMPSCI 161",
                     "COMPSCI 162",
@@ -105,7 +117,7 @@
                 ]
             },
             {
-                "name": "Artificial Intelligence",
+                "name": "Artificial Intelligence:",
                 "child": [
                     "COMPSCI 171",
                     "COMPSCI 175",
@@ -115,7 +127,7 @@
                 ]
             },
             {
-                "name": "Computational Biology",
+                "name": "Computational Biology:",
                 "child": [
                     "COMPSCI 183",
                     "COMPSCI 184A",
@@ -123,7 +135,7 @@
                 ]
             },
             {
-                "name": "Computer Graphics and Vision",
+                "name": "Computer Graphics and Vision:",
                 "child": [
                     "COMPSCI 111",
                     "COMPSCI 112",
@@ -133,7 +145,7 @@
                 ]
             },
             {
-                "name": "Computer Networks",
+                "name": "Computer Networks:",
                 "child": [
                     "COMPSCI 131",
                     "COMPSCI 132",
@@ -146,7 +158,7 @@
                 ]
             },
             {
-                "name": "Databases",
+                "name": "Databases:",
                 "child": [
                     [
                         "COMPSCI 121",
@@ -158,7 +170,7 @@
                 ]
             },
             {
-                "name": "Hardware",
+                "name": "Hardware:",
                 "child": [
                     "COMPSCI 145",
                     "COMPSCI 151",
@@ -167,7 +179,7 @@
                 ]
             },
             {
-                "name": "Human-Computer Interaction",
+                "name": "Human-Computer Interaction:",
                 "child": [
                     "IN4MATX 131",
                     "IN4MATX 132",
@@ -176,7 +188,7 @@
                 ]
             },
             {
-                "name": "Operating Systems",
+                "name": "Operating Systems:",
                 "child": [
                     "COMPSCI 143A",
                     "COMPSCI 143B",
@@ -184,7 +196,7 @@
                 ]
             },
             {
-                "name": "Programming Languages and Compilers",
+                "name": "Programming Languages and Compilers:",
                 "child": [
                     "IN4MATX 101",
                     "IN4MATX 102",
@@ -193,7 +205,7 @@
                 ]
             },
             {
-                "name": "Social and Organizational Computing",
+                "name": "Social and Organizational Computing:",
                 "child": [
                     "IN4MATX 151",
                     "IN4MATX 153",
@@ -204,7 +216,7 @@
                 ]
             },
             {
-                "name": "Software Engineering",
+                "name": "Software Engineering:",
                 "child": [
                     "IN4MATX 113",
                     "IN4MATX 115",
@@ -220,7 +232,7 @@
         "name": "Non-Track Courses (some of these courses have prerequisites that are not part of the CGS major):",
         "child": [
             {
-                "name": "Computer Game Science",
+                "name": "Computer Game Science:",
                 "child": [
                     "I&C SCI 162",
                     "I&C SCI 163",
@@ -228,7 +240,7 @@
                 ]
             },
             {
-                "name": "Business Management",
+                "name": "Business Management:",
                 "child": [
                     "MGMT 101",
                     "MGMT 102",
@@ -238,7 +250,7 @@
                 ]
             },
             {
-                "name": "Cognitive Science",
+                "name": "Cognitive Science:",
                 "child": [
                     "PSYCH 130A",
                     "PSYCH 131A",
@@ -248,7 +260,7 @@
                 ]
             },
             {
-                "name": "Mathematics",
+                "name": "Mathematics:",
                 "child": [
                     "MATH 112A",
                     "MATH 112B",
@@ -259,7 +271,7 @@
                 ]
             },
             {
-                "name": "Film and Media Studies",
+                "name": "Film and Media Studies:",
                 "child": [
                     "FLM&MDA 113",
                     "FLM&MDA 114",
