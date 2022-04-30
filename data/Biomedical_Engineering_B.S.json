@@ -5,14 +5,9 @@
             {
                 "name": "Students must complete a minimum of 48 units of mathematics and basic sciences including:",
                 "child": []
-            }
-        ]
-    },
-    {
-        "name": "Core Courses:",
-        "child": [
+            },
             {
-                "name": "",
+                "name": "Core Courses:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
@@ -34,6 +29,7 @@
             }
         ]
     },
+
     {
         "name": "Engineering Topics Courses:",
         "child": [
@@ -66,15 +62,15 @@
                 ]
             },
             {
-                "name": "Engineering Electives:",
+                "name": "Engineering Electives: Students select, with the approval of a faculty advisor a minimum of 12 units of engineering topics needed to satisfy school and major requirements.",
                 "child": []
             },
             {
-                "name": "Students select, with the approval of a faculty advisor a minimum of 12 units of engineering topics needed to satisfy school and major requirements.",
+                "name": "Note: The nominal Biomedical Engineering program will require 181 units of courses to satisfy all university and major requirements.",
                 "child": []
             },
             {
-                "name": "(The nominal Biomedical Engineering program will require 181 units of courses to satisfy all university and major requirements. Because each student comes to UCI with a different level of preparation, the actual number of units will vary.)",
+                "name": "Because each student comes to UCI with a different level of preparation, the actual number of units will vary.",
                 "child": []
             }
         ]

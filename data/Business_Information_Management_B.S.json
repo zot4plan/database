@@ -101,7 +101,11 @@
         "name": "F. Electives:",
         "child": [
             {
-                "name": "Select five upper-division courses, except independent study and internships, with at least three of the five courses to be taken within the Bren School. Upper-division courses completed via the UC Education Abroad Program may also be utilized toward this requirement upon prior approval by the Bren School of ICS Student Affairs Office.",
+                "name": "Select five upper-division courses, except independent study and internships, with at least three of the five courses to be taken within the Bren School.",
+                "child": []
+            },
+            {
+                "name": "Upper-division courses completed via the UC Education Abroad Program may also be utilized toward this requirement upon prior approval by the Bren School of ICS Student Affairs Office.",
                 "child": []
             }
         ]

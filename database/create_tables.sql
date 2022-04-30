@@ -15,7 +15,6 @@ CREATE TABLE courses (
     corequisite VARCHAR (1000),
     ge VARCHAR(25) NOT NULL,
     PRIMARY KEY(id));
-ALTER TABLE courses ADD FULLTEXT(id);
 
 CREATE TABLE majors(
     id INT NOT NULL AUTO_INCREMENT,
@@ -30,25 +29,11 @@ CREATE TABLE courses_in_ges(
     geId VARCHAR(5) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE generalEducations(
+CREATE TABLE general_educations(
     id VARCHAR(5) NOT NULL,
     name VARCHAR(55) NOT NULL,
     note VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
-
-/*   FOREIGN KEY(geId) REFERENCES generalEducations(id),
-//   FOREIGN KEY(courseId) REFERENCES courses(id));
-
-/* CREATE TABLE generalEducations(
-    id VARCHAR(10) NOT NULL,
-    name VARCHAR(55) NOT NULL,
-    
-    PRIMARY KEY(id));
-
- CREATE TABLE courses_in_ge(
-    courseId VARCHAR(25) NOT NULL,
-    geIds VARCHAR(20) NOT NULL,
-    FOREIGN KEY(courseId) REFERENCES courses(id));
 
 INSERT INTO generalEducations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
 INSERT INTO generalEducations VALUES ("IB","Upper-Division Requirement","One upper-division course");
@@ -60,4 +45,5 @@ INSERT INTO generalEducations VALUES ("VB","Formal Reasoning","One Course (and a
 INSERT INTO generalEducations VALUES ("VI", "Language Other Than English","One course");
 INSERT INTO generalEducations VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
 INSERT INTO generalEducations VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
- */
+
+ALTER TABLE courses ADD FULLTEXT(id);

@@ -72,7 +72,19 @@
         "name": "Technical Elective Courses:",
         "child": [
             {
-                "name": "Students select a minimum of 12 units of technical electives. For students majoring in both Aerospace Engineering and Mechanical Engineering, a core course in one major cannot be counted as a technical elective in the other major. Any upper-division course in the department not used for the degree may be used as a technical elective. At least 4 units of technical electives must come from ENGRMAE upper-division courses and no more than 4 units of the technical electives should come from ENGRMAE 188, ENGRMAE 189, and ENGRMAE 199. With approval of the Undergraduate Advisor, students may choose from other departments\u2019 upper-division courses that have primarily technical content. Preapproved courses are listed on the MAE website: http://engineering.uci.edu/files/mae-technical-electives.pdf",
+                "name": "Students select a minimum of 12 units of technical electives. For students majoring in both Aerospace Engineering and Mechanical Engineering, a core course in one major cannot be counted as a technical elective in the other major.",
+                "child": []
+            },
+            {
+                "name": "Any upper-division course in the department not used for the degree may be used as a technical elective.",
+                "child": []
+            },
+            {
+                "name": "At least 4 units of technical electives must come from ENGRMAE upper-division courses and no more than 4 units of the technical electives should come from ENGRMAE 188, ENGRMAE 189, and ENGRMAE 199.",
+                "child": []
+            },
+            {
+                "name": "With approval of the Undergraduate Advisor, students may choose from other departments\u2019 upper-division courses that have primarily technical content. Preapproved courses are listed on the MAE website: http://engineering.uci.edu/files/mae-technical-electives.pdf",
                 "child": []
             }
         ]

@@ -35,7 +35,7 @@
         "name": "C. Seven additional Economics courses, including at least four four-unit upper-division courses.",
         "child": [
             {
-                "name": "Two of the electives must be selected from following business electives list:",
+                "name": "Two of the electives must be selected from following:",
                 "child": [
                     "ECON 125",
                     "ECON 131A",
@@ -50,7 +50,7 @@
                 ]
             },
             {
-                "name": "And two of the electives must be selected from the following management electives list:",
+                "name": "And two of the electives must be selected from the following:",
                 "child": [
                     "ECON 140",
                     "ECON 145L",
@@ -65,10 +65,10 @@
         ]
     },
     {
-        "name": "D. A maximum of three four-unit courses selected from ECON 190-199 may be counted toward the major.",
+        "name": "D. A maximum of three 4-unit courses selected from ECON 190-199 may be counted toward the major.",
         "child": [
             {
-                "name": "",
+                "name": "Three 4-unit courses selected from ECON 190-199",
                 "child": []
             }
         ]

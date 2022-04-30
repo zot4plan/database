@@ -31,12 +31,15 @@
                 "child": [
                     "ANTHRO 2B",
                     "ANTHRO 2C",
-                    "ANTHRO 2D"
+                    "ANTHRO 2D",
+                    "ANTHRO 20A",
+                    "ANTHRO 25A",
+                    "ANTHRO 30A",
+                    "ANTHRO 30C",
+                    "ANTHRO 41A",
+                    "ANTHRO 45A",
+                    "ANTHRO 48"
                 ]
-            },
-            {
-                "name": "ANTHRO 20A-89",
-                "child": []
             }
         ]
     },

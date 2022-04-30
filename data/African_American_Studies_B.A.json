@@ -73,7 +73,7 @@
         "child": [
             {
                 "name": "AFAM 110-159, 163",
-                "child": []
+                "child": ["AFAM 163"]
             }
         ]
     },

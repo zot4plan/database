@@ -73,7 +73,7 @@
                 ]
             },
             {
-                "name": "And select two of the following:",
+                "name": "And two courses of:",
                 "child": [
                     "MGMT 144",
                     "MGMT 147",
@@ -81,11 +81,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Information Systems:",
-                "child": []
-            },
-            {
-                "name": "Select three of the following:",
+                "name": "Emphasis in Information Systems (three courses):",
                 "child": [
                     "MGMT 171",
                     "MGMT 173",
@@ -93,12 +89,9 @@
                     "MGMT 178"
                 ]
             },
+        
             {
-                "name": "Emphasis in Marketing:",
-                "child": []
-            },
-            {
-                "name": "Select three of the following:",
+                "name": "Emphasis in Marketing (three courses):",
                 "child": [
                     "MGMT 150",
                     "MGMT 151",
@@ -120,11 +113,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Organization and Management:",
-                "child": []
-            },
-            {
-                "name": "Select three of the following:",
+                "name": "Emphasis in Organization and Management (three courses):",
                 "child": [
                     "MGMT 125",
                     "MGMT 126",
@@ -132,8 +121,6 @@
                     "MGMT 129"
                 ]
             }
-
-
         ]
     },
     {
