@@ -38,11 +38,21 @@
         ]
     },
     {
-        "name": "D. Complete seven SOCIOL courses, of which no more than three may be lower-division.",
-        "child": []
+        "name": "D. Complete seven SOCIOL courses:",
+        "child": [
+            {
+                "name": "Of which no more than three may be lower-division.",
+                "child": []
+            }
+        ]
     },
     {
-        "name": "E. Complete three additional School of Social Sciences courses, of which no more than one may be lower-division.",
-        "child": []
+        "name": "E. Complete three additional School of Social Sciences courses:",
+        "child": [
+            {
+                "name": "Of which no more than one may be lower-division.",
+                "child": []
+            }
+        ]
     }
 ]

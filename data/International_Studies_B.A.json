@@ -49,12 +49,21 @@
         "child": []
     },
     {
-        "name": "E. Geographic Focus: Select two upper-division courses in any one geographic area.",
-        "child": []
+        "name": "E. Geographic Focus:",
+        "child": [
+            {
+                "name": "Select two upper-division courses in any one geographic area.",
+                "child": []
+            }
+        ]
     },
     {
-        "name": "F. Global Focus: Select five upper-division courses. At least two courses must be from Module A.",
+        "name": "F. Global Focus:",
         "child": [
+            {
+                "name:": "Select five upper-division courses. At least two courses must be from Module A.",
+                "child": []
+            },
             {
                 "name": "Module A:",
                 "child": [
@@ -82,8 +91,13 @@
         ]
     },
     {
-        "name": "G. Two quarters of INTL ST 183A, one quarter of which must be taken during the junior or senior year as a capstone experience.",
-        "child": []
+        "name": "G. Two quarters of:",
+        "child": [
+            {
+                "name": "INTL ST 183A, one quarter of which must be taken during the junior or senior year as a capstone experience.",
+                "child": []
+            }
+        ]
     },
     {
         "name": "H. At least one quarter of international experience.",

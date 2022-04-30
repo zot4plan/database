@@ -15,8 +15,13 @@
         ]
     },
     {
-        "name": "B. Complete seven additional Spanish courses by the Department of Spanish and Portuguese",
-        "child": []
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "Seven additional Spanish courses by the Department of Spanish and Portuguese.",
+                "child": []
+            }
+        ]
     }
 
 ]

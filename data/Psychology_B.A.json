@@ -55,14 +55,26 @@
                 ]
             },
             {
-                "name": "NOTE: These courses have as prerequisites PSYCH 9A, PSYCH 9B, PSYCH 9C and one year of mathematics/statistics (see course listings). These prerequisites are strictly enforced. PSYCH 112A, PSYCH 112LA are the first quarter of a multi-quarter sequence that satisfies the upper-division writing requirement and allows students to plan and conduct research projects. Students taking these courses should plan to continue in them through at least the second quarter. Students who intend to fulfill the upper-division writing requirement in some other way should consider taking PSYCH 112D and PSYCH 112LD, PSYCH 112M and PSYCH 112LM, or PSYCH 112R and PSYCH 112LR to fulfill the laboratory requirement.",
+                "name": "NOTE: These courses have as prerequisites PSYCH 9A, PSYCH 9B, PSYCH 9C and one year of mathematics/statistics (see course listings).",
+                "child": []
+            },
+            {
+                "name": "These prerequisites are strictly enforced. PSYCH 112A, PSYCH 112LA are the first quarter of a multi-quarter sequence that satisfies the upper-division writing requirement and allows students to plan and conduct research projects.",
+                "child": []
+            },
+            {
+                "name": "Students taking these courses should plan to continue in them through at least the second quarter. Students who intend to fulfill the upper-division writing requirement in some other way should consider taking PSYCH 112D and PSYCH 112LD, PSYCH 112M and PSYCH 112LM, or PSYCH 112R and PSYCH 112LR to fulfill the laboratory requirement.",
                 "child": []
             }
         ]
     },
     {
-        "name": "D. Select four upper-division Psychology core courses (16 units). These courses are designated with an ending number 0 and include the following:",
+        "name": "D. Select four upper-division Psychology core courses (16 units):",
         "child": [
+            {
+                "name": "These courses are designated with an ending number 0 and include the following:",
+                "child": []
+            },
             {
                 "name": "",
                 "child": [
@@ -82,15 +94,107 @@
         ]
     },
     {
-        "name": "E. Select seven additional courses (four or more units each) with emphasis in psychology, distributed as follows:",
+        "name": "E. Select:",
         "child": [
+            {
+                "name": "Seven additional courses (four or more units each) with emphasis in psychology, distributed as follows:",
+                "child": []
+            },
             {
                 "name": "1. No more than one of the seven may be lower-division. PSYCH 7A may not be used to fulfill this requirement.",
                 "child": []
             },
             {
-                "name": "2. Three of the upper-division courses used to satisfy requirements D and E must be taken from one of the following modules: Psychology 110-119 (Research Methodologies), 120-129 (General Psychology), 130-139 (Perception and Sensory Processes), 140-149 and 150-159 (Learning and Cognition and Language Sciences combined), 160-169 (Cognitive Neuroscience), and 170-179 (Interdisciplinary Studies).",
+                "name": "2. Three of the upper-division courses used to satisfy requirements D and E must be taken from one of the following modules:",
                 "child": []
+            },
+            {
+                "name": "Psychology 110-119 (Research Methodologies):",
+                "child": [
+                    "PSYCH 111BW",
+                    "PSYCH 112A",
+                    "PSYCH 112BW",
+                    "PSYCH 112C",
+                    "PSYCH 112LA",
+                    "PSYCH 112LB",
+                    "PSYCH 112LC",
+                    "PSYCH 112LM",
+                    "PSYCH 112LP",
+                    "PSYCH 112LR",
+                    "PSYCH 112M",
+                    "PSYCH 112P",
+                    "PSYCH 112R",
+                    "PSYCH 119"
+                ]
+            },
+            {
+                "name": "Psychology 120–129 (General Psychology):",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 121M",
+                    "PSYCH 121S",
+                    "PSYCH 122C",
+                    "PSYCH 122I",
+                    "PSYCH 122P",
+                    "PSYCH 123P",
+                    "PSYCH 124S",
+                    "PSYCH 124V",
+                    "PSYCH 129"
+                ]
+            },
+            {
+                "name": "Psychology 130–139 (Perception and Sensory Processes):",
+                "child": [
+                    "PSYCH 130A",
+                    "PSYCH 131A",
+                    "PSYCH 131B",
+                    "PSYCH 135M",
+                    "PSYCH 139"
+                ]
+            },
+            {
+                "name": "Psychology 140–149 and 150-159 (Learning and Cognition and Language Sciences combined):",
+                "child": [
+                    "PSYCH 140C",
+                    "PSYCH 140J",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 143P",
+                    "PSYCH 146MW",
+                    "PSYCH 149",
+                    "PSYCH 150",
+                    "PSYCH 156A",
+                    "PSYCH 157M",
+                    "PSYCH 159"
+                ]
+            },
+            {
+                "name": "Psychology 160–169 (Cognitive Neuroscience):",
+                "child": [
+                    "PSYCH 160A",
+                    "PSYCH 160D",
+                    "PSYCH 160H",
+                    "PSYCH 161",
+                    "PSYCH 161H",
+                    "PSYCH 162N",
+                    "PSYCH 169"
+                ]
+            },
+            {
+                "name": "Psychology 170–179 (Interdisciplinary Studies):",
+                "child": [
+                    "PSYCH 173A",
+                    "PSYCH 174E",
+                    "PSYCH 174H",
+                    "PSYCH 176A",
+                    "PSYCH 177D",
+                    "PSYCH 177F",
+                    "PSYCH 178N",
+                    "PSYCH 179"
+                ]
             },
             {
                 "name": "3. Certain courses offered in the School of Biological Sciences and the School of Social Ecology may be used in partial satisfaction of this requirement. A total of three of these courses (12 units) may be used in this way with a maximum of two from either of these Schools.",
