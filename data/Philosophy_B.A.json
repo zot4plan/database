@@ -1,65 +1,71 @@
 [
     {
-        "name": "",
+        "name": "A. Select one of the following:",
         "child": [
             {
-                "name": "A. Select one of the following:",
+                "name": "",
                 "child": [
                     "PHILOS 1",
                     "PHILOS 2",
                     "PHILOS 3",
                     "PHILOS 4",
                     "PHILOS 5"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
             {
-                "name": "B. Select one of the following:",
+                "name": "",
                 "child": [
                     "PHILOS 30",
                     "PHILOS 104"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select two of the following:",
+        "child": [
             {
-                "name": "C. Select two of the following:",
+                "name": "",
                 "child": [
                     "PHILOS 10",
                     "PHILOS 11",
                     "PHILOS 12",
                     "PHILOS 13"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Complete:",
+        "child": [
             {
-                "name": "D. Complete:",
+                "name": ":",
                 "child": [
                     "PHILOS 101",
-                    "PHILOS 102"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "or",
-                "child": [
                     "PHILOS 102W",
                     "PHILOS 103"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select five of the following:",
+        "child": [
             {
-                "name": "E. Select five of the following:",
+                "name": "",
                 "child": [
                     "PHILOS 100W"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "PHILOS 105-199",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

@@ -1,18 +1,22 @@
 [
     {
-        "name": "",
+        "name": "A. Three lower-division courses:",
         "child": [
             {
-                "name": "A. Three lower-division courses:",
+                "name": "",
                 "child": [
                     "UPPP 4",
                     "UPPP 5",
                     "UPPP 40"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Three of the following core upper-division courses:",
+        "child": [
             {
-                "name": "B. Three of the following core upper-division courses:",
+                "name": "",
                 "child": [
                     "UPPP 101",
                     "UPPP 107",
@@ -21,24 +25,25 @@
                     "UPPP 146",
                     "UPPP 155",
                     "UPPP 166"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Six additional upper-division electives from UPPP 100-189 or ECON 144A-ECON 144B.",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Six additional upper-division electives from UPPP 100-189 or ECON 144A-ECON 144B.",
+        "child": []
+    },
+    {
+        "name": "Optional Geographic Information Systems (GIS) Specialization",
+        "child": [
             {
                 "name": "A. Complete:",
                 "child": [
                     "UPPP 120",
                     "UPPP 125",
                     "UPPP 127"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

@@ -11,31 +11,43 @@
                     "MATH 3A",
                     "MATH 3D",
                     "MATH 13"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Computing skills:",
                 "child": [
                     "MATH 9"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "C. Select one three-quarter lecture course sequence from the following:",
+                "child": []
+            },
+            {
+                "name": "Sequence 1:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
-                    "CHEM 1C",
+                    "CHEM 1C"
+                ]
+            },
+            {
+                "name": "Sequence 2:",
+                "child": [
                     "PHYSICS 7C",
                     "PHYSICS 7D",
-                    "PHYSICS 7E",
-                    "STATS 7-MATH 10-PHYSICS 7C"
-                ],
-                "typeParent": "Courses"
+                    "PHYSICS 7E"
+                ]
+            },
+            {
+                "name": "Sequence 3:",
+                "child": [
+                    "STATS 7",
+                    "MATH 10",
+                    "PHYSICS 7C"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Upper-Division Requirements:",
@@ -48,83 +60,61 @@
                     "MATH 130A",
                     "MATH 140A",
                     "MATH 140B"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for the Pure Mathematics Major",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
+            {
+                "name": "Complete:",
                 "child": [
                     "MATH 2E"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
             {
-                "name": "A. Complete:",
+                "name": "Upper-Division:",
+                "child": []
+            },
+            {
+                "name": "Complete:",
                 "child": [
                     "MATH 120B",
                     "MATH 121B",
                     "MATH 147"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "B. Five additional four-unit MATH lecture courses numbered 100-189.",
-                "child": [
-                    [
-                        "MATH 2A",
-                        "SICS 7C- 7LC (or CHEM 1A)"
-                    ],
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 2E",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 130A",
-                    "MATH 120A",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 121A",
-                    "MATH 150",
-                    "MATH 112A",
-                    "General Education/Elective"
-                ],
-                "typeParent": "Courses"
+                "name": "And five additional four-unit MATH lecture courses numbered 100–189.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Concentration in Data Science",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 2E"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Replace item C in the Core Requirements with the following:",
@@ -132,15 +122,12 @@
                     "MATH 10",
                     "STATS 7",
                     "PHYSICS 7C"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
@@ -152,8 +139,7 @@
                     "MATH 110B",
                     "MATH 120B",
                     "MATH 147"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select three electives from the following:",
@@ -179,37 +165,27 @@
                     "COMPSCI 179",
                     "COMPSCI 183",
                     "COMPSCI 184A",
-                    "COMPSCI 184C",
-                    "MATH 2A",
-                    "STATS 7",
-                    "MATH 10",
-                    "MATH 13",
-                    "MATH 105A",
-                    "MATH 121A",
-                    "MATH 130A",
-                    "MATH 110A",
-                    "MATH 140A",
-                    "Upper-Division Elective"
-                ],
-                "typeParent": "Courses"
+                    "COMPSCI 184C"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Concentration in Mathematical Finance",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 2E"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Replace item C in the Core Requirements with the following:",
@@ -217,15 +193,12 @@
                     "MATH 10",
                     "STATS 7",
                     "PHYSICS 7C"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
@@ -237,8 +210,7 @@
                     "MATH 134B",
                     "MATH 134C",
                     "MATH 147"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select one elective lecture course from the following:",
@@ -252,8 +224,7 @@
                     "COMPSCI 172B",
                     "COMPSCI 177",
                     "COMPSCI 178"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "C. Complete the following eight required Economics courses:",
@@ -271,50 +242,32 @@
                     [
                         "ECON 134A",
                         "ECON 161A"
-                    ],
-                    "MATH 2A",
-                    "STATS 7",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 2E",
-                    "ECON 20A",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 130A",
-                    "MATH 140A",
-                    "ECON 105A",
-                    "MATH 121A",
-                    "MATH 134A",
-                    "MATH 120A",
-                    "ECON 134A",
-                    "MATH 147"
-                ],
-                "typeParent": "Courses"
+                    ]
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Specialization in Applied and Computational Mathematics",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 2E"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },
             {
                 "name": "A. Six required lecture courses:",
                 "child": [
@@ -324,9 +277,8 @@
                     "MATH 112B",
                     "MATH 115",
                     "MATH 121B"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            },            
             {
                 "name": "B. Select three additional Mathematics courses from the following:",
                 "child": [
@@ -342,62 +294,40 @@
                     "MATH 134B",
                     "MATH 140C",
                     "MATH 176"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "C. Two approved upper-division courses in an area of application outside of Mathematics. Approval must be obtained in advance from the advisor for this specialization. The student is responsible for satisfying any prerequisites for these courses.",
-                "child": [
-                    [
-                        "MATH 2A",
-                        "SICS 7C- 7LC (or CHEM 1A)"
-                    ],
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 2E",
-                    "MATH 9",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 112A",
-                    "MATH 121A",
-                    "MATH 130A",
-                    "General Education/Elective",
-                    "MATH 105A",
-                    "MATH 105LA",
-                    "MATH 117",
-                    "MATH 120A",
-                    "General Education/Elective"
-                ],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Specialization in Mathematical Biology",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 2E"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Replace item C in the Core Requirements with the following:",
                 "child": [
                     "BIO SCI 93",
                     "BIO SCI 94"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            },           
             {
-                "name": "and two courses selected from the following:",
+                "name": "And two courses selected from the following:",
                 "child": [
                     "BIO SCI 97",
                     "CHEM 1A",
@@ -405,15 +335,12 @@
                     "PHYSICS 2",
                     "PHYSICS 7C",
                     "PHYSICS 7D"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },            
             {
                 "name": "A. Complete the following seven required upper-division lecture courses:",
                 "child": [
@@ -424,56 +351,36 @@
                     "MATH 113A",
                     "MATH 113B",
                     "MATH 115"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Two additional elective courses, at least one from MATH courses numbered 100-189. The second elective may be either an upper-division MATH course or a four-unit upper-division Biological Sciences course with the advanced approval by the advisor for this specialization.",
-                "child": [
-                    "MATH 2A",
-                    "BIO SCI 93",
-                    "General Education",
-                    "General Education",
-                    "MATH 2E",
-                    "CHEM 1A",
-                    "MATH 9",
-                    "General Education/Elective",
-                    "MATH 113A",
-                    "MATH 105A",
-                    "MATH 105LA",
-                    "General Education/Elective",
-                    "General Education/Elective",
-                    "MATH 112A",
-                    "MATH 130A",
-                    "Bio. Elective",
-                    "General Education/Elective"
-                ],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Specialization in Mathematics for Education",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 8"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
@@ -486,63 +393,42 @@
                     "MATH 180A",
                     "MATH 184",
                     "MATH 184L"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Plus one additional four-unit MATH course numbered 100-189.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "B. Complete:",
                 "child": [
                     "PHY SCI 5",
-                    "PHY SCI 105",
-                    [
-                        "MATH 2A",
-                        "SICS 7C- 7LC (or CHEM 1A)"
-                    ],
-                    "General Education",
-                    "General Education/Elective",
-                    "MATH 3A",
-                    "PHY SCI 5",
-                    "General Education",
-                    "General Education",
-                    "MATH 130A",
-                    "MATH 140A",
-                    "General Education",
-                    "MATH 105A",
-                    "MATH 105LA",
-                    "MATH 150",
-                    "General Education/Elective"
-                ],
-                "typeParent": "Courses"
+                    "PHY SCI 105"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Core requirements for all Mathematics majors plus:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Lower-Division Requirements:",
+        "name": "Requirements for Mathematics Major with a Concentration in Mathematics for Education/Secondary Teaching Certification",
         "child": [
+            {
+                "name": "Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "Lower-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
                     "MATH 8"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Upper-Division Requirements:",
-        "child": [
+                ]
+            },
+            {
+                "name": "Upper-Division:",
+                "child": []
+            },
             {
                 "name": "A. Complete:",
                 "child": [
@@ -555,13 +441,11 @@
                     "MATH 180A",
                     "MATH 184",
                     "MATH 184L"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Plus one addtional four-unit MATH course numbered 100-189.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "B. Complete:",
@@ -577,28 +461,9 @@
                     "EDUC 148",
                     "EDUC 158",
                     "PHY SCI 5",
-                    "PHY SCI 105",
-                    [
-                        "MATH 2A",
-                        "SICS 7C- 7LC (or CHEM 1A)"
-                    ],
-                    "PHY SCI 5",
-                    "General Education",
-                    "MATH 3A",
-                    "PHY SCI 105",
-                    "General Education",
-                    "MATH 130A",
-                    "MATH 140A",
-                    "EDUC 55",
-                    "EDUC 143AW",
-                    "MATH 105A",
-                    "MATH 105LA",
-                    "MATH 150",
-                    "EDUC 143BW"
-                ],
-                "typeParent": "Courses"
+                    "PHY SCI 105"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

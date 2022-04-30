@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "REL STD 5A",
                     "REL STD 5B",
@@ -12,35 +12,29 @@
                         "REL STD 110",
                         "REL STD 110W"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select six upper-division electives, two in each of the following categories:",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select six upper-division electives, two in each of the following categories:",
+        "child": [
             {
                 "name": "1. Judaism/Christianity/Islam",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "2. World Religious Traditions",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "3. Thematic Approaches to Religion",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Select two additional upper-division courses from either category 1 or 2 above in order to complete an emphasis in Judaism/Christianity/Islam or in World Religious Traditions.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "C. Select two additional upper-division courses from either category 1 or 2 above in order to complete an emphasis in Judaism/Christianity/Islam or in World Religious Traditions.",
+        "child": []
     }
 ]

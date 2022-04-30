@@ -1,0 +1,65 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2B",
+                    "ANTHRO 2C",
+                    "ANTHRO 2D"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2B",
+                    "ANTHRO 2C",
+                    "ANTHRO 2D"
+                ]
+            },
+            {
+                "name": "ANTHRO 20A-89",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 100A",
+                    "ANTHRO 100B",
+                    "ANTHRO 180AW"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select six additional elective courses from the following:",
+        "child": [
+            {
+                "name": "ANTHRO 120-179",
+                "child": []
+            }
+        ]
+    }
+]

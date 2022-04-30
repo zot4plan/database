@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select two of the following:",
         "child": [
             {
-                "name": "A. Select two of the following:",
+                "name": "",
                 "child": [
                     "HISTORY 70A",
                     "HISTORY 70B",
@@ -11,38 +11,37 @@
                     "HISTORY 70D",
                     "HISTORY 70E",
                     "HISTORY 70F"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Two additional lower-division History courses",
+        "child": []
+    },
+    {
+        "name": "C. Four upper-division History courses",
+        "child": []
+    },
+    {
+        "name": "D. Complete the following:",
+        "child": [
             {
-                "name": "B. Two additional lower-division History courses",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Four upper-division History courses",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Complete the following:",
+                "name": "",
                 "child": [
                     "HISTORY 100W",
                     "HISTORY 190"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "E. Two additional lower- or upper-division History courses",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "F. At least one of the twelve required courses must be devoted to the period prior to 1800.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "E. Two additional lower- or upper-division History courses",
+        "child": []
+    },
+    {
+        "name": "F. At least one of the twelve required courses must be devoted to the period prior to 1800.",
+        "child": []
     }
+
 ]

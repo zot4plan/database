@@ -9,24 +9,22 @@
                     "CHEM 1B",
                     "CHEM 1C",
                     "CHEM H2A",
-                    "CHEM  H2B",
-                    "CHEM  H2C"
-                ],
-                "typeParent": "Courses"
+                    "CHEM H2B",
+                    "CHEM H2C"
+                ]
             },
             {
-                "name": "and select one of the following lab sequences:",
+                "name": "And select one of the following lab sequences:",
                 "child": [
                     "CHEM 1LC",
                     "CHEM 1LD",
                     "CHEM H2LA",
-                    "CHEM  H2LB",
-                    "CHEM  H2LC",
+                    "CHEM H2LB",
+                    "CHEM H2LC",
                     "CHEM M2LA",
-                    "CHEM  M2LB",
-                    "CHEM  M3LC"
-                ],
-                "typeParent": "Courses"
+                    "CHEM M2LB",
+                    "CHEM M3LC"
+                ]
             },
             {
                 "name": "Complete the following organic chemistry sequence and accompanying labs:",
@@ -37,26 +35,23 @@
                     "CHEM 51LB",
                     "CHEM 51LC",
                     "CHEM 51LD"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "2. Complete:",
                 "child": [
                     "MATH 2A",
                     "MATH 2B"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select one of the following:",
+                "name": "And select one of the following:",
                 "child": [
                     "MATH 2D",
                     "MATH 3A",
                     "STATS 7",
                     "STATS 8"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "3. Select one of the following physics sequences:",
@@ -64,17 +59,15 @@
                     "PHYSICS 3A",
                     "PHYSICS 3B",
                     "PHYSICS 3C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or",
+                "name": "Or",
                 "child": [
                     "PHYSICS 7C",
                     "PHYSICS 7D",
                     "PHYSICS 7E"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "4. Complete:",
@@ -84,8 +77,7 @@
                     "BIO SCI 97",
                     "BIO SCI 98",
                     "BIO SCI 99"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "5. Complete:",
@@ -93,11 +85,9 @@
                     "PHRMSCI 1",
                     "PHRMSCI 42",
                     "PHRMSCI 76"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "B. Upper-Division Requirements:",
@@ -117,11 +107,9 @@
                     "PHRMSCI 174L",
                     "PHRMSCI 177",
                     "PHRMSCI 177L"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "C. Upper-Division Electives (8 units):",
@@ -167,10 +155,8 @@
                     "CHEM 156",
                     "CHEM 160",
                     "PUBHLTH 121"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

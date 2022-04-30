@@ -1,85 +1,75 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "COM LIT 60A",
                     "COM LIT 60B",
                     "COM LIT 60C"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Complete:",
-                "child": [
-                    "COM LIT 190W"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Two additional courses selected from upper- or lower-division Comparative Literature courses or other upper-division courses offered in the School of Humanities.",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Completion of one of the three emphases:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "1. Emphasis in Comparative Literature and Critical Theory",
+        "name": "B. Complete:",
         "child": [
             {
+                "name": "",
+                "child": [
+                    "COM LIT 190W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Two additional courses selected from upper- or lower-division Comparative Literature courses or other upper-division courses offered in the School of Humanities.",
+        "child": []
+    },
+    {
+        "name": "D. Completion of one of the three emphases:",
+        "child": [
+            {
+                "name": "1. Emphasis in Comparative Literature and Critical Theory",
+                "child": []
+            },
+            {
                 "name": "(a) Select five upper-division courses in Comparative Literature.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "(b) Competence in a foreign language sufficient for reading and understanding literature and culture in that language may be demonstrated through course work in one of the following ways:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "(1) Two upper-division courses in a foreign literature or culture in which texts are read in the original, or",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (1) Two upper-division courses in a foreign literature or culture in which texts are read in the original, or",
+                "child": []
             },
             {
-                "name": "(2) One upper-division course in a foreign literature or culture in which texts are read in the original, plus one upper-division course in a literature or culture in translation, or",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (2) One upper-division course in a foreign literature or culture in which texts are read in the original, plus one upper-division course in a literature or culture in translation, or",
+                "child": []
             },
             {
-                "name": "(3) Students of Chinese, Japanese, and Korean take three years of language training plus one approved upper-division course in a foreign literature or culture in which texts are read in the original language or in translation, or",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (3) Students of Chinese, Japanese, and Korean take three years of language training plus one approved upper-division course in a foreign literature or culture in which texts are read in the original language or in translation, or",
+                "child": []
             },
             {
-                "name": "(4) Students of languages for which no language training is offered past 2C may take any two upper-division courses in a foreign literature or culture in translation.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (4) Students of languages for which no language training is offered past 2C may take any two upper-division courses in a foreign literature or culture in translation.",
+                "child": []
             },
             {
-                "name": "(5) Students who study Greek and Latin fulfill the entire requirement by successfully completing two years of college-level language training and one upper-division course in a foreign literature or culture in translation.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (5) Students who study Greek and Latin fulfill the entire requirement by successfully completing two years of college-level language training and one upper-division course in a foreign literature or culture in translation.",
+                "child": []
             },
             {
                 "name": "An Independent Study course may substitute for any part (i.e., either a language or literature course) of the foreign language requirement upon petition to the undergraduate studies director in Comparative Literature.",
-                "child": [],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "2. Emphasis in Cultural Studies",
-        "child": [
+                "child": []
+            },
+            {
+                "name": "2. Emphasis in Cultural Studies",
+                "child": []
+            },
             {
                 "name": "(a) Select six upper-division courses in Comparative Literature (three of which must be from the following list):",
                 "child": [
@@ -90,15 +80,12 @@
                     "COM LIT 142",
                     "COM LIT 143",
                     "COM LIT 144"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "3. Emphasis in World Literature",
-        "child": [
+                ]
+            },
+            {
+                "name": "3. Emphasis in World Literature",
+                "child": []
+            },
             {
                 "name": "Select six upper-division courses in Comparative Literature (three of which must be from the following list):",
                 "child": [
@@ -108,10 +95,13 @@
                     "COM LIT 108",
                     "COM LIT 123",
                     "COM LIT 150"
-                ],
-                "typeParent": "Courses"
+                ]
+            },
+            {
+                "name": "COM LIT 150 may be replaced with other approved foreign literature-in-translation courses offered in the Humanities.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+
+        ]
     }
 ]

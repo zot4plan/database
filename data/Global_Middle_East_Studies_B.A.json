@@ -17,7 +17,8 @@
         "name": "B. Complete:",
         "child": [
             {
-                "name": "Course work equivalent to UCI's sixth quarter of study (2C level) in one of the following single languages: Arabic, Persian, or Hebrew. Students may also petition to complete the requirement in other languages."
+                "name": "Course work equivalent to UCIs sixth quarter of study (2C level) in one of the following single languages: Arabic, Persian, or Hebrew. Students may also petition to complete the requirement in other languages.",
+                "child": []
             }
         ]
     },

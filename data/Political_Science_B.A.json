@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select four lower-division (one or two digit) POL SCI courses below. One must be the introductory course for the module selected under II below.",
         "child": [
             {
-                "name": "A. Select four lower-division (one or two digit) POL SCI courses below. One must be the introductory course for the module selected under II below.",
+                "name": "",
                 "child": [
                     "POL SCI 11A",
                     "POL SCI 11C",
@@ -13,45 +13,37 @@
                     "POL SCI 51A",
                     "POL SCI 61A",
                     "POL SCI 71A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Complete any one additional lower-division POL SCI course (not used above) (4 units)",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Seven upper-division POL SCI courses (28 units) chosen from among the POL SCI modules numbered 120-179. Three of these courses must be from one module.",
+        "child": [            
+            {
+                "name": "American Politics and Government (POL SCI 120-129)",
+                "child": []
             },
             {
-                "name": "B. Seven upper-division POL SCI courses (28 units) chosen from among the POL SCI modules numbered 120-179. Three of these courses must be from one module.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Political Theory and Methods (POL SCI 130-139)",
+                "child": []
             },
             {
-                "name": "American Politics and Government            (POL SCI 120-129)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Political Theory and Methods  (POL SCI 130-139)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "International Relations     (POL SCI 140-149)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "International Relations (POL SCI 140-149)",
+                "child": []
             },
             {
                 "name": "Comparative Politics (POL SCI 150-159)",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "Public Law (POL SCI 170-179)",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

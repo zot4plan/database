@@ -48,8 +48,6 @@
                 "child": [
                     "PSYCH 112A",
                     "PSYCH 112LA",
-                    "PSYCH 112D",
-                    "PSYCH 112LD",
                     "PSYCH 112M",
                     "PSYCH 112LM",
                     "PSYCH 112R",
@@ -63,7 +61,7 @@
         ]
     },
     {
-        "name": "D. Select four upper-division Psychology core courses (16 units). These courses are designated with an ending number \"0\" and include the following:",
+        "name": "D. Select four upper-division Psychology core courses (16 units). These courses are designated with an ending number 0 and include the following:",
         "child": [
             {
                 "name": "",

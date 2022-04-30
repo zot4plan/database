@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Choreography Specialization:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DANCE 60B",
+                    "DANCE 60C",
+                    "DRAMA 30A",
+                    "DRAMA 50C"
+                ]
+            },
+            {
+                "name": "One course selected from the following:",
+                "child": [
+                    "DRAMA 50A",
+                    "DRAMA 50B",
+                    "DRAMA 50D",
+                    "DRAMA 50E",
+                    "DANCE 127A"
+                ]
+            },
+            {
+                "name": "Complete:",
+                "child": [
+                    "DANCE 162A",
+                    "DANCE 162B",
+                    "DANCE 164"
+                ]
+            },
+            {
+                "name": "Select two courses in",
+                "child": [
+                    "DANCE 165"
+                ]
+            },
+            {
+                "name": "Four units (one or two courses) in Art History, Music, Studio Art, or Drama (in addition to DRAMA 30A, DRAMA 50C, and DRAMA 101 requirements).",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Performance Specialization:",
+        "child": [
+            {
+                "name": "Technique: At a minimum, students must complete level III in Ballet, Modern, and Jazz (DANCE 133A, DANCE 133B, DANCE 133C, DANCE 143A, DANCE 143B, DANCE 143C, and DANCE 153A, DANCE 153B, DANCE 153C)  and level IV in either Ballet or Modern (DANCE 134A-DANCE 134B-DANCE 134C or DANCE 144A-DANCE 144B-DANCE 144C). Students who place above level III in any technique must take a year of that technique at the level in which they are placed.",
+                "child": [
+                    "DANCE 133A",
+                    "DANCE 133B",
+                    "DANCE 133C",
+                    "DANCE 143A",
+                    "DANCE 143B",
+                    "DANCE 143C",
+                    "DANCE 153A",
+                    "DANCE 153B",
+                    "DANCE 153C",
+                    "DANCE 134A",
+                    "DANCE 134B",
+                    "DANCE 134C",
+                    "DANCE 144A",
+                    "DANCE 144B",
+                    "DANCE 144C",
+                    "DANCE 139"
+                ]
+            },
+            {
+                "name": "Performance:",
+                "child": [
+                    [
+                        "DANCE 137",
+                        "DANCE 179"
+                    ],
+                    "DANCE 170"
+                ]
+            },
+            {
+                "name": "Select one of the following:",
+                "child": [
+                    "DRAMA 30A"
+                ]
+            },
+            {
+                "name": "or a fourth additional performance in the DANCE 170 series.",
+                "child": [
+                    "DANCE 170"
+                ]
+            }
+        ]
+    }
+]

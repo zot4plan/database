@@ -1,69 +1,92 @@
 [
     {
-        "name": "",
+        "name": "A. An understanding of the fundamental concepts, analytical tools, and methods of social science:",
         "child": [
             {
-                "name": "A. An understanding of the fundamental concepts, analytical tools, and methods of social science:",
+                "name": "",
                 "child": [
                     "SOC SCI 1A",
                     "SOC SCI 2A",
                     "SOC SCI 3A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. One course in Introduction to Social Policy and Public Service:",
+        "child": [
             {
-                "name": "B. One course in Introduction to Social Policy and Public Service:",
+                "name": "",
                 "child": [
                     "SOC SCI 40"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. One course in Cultural Competency:",
+        "child": [
             {
-                "name": "C. One course in Cultural Competency:",
+                "name": "",
                 "child": [
                     [
                         "SOC SCI 70C",
                         "SOCIOL 63"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. One course in Leadership:",
+        "child": [
             {
-                "name": "D. One course in Leadership:",
+                "name": "",
                 "child": [
                     "SOC SCI 181A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Two courses in Research Methods:",
+        "child": [
             {
-                "name": "E. Two courses in Research Methods:",
+                "name": "",
                 "child": [
                     "SOC SCI 102A",
                     "SOC SCI 170A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "F. Three quarters of Field Studies:",
+        "child": [
             {
-                "name": "F. Three quarters of Field Studies:",
+                "name": "",
                 "child": [
                     "SOC SCI 193A",
                     "SOC SCI 193B",
                     "SOC SCI 193C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "G. Four units of off-campus internship experience:",
+        "child": [
             {
-                "name": "G. Four units of off-campus internship experience:",
+                "name": "",
                 "child": [
                     "SOC SCI 194A"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "H. Functional Focus: 12 units in one of the following areas:",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "H. Functional Focus: 12 units in one of the following areas:",
+        "child": [            
             {
                 "name": "Education:",
                 "child": [
@@ -77,8 +100,7 @@
                     "CHC/LAT 189",
                     "ECON 158",
                     "SOC SCI 196"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Governance:",
@@ -113,8 +135,7 @@
                     "SOCIOL 141",
                     "SOCIOL 144",
                     "SOCIOL 177W"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Health:",
@@ -131,10 +152,8 @@
                     "PSYCH 174E",
                     "SOCIOL 135",
                     "SOCIOL 154"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

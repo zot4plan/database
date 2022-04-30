@@ -22,30 +22,39 @@
     {
         "name": "Lower Division: B. Complete:",
         "child": [
-            "I&C SCI 45J",
-            "IN4MATX 43",
-            "I&C SCI 6B",
-            [
-                "STATS 7",
-                "STATS 67"
-            ]
+            {
+                "name": "",
+                "child": [
+                    "I&C SCI 45J",
+                    "IN4MATX 43",
+                    "I&C SCI 6B",
+                    [
+                        "STATS 7",
+                        "STATS 67"
+                    ]
+                ]
+            }
         ]
     },
     {
         "name": "Upper-division: A. Informatics Core Requirements:",
         "child": [
-        
+            {
+                "name": "",
+                "child": [
                     "IN4MATX 113",
                     "IN4MATX 121",
                     "IN4MATX 131",
                     "IN4MATX 151",
                     "IN4MATX 161",
                     "IN4MATX 191A",
-                    "IN4MATX 191B"
+                    "IN4MATX 191B"    
                 ]
+            }
+        ]
     },
     {
-        "name": "B. One of the following specializations:",
+        "name": "Upper-division: B. One of the following specializations:",
         "child": []
     },
     {
@@ -196,7 +205,11 @@
     {
         "name": "4. Specialization in Individual Studies",
         "child": [
-            "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofinformatics/informatics_bs/#requirementstext"
+            {
+                "name": "Please visit the UCI catalogue page for more information.",
+                "child": []
+
+            }
         ]
     }
 ]

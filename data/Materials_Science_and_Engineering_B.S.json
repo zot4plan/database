@@ -1,14 +1,9 @@
 [
     {
         "name": "Mathematics and Basic Science Courses:",
-        "child": [],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Core Courses:",
         "child": [
             {
-                "name": "",
+                "name": "Core Courses:",
                 "child": [
                     [
                         "ENGR 1A",
@@ -28,11 +23,9 @@
                     "PHYSICS 7D",
                     "PHYSICS 7E",
                     "PHYSICS 7LD"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Engineering Topics Courses:",
@@ -73,19 +66,16 @@
                         "ENGRCEE 30"
                     ],
                     "ENGRMAE 150L"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Engineering Electives:",
         "child": [
             {
                 "name": "Students must complete a minimum of four courses from the lists below (at most two of the courses can be Basic Science or Engineering Electives, and at least two courses must be Technical Electives):",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "Basic Science or Engineering Electives",
@@ -104,8 +94,7 @@
                     ],
                     "PHYSICS 52A",
                     "STATS 7"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Technical Electives",
@@ -133,16 +122,13 @@
                     "MSE 174",
                     "MSE 176",
                     "MSE 199"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Students select, with the approval of a faculty advisor, any additional engineering topics courses needed to satisfy school and department requirements.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Engineering Professional Topics Course:",
@@ -151,16 +137,13 @@
                 "name": "",
                 "child": [
                     "ENGR 190W"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "(The nominal Materials Science and Engineering program will require 187 units of courses to satisfy all university and major requirements. Because each student comes to UCI with a different level of preparation, the actual number of units will vary. Dual engineering majors are reminded that they are required to satisfy all requirements of both majors individually. Students should not assume that courses for one, such as senior design, will satisfy the requirements of the other, without prior approval.)",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specialization in Materials Processing",
@@ -174,11 +157,9 @@
                     "MSE 171",
                     "MSE 173",
                     "MSE 174"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specialization in Energy Materials and Sustainability",
@@ -191,11 +172,9 @@
                     "ENGRMAE 118",
                     "MSE 141",
                     "MSE 171"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specialization in Biomaterials:",
@@ -207,11 +186,9 @@
                     "BME 111",
                     "BME 120",
                     "ENGRMAE 153"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specialization in Electronic and Functional Materials:",
@@ -225,11 +202,9 @@
                     "EECS 176",
                     "MSE 141",
                     "MSE 176"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specialization in Structural and Mechanical Materials:",
@@ -244,10 +219,8 @@
                     "ENGRMAE 147",
                     "ENGRMAE 155",
                     "ENGRMAE 157"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]
