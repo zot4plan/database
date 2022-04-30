@@ -30,7 +30,7 @@ def get_websites():
     """
     get_websites scrapes all the redirected websites in the main page of UCI major requirements.
     """
-    major_names = []
+    major_urls = {}
     all_href = []
     prefered = ['bs/', 'ba/', 'bfa/']
     soup = request_websites("http://catalogue.uci.edu/undergraduatedegrees/")
@@ -40,27 +40,12 @@ def get_websites():
             get_type = href.split('_')
             website = 'http://catalogue.uci.edu/' + href
             name = each.text
-            if get_type[-1] in prefered:
+            if get_type[-1] in prefered and website not in major_urls:
                 all_href.append([each.text, website])
-                major_names.append(name)
+                major_urls[name] = website
 
+    write_url(major_urls)
     return all_href
-
-    # major_names = []
-    # all_href = []
-    # prefered = ['bs/', 'ba/', 'bfa/']
-    # soup = request_websites("http://catalogue.uci.edu/undergraduatedegrees/")
-    # find_div = soup.find_all('ul')
-    # get_li = find_div[36].find_all('a')
-    # for each in get_li:
-    #     href = each.get('href')
-    #     get_type = href.split('_')
-    #     website = 'http://catalogue.uci.edu/' + href
-    #     name = each.text
-    #     if get_type[-1] in prefered:
-    #         all_href.append([each.text, website])
-    #         major_names.append(name)
-    # return all_href
 
 
 def get_name(in_string):
@@ -105,11 +90,15 @@ def get_series(all_courses, in_string, name):
         elif (len(num_series) > 0 and num_series[-1] != name + ' ' + course_series[i]) or len(num_series) == 0:
             if (name + ' ' + course_series[i]) in Data:
                 num_series.append(name + ' ' + course_series[i])
-
+    
     return num_series
 
 
 def scrape_courses(url):
+    """
+    scrape_courses takes in one parameter, major's url, and attain the information from the provided link.
+    It sort the information by headers/courses and adjust the data model accordingly.
+    """
 
     soup = request_websites(url)
     table = soup.find('div', id='requirementstextcontainer')
@@ -158,25 +147,17 @@ def scrape_courses(url):
         
         return requirements  
     
-    except Exception:
+    except:
         print(url)
 
-def write_requirements_file(name, classes):
+
+def write_url(all_url):
     """
-    write_to_file takes the information provided as parameters and write them out 
-    in a .out file. The information contains all of the required courses of a major.
+    write_url will saves all of the major requirement urls into a json file.
     """
-    with open("../data/majorsRequirements.sql", 'a') as f:
-        in_json = '['
-        for elem in classes:
-            if elem[1] is False:
-                elem[0] = (elem[0].replace('"', "'")).replace("'","\\'")
-            in_json += '["' + elem[0] + '","' + str(elem[1]) + '"],'
-        if len(in_json) > 1:
-            in_json = in_json[:-1] + ']'
-        else:
-            in_json += ']'        
-        f.write("INSERT INTO majors (name, majorRequirements) VALUES ('" + name + "','" + in_json + "');" + '\n')
+    with open('../database/majorUrls.json', 'w') as f:
+        json.dump(all_url, f, indent=4)
+
 
 def write_to_json(name, info):
     name = name.replace(' ', '_')
@@ -196,4 +177,3 @@ if __name__ == "__main__":
         majorInfo = scrape_courses(elem[1])
         if majorInfo != None:
             write_to_json(elem[0], majorInfo)
-        ##write_requirements_file(each[0], course)
