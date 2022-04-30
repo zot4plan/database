@@ -121,7 +121,7 @@
                 "child": []
             },
             {
-                "name": "Epidemiology, Genetics, and Health Informatics:",
+                "name": "1. Epidemiology, Genetics, and Health Informatics:",
                 "child": [
                     "BIO SCI D137",
                     "BIO SCI D148",
@@ -129,15 +129,17 @@
                     "BIO SCI M123",
                     "BIO SCI M137",
                     "COMPSCI 183",
-                    "PSCI 183S"
+                    "PSCI 183S",
+                    "PUBHLTH 102",
+                    "PUBHLTH 105",
+                    "PUBHLTH 106",
+                    "PUBHLTH 107",
+                    "PUBHLTH 115",
+                    "PUBHLTH 119"
                 ]
             },
             {
-                "name": "PUBHLTH 102-119",
-                "child": []
-            },
-            {
-                "name": "Environmental and Global Health Sciences:",
+                "name": "2. Environmental and Global Health Sciences:",
                 "child": [
                     "ANTHRO 125B",
                     "ANTHRO 128B",
@@ -152,19 +154,26 @@
                     "CHEM 125",
                     "CHC/LAT 176",
                     "PUBHLTH 126",
-                    "PUBHLTH 127"
-                ]
-            },
-            {
-                "name": "PUBHLTH  160-179",
-                "child": [
+                    "PUBHLTH 127",
                     "PUBHLTH 190",
                     "PUBHLTH 193",
-                    "SOCECOL E127"
+                    "SOCECOL E127",
+                    "PUBHLTH 161",
+                    "PUBHLTH 163",
+                    "PUBHLTH 167",
+                    "PUBHLTH 168",
+                    "PUBHLTH 170",
+                    "PUBHLTH 171",
+                    "PUBHLTH 172",
+                    "PUBHLTH 173",
+                    "PUBHLTH 174",
+                    "PUBHLTH 176",
+                    "PUBHLTH 177",
+                    "PUBHLTH 179"
                 ]
             },
             {
-                "name": "Infectious and Chronic Diseases:",
+                "name": "3. Infectious and Chronic Diseases:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E112L",
@@ -182,12 +191,12 @@
                     "BIO SCI M143",
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
-                    "PUBHLTH 150"
+                    "PUBHLTH 150",
+                    "PUBHLTH 180",
+                    "PUBHLTH 181",
+                    "PUBHLTH 182",
+                    "PUBHLTH 189"
                 ]
-            },
-            {
-                "name": "PUBHLTH 180-189",
-                "child": []
             }
         ]
     },

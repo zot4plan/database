@@ -1,26 +1,29 @@
 [
     {
-        "name": "Lower-division",
+        "name": "Lower-Division: A. Select one of the following series:",
         "child": [
             {
-                "name": "A. Select one of the following series:",
+                "name": "Group 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
                     "I&C SCI 33"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or",
+                "name": "Group 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lower-Division: B. Complete:",
+        "child": [
             {
-                "name": "B. Complete:",
+                "name": "",
                 "child": [
                     "I&C SCI 45C",
                     "I&C SCI 45J",
@@ -36,11 +39,9 @@
                         "MATH 3A"
                     ],
                     "STATS 67"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Upper-division",
@@ -52,7 +53,10 @@
                     "COMPSCI 143A",
                     "COMPSCI 132",
                     "COMPSCI 161",
-                    "IN4MATX 101/COMPSCI 141",
+                    [
+                        "IN4MATX 101",
+                        "COMPSCI 141"
+                    ],
                     "IN4MATX 113",
                     "IN4MATX 115",
                     "IN4MATX 131",
@@ -63,18 +67,23 @@
                     "IN4MATX 191A",
                     "IN4MATX 191B",
                     "I&C SCI 139W"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select four of the following:",
                 "child": [
                     "IN4MATX 102",
-                    "IN4MATX 125/COMPSCI 113",
+                    [
+                        "IN4MATX 125",
+                        "COMPSCI 113"
+                    ],
                     "IN4MATX 132",
                     "IN4MATX 133",
                     "IN4MATX 134",
-                    "IN4MATX 141/COMPSCI 121",
+                    [
+                        "IN4MATX 141",
+                        "COMPSCI 121"
+                    ],
                     "IN4MATX 143",
                     "IN4MATX 148",
                     "IN4MATX 161",
@@ -88,15 +97,12 @@
                     "COMPSCI 165",
                     "I&C SCI 167",
                     "I&C SCI 168"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Software Engineering elective courses may not be counted as part of the Management minor.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

@@ -7,7 +7,12 @@
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
-                    "CHEM 1C",
+                    "CHEM 1C"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
                     "CHEM H2A",
                     "CHEM H2B",
                     "CHEM H2C"
@@ -15,12 +20,26 @@
             },
             {
                 "name": "And select one of the following lab sequences:",
+                "child": []
+            },
+            {
+                "name": "Sequence 1:",
                 "child": [
                     "CHEM 1LC",
-                    "CHEM 1LD",
+                    "CHEM 1LD"
+                ]
+            },
+            {
+                "name": "Sequence 2:",
+                "child": [
                     "CHEM H2LA",
                     "CHEM H2LB",
-                    "CHEM H2LC",
+                    "CHEM H2LC"
+                ]
+            },
+            {
+                "name": "Sequence 3:",
+                "child": [
                     "CHEM M2LA",
                     "CHEM M2LB",
                     "CHEM M3LC"

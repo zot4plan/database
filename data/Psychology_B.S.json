@@ -28,8 +28,12 @@
         ]
     },
     {
-        "name": "C. Select three of the following. At least two of these courses must come from a single discipline:",
+        "name": "C. Select three of the following:",
         "child": [
+            {
+                "name": "At least two of these courses must come from a single discipline.",
+                "child": []
+            },
             {
                 "name": "Background in Science",
                 "child": [
@@ -62,8 +66,16 @@
         ]
     },
     {
-        "name": "D. Complete three additional courses that must be taken in Biology, Physics, Chemistry, Logic and Philosophy of Science, Mathematics, or Statistics. They can be selected from the above list, from the Logic requirements (requirement B.), or from the following list:",
+        "name": "D. Complete three additional courses that must be taken in:",
         "child": [
+            {
+                "name": "Biology, Physics, Chemistry, Logic and Philosophy of Science, Mathematics, or Statistics.",
+                "child": []
+            },
+            {
+                "name": "They can be selected from the above list, from the Logic requirements (requirement B.), or from the following list:",
+                "child": []
+            },
             {
                 "name": "Additional Science Background",
                 "child": [
@@ -120,24 +132,65 @@
                 "child": []
             },
             {
-                "name": "PSYCH 120 to PSYCH 129 (General)",
-                "child": []
+                "name": "PSYCH 120 to PSYCH 129 (General):",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 121M",
+                    "PSYCH 121S",
+                    "PSYCH 122C",
+                    "PSYCH 122I",
+                    "PSYCH 122P",
+                    "PSYCH 123P",
+                    "PSYCH 124S",
+                    "PSYCH 124V",
+                    "PSYCH 129"
+                ]
             },
             {
-                "name": "PSYCH 130 to PSYCH 139 (Perception and Sensory Processes)",
-                "child": []
+                "name": "PSYCH 130 to PSYCH 139 (Perception and Sensory Processes):",
+                "child": [
+                    "PSYCH 130A",
+                    "PSYCH 131A",
+                    "PSYCH 131B",
+                    "PSYCH 135M",
+                    "PSYCH 139"
+                ]
             },
             {
-                "name": "PSYCH 140 to PSYCH 149 (Cognition and Learning)",
-                "child": []
+                "name": "PSYCH 140 to PSYCH 149 (Cognition and Learning):",
+                "child": [
+                    "PSYCH 140C",
+                    "PSYCH 140J",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 143P",
+                    "PSYCH 146MW",
+                    "PSYCH 149"
+                ]
             },
             {
-                "name": "PSYCH 150 to PSYCH 159 (Language)",
-                "child": []
+                "name": "PSYCH 150 to PSYCH 159 (Language):",
+                "child": [
+                    "PSYCH 150",
+                    "PSYCH 156A",
+                    "PSYCH 157M",
+                    "PSYCH 159"
+                ]
             },
             {
-                "name": "PSYCH 160 to PSYCH 169 (Cognitive Neuroscience)",
-                "child": []
+                "name": "PSYCH 160 to PSYCH 169 (Cognitive Neuroscience):",
+                "child": [
+                    "PSYCH 160A",
+                    "PSYCH 160D",
+                    "PSYCH 160H",
+                    "PSYCH 161",
+                    "PSYCH 161H",
+                    "PSYCH 162N",
+                    "PSYCH 169"
+                ]
             }
 
         ]
@@ -163,8 +216,12 @@
         ]
     },
     {
-        "name": "H. Select four courses from the following (four or more units each) with emphasis in psychology, distributed as follows:",
+        "name": "H. Select:",
         "child": [
+            {
+                "name": "Four courses from the following (four or more units each) with emphasis in psychology, distributed as follows:",
+                "child": []
+            },
             {
                 "name": "1. No more than one may be lower-division. PSYC 7A may not be used to fulfill this requirement.",
                 "child": []
