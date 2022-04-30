@@ -33,11 +33,16 @@
         "name": "C. Select one of the following series:",
         "child": [
             {
-                "name": "",
+                "name": "STATS 120A-B-C",
                 "child": [
                     "STATS 120A",
                     "STATS 120B",
-                    "STATS 120C",
+                    "STATS 120C"
+                ]
+            },
+            {
+                "name": "MATH 130A-B-C",
+                "child": [
                     "MATH 130A",
                     "MATH 130B",
                     "MATH 130C"
@@ -49,7 +54,11 @@
         "name": "D. Complete five additional four-unit upper-division Economics electives:",
         "child": [
             {
-                "name": "One course must satisfy the upper-division writing requirement. Two courses must be selected from the list below.",
+                "name": "One course must satisfy the upper-division writing requirement.",
+                "child": []
+            },
+            {
+                "name": "Two courses must be selected from the list below.",
                 "child": [
                     "ECON 107",
                     "ECON 116A",
@@ -66,11 +75,11 @@
         ]
     },
     {
-        "name": "E. A maximum of:",
+        "name": "E. 4-unit courses selected from ECON 190-199",
         "child": [
             {
-                "name": "Three four-unit courses selected from ECON 190-199 may be counted toward the major.",
-                "child": []
+                "name": "A maximum of three four-unit courses selected from ECON 190-199 may be counted toward the major.",
+                "child": ["ECON 190", "ECON 190BW", "ECON H190A", "ECON 197", "ECON 198", "ECON 199"]
             }
         ]
     }
