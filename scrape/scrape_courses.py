@@ -44,8 +44,13 @@ def get_courses(url):
             elif 'Restriction:' in info:
                 restrict = info.replace('"', "'").replace('Restriction:', '')
             elif 'Prerequisite:' in info:
-                prereq = info.replace('\n', '').replace('"', "'").replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
-            elif 'Corequisite:' in info:
+                if 'Corequisite:' in info:
+                    separate = info.split('\n')
+                    prereq = separate[1].replace('"', "'").replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
+                    co_course = separate[0].replace('"', "'").replace('Corequisite:','')
+                else:
+                    prereq = info.replace('\n', '').replace('"', "'").replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
+            elif 'Corequisite:' in info and co_course != '':
                 co_course = info.replace('\n', '').replace('"', "'").replace('Corequisite:','')
             elif 'Repeatability:' in info:
                 if 'Unlimited' in info or 'unlimited' in info:
