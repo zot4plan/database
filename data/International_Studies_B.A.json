@@ -46,7 +46,12 @@
     },
     {
         "name": "D. Competency in a language other than English.",
-        "child": []
+        "child": [
+            {
+                "name": "",
+                "child": []
+            }
+        ]
     },
     {
         "name": "E. Geographic Focus:",
@@ -94,13 +99,20 @@
         "name": "G. Two quarters of:",
         "child": [
             {
-                "name": "INTL ST 183A, one quarter of which must be taken during the junior or senior year as a capstone experience.",
-                "child": []
+                "name": "One quarter of which must be taken during the junior or senior year as a capstone experience.",
+                "child": [
+                    "INTL ST 183A"
+                ]
             }
         ]
     },
     {
         "name": "H. At least one quarter of international experience.",
-        "child": []
+        "child": [
+            {
+                "name": "",
+                "child": []
+            }
+        ]
     }
 ]

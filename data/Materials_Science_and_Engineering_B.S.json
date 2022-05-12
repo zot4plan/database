@@ -78,7 +78,7 @@
                 "child": []
             },
             {
-                "name": "Basic Science or Engineering Electives",
+                "name": "(b) Basic Science or Engineering Electives",
                 "child": [
                     "BIO SCI 93",
                     "BME 50A",
@@ -97,7 +97,7 @@
                 ]
             },
             {
-                "name": "Technical Electives",
+                "name": "(b) Technical Electives",
                 "child": [
                     "BME 110B",
                     "BME 111",

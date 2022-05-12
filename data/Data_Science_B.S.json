@@ -1,9 +1,9 @@
 [
     {
-        "name": "Lower-division: A. Select one of the following series:",
+        "name": "Lower Division - A. Select one of the following series:",
         "child": [
             {
-                "name": "Group 1",
+                "name": "(b) Group 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "name": "Group 2",
+                "name": "(b) Group 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "name": "Lower-division: B. Complete:",
+        "name": "Lower Division - B. Complete:",
         "child": [
         {
             "name": "",
@@ -34,7 +34,7 @@
         ]
     },
     {
-        "name": "Lower-division: C. Complete:",
+        "name": "Lower Division - C. Complete:",
         "child": [
         {
             "name": "",
@@ -56,10 +56,10 @@
         ]
     },
     {
-        "name": "Upper-division:",
+        "name": "Upper Division:",
         "child": [
             {
-                "name": "A. Data Science core requirements:",
+                "name": "(b) A. Data Science core requirements:",
                 "child": [
                     "STATS 110",
                     "STATS 111",
@@ -76,7 +76,7 @@
                 ]
             },
             {
-                "name": "B. Three elective courses from the list below:",
+                "name": "(b) B. Three elective courses from the list below:",
                 "child": [
                     "MATH 130B",
                     "MATH 130C",
@@ -101,7 +101,7 @@
                 ]
             },
             {
-                "name": "C. Data Science capstone team-based project courses:",
+                "name": "(b) C. Data Science capstone team-based project courses:",
                 "child": [
                     "STATS 170A",
                     "STATS 170B"

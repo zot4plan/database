@@ -27,8 +27,15 @@
         "name": "B. Select six quarters of instrumental or vocal instruction for Music majors from the following:",
         "child": [
             {
-                "name": "MUSIC 65-70",
-                "child": []
+                "name": "(b) MUSIC 65-70",
+                "child": [
+                    "MUSIC 65",
+                    "MUSIC 66",
+                    "MUSIC 67",
+                    "MUSIC 68",
+                    "MUSIC 69",
+                    "MUSIC 70"
+                ]
             }
         ]
     },
@@ -40,7 +47,7 @@
                 "child": []
             },
             {
-                "name": "A. Select three courses in Theory, Composition, and Technology from the following:",
+                "name": "(b) A. Select three courses in Theory, Composition, and Technology from the following:",
                 "child": [
                     "MUSIC 153",
                     "MUSIC 51",
@@ -60,7 +67,7 @@
                 ] 
             },
             {
-                "name": "B. Select three courses in Music and Culture (including at least two upper-division courses) from the following:",
+                "name": "(b) B. Select three courses in Music and Culture (including at least two upper-division courses) from the following:",
                 "child": [
                     "AFAM 143",
                     "AFAM 144",
@@ -91,7 +98,7 @@
                 ]
             },
             {
-                "name": "C. Select six courses in Performance and Practice from the following:",
+                "name": "(b) C. Select six courses in Performance and Practice from the following:",
                 "child": [
                     "MUSIC 21A",
                     "MUSIC 21B",
@@ -112,7 +119,7 @@
                 ]
             },
             {
-                "name": "D. Depending upon the student\u2019s area of emphasis, one of the following BA projects (which may develop work originally completed in meeting the requirements of another course) must be completed:",
+                "name": "(b) D. Depending upon the student\u2019s area of emphasis, one of the following BA projects (which may develop work originally completed in meeting the requirements of another course) must be completed:",
                 "child": []
             },
             {

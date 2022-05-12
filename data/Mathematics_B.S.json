@@ -3,7 +3,7 @@
         "name": "Lower-Division Requirements:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "(b) A. Complete the following:",
                 "child": [
                     "MATH 2A",
                     "MATH 2B",
@@ -14,13 +14,13 @@
                 ]
             },
             {
-                "name": "B. Computing skills:",
+                "name": "(b) B. Computing skills:",
                 "child": [
                     "MATH 9"
                 ]
             },
             {
-                "name": "C. Select one three-quarter lecture course sequence from the following:",
+                "name": "(b) C. Select one three-quarter lecture course sequence from the following:",
                 "child": []
             },
             {
@@ -53,7 +53,7 @@
         "name": "Upper-Division Requirements:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "(b) A. Complete:",
                 "child": [
                     "MATH 120A",
                     "MATH 121A",
@@ -72,7 +72,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -82,7 +82,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {
@@ -107,7 +107,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -125,7 +125,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {
@@ -178,7 +178,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -196,7 +196,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {
@@ -255,7 +255,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -265,7 +265,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {
@@ -310,7 +310,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -338,7 +338,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },            
             {
@@ -368,7 +368,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -378,7 +378,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {
@@ -416,7 +416,7 @@
                 "child": []
             },
             {
-                "name": "Lower-Division:",
+                "name": "(b) Lower-Division:",
                 "child": []
             },
             {
@@ -426,7 +426,7 @@
                 ]
             },
             {
-                "name": "Upper-Division:",
+                "name": "(b) Upper-Division:",
                 "child": []
             },
             {

@@ -25,7 +25,7 @@
                 ]
             },
             {
-                "name": "Select one of the following sequences and accompanying labs:",
+                "name": "(b) Select one of the following sequences and accompanying labs:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "name": "Select one of the following sequences and accompanying labs:",
+                "name": "(b) Select one of the following sequences and accompanying labs:",
                 "child": [
                     "PHYSICS 3A",
                     "PHYSICS 3B",

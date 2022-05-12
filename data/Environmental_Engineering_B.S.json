@@ -60,7 +60,7 @@
                 "child": []
             },
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "ENGRCEE 20",
                     "ENGRCEE 21",
@@ -82,7 +82,7 @@
                 ]
             },
             {
-                "name": "Engineering Elective Courses:",
+                "name": "(b) Engineering Elective Courses:",
                 "child": []
             },
             {
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "name": "Water Supply and Resources:",
+                "name": "(b) Water Supply and Resources:",
                 "child": [
                     "ENGRCEE 171",
                     "ENGRCEE 172",
@@ -104,7 +104,7 @@
                 ]
             },
             {
-                "name": "Environmental Processes:",
+                "name": "(b) Environmental Processes:",
                 "child": [
                     "ENGRCEE 163",
                     "ENGRCEE 164",
@@ -113,7 +113,7 @@
                 ]
             },
             {
-                "name": "Atmospheric Systems and Air Pollution Control:",
+                "name": "(b) Atmospheric Systems and Air Pollution Control:",
                 "child": [
                     "EARTHSS 112",
                     "ENGRMAE 110",

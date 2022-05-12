@@ -10,8 +10,7 @@
                     "LSCI 20",
                     "LSCI 43",
                     "LSCI 51"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select two courses from the following:",
@@ -26,16 +25,13 @@
                     "LSCI 102",
                     "LSCI 142",
                     "LSCI 145A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Any \"3-level\" non-English language course or any advanced level non-English language course.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Any 3-level non-English language course or any advanced level non-English language course.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Additional Core",
@@ -56,27 +52,23 @@
                     "LSCI 158",
                     "LSCI 168J",
                     "LSCI 168S"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "A 199 course affiliated with the Language Science Program, or a research course, with a minimum 4 unit enrollment requirement.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Specializations",
         "child": [
             {
                 "name": "D. Select four courses from the following. Courses must come from at least two of the categories listed below:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "I. Theoretical",
+                "name": "(b) I. Theoretical",
                 "child": [
                     "LSCI 119",
                     "LSCI 124",
@@ -85,22 +77,20 @@
                     "LSCI 149",
                     "LSCI 176",
                     "SPANISH 187"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "II. Behavioral and Neuroscientific",
+                "name": "(b) II. Behavioral and Neuroscientific",
                 "child": [
                     "LSCI 151B",
                     "LSCI 151S",
                     "LSCI 159",
                     "LSCI 165L",
                     "LSCI 175"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "III. Computational",
+                "name": "(b) III. Computational",
                 "child": [
                     "LSCI 107M",
                     "LSCI 109",
@@ -108,11 +98,10 @@
                     "COMPSCI 142B",
                     "COMPSCI 171",
                     "COMPSCI 177"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "IV. Applied",
+                "name": "(b) IV. Applied",
                 "child": [
                     "PSYCH 131B",
                     "PSYCH 161H",
@@ -128,10 +117,8 @@
                     "CHINESE 100C",
                     "JAPANSE 100A",
                     "JAPANSE 100B"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]
