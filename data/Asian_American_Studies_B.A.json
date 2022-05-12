@@ -46,20 +46,47 @@
         "name": "C. Select one course from each of the following areas:",
         "child": [            
             {
-                "name": "Humanities/Arts: ASIANAM 110-129",
-                "child": ["ASIANAM 110", "ASIANAM 111", "ASIANAM 112", "ASIANAM 114", "ASIANAM 116"]
+                "name": "(b) Humanities/Arts: ASIANAM 110-129",
+                "child": [
+                    "ASIANAM 110", 
+                    "ASIANAM 111", 
+                    "ASIANAM 112", 
+                    "ASIANAM 114", 
+                    "ASIANAM 116"
+                ]
             },
             {
-                "name": "Social Science/Social Ecology: ASIANAM 130-149",
-                "child": ["ASIANAM 130", "ASIANAM 132", "ASIANAM 137", "ASIANAM 138","ASIANAM 142", "ASIANAM 143", "ASIANAM 144"]
+                "name": "(b) Social Science/Social Ecology: ASIANAM 130-149",
+                "child": [
+                    "ASIANAM 130", 
+                    "ASIANAM 132", 
+                    "ASIANAM 137", 
+                    "ASIANAM 138",
+                    "ASIANAM 142", 
+                    "ASIANAM 143", 
+                    "ASIANAM 144"
+                ]
             },
             {
-                "name": "Asian American Sub-groups: ASIANAM 151-160",
-                "child": ["ASIANAM 151C", "ASIANAM 151D", "ASIANAM 151E", "ASIANAM 151F", "ASIANAM 151H", "ASIANAM 151J", "ASIANAM 151K"]
+                "name": "(b) Asian American Sub-groups: ASIANAM 151-160",
+                "child": [
+                    "ASIANAM 151C", 
+                    "ASIANAM 151D", 
+                    "ASIANAM 151E", 
+                    "ASIANAM 151F", 
+                    "ASIANAM 151H", 
+                    "ASIANAM 151J", 
+                    "ASIANAM 151K"
+                ]
             },
             {
-                "name": "Ethnic/Race/Gender Relations: ASIANAM 161-170",
-                "child": ["ASIANAM 162", "ASIANAM 164","ASIANAM 166","ASIANAM 168"]
+                "name": "(b) Ethnic/Race/Gender Relations: ASIANAM 161-170",
+                "child": [
+                    "ASIANAM 162", 
+                    "ASIANAM 164",
+                    "ASIANAM 166",
+                    "ASIANAM 168"
+                ]
             }
         ]
     },

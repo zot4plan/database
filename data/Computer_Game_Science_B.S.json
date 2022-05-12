@@ -1,9 +1,9 @@
 [
     {
-        "name": "Lower-division: A. Select one of the following series:",
+        "name": "Lower Division - A. Select one of the following series:",
         "child": [
             {
-                "name": "Group 1",
+                "name": "(b) Group 1",
                 "child":[
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "name": "Group 2",
+                "name": "(b) Group 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "name": "Lower Division: B. Complete:",
+        "name": "Lower Division - B. Complete:",
         "child": [
             {
                 "name": "",
@@ -54,7 +54,7 @@
         "name": "Upper-division",
         "child": [
             {
-                "name": "A. Computer Game Science Core Requirements",
+                "name": "(b) A. Computer Game Science Core Requirements",
                 "child": [
                     "COMPSCI 171",
                     "I&C SCI 161",
@@ -74,7 +74,7 @@
                 ]
             },
             {
-                "name": "B. Select two of the following:",
+                "name": "(b) B. Select two of the following:",
                 "child": [
                     "COMPSCI 122A",
                     "COMPSCI 132",
@@ -86,7 +86,7 @@
                 ]
             },
             {
-                "name": "C. CGS Elective Courses:",
+                "name": "(b) C. CGS Elective Courses:",
                 "child": []
             },
             {
@@ -107,7 +107,7 @@
         "name": "Bren ICS Tracks:",
         "child": [
             {
-                "name": "Algorithms:",
+                "name": "(b) Algorithms:",
                 "child": [
                     "COMPSCI 161",
                     "COMPSCI 162",
@@ -117,7 +117,7 @@
                 ]
             },
             {
-                "name": "Artificial Intelligence:",
+                "name": "(b) Artificial Intelligence:",
                 "child": [
                     "COMPSCI 171",
                     "COMPSCI 175",
@@ -127,7 +127,7 @@
                 ]
             },
             {
-                "name": "Computational Biology:",
+                "name": "(b) Computational Biology:",
                 "child": [
                     "COMPSCI 183",
                     "COMPSCI 184A",
@@ -135,7 +135,7 @@
                 ]
             },
             {
-                "name": "Computer Graphics and Vision:",
+                "name": "(b) Computer Graphics and Vision:",
                 "child": [
                     "COMPSCI 111",
                     "COMPSCI 112",
@@ -145,7 +145,7 @@
                 ]
             },
             {
-                "name": "Computer Networks:",
+                "name": "(b) Computer Networks:",
                 "child": [
                     "COMPSCI 131",
                     "COMPSCI 132",
@@ -158,7 +158,7 @@
                 ]
             },
             {
-                "name": "Databases:",
+                "name": "(b) Databases:",
                 "child": [
                     [
                         "COMPSCI 121",
@@ -170,7 +170,7 @@
                 ]
             },
             {
-                "name": "Hardware:",
+                "name": "(b) Hardware:",
                 "child": [
                     "COMPSCI 145",
                     "COMPSCI 151",
@@ -179,7 +179,7 @@
                 ]
             },
             {
-                "name": "Human-Computer Interaction:",
+                "name": "(b) Human-Computer Interaction:",
                 "child": [
                     "IN4MATX 131",
                     "IN4MATX 132",
@@ -188,7 +188,7 @@
                 ]
             },
             {
-                "name": "Operating Systems:",
+                "name": "(b) Operating Systems:",
                 "child": [
                     "COMPSCI 143A",
                     "COMPSCI 143B",
@@ -196,7 +196,7 @@
                 ]
             },
             {
-                "name": "Programming Languages and Compilers:",
+                "name": "(b) Programming Languages and Compilers:",
                 "child": [
                     "IN4MATX 101",
                     "IN4MATX 102",
@@ -205,7 +205,7 @@
                 ]
             },
             {
-                "name": "Social and Organizational Computing:",
+                "name": "(b) Social and Organizational Computing:",
                 "child": [
                     "IN4MATX 151",
                     "IN4MATX 153",
@@ -216,7 +216,7 @@
                 ]
             },
             {
-                "name": "Software Engineering:",
+                "name": "(b) Software Engineering:",
                 "child": [
                     "IN4MATX 113",
                     "IN4MATX 115",
@@ -232,7 +232,7 @@
         "name": "Non-Track Courses (some of these courses have prerequisites that are not part of the CGS major):",
         "child": [
             {
-                "name": "Computer Game Science:",
+                "name": "(b) Computer Game Science:",
                 "child": [
                     "I&C SCI 162",
                     "I&C SCI 163",
@@ -240,7 +240,7 @@
                 ]
             },
             {
-                "name": "Business Management:",
+                "name": "(b) Business Management:",
                 "child": [
                     "MGMT 101",
                     "MGMT 102",
@@ -250,7 +250,7 @@
                 ]
             },
             {
-                "name": "Cognitive Science:",
+                "name": "(b) Cognitive Science:",
                 "child": [
                     "PSYCH 130A",
                     "PSYCH 131A",
@@ -260,7 +260,7 @@
                 ]
             },
             {
-                "name": "Mathematics:",
+                "name": "(b) Mathematics:",
                 "child": [
                     "MATH 112A",
                     "MATH 112B",
@@ -271,7 +271,7 @@
                 ]
             },
             {
-                "name": "Film and Media Studies:",
+                "name": "(b) Film and Media Studies:",
                 "child": [
                     "FLM&MDA 113",
                     "FLM&MDA 114",

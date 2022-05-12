@@ -36,7 +36,7 @@
         "name": "Lower-Division Technical Elective:",
         "child": [
             {
-                "name": "Select one course from two of the sections:",
+                "name": "(b) Select one course from two of the sections:",
                 "child": []
             },
             {
@@ -101,19 +101,24 @@
             {
                 "name": "",
                 "child": [
-                    "ENGRCEE 40"
-                ]
-            },
-            {
-                "name": "or",
-                "child": [
-                    "ECON 20A",
-                    "ECON 20B",
                     "ENGR 190W",
                     [
                         "ENGRCEE 60",
                         "UPPP 8"
-                    ]
+                    ]  
+                ]
+            },
+            {
+                "name": "Select either:",
+                "child": [
+                    "ENGRCEE 40"
+                ]
+            },
+            {
+                "name": "Or:",
+                "child": [
+                    "ECON 20A",
+                    "ECON 20B"
                 ]
             }
         ]
@@ -131,7 +136,7 @@
         "name": "Specialization in General Civil Engineering:",
         "child": [
             {
-                "name": "Requires four courses, at least one course each from three of the following four options:",
+                "name": "(b) Requires four courses, at least one course each from three of the following four options:",
                 "child": []
             },
             {
@@ -175,7 +180,7 @@
         "name": "Specialization in Environmental Hydrology and Water Resources:",
         "child": [
             {
-                "name": "Select four of the following:",
+                "name": "(b) Select four of the following:",
                 "child": [
                     "ENGRCEE 163",
                     "ENGRCEE 164",
@@ -199,7 +204,7 @@
                 ]
             },
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "ENGRCEE 149",
                     "ENGRCEE 151B",
@@ -222,7 +227,7 @@
                 ]
             },
             {
-                "name": "Select two of the following:",
+                "name": "(b) Select two of the following:",
                 "child": [
                     "EECS 70A",
                     "ENGRCEE 124",

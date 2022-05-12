@@ -45,7 +45,11 @@
         "name": "Performance Specialization:",
         "child": [
             {
-                "name": "Technique: At a minimum, students must complete level III in Ballet, Modern, and Jazz (DANCE 133A, DANCE 133B, DANCE 133C, DANCE 143A, DANCE 143B, DANCE 143C, and DANCE 153A, DANCE 153B, DANCE 153C)  and level IV in either Ballet or Modern (DANCE 134A-DANCE 134B-DANCE 134C or DANCE 144A-DANCE 144B-DANCE 144C). Students who place above level III in any technique must take a year of that technique at the level in which they are placed.",
+                "name": "Technique: At a minimum, students must complete level III in Ballet, Modern, and Jazz (DANCE 133A, DANCE 133B, DANCE 133C, DANCE 143A, DANCE 143B, DANCE 143C, and DANCE 153A, DANCE 153B, DANCE 153C)  and level IV in either Ballet or Modern (DANCE 134A-DANCE 134B-DANCE 134C or DANCE 144A-DANCE 144B-DANCE 144C).",
+                "child": []
+            },
+            {
+                "name": "Students who place above level III in any technique must take a year of that technique at the level in which they are placed.",
                 "child": [
                     "DANCE 133A",
                     "DANCE 133B",

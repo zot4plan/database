@@ -73,22 +73,6 @@
                 ]
             },
             {
-                "name": "Either",
-                "child": [
-                    "PHYSICS 3A",
-                    "PHYSICS 3B",
-                    "PHYSICS 3C"
-                ]
-            },
-            {
-                "name": "or (with labs PHYSICS 7LC and PHYSICS 7LD)",
-                "child": [
-                    "PHYSICS 7C",
-                    "PHYSICS 7D",
-                    "PHYSICS 7E"
-                ]
-            },
-            {
                 "name": "",
                 "child": [
                     "PHYSICS 15",
@@ -97,6 +81,24 @@
                     "STATS 110",
                     "STATS 111",
                     "STATS 112"
+                ]
+            },
+            {
+                "name": "Either",
+                "child": [
+                    "PHYSICS 3A",
+                    "PHYSICS 3B",
+                    "PHYSICS 3C"
+                ]
+            },
+            {
+                "name": "Or PHYSICS 7C-7D-7E (with labs PHYSICS 7LC and PHYSICS 7LD)",
+                "child": [
+                    "PHYSICS 7C",
+                    "PHYSICS 7D",
+                    "PHYSICS 7E",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7LD"
                 ]
             },
             {

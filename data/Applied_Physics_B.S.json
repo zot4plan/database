@@ -31,7 +31,7 @@
         "name": "B. Complete one of the following series:",
         "child": [
             {
-                "name": "Series 1:",
+                "name": "(b) Series 1:",
                 "child": [
                     "PHYSICS 7C",
                     "PHYSICS 7LC",
@@ -41,7 +41,7 @@
                 ]
             },
             {
-                "name": "Series 2:",
+                "name": "(b) Series 2:",
                 "child": [
                     "PHYSICS 3A",
                     "PHYSICS 3B",
@@ -86,25 +86,65 @@
         "name": "E. Complete six units of lower-division laboratory using any combination of the following courses:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Combination 1:",
                 "child": [
                     "PHYSICS 52A",
                     "PHYSICS 52B",
-                    "PHYSICS 52C",
+                    "PHYSICS 52C"
+                ]
+            },
+            {
+                "name": "(b) Combination 2:",
+                "child": [
                     "CHEM 1LC",
-                    "CHEM 1LD",
+                    "CHEM 1LD"
+                ]
+            },
+            {
+                "name": "(b) Combination 3:",
+                "child": [
                     "CHEM H2LA",
-                    "CHEM H2LB",
+                    "CHEM H2LB"
+                ]
+            },
+            {
+                "name": "(b) Combination 4:",
+                "child": [
                     "CHEM M2LA",
-                    "CHEM M2LB",
+                    "CHEM M2LB"
+                ]
+            },
+            {
+                "name": "(b) Combination 5:",
+                "child": [
                     "CHEM 51LB",
-                    "CHEM 51LC",
+                    "CHEM 51LC"
+                ]
+            },
+            {
+                "name": "(b) Combination 6:",
+                "child": [
                     "CHEM H52LA",
-                    "CHEM H52LB",
+                    "CHEM H52LB"
+                ]
+            },
+            {
+                "name": "(b) Combination 7:",
+                "child": [
                     "CHEM M52LA",
-                    "CHEM M52LB",
+                    "CHEM M52LB"
+                ]
+            },
+            {
+                "name": "(b) Combination 8:",
+                "child": [
                     "ENGR 7A",
-                    "ENGR 7B",
+                    "ENGR 7B"
+                ]
+            },
+            {
+                "name": "(b) Combination 9:",
+                "child": [
                     "EECS 70LA",
                     "EECS 70LB"
                 ]
@@ -185,7 +225,7 @@
         "name": "Concentration in Biomedical Physics: ",
         "child":[
             {
-                "name": "A. Complete the following:",
+                "name": "(b) A. Complete the following:",
                 "child": [
                     "BIO SCI 97",
                     "BIO SCI 98",
@@ -193,7 +233,7 @@
                 ]
             },
             {
-                "name": "B. Select one of the following:",
+                "name": "(b) B. Select one of the following:",
                 "child": []
             },
             {
@@ -214,7 +254,7 @@
 
             },
             {
-                "name": "C. Select one of the following:",
+                "name": "(b) C. Select one of the following:",
                 "child": []
             },
             {
@@ -239,7 +279,7 @@
                 ]
             },
             {
-                "name": "D. Complete:",
+                "name": "(b) D. Complete:",
                 "child": [
                     "CHEM 51A",
                     "CHEM 51B"

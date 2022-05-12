@@ -44,7 +44,7 @@
                 "child": []
             },
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "EECS 12",
                     "EECS 20",
@@ -78,7 +78,7 @@
                 "child": []
             },
             {
-                "name": "Engineering Elective Courses:",
+                "name": "(b) Engineering Elective Courses:",
                 "child": []
             },
             {

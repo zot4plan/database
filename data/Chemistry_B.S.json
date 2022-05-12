@@ -16,7 +16,11 @@
                 ]
             },
             {
-                "name": "Select one of the following sequences and accompanying labs:",
+                "name": "(b) Select one of the following sequences and accompanying labs:",
+                "child": []
+            },
+            {
+                "name": "Sequence 1:",
                 "child": [
                     "CHEM M2A",
                     "CHEM M2B",
@@ -26,7 +30,7 @@
                 ]
             },
             {
-                "name": "Or",
+                "name": "Sequence 2:",
                 "child": [
                     "CHEM H2A",
                     "CHEM H2B",
@@ -36,24 +40,29 @@
                 ]
             },
             {
-                "name": "Complete the analytical chemistry laboratory",
+                "name": "(b) Complete the analytical chemistry laboratory",
                 "child": [
                     "CHEM M3LC"
                 ]
             },
             {
-                "name": "Select one of the following organic chemistry sequences and accompanying labs:",
+                "name": "(b) Select one of the following organic chemistry sequences and accompanying labs:",
                 "child": [
                     "CHEM 51A",
                     "CHEM 51B",
-                    "CHEM 51C",
+                    "CHEM 51C"
+                ]
+            },
+            {
+                "name": "Lab Sequence 1:",
+                "child": [
                     "CHEM M52LA",
                     "CHEM M52LB",
                     "CHEM M52LC"
                 ]
             },
             {
-                "name": "Or",
+                "name": "Lab Sequence 2:",
                 "child": [
                     "CHEM H52LA",
                     "CHEM H52LB",
@@ -61,7 +70,7 @@
                 ]
             },
             {
-                "name": "Complete:",
+                "name": "(b) Complete:",
                 "child": [
                     "CHEM 5",
                     "CHEM 107",
@@ -82,7 +91,7 @@
                 "child": []
             },
             {
-                "name": "Lectures:",
+                "name": "(b) Lectures:",
                 "child": [
                     "BIO SCI 98",
                     "BIO SCI 99",
@@ -131,7 +140,7 @@
                 ]
             },
             {
-                "name": "Laboratories:",
+                "name": "(b) Laboratories:",
                 "child": [
                     "BIO SCI M114L",
                     "BIO SCI M116L",

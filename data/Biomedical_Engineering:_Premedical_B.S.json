@@ -3,7 +3,7 @@
         "name": "Mathematics and Basic Science Courses:",
         "child": [
             {
-                "name": "Students must complete a minimum of 48 units of mathematics and basic sciences including:",
+                "name": "(b) Students must complete a minimum of 48 units of mathematics and basic sciences including:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
@@ -37,7 +37,7 @@
         "name": "Engineering Topics Courses:",
         "child": [
             {
-                "name": "Students must complete the following engineering topics including:",
+                "name": "(b) Students must complete the following engineering topics including:",
                 "child": [
                     "BIO SCI 97",
                     "BIO SCI 98",
@@ -74,7 +74,7 @@
         "name": "Optional Specialization in Biophotonics",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "BME 135",
                     "BME 136",
@@ -93,7 +93,7 @@
         "name": "Optional Specialization in Micro and Nano Biomedical Engineering",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "BME 142",
                     "BME 147",

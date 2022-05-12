@@ -31,15 +31,15 @@
         "name": "D. Completion of one of the three emphases:",
         "child": [
             {
-                "name": "1. Emphasis in Comparative Literature and Critical Theory",
+                "name": "(b) 1. Emphasis in Comparative Literature and Critical Theory",
                 "child": []
             },
             {
-                "name": "(a) Select five upper-division courses in Comparative Literature.",
+                "name": "a. Select five upper-division courses in Comparative Literature.",
                 "child": []
             },
             {
-                "name": "(b) Competence in a foreign language sufficient for reading and understanding literature and culture in that language may be demonstrated through course work in one of the following ways:",
+                "name": "b. Competence in a foreign language sufficient for reading and understanding literature and culture in that language may be demonstrated through course work in one of the following ways:",
                 "child": []
             },
             {
@@ -67,11 +67,11 @@
                 "child": []
             },
             {
-                "name": "2. Emphasis in Cultural Studies",
+                "name": "(b) 2. Emphasis in Cultural Studies",
                 "child": []
             },
             {
-                "name": "(a) Select six upper-division courses in Comparative Literature (three of which must be from the following list):",
+                "name": "a. Select six upper-division courses in Comparative Literature (three of which must be from the following list):",
                 "child": [
                     "COM LIT 105",
                     "COM LIT 130",
@@ -83,7 +83,7 @@
                 ]
             },
             {
-                "name": "3. Emphasis in World Literature",
+                "name": "(b) 3. Emphasis in World Literature",
                 "child": []
             },
             {

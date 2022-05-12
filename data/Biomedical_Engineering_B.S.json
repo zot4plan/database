@@ -7,7 +7,7 @@
                 "child": []
             },
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
@@ -38,7 +38,7 @@
                 "child": []
             },
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "BME 1",
                     "BME 50A",
@@ -90,7 +90,7 @@
         "name": "Optional Specialization in Biophotonics",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "BME 135",
                     "BME 136",
@@ -109,7 +109,7 @@
         "name": "Optional Specialization in Micro and Nano Biomedical Engineering",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "BME 142",
                     "BME 147",

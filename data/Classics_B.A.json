@@ -4,69 +4,86 @@
         "child": [
             {
                 "name": "A. Choose either Greek Focus or Latin Focus:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "1. Greek Focus:",
+                "name": "(b) 1. Greek Focus:",
                 "child": [
                     "CLASSIC 36A",
                     "CLASSIC 36B",
                     "CLASSIC 36C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select six upper-division courses in GREEK 100-104, GREEK 120",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "And select six upper-division courses in GREEK 100-104, GREEK 120",
+                "child": [
+                    "GREEK 100",
+                    "GREEK 103",
+                    "GREEK 104"
+                ]
             },
             {
-                "name": "and select three upper-division courses in LATIN 100-104",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "And select three upper-division courses in LATIN 100-104",
+                "child": [
+                    "LATIN 100",
+                    "LATIN 103",
+                    "LATIN 104"
+                ]
             },
             {
-                "name": "or",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "2. Latin Focus:",
+                "name": "(b) 2. Latin Focus:",
                 "child": [
                     "CLASSIC 37A",
                     "CLASSIC 37B",
                     "CLASSIC 37C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select six upper-division courses in LATIN 100-104",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "And select six upper-division courses in LATIN 100-104",
+                "child": [
+                    "LATIN 100",
+                    "LATIN 103",
+                    "LATIN 104"
+                ]
             },
             {
-                "name": "and select three upper-division courses in GREEK 100-104",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "And select three upper-division courses in GREEK 100-104",
+                "child": [
+                    "GREEK 100",
+                    "GREEK 103",
+                    "GREEK 104"
+                ]
             },
             {
                 "name": "B. One additional upper-division course in Greek or Latin. One upper-division Classics class (CLASSIC 140, CLASSIC 150, CLASSIC 160, CLASSIC 170, CLASSIC 176) may be substituted for the upper-division Greek or Latin course with prior approval of the departmental undergraduate advisor.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "CLASSIC 140",
+                    "CLASSIC 150",
+                    "CLASSIC 160",
+                    "CLASSIC 170",
+                    "CLASSIC 176"
+                ]
             },
             {
                 "name": "C. Senior Capstone Requirement:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects. All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198, CLASSIC 199, or GREEK 199 may be substituted for CLASSIC 192A-CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects.",
+                "child": [
+                    "CLASSIC 192A",
+                    "CLASSIC 192B"
+                ]
+            },
+            {
+                "name": "All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198, CLASSIC 199, or GREEK 199 may be substituted for CLASSIC 192A-CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
+                "child": [
+                    "CLASSIC 198",
+                    "CLASSIC 199",
+                    "GREEK 199"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Emphasis in Latin Language and Literature",
@@ -77,13 +94,15 @@
                     "CLASSIC 37A",
                     "CLASSIC 37B",
                     "CLASSIC 37C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select six upper-division courses in LATIN 100-104.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "LATIN 100",
+                    "LATIN 103",
+                    "LATIN 104"
+                ]
             },
             {
                 "name": "C. Select four upper-division courses from the following:",
@@ -95,26 +114,33 @@
                     "CLASSIC 160",
                     "CLASSIC 170",
                     "CLASSIC 176"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Courses taken in another UCI department may be substituted with prior approval of the departmental undergraduate advisor; three of these courses must be Roman in topic (the fourth course may have a Greek topic).",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "D. Senior Capstone Requirement:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects. All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198, CLASSIC 199,  LATIN 198,  or LATIN 199 may be substituted for CLASSIC 192A- CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects.",
+                "child": [
+                    "CLASSIC 192A",
+                    "CLASSIC 192B"
+                ]
+            },
+            {
+                "name": "All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198, CLASSIC 199,  LATIN 198,  or LATIN 199 may be substituted for CLASSIC 192A- CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
+                "child": [
+                    "CLASSIC 198",
+                    "CLASSIC 199",
+                    "LATIN 198",
+                    "LATIN 199"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Emphasis in Classical Civilization",
@@ -124,54 +150,75 @@
                 "child": [
                     "LATIN 1A",
                     "LATIN 1B",
-                    "LATIN 1C",
+                    "LATIN 1C"
+                ]
+            },
+            {
+                "name": "Or:",
+                "child": [
                     "GREEK 1A",
                     "GREEK 1B",
                     "GREEK 1C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "or equivalent",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "and select one of the following:",
+                "name": "And select one of the following:",
+                "child": []
+            },
+            {
+                "name": "Sequence 1:",
                 "child": [
                     "CLASSIC 36A",
                     "CLASSIC 36B",
-                    "CLASSIC 36C",
+                    "CLASSIC 36C"
+                ]
+            },
+            {
+                "name": "Sequence 2:",
+                "child": [
                     "CLASSIC 37A",
                     "CLASSIC 37B",
-                    "CLASSIC 37C",
+                    "CLASSIC 37C"
+                ]
+            },
+            {
+                "name": "Sequence 3:",
+                "child": [
                     "CLASSIC 45A",
                     "CLASSIC 45B",
                     "CLASSIC 45C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "B. Select five upper-division Classics courses.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "C. Select two additional upper-division Classics courses. These courses may be in Classics, Greek, Latin, History, Art History, Philosophy, or other related field. Courses must focus on the ancient Mediterranean and if taken in another UCI department, must have the prior approval of the departmental undergraduate advisor.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "D. Senior Capstone Requirement:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects. All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198 or CLASSIC 199 may be substituted for CLASSIC 192A-CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "CLASSIC 192A-CLASSIC 192B (or equivalent) taken during the senior year. Under the guidance of a faculty mentor, students design and execute a senior project. Students may plan a project centering on an area of strong interest and may write a research paper, design a creative project, a primary or secondary school curriculum, or other similar projects.",
+                "child": [
+                    "CLASSIC 192A",
+                    "CLASSIC 192B"
+                ]
+            },
+            {
+                "name": "All project proposals must be approved by the end of CLASSIC 192A. Six units of CLASSIC 198 or CLASSIC 199 may be substituted for CLASSIC 192A-CLASSIC 192B with prior approval of the departmental undergraduate advisor.",
+                "child": [
+                    "CLASSIC 198",
+                    "CLASSIC 199"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

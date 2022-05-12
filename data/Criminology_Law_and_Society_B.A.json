@@ -14,7 +14,7 @@
         "name": "B. Select one course from each of the following four groups:",
         "child": [
             {
-                "name": "(1) The Legal System, Law and Society",
+                "name": "(b) (1) The Legal System, Law and Society",
                 "child": [
                     "CRM/LAW C101",
                     "CRM/LAW C102",
@@ -26,7 +26,7 @@
                 ]
             },
             {
-                "name": "(2) Crime and Criminology",
+                "name": "(b) (2) Crime and Criminology",
                 "child": [
                     "CRM/LAW C106",
                     "CRM/LAW C107",
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "name": "(3) Formal Institutions of Social Control",
+                "name": "(b) (3) Formal Institutions of Social Control",
                 "child": [
                     "CRM/LAW C111",
                     "CRM/LAW C112",
@@ -50,7 +50,7 @@
                 ]
             },
             {
-                "name": "(4) Justice and Inequalities",
+                "name": "(b) (4) Justice and Inequalities",
                 "child": [
                     "CRM/LAW C113",
                     "CRM/LAW C116",

@@ -48,7 +48,7 @@
                 "child": []
             },
             {
-                "name": "Emphasis in Accounting:",
+                "name": "(b) Emphasis in Accounting:",
                 "child": [
                     "MGMT 131A"
                 ]
@@ -67,7 +67,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Finance:",
+                "name": "(b) Emphasis in Finance:",
                 "child": [
                     "MGMT 141"
                 ]
@@ -81,7 +81,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Information Systems (three courses):",
+                "name": "(b) Emphasis in Information Systems (three courses):",
                 "child": [
                     "MGMT 171",
                     "MGMT 173",
@@ -91,7 +91,7 @@
             },
         
             {
-                "name": "Emphasis in Marketing (three courses):",
+                "name": "(b) Emphasis in Marketing (three courses):",
                 "child": [
                     "MGMT 150",
                     "MGMT 151",
@@ -100,7 +100,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Operations and Decision Technologies:",
+                "name": "(b) Emphasis in Operations and Decision Technologies:",
                 "child": [
                     "MGMT 189"
                 ]
@@ -113,7 +113,7 @@
                 ]
             },
             {
-                "name": "Emphasis in Organization and Management (three courses):",
+                "name": "(b) Emphasis in Organization and Management (three courses):",
                 "child": [
                     "MGMT 125",
                     "MGMT 126",
