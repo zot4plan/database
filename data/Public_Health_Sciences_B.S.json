@@ -44,13 +44,13 @@
                 "child": []
             },
             {
-                "name": "Psychology:",
+                "name": "(b) Psychology:",
                 "child": [
                     "PSCI 9"
                 ]
             },
             {
-                "name": "Sociology:",
+                "name": "(b) Sociology:",
                 "child": [
                     "SOCIOL 1",
                     "SOCIOL 2",
@@ -58,7 +58,7 @@
                 ]
             },
             {
-                "name": "Economics:",
+                "name": "(b) Economics:",
                 "child": [
                     "ECON 1",
                     "ECON 13",
@@ -67,7 +67,7 @@
                 ]
             },
             {
-                "name": "Anthropology:",
+                "name": "(b) Anthropology:",
                 "child": [
                     "ANTHRO 2A",
                     "ANTHRO 2B",
@@ -77,20 +77,20 @@
                 ]
             },
             {
-                "name": "Political Science:",
+                "name": "(b) Political Science:",
                 "child": [
                     "POL SCI 31A",
                     "POL SCI 51A"
                 ]
             },
             {
-                "name": "Social Ecology:",
+                "name": "(b) Social Ecology:",
                 "child": [
                     "UPPP 8"
                 ]
             },
             {
-                "name": "International Studies:",
+                "name": "(b) International Studies:",
                 "child": [
                     "INTL ST 11",
                     "INTL ST 13"
@@ -121,7 +121,7 @@
                 "child": []
             },
             {
-                "name": "1. Epidemiology, Genetics, and Health Informatics:",
+                "name": "(b) 1. Epidemiology, Genetics, and Health Informatics:",
                 "child": [
                     "BIO SCI D137",
                     "BIO SCI D148",
@@ -139,7 +139,7 @@
                 ]
             },
             {
-                "name": "2. Environmental and Global Health Sciences:",
+                "name": "(b) 2. Environmental and Global Health Sciences:",
                 "child": [
                     "ANTHRO 125B",
                     "ANTHRO 128B",
@@ -173,7 +173,7 @@
                 ]
             },
             {
-                "name": "3. Infectious and Chronic Diseases:",
+                "name": "(b) 3. Infectious and Chronic Diseases:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E112L",

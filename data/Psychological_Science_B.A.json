@@ -30,7 +30,7 @@
         "name": "C. Six upper-division courses (24 units) chosen from the following:",
         "child": [
             {
-                "name": "C-1. Choose one course from three different groups:",
+                "name": "(b) C-1. Choose one course from three different groups:",
                 "child": []
             },
             {
@@ -101,7 +101,7 @@
                 ]
             },
             {
-                "name": "C-2. Three additional upper-division courses chosen from the specialty areas in C-1 above or from:",
+                "name": "(b) C-2. Three additional upper-division courses chosen from the specialty areas in C-1 above or from:",
                 "child": [
                     "PSCI 100",
                     "PSCI 196",

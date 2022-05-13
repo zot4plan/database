@@ -3,7 +3,7 @@
         "name": "A. Lower-Division Requirements:",
         "child": [
             {
-                "name": "1. Select one of the following sequences:",
+                "name": "(b) 1. Select one of the following sequences:",
                 "child": [
                     "CHEM 1A",
                     "CHEM 1B",
@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "name": "2. Complete:",
+                "name": "(b) 2. Complete:",
                 "child": [
                     "MATH 2A",
                     "MATH 2B"
@@ -73,7 +73,7 @@
                 ]
             },
             {
-                "name": "3. Select one of the following physics sequences:",
+                "name": "(b) 3. Select one of the following physics sequences:",
                 "child": [
                     "PHYSICS 3A",
                     "PHYSICS 3B",
@@ -89,7 +89,7 @@
                 ]
             },
             {
-                "name": "4. Complete:",
+                "name": "(b) 4. Complete:",
                 "child": [
                     "BIO SCI 93",
                     "BIO SCI 94",
@@ -99,7 +99,7 @@
                 ]
             },
             {
-                "name": "5. Complete:",
+                "name": "(b) 5. Complete:",
                 "child": [
                     "PHRMSCI 1",
                     "PHRMSCI 42",

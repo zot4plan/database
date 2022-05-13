@@ -66,11 +66,11 @@
         "name": "F. Global Focus:",
         "child": [
             {
-                "name:": "Select five upper-division courses. At least two courses must be from Module A.",
+                "name": "Select five upper-division courses. At least two courses must be from Module A.",
                 "child": []
             },
             {
-                "name": "Module A:",
+                "name": "(b) Module A:",
                 "child": [
                     "INTL ST 100",
                     "INTL ST 101A",
@@ -86,7 +86,7 @@
                 ]
             },
             {
-                "name": "Module B:",
+                "name": "(b) Module B:",
                 "child": []
             },            
             {

@@ -33,7 +33,7 @@
         "name": "C. Select one of the following series:",
         "child": [
             {
-                "name": "STATS 120A-B-C",
+                "name": "(b) STATS 120A-B-C",
                 "child": [
                     "STATS 120A",
                     "STATS 120B",
@@ -41,7 +41,7 @@
                 ]
             },
             {
-                "name": "MATH 130A-B-C",
+                "name": "(b) MATH 130A-B-C",
                 "child": [
                     "MATH 130A",
                     "MATH 130B",

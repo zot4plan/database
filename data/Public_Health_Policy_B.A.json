@@ -30,13 +30,13 @@
                 "child": []
             },
             {
-                "name": "Psychology:",
+                "name": "(b) Psychology:",
                 "child": [
                     "PSCI 9"
                 ]
             },
             {
-                "name": "Sociology:",
+                "name": "(b) Sociology:",
                 "child": [
                     "SOCIOL 1",
                     "SOCIOL 2",
@@ -44,7 +44,7 @@
                 ]
             },
             {
-                "name": "Economics:",
+                "name": "(b) Economics:",
                 "child": [
                     "ECON 1",
                     "ECON 13",
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "name": "Anthropology:",
+                "name": "(b) Anthropology:",
                 "child": [
                     "ANTHRO 2A",
                     "ANTHRO 2B",
@@ -63,20 +63,20 @@
                 ]
             },
             {
-                "name": "Political Science:",
+                "name": "(b) Political Science:",
                 "child": [
                     "POL SCI 31A",
                     "POL SCI 51A"
                 ]
             },
             {
-                "name": "Social Ecology:",
+                "name": "(b) Social Ecology:",
                 "child": [
                     "UPPP 8"
                 ]
             },
             {
-                "name": "International Studies:",
+                "name": "(b) International Studies:",
                 "child": [
                     "INTL ST 11",
                     "INTL ST 13"
@@ -105,7 +105,7 @@
                 "child": []
             },
             {
-                "name": "Health Policy and Management:",
+                "name": "(b) Health Policy and Management:",
                 "child": [
                     "ECON 123A",
                     "ECON 123B",
@@ -136,7 +136,7 @@
                 ]
             },
             {
-                "name": "Social and Behavioral Health Sciences:",
+                "name": "(b) Social and Behavioral Health Sciences:",
                 "child": [
                     "ANTHRO 134A",
                     "ANTHRO 134C",

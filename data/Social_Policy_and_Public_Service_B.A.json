@@ -88,7 +88,7 @@
         "name": "H. Functional Focus: 12 units in one of the following areas:",
         "child": [            
             {
-                "name": "Education:",
+                "name": "(b) Education:",
                 "child": [
                     "EDUC 124",
                     "EDUC 126",
@@ -103,7 +103,7 @@
                 ]
             },
             {
-                "name": "Governance:",
+                "name": "(b) Governance:",
                 "child": [
                     "ANTHRO 121J",
                     "INTL ST 161A",
@@ -138,7 +138,7 @@
                 ]
             },
             {
-                "name": "Health:",
+                "name": "(b) Health:",
                 "child": [
                     "ANTHRO 128B",
                     "ANTHRO 132A",

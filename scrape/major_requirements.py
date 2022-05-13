@@ -160,8 +160,8 @@ def write_url(all_url):
 
 
 def write_to_json(name, info):
-    name = name.replace(' ', '_')
-    name = name.replace(',', '').replace('/', '-')
+    
+    name = name.replace(' ', '_').replace(',', '').replace('/', '-')
     with open('../data/' + name + 'json', 'w') as f:
         json_version = []
         for elem in info:

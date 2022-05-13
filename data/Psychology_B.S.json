@@ -35,7 +35,7 @@
                 "child": []
             },
             {
-                "name": "Background in Science",
+                "name": "(b) Background in Science",
                 "child": [
                     "BIO SCI 35",
                     "BIO SCI 36",
@@ -77,7 +77,7 @@
                 "child": []
             },
             {
-                "name": "Additional Science Background",
+                "name": "(b) Additional Science Background",
                 "child": [
                     "MATH 2A",
                     "MATH 2B",
@@ -106,7 +106,7 @@
         "name": "E. Select four from the following:",
         "child": [
             {
-                "name": "Psychology Core Courses",
+                "name": "(b) Psychology Core Courses",
                 "child": [
                     "PSYCH 120A",
                     "PSYCH 120D",
@@ -132,7 +132,7 @@
                 "child": []
             },
             {
-                "name": "PSYCH 120 to PSYCH 129 (General):",
+                "name": "(b) PSYCH 120 to PSYCH 129 (General):",
                 "child": [
                     "PSYCH 120A",
                     "PSYCH 120D",
@@ -150,7 +150,7 @@
                 ]
             },
             {
-                "name": "PSYCH 130 to PSYCH 139 (Perception and Sensory Processes):",
+                "name": "(b) PSYCH 130 to PSYCH 139 (Perception and Sensory Processes):",
                 "child": [
                     "PSYCH 130A",
                     "PSYCH 131A",
@@ -160,7 +160,7 @@
                 ]
             },
             {
-                "name": "PSYCH 140 to PSYCH 149 (Cognition and Learning):",
+                "name": "(b) PSYCH 140 to PSYCH 149 (Cognition and Learning):",
                 "child": [
                     "PSYCH 140C",
                     "PSYCH 140J",
@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "name": "PSYCH 150 to PSYCH 159 (Language):",
+                "name": "(b) PSYCH 150 to PSYCH 159 (Language):",
                 "child": [
                     "PSYCH 150",
                     "PSYCH 156A",
@@ -181,7 +181,7 @@
                 ]
             },
             {
-                "name": "PSYCH 160 to PSYCH 169 (Cognitive Neuroscience):",
+                "name": "(b) PSYCH 160 to PSYCH 169 (Cognitive Neuroscience):",
                 "child": [
                     "PSYCH 160A",
                     "PSYCH 160D",
@@ -199,7 +199,7 @@
         "name": "G. Select three of the following:",
         "child": [
             {
-                "name": "Research Methods",
+                "name": "(b) Research Methods",
                 "child": [
                     "PSYCH 112A",
                     "PSYCH 112LA",

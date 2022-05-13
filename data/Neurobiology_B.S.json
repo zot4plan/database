@@ -63,7 +63,7 @@
         "name": "D. Upper-Division Biology Electives:",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": []
             },
             {
@@ -71,7 +71,7 @@
                 "child": []
             },
             {
-                "name": "And select one four-unit course from the following:",
+                "name": "(b) Select one four-unit course from the following:",
                 "child": []
             },
             {

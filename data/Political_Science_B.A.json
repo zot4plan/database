@@ -30,7 +30,7 @@
 
             },          
             {
-                "name": "American Politics and Government (POL SCI 120-129)",
+                "name": "(b) American Politics and Government (POL SCI 120-129)",
                 "child": [
                     "POL SCI 120",
                     "POL SCI 121A",
@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "name": "Political Theory and Methods (POL SCI 130-139)",
+                "name": "(b) Political Theory and Methods (POL SCI 130-139)",
                 "child": [
                     "POL SCI 130A",
                     "POL SCI 130B",
@@ -78,7 +78,7 @@
                 ]
             },
             {
-                "name": "International Relations (POL SCI 140-149)",
+                "name": "(b) International Relations (POL SCI 140-149)",
                 "child": [
                     "POL SCI 141B",
                     "POL SCI 141C",
@@ -99,7 +99,7 @@
                 ]
             },
             {
-                "name": "Comparative Politics (POL SCI 150-159)",
+                "name": "(b) Comparative Politics (POL SCI 150-159)",
                 "child": [
                     "POL SCI 151B",
                     "POL SCI 151C",
@@ -123,7 +123,7 @@
                 ]
             },
             {
-                "name": "Public Law (POL SCI 170-179)",
+                "name": "(b) Public Law (POL SCI 170-179)",
                 "child": [
                     "POL SCI 171AW",
                     "POL SCI 171CW",
