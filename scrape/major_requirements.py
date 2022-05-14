@@ -178,5 +178,5 @@ if __name__ == "__main__":
     #     if major_info != None:
     #         write_to_json(elem[0], major_info)
 
-    major_info = scrape_courses('https://catalogue.uci.edu/interdisciplinarystudies/environmentalscienceandpolicy_ba/#requirementstext')
-    write_to_json('Environmental Science and Policy, B.A.', major_info)
+    major_info = scrape_courses('https://catalogue.uci.edu/schoolofbiologicalsciences/humanbiology_bs/#requirementstext')
+    write_to_json('Human Biology, B.S.', major_info)

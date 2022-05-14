@@ -1,0 +1,121 @@
+[
+    {
+        "name": "A. Required Major Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI E109",
+                    "BIO SCI N110",
+                    "BIO SCI N120A",
+                    "BIO SCI N120B",
+                    "BIO SCI N120C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-Division Laboratories:",
+        "child": [
+            {
+                "name": "Select three of the following:",
+                "child": [
+                    "BIO SCI D111L",
+                    "BIO SCI E106L",
+                    "BIO SCI E112L",
+                    "BIO SCI E115L",
+                    "BIO SCI E131L",
+                    "BIO SCI E140L",
+                    "BIO SCI E160L",
+                    "BIO SCI E166L",
+                    "BIO SCI E179L",
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "BIO SCI M121L",
+                    "BIO SCI M130L",
+                    "BIO SCI N113L"
+                ]
+            },
+            {
+                "name": "One laboratory can be satisfied with completion of Excellence in Research in the Biological Sciences.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "C. Upper-Division Biology Electives:",
+        "child": [
+            {
+                "name": "Select two upper-division, four-unit courses from the following:",
+                "child": [                    
+                    "PHRMSCI 170A",
+                    "PHRMSCI 170B",
+                    "PHRMSCI 171",
+                    "PHRMSCI 173",
+                    "PHRMSCI 174",
+                    "PHRMSCI 177"]
+            },
+            {
+                "name": "BIO SCI D103-D190, E106-E190, M114-M190, N110-N190",
+                "child": []
+            },
+            {
+                "name": "BIO SCI D103, BIO SCI D104, BIO SCI D105, BIO SCI E106, BIO SCI E109, BIO SCI N110 may not be used to satisfy more than one requirement.",
+                "child": []
+            },
+            {
+                "name": "The following course can be used to partially satisfy the Upper-Division Biology Elective Requirement:",
+                "child": [
+                    "PHYSICS 147B"
+                ]
+            },
+            {
+                "name": "Additionally, Psychology/Biological Sciences double majors may also use PSYCH 112A-PSYCH 112C to partially satisfy the Upper-Division Biology Elective Requirement.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Behavioral Science Courses (choose 1 option):",
+        "child": [
+            {
+                "name": "(b) Option 1",
+                "child": [
+                    "ANTHRO 2A",
+                    "PSYCH 7A",
+                    "SOCIOL 1"
+                ]
+            },
+            {
+                "name": "(b) Option 2",
+                "child": [
+                    "SOC SCI H1E",
+                    "SOC SCI H1F",
+                    "SOC SCI H1G"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. HUMAN 1A-HUMAN 1AS-HUMAN 1B-HUMAN 1BS-HUMAN 1C-HUMAN 1CS.",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HUMAN 1A",
+                    "HUMAN 1AS",
+                    "HUMAN 1B",
+                    "HUMAN 1BS",
+                    "HUMAN 1C",
+                    "HUMAN 1CS"
+                ]
+            },
+            {
+                "name": "Or Humanities Core Alternative (including MED HUM 1 and MED HUM 3)",
+                "child": []
+            }
+        ]
+    }
+]
