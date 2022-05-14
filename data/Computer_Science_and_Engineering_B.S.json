@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Mathematics and Basic Science Courses",
+        "child": [
+            {
+                "name": "(b) Mathematics Courses:",
+                "child": []
+            }, 
+            {    
+                "name": "Students must complete a minimum of 32 units of mathematics including:",
+                "child": [
+                    "I&C SCI 6B",
+                    "I&C SCI 6D",
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MATH 2D",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "STATS 67"
+                ]
+            },
+            {
+                "name": "(b) Basic Science Courses:",
+                "child": []
+            },
+            {
+                "name": "Students must complete a minimum of 18 units of basic science courses including:",
+                "child": [
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7D",
+                    "PHYSICS 7LD"
+                ]
+            },
+            {
+                "name": "Students select, with the approval of a faculty advisor, two additional basic science courses needed to satisfy school and department requirements from two courses in General Education II, except those offered by Computer Science and Engineering, Economics, Engineering, Information and Computer Sciences, or Math.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering and Computing Topics Courses",
+        "child": [
+            {
+                "name": "Students must complete a minimum of 72 units of engineering topics, 24 units of engineering design, and 63 units of computing topics. All courses below qualify as engineering topics; those marked with an asterisk (*) qualify as computing topics also. The following courses must be completed:",
+                "child": []
+            },
+            {
+                "name": "(b) A. Select one of the following course groups:",
+                "child": []
+            },
+            {
+                "name": "Group 1:",
+                "child": [
+                    "I&C SCI 31",
+                    "I&C SCI 32",
+                    "I&C SCI 33"
+                ]
+            },
+            {
+                "name": "Group 2",
+                "child": [
+                    "I&C SCI 32A",
+                    "I&C SCI 33"
+                ]
+            },
+            {
+                "name": "(b) B. Complete:",
+                "child": [
+                    [
+                        "COMPSCI 132",
+                        "EECS 148"
+                    ],
+                    [
+                        "COMPSCI 143A",
+                        "EECS 111"
+                    ],
+                    "EECS 31",
+                    "EECS 31L",
+                    "I&C SCI 45C",
+                    "I&C SCI 46",
+                    "EECS 50",
+                    "EECS 70A",
+                    "CSE 90",
+                    "CSE 112",
+                    "EECS 112",
+                    "EECS 112L",
+                    "COMPSCI 141",
+                    "COMPSCI 142A",
+                    "COMPSCI 145",
+                    "COMPSCI 145L",
+                    "COMPSCI 161",
+                    "EECS 159A",
+                    "EECS 159B",
+                    "ENGR 190W",
+                    "IN4MATX 43"
+                ]
+            },
+            {
+                "name": "Students select, with the approval of a faculty advisor, any additional engineering and computer topics courses needed to satisfy school and department requirements.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Technical Elective Courses:",
+        "child": [
+            {
+                "name": "Students must complete a minimum of two courses (with 3 or more units each) of technical electives. A technical elective may be any upper-division course from the Departments of Computer Science, Electrical Engineering and Computer Science, or Informatics, not otherwise used for the CSE degree, chosen from the following ranges:",
+                "child": []
+            },
+            {
+                "name": "(b) Computer Science: 100-189, except COMPSCI 121",
+                "child": []
+            },
+            {
+                "name": "(b) Electrical Engineering and Computing Science: 100-189",
+                "child": []
+            },
+            {
+                "name": "(b) Informatics: 100-139",
+                "child": []
+            }
+        ]
+    }
+]

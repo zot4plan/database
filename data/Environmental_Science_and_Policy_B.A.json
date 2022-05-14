@@ -1,0 +1,175 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "(b) Pick either",
+                "child": [
+                    "EARTHSS 40A"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "CHEM 1A",
+                    "CHEM 1B",
+                    "CHEM 1C",
+                    "CHEM 1LC",
+                    "CHEM 1LD"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "CHEM H2A",
+                    "CHEM H2B",
+                    "CHEM H2C",
+                    "CHEM H2LA",
+                    "CHEM H2LB",
+                    "CHEM H2LC"
+                ]
+            },
+            {
+                "name": "(b) Pick Either",
+                "child": [
+                    "EARTHSS 40B"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 94"
+                ]
+            },
+            {
+                "name": "(b) Pick either",
+                "child": [
+                    "EARTHSS 40C"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "PHYSICS 3A",
+                    "PHYSICS 3B",
+                    "PHYSICS 3C",
+                    "PHYSICS 3LB",
+                    "PHYSICS 3LC"
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "PHYSICS 7C",
+                    "PHYSICS 7D",
+                    "PHYSICS 7E",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7D"
+                ]
+            },
+            {
+                "name": "(b) Complete",
+                "child": [
+                    "UPPP 8",
+                    "UPPP 5"
+                ]
+            },
+            {
+                "name": "(b) Pick either",
+                "child": [
+                    [
+                        "STATS 7",
+                        "STATS 8",
+                        "SOCECOL 13"
+                    ]
+                ]
+            },
+            {
+                "name": "Or",
+                "child": [
+                    "SOC SCI 10A",
+                    "SOC SCI 10B",
+                    "SOC SCI 10C"
+                ]
+            },
+            {
+                "name": "(b) Complete",
+                "child": [
+                    "EARTHSS 70A",
+                    "EARTHSS 70B",
+                    "EARTHSS 116",
+                    "EARTHSS 192",
+                    "SOCECOL 10"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "SOCECOL 195",
+                    "SOCECOL 195W",
+                    "SOCECOL 195B",
+                    "SOCECOL 195CW"
+                ]
+            },
+            {
+                "name": "UC Washington, D.C. (UCDC) Academic Internship Program",
+                "child": []
+            },
+            {
+                "name": "UC Center Sacramento Academic Internship Program",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "C. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "UPPP 131",
+                    "UPPP 133",
+                    "UPPP 139",
+                    "UPPP 142",
+                    "UPPP 145",
+                    "UPPP 146"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Seven 4-unit upper-division courses from the list below, with at least two courses from UPPP and two courses from EARTHSS:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EARTHSS 199",
+                    "SOCECOL 199",
+                    [
+                        "SOCECOL H190A",
+                        "SOCECOL H190W"
+                    ],
+                    [
+                        "EARTHSS H199A",
+                        "EARTHSS H199B",
+                        "EARTHSS H199C"
+                    ]
+                ]
+            },
+            {
+                "name": "UPPP or EARTHSS courses (100-196)",
+                "child": []
+            },
+            {
+                "name": "Courses used to count toward degree requirements may not be used as electives. Up to two of the seven electives can be satisfied with 4-unit EARTHSS 199, EARTHSS H199A, EARTHSS H199B, EARTHSS H199C, and/or 4-unit SOCECOL 199 or SOCECOL H190W courses. For this requirement, SOCECOL 199 courses can be counted as UPPP electives.",
+                "child": []
+            }
+        ]
+    }
+]

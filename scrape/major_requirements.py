@@ -172,8 +172,11 @@ def write_to_json(name, info):
 
 
 if __name__ == "__main__":
-    all_websites = get_websites()
-    for elem in all_websites:
-        majorInfo = scrape_courses(elem[1])
-        if majorInfo != None:
-            write_to_json(elem[0], majorInfo)
+    # all_websites = get_websites()
+    # for elem in all_websites:
+    #     major_info = scrape_courses(elem[1])
+    #     if major_info != None:
+    #         write_to_json(elem[0], major_info)
+
+    major_info = scrape_courses('https://catalogue.uci.edu/interdisciplinarystudies/environmentalscienceandpolicy_ba/#requirementstext')
+    write_to_json('Environmental Science and Policy, B.A.', major_info)

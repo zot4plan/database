@@ -1,5 +1,5 @@
 import json 
-file_names = ["../data/Software_Engineering_B.S.json"]
+file_names = ["../data/Environmental_Science_and_Policy_B.A.json"]
 for elem in file_names: 
     with open(elem, 'r') as f: 
         data = json.load(f)
