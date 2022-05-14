@@ -8,7 +8,18 @@ in_list = json.load(f)
 Data = {elem for elem in in_list}
 f.close()
 
+"""
+Header is a class that allows user to form a data strcuture that stores information regarding 
+UCI major requirements. It can be used to differentiate the difference between header, courses,
+and addtional comments given from a major requirement table. Any information related to a section
+will be nested within its header. 
+"""
 class Header:
+    """ 
+    Instantiate all necessary attributes that allows users to have nested data structure that header name
+    and any courses that belonged in the same section
+    """
+
     def __init__(self, name, typeParent = None):
         self.name = name
         self.child = []
@@ -29,7 +40,9 @@ def request_websites(url):
 def get_websites():
     """
     get_websites scrapes all the redirected websites in the main page of UCI major requirements.
+    return: a list of all the URL addresses that display UCI major requirements
     """
+
     major_urls = {}
     all_href = []
     prefered = ['bs/', 'ba/', 'bfa/']
@@ -51,6 +64,8 @@ def get_websites():
 def get_name(in_string):
     """
     get_name scrapes the course name - excluding any trailing characters or integers.
+    :param in_string: UCI course ID (type = string)
+    :return: the name of the course (type = string)
     """
 
     name = ''
@@ -63,35 +78,19 @@ def get_name(in_string):
 
 
 def expand_series(courses):
+    """ 
+    expand_series takes in a string of characters that have multiple courses
+    displayed together, connected by '-'. The function extracts '-' characters
+    and separate courses in the given string
+    :param courses: a string of characters that contains a series of courses
+    :return: a list of courses in the provided string
+    """
 
     items = courses.split('- ')
     name = get_name(items[0])
     for x in range(1, len(items)):
         items[x] = name + ' ' + items[x]
     return items
-
-
-def get_series(all_courses, in_string, name):
-    """
-    get_series splits any course series by '-' and check the validity of all
-    courses within that range.
-    """
-
-    num_series = []
-    in_string = in_string.replace(" ", '')
-    course_series = in_string.split('-')
-    for i in range(len(course_series)):
-        if((i + 1) < len(course_series) and course_series[i].isdigit() and course_series[i+1].isdigit()):
-            for j in range(int(course_series[i]), int(course_series[i+1]) + 1):
-                full_name = name + ' ' +str(j)
-                if full_name in Data:
-                    if (len(num_series) > 0 and num_series[-1] != full_name) or len(num_series) == 0:
-                        num_series.append(full_name)  
-        elif (len(num_series) > 0 and num_series[-1] != name + ' ' + course_series[i]) or len(num_series) == 0:
-            if (name + ' ' + course_series[i]) in Data:
-                num_series.append(name + ' ' + course_series[i])
-    
-    return num_series
 
 
 def scrape_courses(url):
@@ -155,11 +154,16 @@ def write_url(all_url):
     """
     write_url will saves all of the major requirement urls into a json file.
     """
+
     with open('../database/majorUrls.json', 'w') as f:
         json.dump(all_url, f, indent=4)
 
 
 def write_to_json(name, info):
+    """
+    write_to_json takes in a Header object and writes the information out
+    into a JSON file
+    """
     
     name = name.replace(' ', '_').replace(',', '').replace('/', '-')
     with open('../data/' + name + 'json', 'w') as f:
@@ -172,11 +176,8 @@ def write_to_json(name, info):
 
 
 if __name__ == "__main__":
-    # all_websites = get_websites()
-    # for elem in all_websites:
-    #     major_info = scrape_courses(elem[1])
-    #     if major_info != None:
-    #         write_to_json(elem[0], major_info)
-
-    major_info = scrape_courses('https://catalogue.uci.edu/schoolofbiologicalsciences/humanbiology_bs/#requirementstext')
-    write_to_json('Human Biology, B.S.', major_info)
+    all_websites = get_websites()
+    for elem in all_websites:
+        major_info = scrape_courses(elem[1])
+        if major_info != None:
+            write_to_json(elem[0], major_info)

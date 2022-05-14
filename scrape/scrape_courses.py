@@ -28,6 +28,7 @@ def get_courses(url):
     and their information (course id, course name, units, description, restriction, and prereq).
     All the information is organized in a dictionary: id: namedtuple(info).
     """
+    
     course_dict = {}
     soup = request_websites(url)
     for elem in soup.find_all('div', class_='courseblock'):
@@ -83,4 +84,3 @@ if __name__ == "__main__":
     websites = get_courses_websites()
     for each_url in websites:
         one_course = get_courses(each_url)
-        ##print(one_course)

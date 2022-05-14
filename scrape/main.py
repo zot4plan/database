@@ -2,6 +2,13 @@ from scrape_courses import get_courses_websites, get_courses
 import json 
 
 if __name__ == "__main__":
+    """
+    This module calls get_courses_websites to collect all current UCI courses from UCI General Catalogue.
+    Using those collected websites, get_courses will be called to scrape all of the courses offered at UCI by departments.
+    All information regarding courses will be saved in uci_courses.sql.
+    All information regarding GE courses will be saved in alll_GEs.sql.
+    """
+
     websites = get_courses_websites()
     course_names = []
     insert_ge = []

@@ -1,3 +1,5 @@
+USE zot4plandb;
+GO
 INSERT INTO courses VALUES ("AC ENG 20A","Academic Writing","AC ENG","5","Grammar, sentence structure, paragraph and essay organization of formal written English."," Placement into AC 20A.","","1","","");
 INSERT INTO courses VALUES ("AC ENG 20B","Academic Writing","AC ENG","5","Grammar, sentence structure, paragraph and essay organization of formal written English."," AC 20A. Placement into AC 20B is also accepted.","","1","","");
 INSERT INTO courses VALUES ("AC ENG 20C","Essentials of Academic Writing","AC ENG","5","Grammar, sentence structure, paragraph and essay organization of formal written English."," AC 20B. Placement into AC 20C is also accepted.","","1","","");

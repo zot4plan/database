@@ -35,15 +35,15 @@ CREATE TABLE general_educations(
     note VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
 
-INSERT INTO generalEducations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
-INSERT INTO generalEducations VALUES ("IB","Upper-Division Requirement","One upper-division course");
-INSERT INTO generalEducations VALUES ("II","Science and Technology","Three courses");
-INSERT INTO generalEducations VALUES ("III","Social and Behavioral Sciences", "Three courses");
-INSERT INTO generalEducations VALUES ("IV","Arts and Humanities", "Three courses");
-INSERT INTO generalEducations VALUES ("VA","Quantitative Literacy", "One Course (and an additional course from either Va or Vb - total of three courses)");
-INSERT INTO generalEducations VALUES ("VB","Formal Reasoning","One Course (and an additional course from either Va or Vb - total of three courses)");
-INSERT INTO generalEducations VALUES ("VI", "Language Other Than English","One course");
-INSERT INTO generalEducations VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
-INSERT INTO generalEducations VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
+INSERT INTO general_educations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
+INSERT INTO general_educations VALUES ("IB","Upper-Division Requirement","One upper-division course");
+INSERT INTO general_educations VALUES ("II","Science and Technology","Three courses");
+INSERT INTO general_educations VALUES ("III","Social and Behavioral Sciences", "Three courses");
+INSERT INTO general_educations VALUES ("IV","Arts and Humanities", "Three courses");
+INSERT INTO general_educations VALUES ("VA","Quantitative Literacy", "One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO general_educations VALUES ("VB","Formal Reasoning","One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO general_educations VALUES ("VI", "Language Other Than English","One course");
+INSERT INTO general_educations VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
+INSERT INTO general_educations VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
 
 ALTER TABLE courses ADD FULLTEXT(id);
