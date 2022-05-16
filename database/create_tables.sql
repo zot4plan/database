@@ -14,6 +14,7 @@ CREATE TABLE courses (
     repeatability INT NOT NULL,
     corequisite VARCHAR (1000),
     ge VARCHAR(25) NOT NULL,
+    terms VARCHAR(350) NOT NULL,
     PRIMARY KEY(id));
 
 CREATE TABLE majors(
