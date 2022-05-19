@@ -111,5 +111,5 @@ class Course:
         set_terms takes in a list of past terms and convert it into a string
         :param all_terms: list of past terms that offered the course
         """
-
-        self.past_terms = ", ".join(all_terms)
+        swap = [" ".join(term.split(" ")[::-1]) for term in all_terms]
+        self.past_terms = ", ".join(swap)
