@@ -16,8 +16,8 @@
         "name": "B. Select three courses, with one from three of the following five rubrics:",
         "child": [
             {
-                "name": "(b) Humanities (AFAM 110-119):",
-                "child": [
+                "name": "(b) Humanities (AFAM 110-119)",
+                "child": [                    
                     "AFAM 111A",
                     "AFAM 111B",
                     "AFAM 112A",
@@ -29,14 +29,14 @@
                 ]
             },
             {
-                "name": "(b) Gender/Sexuality (AFAM 120-129):",
+                "name": "(b) Gender/Sexuality (AFAM 120-129)",
                 "child": [
                     "AFAM 125",
                     "AFAM 128"
                 ]
             },
             {
-                "name": "(b) History (AFAM 130-139):",
+                "name": "(b) History (AFAM 130-139)",
                 "child": [
                     "AFAM 134A",
                     "AFAM 134B",
@@ -45,7 +45,7 @@
                 ]
             },
             {
-                "name": "(b) Fine Arts (AFAM 140-149):",
+                "name": "(b) Fine Arts (AFAM 140-149)",
                 "child": [
                     "AFAM 143",
                     "AFAM 144",
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "name": "(b) Social Sciences (AFAM 150-159):",
+                "name": "(b) Social Sciences (AFAM 150-159)",
                 "child": [
                     "AFAM 151",
                     "AFAM 152",
@@ -67,35 +67,29 @@
                 ]
             }
         ]
-    },     
+    },
     {
-        "name": "C. Select five additional upper-division electives from: ",
+        "name": "C. Select one additional upper-division elective from:",
         "child": [
             {
                 "name": "AFAM 110-159, 163",
-                "child": ["AFAM 163"]
-            }
-        ]
-    },
-    {
-        "name": "D. Complete:",
-        "child": [
-            {
-                "name": "", 
                 "child": [
-                    "AFAM 162W"
+                    "AFAM 163"
                 ]
             }
         ]
     },
     {
-        "name": "Residence Requirement for the Major",
+        "name": "Residence Requirement for the Minor:",
         "child": [
             {
-                "name": "A minimum of five upper-division courses required for the major must be completed successfully at UCI.",
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI.",
+                "child": []
+            },
+            {
+                "name": "Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
                 "child": []
             }
         ]
     }
-
 ]

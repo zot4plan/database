@@ -1,0 +1,67 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select four of the following:",
+                "child": [
+                    "GERMAN 101",
+                    "GERMAN 102",
+                    "GERMAN 103",
+                    "GERMAN 104",
+                    "GERMAN 105",
+                    "GERMAN 115",
+                    "GERMAN 120"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select three of the following:",
+                "child": [
+                    "GERMAN 101",
+                    "GERMAN 102",
+                    "GERMAN 103",
+                    "GERMAN 104",
+                    "GERMAN 105",
+                    "GERMAN 115",
+                    "GERMAN 120",
+                    "GERMAN 150",
+                    "GERMAN 160",
+                    "GERMAN 170",
+                    "EURO ST 9",
+                    "EURO ST 10",
+                    "EURO ST S10",
+                    "EURO ST 11",
+                    "EURO ST S11",
+                    "EURO ST 12",
+                    "EURO ST 13",
+                    "EURO ST 101A",
+                    "EURO ST 101B",
+                    "LSCI 3"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Comparative Literature",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "German history",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "German philosophy",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "German political science",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

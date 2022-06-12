@@ -1,0 +1,47 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select one of the following:",
+                "child": [
+                    "I&C SCI 10",
+                    "I&C SCI 20",
+                    "I&C SCI 31"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select two of the following:",
+                "child": [
+                    "I&C SCI 3",
+                    "I&C SCI 4",
+                    "I&C SCI 5",
+                    "I&C SCI 11",
+                    "I&C SCI 32",
+                    "I&C SCI 32A",
+                    "IN4MATX 43",
+                    "I&C SCI 61"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select four of the following:",
+                "child": [
+                    "IN4MATX 131",
+                    "IN4MATX 132",
+                    "IN4MATX 143",
+                    "IN4MATX 148",
+                    "IN4MATX 151",
+                    "IN4MATX 161",
+                    "IN4MATX 162W",
+                    "IN4MATX 163",
+                    "IN4MATX 171",
+                    "IN4MATX 172"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

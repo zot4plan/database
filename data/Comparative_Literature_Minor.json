@@ -1,0 +1,27 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "COM LIT 60A",
+                    "COM LIT 60B",
+                    "COM LIT 60C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select three upper-division courses in Comparative Literature.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select one additional upper-division course in Comparative Literature or another upper-division course offered in the School of Humanities.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

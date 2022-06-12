@@ -1,0 +1,20 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "LATIN 1C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select six upper-division courses from LATIN 100-104.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete one of the following core courses:",
+                "child": [
+                    "SPANISH 50",
+                    "HISTORY 70D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. One course from each of the following three categories\u2014History, Culture, and Social Sciences\u2014selected from the approved list on the Latin American Studies website.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Three additional courses selected from the approved list.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

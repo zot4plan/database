@@ -1,0 +1,22 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "GLBL ME 60A",
+                    "GLBL ME 60B",
+                    "GLBL ME 60C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete four upper-division courses selected from an approved list.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

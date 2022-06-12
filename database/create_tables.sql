@@ -24,6 +24,13 @@ CREATE TABLE majors(
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
 
+CREATE TABLE minor_reqs(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    minor_requirement json DEFAULT NULL,
+    url VARCHAR(300) NOT NULL,
+    PRIMARY KEY(id));
+
 CREATE TABLE courses_in_ges(
     id INT NOT NULL AUTO_INCREMENT,
     courseId VARCHAR(25) NOT NULL,

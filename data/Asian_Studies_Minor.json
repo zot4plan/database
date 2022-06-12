@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Requirements for the Interdisciplinary Minor in Asian Studies",
+        "child": [
+            {
+                "name": "Students choose one country and language of specialization. At the present the Asian Studies minor focuses on China, Japan, or Korea.",
+                "child": []
+            },
+            {
+                "name": "Requirements for the minor are met by taking eight courses (of which no more than four may be lower-division) as specified below.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "A. One upper-division History course with a focus on Asia approved by the director.",
+        "child": []
+    },
+    {
+        "name": "B. Three quarters of course work in one Asian language of specialization beyond the first-year level. Approved courses are:",
+        "child": []
+    },
+            {
+                "name": "1. Second-, third-, or fourth-year language:",
+                "child": [
+                    "CHINESE 2A",
+                    "CHINESE 2B",
+                    "CHINESE 2C",
+                    "CHINESE 2MA",
+                    "CHINESE 2MB",
+                    "CHINESE 2MC",
+                    "CHINESE 3A",
+                    "CHINESE 3B",
+                    "CHINESE 3C",
+                    "CHINESE 101A",
+                    "CHINESE 101B",
+                    "CHINESE 101C",
+                    "JAPANSE 2A",
+                    "JAPANSE 2B",
+                    "JAPANSE 2C",
+                    "JAPANSE 3A",
+                    "JAPANSE 3B",
+                    "JAPANSE 3C",
+                    "JAPANSE 101A",
+                    "JAPANSE 101B",
+                    "KOREAN 2A",
+                    "KOREAN 2B",
+                    "KOREAN 2C",
+                    "KOREAN 2KA",
+                    "KOREAN 2KB",
+                    "KOREAN 2KC",
+                    "KOREAN 3A",
+                    "KOREAN 3B",
+                    "KOREAN 3C",
+                    "KOREAN 101A"
+                ]
+            },
+            {
+                "name": "Other sequences in Asian languages as available.",
+                "child": []
+            },
+            {
+                "name": "2. Either Classical Chinese or Classical Japanese:",
+                "child": [
+                    "CHINESE 100A",
+                    "CHINESE 100B",
+                    "CHINESE 100C",
+                    "JAPANSE 100A",
+                    "JAPANSE 100B"
+                ]
+            },
+            {
+                "name": "3. Literature courses taught in the original language:",
+                "child": [
+                    "CHINESE 115",
+                    "JAPANSE 115",
+                    "KOREAN 115"
+                ]
+            },
+            {
+                "name": "Or graduate seminars",
+                "child": []
+            },
+            {
+                "name": "C. Four additional courses selected from an approved list.",
+                "child": []
+            },
+            {
+                "name": "1. At least two of these courses must be taken in one (or more) department(s) other than the student\u2019s major department.",
+                "child": []
+            },
+            {
+                "name": "2. The courses must cover at least two different Asian countries, one of which is the country of language specialization.",
+                "child": []
+            },
+            {
+                "name": "3. No more than two of the courses may be lower-division (and only one may be lower-division if any combination of second- or third-year East Asian language is used for the language required above).",
+                "child": []
+            }
+        ]
+    }
+]

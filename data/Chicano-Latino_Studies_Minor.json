@@ -1,0 +1,29 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following core courses:",
+                "child": [
+                    "CHC/LAT 61",
+                    "CHC/LAT 62",
+                    "CHC/LAT 63"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select three upper-division courses from CHC/LAT 100-189.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete the following:",
+                "child": [
+                    "SPANISH 2A"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

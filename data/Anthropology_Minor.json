@@ -1,0 +1,47 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
+            {
+                "name": "", 
+                "child": [
+                    "ANTHRO 2B",
+                    "ANTHRO 2C",
+                    "ANTHRO 2D"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 30A",
+                    "ANTHRO 100B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select four courses (16 units) from the following:",
+        "child": [
+            {
+                "name": "(b) ANTHRO 120-179",
+                "child": []
+            }
+        ]
+    }
+]

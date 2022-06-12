@@ -1,0 +1,34 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 13",
+                    "MATH 113A",
+                    "MATH 113B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select two of the following:",
+                "child": [
+                    "MATH 105A",
+                    "MATH 112A",
+                    "MATH 117",
+                    "MATH 118",
+                    "MATH 121A",
+                    "MATH 140A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. One additional four-unit upper-division lecture course in MATH numbered 100-189.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

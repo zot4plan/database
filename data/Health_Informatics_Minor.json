@@ -1,0 +1,61 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "IN4MATX 171",
+                    "IN4MATX 172"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select two of the following:",
+                "child": [
+                    "I&C SCI 4",
+                    "I&C SCI 10",
+                    "I&C SCI 20",
+                    "I&C SCI 31",
+                    "I&C SCI 32",
+                    "I&C SCI 32A",
+                    "IN4MATX 121",
+                    "IN4MATX 131",
+                    "IN4MATX 133",
+                    "IN4MATX 143",
+                    "COMPSCI 111",
+                    "COMPSCI 121/IN4MATX 141",
+                    "COMPSCI 122A",
+                    "COMPSCI 131",
+                    "COMPSCI 134",
+                    "COMPSCI 145",
+                    "COMPSCI 171",
+                    "COMPSCI 178"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select two of the following:",
+                "child": [
+                    "NUR SCI 110W",
+                    "PUBHLTH 101",
+                    "PUBHLTH 122"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select one of the following:",
+                "child": [
+                    "IN4MATX 151",
+                    "IN4MATX 161",
+                    "IN4MATX 162W",
+                    "STATS 7",
+                    "STATS 8",
+                    "STATS 67"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

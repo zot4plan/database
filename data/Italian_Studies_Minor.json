@@ -1,0 +1,42 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "ITALIAN 2C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Three course topics from the following, no more than two of which may be lower-division:",
+                "child": [
+                    "ITALIAN 50",
+                    "ITALIAN 150"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Four courses selected from the following, when topics are appropriate. No more than two courses may be taken from any one department, with the exception of Italian courses.",
+                "child": [
+                    "ART HIS 120",
+                    "ART HIS 121",
+                    "ART HIS 125",
+                    "EURO ST 101A",
+                    "EURO ST 101B",
+                    "FLM&MDA 160",
+                    "ITALIAN 150",
+                    "ART HIS 107",
+                    "CLASSIC 140",
+                    "CLASSIC 150",
+                    "CLASSIC 170",
+                    "HISTORY 112D",
+                    "HISTORY 135E"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

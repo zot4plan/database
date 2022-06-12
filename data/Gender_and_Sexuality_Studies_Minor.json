@@ -1,0 +1,41 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Three introductory core courses selected from:",
+                "child": [
+                    "GEN&SEX 20",
+                    "GEN&SEX 50A",
+                    "GEN&SEX 50B",
+                    "GEN&SEX 50C",
+                    "GEN&SEX 60A",
+                    "GEN&SEX 60B",
+                    "GEN&SEX 60C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Three advanced core courses selected from the following:",
+                "child": [
+                    "GEN&SEX 100A",
+                    "GEN&SEX 100B",
+                    "GEN&SEX 100D",
+                    "GEN&SEX 110A",
+                    "GEN&SEX 110B",
+                    "GEN&SEX 110D",
+                    "GEN&SEX 120A",
+                    "GEN&SEX 120B",
+                    "GEN&SEX 120C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. One advanced elective course selected from GEN&SEX 139-190",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

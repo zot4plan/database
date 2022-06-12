@@ -1,0 +1,41 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select two of the following:",
+                "child": [
+                    "HISTORY 70B",
+                    "EURO ST 9",
+                    "EURO ST 10",
+                    "EURO ST S10",
+                    "EURO ST 11",
+                    "EURO ST S11",
+                    "EURO ST 12",
+                    "EURO ST 13"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "EURO ST 101A",
+                    "EURO ST 101B"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "In addition to requirements A and B, European Studies minors take:",
+        "child": [
+            {
+                "name": "C. Three courses selected from a single specialization, two of which must be upper-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

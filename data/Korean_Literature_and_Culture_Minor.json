@@ -1,0 +1,41 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "KOREAN 2C",
+                        "KOREAN 2KC"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or equivalent",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "EAS 130",
+                    "EAS 140"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select one course dealing with Korean visual culture (examples: Korean cinema, visual art)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select four courses from the East Asian Studies offerings on Korean topics, one of which may be lower-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "GREEK 1C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select six upper-division courses from GREEK 100-104. GREEK 120 may be substituted for one course at the 100 level.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

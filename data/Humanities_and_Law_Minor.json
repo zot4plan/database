@@ -1,0 +1,50 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "PHILOS 22",
+                        "ENGLISH 11"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select one of the following options:",
+                "child": [
+                    "HUMAN 1A",
+                    "HUMAN 1AS",
+                    "HUMAN 1B",
+                    "HUMAN 1BS",
+                    "HUMAN 1C",
+                    "HUMAN 1CS"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "(or the Humanities Core Alternative)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PHILOS 2 or PHILOS 29 and one course, not used above, chosen from: PHILOS 22, PHILOS 133, ENGLISH 11, or GEN&SEX 60B",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select five upper-division courses from among a list of quarterly approved courses, at least one each from philosophy, history, and either literature or classics.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

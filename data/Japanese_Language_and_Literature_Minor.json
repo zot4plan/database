@@ -1,0 +1,27 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Three quarters of advanced Japanese language instruction, selected from the following:",
+                "child": [
+                    "JAPANSE 3A",
+                    "JAPANSE 3B",
+                    "JAPANSE 3C",
+                    "JAPANSE 100A",
+                    "JAPANSE 100B",
+                    "JAPANSE 101A",
+                    "JAPANSE 101B",
+                    "JAPANSE 115"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select four upper-division courses (or, if the 100A-B sequence or the 101A-B sequence has been chosen, up to two lower-division courses) from the East Asian Studies offerings on Japanese topics.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

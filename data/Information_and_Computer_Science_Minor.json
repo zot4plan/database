@@ -1,0 +1,74 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "I&C SCI 31",
+                    "I&C SCI 32",
+                    "I&C SCI 33",
+                    "I&C SCI 45C",
+                    "I&C SCI 46",
+                    "I&C SCI 6D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select one of the following:",
+                "child": [
+                    [
+                        "I&C SCI 51",
+                        "IN4MATX 43"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select two upper-division from the following:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "COMPSCI 111-144",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "COMPSCI 151-177",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "IN4MATX 101-102",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "IN4MATX 111-119",
+                "child": [
+                    "IN4MATX 125",
+                    "IN4MATX 131"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "IN4MATX 132-134",
+                "child": [
+                    "IN4MATX 141",
+                    "IN4MATX 148",
+                    "IN4MATX 153"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "IN4MATX 161-163",
+                "child": [
+                    "IN4MATX 171"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

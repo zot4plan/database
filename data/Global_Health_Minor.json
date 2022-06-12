@@ -1,0 +1,72 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "PUBHLTH 1",
+                    "PUBHLTH 170",
+                    "PUBHLTH 172",
+                    "PUBHLTH 174"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select two courses from the following:",
+                "child": [
+                    "ANTHRO 30A",
+                    "ANTHRO 41A",
+                    "ANTHRO 134A",
+                    "ANTHRO 20A",
+                    "ANTHRO 134G",
+                    "ANTHRO 134N",
+                    "INTL ST 11",
+                    "INTL ST 115",
+                    "INTL ST 147CW",
+                    "INTL ST 163",
+                    "PUBHLTH 100",
+                    "PUBHLTH 197",
+                    "PUBHLTH 189",
+                    "UPPP 115"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select two courses from the following:",
+                "child": [
+                    "BIO SCI 9K",
+                    "BIO SCI 10",
+                    "BIO SCI 12",
+                    "BIO SCI E124",
+                    "BIO SCI M124A",
+                    "BIO SCI M124B",
+                    "BIO SCI M125",
+                    "BIO SCI M131",
+                    "BIO SCI N131",
+                    "BIO SCI M143",
+                    "CHEM 12",
+                    "PUBHLTH 90",
+                    "PUBHLTH 161",
+                    "PUBHLTH 163",
+                    "PUBHLTH 173",
+                    "PUBHLTH 180"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Capstone Project:",
+                "child": [
+                    "PUBHLTH 198"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or equivalent course offered if faculty is in another department",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

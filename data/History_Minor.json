@@ -1,0 +1,18 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select three lower-division History courses.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select four upper-division History courses.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

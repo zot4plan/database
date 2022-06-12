@@ -1,0 +1,42 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "JAPANSE 2C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "EAS 55"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. One upper-division course in Japanese history",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. One upper-division course on Japan, offered by the School of Social Sciences",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. One upper-division course on Japan, offered by the School of Humanities",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Select three courses from the East Asian Studies offerings on Japanese topics, one of which may be lower-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

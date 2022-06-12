@@ -1,0 +1,70 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "INTL ST 1"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select one of the following:",
+                "child": [
+                    "INTL ST 11",
+                    "INTL ST 12",
+                    "INTL ST 15",
+                    "INTL ST 16",
+                    "INTL ST 17"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Geographic Focus: Two upper-division courses in one geographic area",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Global Focus: Three upper-division courses. At least one must be from Module A.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Module A:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "INTL ST 100",
+                    "INTL ST 101A",
+                    "INTL ST 101B",
+                    "INTL ST 102A",
+                    "INTL ST 103A",
+                    "INTL ST 104A",
+                    "INTL ST 104BW",
+                    "INTL ST 106A",
+                    "INTL ST 106B",
+                    "INTL ST 150",
+                    "INTL ST 163"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Module B",
+        "child": [
+            {
+                "name": "E. One quarter of INTL ST 183A",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

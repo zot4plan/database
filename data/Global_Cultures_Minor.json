@@ -1,0 +1,35 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select two of the following:",
+                "child": [
+                    "HISTORY 21A",
+                    "HISTORY 21B",
+                    "HISTORY 21C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete the following:",
+                "child": [
+                    "GLBLCLT 103A",
+                    "GLBLCLT 103B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select three upper-division courses from one emphasis.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select one upper-division course from a second emphasis.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

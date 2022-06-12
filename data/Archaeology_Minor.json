@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Completion of seven courses (28 units) as specified below. At least four courses must be upper-division.",
+        "child": [
+            {
+                "name": "",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ART HIS 40A",
+                    "ART HIS 42A",
+                    "ART HIS 42D",
+                    "ART HIS 42E",
+                    "ANTHRO 141A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select five additional elective courses chosen from Areas B or C",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 48",
+                    "ANTHRO 147",
+                    "ANTHRO 147A",
+                    "ANTHRO 147B",
+                    "ANTHRO 148",
+                    "ANTHRO 149",
+                    "ANTHRO 162B",
+                    "ANTHRO 169",
+                    "ART HIS 100",
+                    "ART HIS 103",
+                    "ART HIS 107",
+                    "ART HIS 111B",
+                    "ART HIS 155A",
+                    "ART HIS 181",
+                    "ART HIS 196",
+                    "ART HIS 198"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI. Two of the four may be taken through the UC Education Abroad Program provided course content is approved in advance by the Humanities Undergraduate Study Office.",
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "LSCI 3",
+                    "LSCI 10",
+                    "LSCI 20"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Four additional linguistics courses, three of which must be upper-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

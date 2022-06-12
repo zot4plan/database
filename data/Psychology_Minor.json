@@ -1,0 +1,61 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "PSYCH 7A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or",
+                "child": [
+                    "PSYCH 9A",
+                    "PSYCH 9B",
+                    "PSYCH 9C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select three upper-division psychology courses from the following:",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 130A",
+                    "PSYCH 140C",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 150",
+                    "PSYCH 160A",
+                    "PSYCH 160D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete one of the following:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "For students who took PSYCH 7A: Select three additional psychology courses (four or more units each) no more than one of which is a lower-division course.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "For students who took PSYCH 9A, PSYCH 9B, PSYCH 9C: select two additional upper-division psychology courses (four or more units each). PSYCH 190-199 cannot be used to fulfill this requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. In addition, the school mathematics and computer science requirement (school requirement 1) must be satisfied.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

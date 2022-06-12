@@ -1,0 +1,33 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "UPPP 4",
+                        "UPPP 5"
+                    ],
+                    "UPPP 107"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select six of the following:",
+                "child": [
+                    "UPPP 102",
+                    "UPPP 108",
+                    "UPPP 109",
+                    "UPPP 120",
+                    "UPPP 133",
+                    "UPPP 139",
+                    "UPPP 155",
+                    "UPPP 166"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

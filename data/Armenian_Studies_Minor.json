@@ -1,0 +1,51 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ARMN 1C",
+                    "GLBL ME 60A",
+                    "HISTORY 132D",
+                    "HISTORY 132E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select three from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 124B",
+                    "HISTORY 131B",
+                    "HISTORY 132B",
+                    "HISTORY 132C",
+                    "HISTORY 132H",
+                    "ANTHRO 125X",
+                    [
+                        "INTL ST 165", 
+                        "POL SCI 158D", 
+                        "SOC SCI 188A"
+                    ],
+                    "POL SCI 154J",
+                    "COM LIT 100A",
+                    "COM LIT 107",
+                    "COM LIT 108",
+                    "COM LIT 150"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be successfully completed at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the Director.",
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    [
+                        "BIO SCI N110",
+                        "PSYCH 160A"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Statistic course(s) selected from the following:",
+                "child": [
+                    "STATS 120A",
+                    "STATS 120B",
+                    "STATS 120C",
+                    "PSYCH 10A",
+                    "PSYCH 10B",
+                    "PSYCH 10C",
+                    "SOC SCI 10A",
+                    "SOC SCI 10B",
+                    "SOC SCI 10C",
+                    "STATS 7",
+                    "STATS 8",
+                    "PUBHLTH 7A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete the following:",
+                "child": [
+                    "BIO SCI N147"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Complete four courses from the following categories, with at least one course from each category:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Category I:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "MATH 3A",
+                        "MATH 113A"
+                    ],
+                    [
+                        "PSYCH 114M",
+                        "I&C SCI 31"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "An additional statistics or probability course beyond Requirement B (listed above).",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Category II:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "LSCI 3",
+                    "LSCI 10",
+                    "PSYCH 56L",
+                    "PSYCH 150"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Category III:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI N152",
+                    "PSYCH 131B",
+                    "PSYCH 161"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Research Requirement - one quarter of research experience mentored by a CHR member (others may be allowed with prior approval). One year of research is highly recommended:",
+                "child": [
+                    "BME 199",
+                    "BIO SCI 199",
+                    [
+                        "MATH 199A",
+                        "MATH 199B",
+                        "MATH 199C"
+                    ],
+                    "PSYCH 199"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select three of the following:",
+                "child": [
+                    "ENGLISH 8",
+                    "ENGLISH 9",
+                    "ENGLISH 10",
+                    "ENGLISH 11",
+                    "ENGLISH 12",
+                    "ENGLISH 15",
+                    "ENGLISH 16",
+                    "ENGLISH 17"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select at least five Departmental (English, Literary Journalism, Writing) courses numbered 102 or above, excluding ENGLISH 150, LIT JRN 197, LIT JRN 198, LIT JRN 199, WRITING 139W, and WRITING 197. Two courses from the following may be substituted:",
+                "child": [
+                    "ENGLISH 100",
+                    "ENGLISH 101W",
+                    "WRITING 101W"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

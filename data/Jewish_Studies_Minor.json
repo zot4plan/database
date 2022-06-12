@@ -1,0 +1,25 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "HISTORY 18A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select at least four upper-division courses from the approved list on the Jewish Studies website.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select three additional, lower- or upper-division courses from the approved list on the Jewish Studies website.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

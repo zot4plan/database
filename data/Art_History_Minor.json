@@ -1,0 +1,40 @@
+[
+    {
+        "name": "A. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ART HIS 40A",
+                    "ART HIS 40B",
+                    "ART HIS 40C",
+                    "ART HIS 42A",
+                    "ART HIS 42B",
+                    "ART HIS 42C",
+                    "ART HIS 42D",
+                    "ART HIS 42E",
+                    "ART HIS 44",
+                    "ART HIS 55"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select four upper-division from:",
+        "child": [
+            {
+                "name": "(b) Art History courses from 100-198, excluding ART HIS 190W.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the department chair.",
+                "child": []
+            }
+        ]
+    }
+]

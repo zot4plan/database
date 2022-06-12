@@ -1,0 +1,21 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "CRM/LAW C7",
+                    "CRM/LAW C10"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and six upper-division courses selected from CRM/LAW C100-C191.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

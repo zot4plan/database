@@ -1,0 +1,36 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select three of the following:",
+                "child": [
+                    "WRITING 30",
+                    "WRITING 31",
+                    "WRITING 90",
+                    "WRITING 91"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete two WRITING 101W courses with different topics",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select two of the following:",
+                "child": [
+                    "ENGLISH 102A",
+                    "ENGLISH 102B",
+                    "ENGLISH 102C",
+                    "ENGLISH 102D",
+                    "ENGLISH 103",
+                    "ENGLISH 105",
+                    "LIT JRN 103"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

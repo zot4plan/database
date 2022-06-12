@@ -1,0 +1,45 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "LIT JRN 20",
+                    "LIT JRN 21"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select one of the following:",
+                "child": [
+                    "ENGLISH 8",
+                    "ENGLISH 9",
+                    "ENGLISH 10",
+                    "ENGLISH 11",
+                    "ENGLISH 12",
+                    "ENGLISH 15",
+                    "ENGLISH 16",
+                    "ENGLISH 17"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete:",
+                "child": [
+                    "LIT JRN 100",
+                    "LIT JRN 101A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Complete:",
+                "child": [
+                    "LIT JRN 103"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

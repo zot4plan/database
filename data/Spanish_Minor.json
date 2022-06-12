@@ -1,0 +1,23 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    [
+                        "SPANISH 3",
+                        "SPANISH 3H"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Six upper-division departmental Spanish courses, one of which may be taught in English (excluding SPANISH 150).",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

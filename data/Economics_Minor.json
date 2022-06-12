@@ -1,0 +1,41 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following core courses (28 units):",
+                "child": [
+                    "ECON 15A",
+                    "ECON 15B",
+                    "ECON 20A",
+                    "ECON 20B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and select one of the following sequences:",
+                "child": [
+                    "ECON 100A",
+                    "ECON 100B",
+                    "ECON 100C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or",
+                "child": [
+                    "ECON 105A",
+                    "ECON 105B",
+                    "ECON 105C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Electives (eight units): two upper-division ECON electives (excluding ECON 199).",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

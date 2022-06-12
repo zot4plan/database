@@ -1,0 +1,30 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Three quarters of advanced Chinese language instruction, selected from the following:",
+                "child": [
+                    "CHINESE 3A",
+                    "CHINESE 3B",
+                    "CHINESE 3C",
+                    "CHINESE 40",
+                    "CHINESE 100A",
+                    "CHINESE 100B",
+                    "CHINESE 100C",
+                    "CHINESE 101A",
+                    "CHINESE 101B",
+                    "CHINESE 101C",
+                    "CHINESE 115"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select four upper-division courses from the East Asian Studies offerings on Chinese topics.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]
