@@ -1,18 +1,22 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "MGMT 1",
                     "MGMT 113",
                     "MGMT 115"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select at least four electives from the following:",
+        "child": [
             {
-                "name": "B. Select at least four electives from the following:",
+                "name": "",
                 "child": [
                     "MGMT 30A",
                     "MGMT 102",
@@ -24,10 +28,17 @@
                     "MGMT 129",
                     "MGMT 151",
                     "MGMT 192"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students may not receive both the minor in Management and the minor in Innovation and Entrepreneurship. Students in the B.A. in Business Administration and B.S. in Business Information Management Programs are not eligible to minor in Innovation and Entrepreneurship.",
+                "child": []
+            }
+        ]
     }
 ]

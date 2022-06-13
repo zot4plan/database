@@ -1,0 +1,91 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "I&C SCI 10"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DRAMA 15",
+                    "DRAMA 20A",
+                    "DRAMA 20B",
+                    "DRAMA 20C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DRAMA 30A",
+                    "DRAMA 65",
+                    "DRAMA 142",
+                    "DRAMA 146",
+                    "DRAMA 50A",
+                    "DRAMA 50B",
+                    "DRAMA 50C",
+                    "DRAMA 50D",
+                    "DRAMA 50E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DRAMA 40A",
+                    "DRAMA 40B",
+                    "DRAMA 40C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Complete four units of DRAMA 101, selected from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DRAMA 101A",
+                    "DRAMA 101B",
+                    "DRAMA 101C",
+                    "DRAMA 101D",
+                    "DRAMA 101E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "F. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "DRAMA 100",
+                    "DRAMA 198",
+                    "DRAMA 199"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "G. Select two Drama electives, one of which must be upper division (100-199)",
+        "child": []
+    }
+]

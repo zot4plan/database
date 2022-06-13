@@ -168,7 +168,7 @@ def write_to_json(name, info):
     into a JSON file
     """
     
-    name = name.replace(' ', '_').replace(',', '').replace('/', '-')
+    name = name.replace(' ', '_').replace('/', '-')
     with open('../data/' + name + 'json', 'w') as f:
         json_version = []
         for elem in info:
@@ -186,9 +186,9 @@ if __name__ == "__main__":
     #     if major_info != None:
     #         write_to_json(elem[0], major_info)
 
-    all_minor_reqs = get_websites(MINOR_TAGS)
-    for elem in all_minor_reqs:
-        minor_req_info = scrape_courses(elem[1])
-        if minor_req_info != None:
-            write_to_json(elem[0] + '.', minor_req_info)
-
+    # all_minor_reqs = get_websites(MINOR_TAGS)
+    # for elem in all_minor_reqs:
+    #     minor_req_info = scrape_courses(elem[1])
+    #     if minor_req_info != None:
+    #         write_to_json(elem[0] + '.', minor_req_info)
+    pass

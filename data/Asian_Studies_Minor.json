@@ -18,10 +18,9 @@
     },
     {
         "name": "B. Three quarters of course work in one Asian language of specialization beyond the first-year level. Approved courses are:",
-        "child": []
-    },
+        "child": [
             {
-                "name": "1. Second-, third-, or fourth-year language:",
+                "name": "(b) 1. Second-, third-, or fourth-year language:",
                 "child": [
                     "CHINESE 2A",
                     "CHINESE 2B",
@@ -60,17 +59,27 @@
                 "child": []
             },
             {
-                "name": "2. Either Classical Chinese or Classical Japanese:",
+                "name": "(b) 2. Either Classical Chinese or Classical Japanese:",
                 "child": [
-                    "CHINESE 100A",
-                    "CHINESE 100B",
-                    "CHINESE 100C",
-                    "JAPANSE 100A",
-                    "JAPANSE 100B"
+                    {
+                        "name": "Series 1:",
+                        "child": [
+                            "CHINESE 100A",
+                            "CHINESE 100B",
+                            "CHINESE 100C"
+                        ]
+                    },
+                    {
+                        "name": "Series 2:",
+                        "child": [
+                            "JAPANSE 100A",
+                            "JAPANSE 100B"
+                        ]
+                    }
                 ]
             },
             {
-                "name": "3. Literature courses taught in the original language:",
+                "name": "(b) 3. Literature courses taught in the original language:",
                 "child": [
                     "CHINESE 115",
                     "JAPANSE 115",
@@ -80,11 +89,12 @@
             {
                 "name": "Or graduate seminars",
                 "child": []
-            },
-            {
-                "name": "C. Four additional courses selected from an approved list.",
-                "child": []
-            },
+            }
+        ]
+    },
+    {
+        "name": "C. Four additional courses selected from an approved list.",
+        "child": [
             {
                 "name": "1. At least two of these courses must be taken in one (or more) department(s) other than the student\u2019s major department.",
                 "child": []
@@ -95,6 +105,15 @@
             },
             {
                 "name": "3. No more than two of the courses may be lower-division (and only one may be lower-division if any combination of second- or third-year East Asian language is used for the language required above).",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the English Minor:",
+        "child": [
+            {
+                "name": "Four upper-division (or graduate) courses must be successfully completed at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
                 "child": []
             }
         ]

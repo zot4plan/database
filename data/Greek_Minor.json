@@ -1,20 +1,30 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "GREEK 1C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "B. Select six upper-division courses from GREEK 100-104. GREEK 120 may be substituted for one course at the 100 level.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Students who are exempted from GREEK 1C must instead complete an additional upper-division Classics or Greek course offered by the Department.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Select six upper-division courses from: GREEK 120 may be substituted for one course at the 100 level.",
+        "child": [
+            {
+                "name": "(b) GREEK 100-104",
+                "child": []
+            },
+            {
+                "name": "GREEK 120 may be substituted for one course at the 100 level.",
+                "child": []
+            }
+        ]
     }
 ]

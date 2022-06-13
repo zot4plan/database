@@ -1,71 +1,118 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "PUBHLTH 1",
                     "PUBHLTH 2"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Seven upper-division courses in Public Health with at least one course from four of the five areas:",
+        "child": [
             {
-                "name": "B. Seven upper-division courses in Public Health with at least one course from four of the five areas:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Epidemiology, Genetics, and Health Informatics",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b)Epidemiology, Genetics, and Health Informatics",
+                "child": []
             },
             {
                 "name": "PUBHLTH  101-119",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 101",
+                    "PUBHLTH 102",
+                    "PUBHLTH 105",
+                    "PUBHLTH 106",
+                    "PUBHLTH 107",
+                    "PUBHLTH 115",
+                    "PUBHLTH 119"
+                ]
             },
             {
-                "name": "Health Policy and Management",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) Health Policy and Management",
+                "child": []
             },
             {
                 "name": "PUBHLTH  120-139",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 120",
+                    "PUBHLTH 121",
+                    "PUBHLTH 122",
+                    "PUBHLTH 125",
+                    "PUBHLTH 126",
+                    "PUBHLTH 127",
+                    "PUBHLTH 129",
+                    "PUBHLTH 132",
+                    "PUBHLTH 135",
+                    "PUBHLTH 138",
+                    "PUBHLTH 139"
+                ]
             },
             {
-                "name": "Social and Behavioral Health Sciences",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) Social and Behavioral Health Sciences",
+                "child": []
             },
             {
                 "name": "PUBHLTH  140-159",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 141",
+                    "PUBHLTH 144",
+                    "PUBHLTH 146",
+                    "PUBHLTH 147",
+                    "PUBHLTH 148",
+                    "PUBHLTH 150",
+                    "PUBHLTH 159"
+                ]
             },
             {
-                "name": "Environmental and Global Health Sciences",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) Environmental and Global Health Sciences",
+                "child": []
             },
             {
                 "name": "PUBHLTH  160-179",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 161",
+                    "PUBHLTH 163",
+                    "PUBHLTH 167",
+                    "PUBHLTH 168",
+                    "PUBHLTH 170",
+                    "PUBHLTH 171",
+                    "PUBHLTH 172",
+                    "PUBHLTH 173",
+                    "PUBHLTH 174",
+                    "PUBHLTH 176",
+                    "PUBHLTH 177",
+                    "PUBHLTH 179"
+                ]
             },
             {
-                "name": "Infectious and Chronic Diseases",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) Infectious and Chronic Diseases",
+                "child": []
             },
             {
                 "name": "PUBHLTH  180-189",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 180",
+                    "PUBHLTH 181",
+                    "PUBHLTH 182",
+                    "PUBHLTH 189"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "No more than two courses may overlap between the student’s major degree and the minor in Public Health.",
+        "child": []
+    },
+    {
+        "name": "Residence Requirement",
+        "child": [
+            {
+                "name": "A minimum of six courses required for the minor must be completed at UCI. Approved courses taken in the UC Education Abroad Program are considered to be in-residence courses.",
+                "child": []
+            }
+        ]
     }
 ]

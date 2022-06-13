@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Three quarters of advanced Japanese language instruction, selected from the following:",
         "child": [
             {
-                "name": "A. Three quarters of advanced Japanese language instruction, selected from the following:",
+                "name": "",
                 "child": [
                     "JAPANSE 3A",
                     "JAPANSE 3B",
@@ -13,15 +13,30 @@
                     "JAPANSE 101A",
                     "JAPANSE 101B",
                     "JAPANSE 115"
-                ],
-                "typeParent": "Courses"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select:",
+        "child": [
+            {
+                "name": "Four upper-division courses (or, if the 100A-B sequence or the 101A-B sequence has been chosen, up to two lower-division courses) from the East Asian Studies offerings on Japanese topics.",
+                "child": []
             },
             {
-                "name": "B. Select four upper-division courses (or, if the 100A-B sequence or the 101A-B sequence has been chosen, up to two lower-division courses) from the East Asian Studies offerings on Japanese topics.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "For a list of approved courses, please consult https://www.humanities.uci.edu/eastasian/japanese/course/acourses.php.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

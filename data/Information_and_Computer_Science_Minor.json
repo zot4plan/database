@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,64 +11,81 @@
                     "I&C SCI 45C",
                     "I&C SCI 46",
                     "I&C SCI 6D"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
             {
-                "name": "B. Select one of the following:",
+                "name": "",
                 "child": [
                     [
                         "I&C SCI 51",
                         "IN4MATX 43"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select two upper-division from the following:",
+        "child": [
             {
-                "name": "C. Select two upper-division from the following:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "COMPSCI 111-144",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "COMPSCI 151-177",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "IN4MATX 101-102",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "IN4MATX 111-119",
+                "name": "",
                 "child": [
                     "IN4MATX 125",
-                    "IN4MATX 131"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "IN4MATX 132-134",
-                "child": [
+                    "IN4MATX 131",
                     "IN4MATX 141",
                     "IN4MATX 148",
-                    "IN4MATX 153"
-                ],
-                "typeParent": "Courses"
+                    "IN4MATX 153",
+                    "IN4MATX 171"
+                ]
             },
             {
-                "name": "IN4MATX 161-163",
+                "name": "(b) IN4MATX 101-102",
                 "child": [
-                    "IN4MATX 171"
-                ],
-                "typeParent": "Courses"
+                    "IN4MATX 101",
+                    "IN4MATX 102"
+                ]
+            },
+            {
+                "name": "(b) IN4MATX 111-119",
+                "child": [
+                    "IN4MATX 113",
+                    "IN4MATX 115",
+                    "IN4MATX 117"
+                ]
+            },
+            {
+                "name": "(b) IN4MATX 132-134",
+                "child": [
+                    "IN4MATX 132",
+                    "IN4MATX 133",
+                    "IN4MATX 134"
+                ]
+            },
+            {
+                "name": "(b) IN4MATX 161-163",
+                "child": [
+                    "IN4MATX 161",
+                    "IN4MATX 162W",
+                    "IN4MATX 163"
+                ]
+            },
+            {
+                "name": "(b) COMPSCI 111-144",
+                "child": []
+            },
+            {
+                "name": "(b) COMPSCI 151-177",
+                "child": []
+            },
+            {
+                "name": "COMPSCI 190–199 and IN4MATX 190–199 may not be applied to the minor.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

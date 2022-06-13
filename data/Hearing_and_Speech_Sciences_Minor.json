@@ -1,19 +1,23 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     [
                         "BIO SCI N110",
                         "PSYCH 160A"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Statistic course(s) selected from the following:",
+        "child": [
             {
-                "name": "B. Statistic course(s) selected from the following:",
+                "name": "",
                 "child": [
                     "STATS 120A",
                     "STATS 120B",
@@ -27,29 +31,26 @@
                     "STATS 7",
                     "STATS 8",
                     "PUBHLTH 7A"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Complete the following:",
-                "child": [
-                    "BIO SCI N147"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Complete four courses from the following categories, with at least one course from each category:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Category I:",
+        "name": "C. Complete the following:",
         "child": [
             {
                 "name": "",
+                "child": [
+                    "BIO SCI N147"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Complete four courses from the following categories, with at least one course from each category:",
+        "child": [
+            {
+                "name": "(b) Category I:",
                 "child": [
                     [
                         "MATH 3A",
@@ -59,47 +60,36 @@
                         "PSYCH 114M",
                         "I&C SCI 31"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "An additional statistics or probability course beyond Requirement B (listed above).",
-                "child": [],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Category II:",
-        "child": [
+                "child": []
+            },
             {
-                "name": "",
+                "name": "(b) Category II:",
                 "child": [
                     "LSCI 3",
                     "LSCI 10",
                     "PSYCH 56L",
                     "PSYCH 150"
-                ],
-                "typeParent": "Courses"
-            }
-        ],
-        "typeParent": "Header"
-    },
-    {
-        "name": "Category III:",
-        "child": [
+                ]
+            },
             {
-                "name": "",
+                "name": "Category III:",
                 "child": [
                     "BIO SCI N152",
                     "PSYCH 131B",
                     "PSYCH 161"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Research Requirement:",
+        "child": [
             {
-                "name": "E. Research Requirement - one quarter of research experience mentored by a CHR member (others may be allowed with prior approval). One year of research is highly recommended:",
+                "name": "One quarter of research experience mentored by a CHR member (others may be allowed with prior approval). One year of research is highly recommended:",
                 "child": [
                     "BME 199",
                     "BIO SCI 199",
@@ -109,10 +99,23 @@
                         "MATH 199C"
                     ],
                     "PSYCH 199"
-                ],
-                "typeParent": "Courses"
+                ]
+            },
+            {
+                "name": "NOTE: BIO SCI 194S is a prerequisite to BME 199 and BIO SCI 199.",
+                "child": [
+                    "BIO SCI 194S"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of five courses required for the minor must be completed at UCI. Approved courses taken in the Education Abroad Program are considered to be in-residence courses.",
+                "child": []
+            }
+        ]
     }
 ]

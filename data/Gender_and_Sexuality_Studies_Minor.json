@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Three introductory core courses selected from:",
         "child": [
             {
-                "name": "A. Three introductory core courses selected from:",
+                "name": "",
                 "child": [
                     "GEN&SEX 20",
                     "GEN&SEX 50A",
@@ -12,11 +12,15 @@
                     "GEN&SEX 60A",
                     "GEN&SEX 60B",
                     "GEN&SEX 60C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Three advanced core courses selected from the following:",
+        "child": [
             {
-                "name": "B. Three advanced core courses selected from the following:",
+                "name": "",
                 "child": [
                     "GEN&SEX 100A",
                     "GEN&SEX 100B",
@@ -27,15 +31,26 @@
                     "GEN&SEX 120A",
                     "GEN&SEX 120B",
                     "GEN&SEX 120C"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. One advanced elective course selected from GEN&SEX 139-190",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "C. One advanced elective course selected from:",
+        "child": [
+            {
+                "name": "(b) GEN&SEX 139-190",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

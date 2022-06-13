@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select three of the following:",
         "child": [
             {
-                "name": "A. Select three of the following:",
+                "name": "",
                 "child": [
                     "PHILOS 1",
                     "PHILOS 2",
@@ -16,15 +16,26 @@
                     "PHILOS 13",
                     "PHILOS 22",
                     "PHILOS 30"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Complete four additional upper-division courses selected from PHILOS 100W-199. (PHILOS 199 may be taken for four units only.)",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Complete four additional upper-division courses selected from:",
+        "child": [
+            {
+                "name": "(b) PHILOS 100W-199. (PHILOS 199 may be taken for four units only.)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence requirement for the minor",
+        "child": [
+            {
+                "name": "Four upper-division courses must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

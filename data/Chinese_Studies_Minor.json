@@ -1,50 +1,57 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     [
                         "CHINESE 2C",
                         "CHINESE 2MC"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or equivalent",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                "name": "Or equivalent",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
             {
-                "name": "B. Complete:",
+                "name": "",
                 "child": [
                     "EAS 55"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. One upper-division course in Chinese history",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. One upper-division course on China, offered by the School of Social Sciences",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "E. One upper-division course on China, offered by the School of Humanities",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "F. Select three courses from the East Asian Studies offerings on Chinese topics, one of which may be lower-division.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "C. One upper-division course in Chinese history",
+        "child": []
+    },
+    {
+        "name": "D. One upper-division course on China, offered by the School of Social Sciences",
+        "child": [
+            {
+                "name": "A list of approved courses can be viewed on the East Asian Studies website: https://www.humanities.uci.edu/eastasian/quarterly-approved-courses-3.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "E. One upper-division course on China, offered by the School of Humanities",
+        "child": [
+            {
+                "name": "A list of approved courses can be viewed on the East Asian Studies website: https://www.humanities.uci.edu/eastasian/quarterly-approved-courses-3.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "F. Select three courses from the East Asian Studies offerings on Chinese topics, one of which may be lower-division.",
+        "child": []
     }
 ]

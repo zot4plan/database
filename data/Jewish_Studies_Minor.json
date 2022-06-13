@@ -1,25 +1,48 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "HISTORY 18A"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select at least four upper-division courses from the approved list on the Jewish Studies website.",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Select three additional, lower- or upper-division courses from the approved list on the Jewish Studies website.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Select:",
+        "child": [
+            {
+                "name": "At least four upper-division courses from the approved list on the Jewish Studies website.",
+                "child": []
+            },
+            {
+                "name": "Students should consult the Jewish Studies website (https://www.humanities.uci.edu/jewishstudies/about-minor). With the approval of the Director, other relevant courses may satisfy the requirements for the minor.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "C. Select:",
+        "child": [
+            {
+                "name": "Three additional, lower- or upper-division courses from the approved list on the Jewish Studies website.",
+                "child": []
+            },
+            {
+                "name": "Students should consult the Jewish Studies website (https://www.humanities.uci.edu/jewishstudies/about-minor). With the approval of the Director, other relevant courses may satisfy the requirements for the minor.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

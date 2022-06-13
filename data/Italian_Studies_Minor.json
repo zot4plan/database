@@ -1,24 +1,32 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "ITALIAN 2C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Three course topics from the following, no more than two of which may be lower-division:",
+        "child": [
             {
-                "name": "B. Three course topics from the following, no more than two of which may be lower-division:",
+                "name": "",
                 "child": [
                     "ITALIAN 50",
                     "ITALIAN 150"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Four courses selected from the following, when topics are appropriate. No more than two courses may be taken from any one department, with the exception of Italian courses.",
+        "child": [
             {
-                "name": "C. Four courses selected from the following, when topics are appropriate. No more than two courses may be taken from any one department, with the exception of Italian courses.",
+                "name": "",
                 "child": [
                     "ART HIS 120",
                     "ART HIS 121",
@@ -33,10 +41,17 @@
                     "CLASSIC 170",
                     "HISTORY 112D",
                     "HISTORY 135E"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "At least four upper-division courses must be completed successfully at UCI. By petition, two of the four may be taken at an Italian university through the UC Education Abroad Program, at a UCEAP study center in Italy, or through a UC Faculty-Led Program in Italy.",
+                "child": []
+            }
+        ]
     }
 ]

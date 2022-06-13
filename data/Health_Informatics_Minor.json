@@ -1,17 +1,21 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "IN4MATX 171",
                     "IN4MATX 172"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select two of the following:",
+        "child": [
             {
-                "name": "B. Select two of the following:",
+                "name": "",
                 "child": [
                     "I&C SCI 4",
                     "I&C SCI 10",
@@ -24,27 +28,38 @@
                     "IN4MATX 133",
                     "IN4MATX 143",
                     "COMPSCI 111",
-                    "COMPSCI 121/IN4MATX 141",
+                    [
+                        "COMPSCI 121",
+                        "IN4MATX 141"
+                    ],
                     "COMPSCI 122A",
                     "COMPSCI 131",
                     "COMPSCI 134",
                     "COMPSCI 145",
                     "COMPSCI 171",
                     "COMPSCI 178"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select two of the following:",
+        "child": [
             {
-                "name": "C. Select two of the following:",
+                "name": "",
                 "child": [
                     "NUR SCI 110W",
                     "PUBHLTH 101",
                     "PUBHLTH 122"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select one of the following:",
+        "child": [
             {
-                "name": "D. Select one of the following:",
+                "name": "",
                 "child": [
                     "IN4MATX 151",
                     "IN4MATX 161",
@@ -52,10 +67,12 @@
                     "STATS 7",
                     "STATS 8",
                     "STATS 67"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE: A student must earn a grade of C or better in all courses used to satisfy the requirements of this minor.",
+        "child": []
     }
 ]

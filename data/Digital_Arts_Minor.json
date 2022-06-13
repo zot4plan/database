@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select three of the following:",
         "child": [
             {
-                "name": "A. Select three of the following:",
+                "name": "",
                 "child": [
                     "ARTS 1",
                     "ART 1C",
@@ -11,11 +11,15 @@
                     "ART 12A",
                     "ART 12B",
                     "ART 12C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select four of the following:",
+        "child": [
             {
-                "name": "B. Select four of the following:",
+                "name": "",
                 "child": [
                     "ART 50A",
                     "ART 50B",
@@ -40,10 +44,8 @@
                     "MUSIC 147",
                     "MUSIC 151",
                     "MUSIC 152"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

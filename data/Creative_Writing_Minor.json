@@ -1,24 +1,41 @@
 [
     {
-        "name": "",
+        "name": "A. Select three of the following:",
         "child": [
             {
-                "name": "A. Select three of the following:",
+                "name": "",
                 "child": [
                     "WRITING 30",
                     "WRITING 31",
                     "WRITING 90",
                     "WRITING 91"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "B. Complete two WRITING 101W courses with different topics",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                "name": "Students can substitute one from ENGLISH 16 or ENGLISH 17 for the lower-division requirement.",
+                "child": [
+                    "ENGLISH 16",
+                    "ENGLISH 17"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete two WRITING 101W courses with different topics",
+        "child": [
             {
-                "name": "C. Select two of the following:",
+                "name": "",
+                "child": [
+                    "WRITING 101W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select two of the following:",
+        "child": [
+            {
+                "name": "",
                 "child": [
                     "ENGLISH 102A",
                     "ENGLISH 102B",
@@ -27,10 +44,17 @@
                     "ENGLISH 103",
                     "ENGLISH 105",
                     "LIT JRN 103"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "Four upper-division courses must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the department undergraduate chair.",
+                "child": []
+            }
+        ]
     }
 ]

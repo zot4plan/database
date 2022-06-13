@@ -1,41 +1,48 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following core courses (28 units):",
         "child": [
             {
-                "name": "A. Complete the following core courses (28 units):",
+                "name": "",
                 "child": [
                     "ECON 15A",
                     "ECON 15B",
                     "ECON 20A",
                     "ECON 20B"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select one of the following sequences:",
+                "name": "And select one of the following sequences:",
                 "child": [
                     "ECON 100A",
                     "ECON 100B",
                     "ECON 100C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or",
+                "name": "Or",
                 "child": [
                     "ECON 105A",
                     "ECON 105B",
                     "ECON 105C"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Electives (eight units): two upper-division ECON electives (excluding ECON 199).",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Electives (eight units): two upper-division ECON electives (excluding ECON 199).",
+        "child": []
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Prerequisites for the Economics core courses include MATH 2A-MATH 2B.",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B"
+                ]
+            }
+        ]
     }
 ]

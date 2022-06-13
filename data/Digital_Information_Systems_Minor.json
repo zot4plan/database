@@ -1,18 +1,22 @@
 [
     {
-        "name": "",
+        "name": "A. Select one of the following:",
         "child": [
             {
-                "name": "A. Select one of the following:",
+                "name": "",
                 "child": [
                     "I&C SCI 10",
                     "I&C SCI 20",
                     "I&C SCI 31"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select two of the following:",
+        "child": [
             {
-                "name": "B. Select two of the following:",
+                "name": "",
                 "child": [
                     "I&C SCI 3",
                     "I&C SCI 4",
@@ -22,11 +26,15 @@
                     "I&C SCI 32A",
                     "IN4MATX 43",
                     "I&C SCI 61"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select four of the following:",
+        "child": [
             {
-                "name": "C. Select four of the following:",
+                "name": "",
                 "child": [
                     "IN4MATX 131",
                     "IN4MATX 132",
@@ -38,10 +46,17 @@
                     "IN4MATX 163",
                     "IN4MATX 171",
                     "IN4MATX 172"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Bren School of ICS majors may not minor in Digital Information Systems. Courses used to complete the minor in Digital Information Systems may not also count toward the requirements for the Information and Computer Science minor or the Informatics minor.",
+                "child": []
+            }
+        ]
     }
 ]

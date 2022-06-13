@@ -1,20 +1,30 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "LATIN 1C"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "B. Select six upper-division courses from LATIN 100-104.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": " Students who are exempted from LATIN 1C must instead complete an additional upper-division Classics or Latin course offered by the Department.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Select six upper-division courses from:",
+        "child": [
+            {
+                "name": "(b) LATIN 100-104",
+                "child": [
+                    "LATIN 100",
+                    "LATIN 103",
+                    "LATIN 104"
+                ]
+            }
+        ]
     }
 ]

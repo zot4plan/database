@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select four of the following:",
         "child": [
             {
-                "name": "A. Select four of the following:",
+                "name": "",
                 "child": [
                     "GERMAN 101",
                     "GERMAN 102",
@@ -12,11 +12,15 @@
                     "GERMAN 105",
                     "GERMAN 115",
                     "GERMAN 120"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select three of the following:",
+        "child": [
             {
-                "name": "B. Select three of the following:",
+                "name": "",
                 "child": [
                     "GERMAN 101",
                     "GERMAN 102",
@@ -38,30 +42,33 @@
                     "EURO ST 101A",
                     "EURO ST 101B",
                     "LSCI 3"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Comparative Literature",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "German history",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "German philosophy",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "German political science",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, provided that course content is approved in advance by the German Undergraduate Director and the Humanities Office of Undergraduate Study.",
+                "child": []
+            }
+        ]
     }
 ]

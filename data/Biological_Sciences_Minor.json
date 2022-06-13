@@ -1,0 +1,48 @@
+[
+    {
+        "name": "A. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 94",
+                    "BIO SCI 97",
+                    "BIO SCI 98",
+                    "BIO SCI 99"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select six of the following:",
+        "child": [
+            {
+                "name": "Three- or four-unit courses selected from BIO SCI 5–H90 (excluding 14 and 46), 93–99, and D103–D190, E106–E190, M114–M190, N110–N190.",
+                "child": []
+            },
+            {
+                "name": "Three courses must be upper-division. Prerequisites are strictly enforced. (Courses used to satisfy group A may not also be used to satisfy group B.)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence requirement for the minor",
+        "child": [
+            {
+                "name": "A minimum of six courses required for the minor must be completed at UCI. Approved courses taken in the Education Abroad Program are considered to be in-residence courses.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students in any of the majors within the School of Biological Sciences or students majoring in Public Health Sciences, Biomedical Engineering: Premedical, Nursing Science, or Pharmaceutical Sciences may not minor in Biological Sciences.",
+                "child": []
+            }
+        ]
+    }
+]

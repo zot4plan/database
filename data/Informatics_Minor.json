@@ -1,39 +1,39 @@
 [
     {
-        "name": "",
+        "name": "A. Select one of the following series:",
         "child": [
             {
-                "name": "A. Select one of the following series:",
+                "name": "(b) Series 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
                     "I&C SCI 33"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or",
+                "name": "(b) Series 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
             {
-                "name": "B. Complete:",
+                "name": "",
                 "child": [
                     "IN4MATX 43",
                     "IN4MATX 131",
                     "IN4MATX 161"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "and at least two additional upper-division courses in Informatics.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

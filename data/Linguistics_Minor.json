@@ -1,22 +1,28 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "LSCI 3",
                     "LSCI 10",
                     "LSCI 20"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Four additional linguistics courses, three of which must be upper-division.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Four additional linguistics courses, three of which must be upper-division.",
+        "child": []
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "At least three upper-division courses required for the minor must be completed successfully at UCI.",
+                "child": []
+            }
+        ]
     }
 ]

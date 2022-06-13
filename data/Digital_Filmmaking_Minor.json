@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "ART 81A",
                     "ART 81B",
@@ -16,10 +16,8 @@
                         "ART 153",
                         "ART 166A"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

@@ -1,27 +1,35 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "FLM&MDA 85A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select three of the following:",
+        "child": [
             {
-                "name": "B. Select three of the following:",
+                "name": "",
                 "child": [
                     "FLM&MDA 85B",
                     "FLM&MDA 85C",
                     "FLM&MDA 101A",
                     "FLM&MDA 101B",
                     "FLM&MDA 101C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select three of the following:",
+        "child": [
             {
-                "name": "C. Select three of the following:",
+                "name": "",
                 "child": [
                     "FLM&MDA 110",
                     "FLM&MDA 111",
@@ -43,10 +51,17 @@
                     "FLM&MDA 190",
                     "FLM&MDA 191",
                     "FLM&MDA 194"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

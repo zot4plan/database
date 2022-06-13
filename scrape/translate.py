@@ -29,7 +29,7 @@ def write_requirements(req_type, req_string, file_names, out_file):
         with open(file_names[name], 'r') as f: 
             requirement = str(json.load(f)).replace("'", '"')
             write_majors.write("INSERT INTO " + req_type + " (name, " + req_string + " , url) VALUES (" + 
-                                "'" + name + "', " + "'" + requirement + "', '" + all_urls[name] + "');" + "\n")
+                                "'" + name + "', " + "'" + requirement + "', '" + all_urls[name.replace('-', '/')] + "');" + "\n")
 
     open_urls.close()
     write_majors.close()

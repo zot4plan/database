@@ -1,0 +1,22 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CRM/LAW C7",
+                    "CRM/LAW C10"
+                ]
+            },
+            {
+                "name": "(b) And six upper-division courses selected from CRM/LAW C100-C191.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE: SOCECOL 198 and SOCECOL 199 may not be applied toward the minor.",
+        "child": []
+    }
+]

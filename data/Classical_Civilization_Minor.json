@@ -1,28 +1,37 @@
 [
     {
-        "name": "",
+        "name": "A. Select one of the following:",
         "child": [
             {
-                "name": "A. Select one of the following:",
+                "name": "(b) Selection 1",
                 "child": [
                     "CLASSIC 36A",
                     "CLASSIC 36B",
-                    "CLASSIC 36C",
+                    "CLASSIC 36C"
+                ]
+            },
+            {
+                "name": "(b) Selection 2",
+                "child": [
                     "CLASSIC 37A",
                     "CLASSIC 37B",
-                    "CLASSIC 37C",
+                    "CLASSIC 37C"
+                ]
+
+            },
+            {
+                "name": "(b) Selection 3",
+                "child": [
                     "CLASSIC 45A",
                     "CLASSIC 45B",
                     "CLASSIC 45C"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select five upper-division Classics courses, one of which may be in a related field such as history, art history, or philosophy.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+
+        ]
+    },
+    {
+        "name": "B. Select five upper-division Classics courses, one of which may be in a related field such as history, art history, or philosophy.",
+        "child": []
     }
 ]

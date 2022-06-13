@@ -1,57 +1,62 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "SOCIOL 1",
                     [
                         "SOCIOL 2",
                         "SOCIOL 3"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete one course in methods and one in theory:",
+        "child": [
             {
-                "name": "B. Complete one course in methods and one in theory:",
+                "name": "",
                 "child": [
                     "SOCIOL 110",
                     "SOCIOL 120"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select three SOCIOL courses, of which no more than two may be lower-division.",
+        "child": [
             {
-                "name": "C. Select three SOCIOL courses, of which no more than two may be lower-division.",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Lower-Division Courses",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) Lower-Division Courses",
+                "child": []
             },
             {
                 "name": "SOCIOL 2-79",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "Upper-Division Courses",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Cannot count SOCIOL 2 if used to complete section A., or cannot count SOCIOL 3 if used to complete section A.",
+                "child": []
+            },
+            {
+                "name": "(b) Upper-Division Courses",
+                "child": []
             },
             {
                 "name": "SOCIOL 112-199",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "SOCIOL 121-179",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
+            },
+            {
+                "name": "SOCIOL 110 and SOCIOL 120 cannot be used to fulfill this requirement.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

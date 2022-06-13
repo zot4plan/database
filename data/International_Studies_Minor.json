@@ -1,37 +1,37 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "INTL ST 1"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
             {
-                "name": "B. Select one of the following:",
+                "name": "",
                 "child": [
                     "INTL ST 11",
                     "INTL ST 12",
                     "INTL ST 15",
                     "INTL ST 16",
                     "INTL ST 17"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Geographic Focus: Two upper-division courses in one geographic area",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Global Focus: Three upper-division courses. At least one must be from Module A.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "C. Geographic Focus: Two upper-division courses in one geographic area",
+        "child": []
+    },
+    {
+        "name": "D. Global Focus: Three upper-division courses. At least one must be from Module A.",
+        "child": []
     },
     {
         "name": "Module A:",
@@ -50,21 +50,28 @@
                     "INTL ST 106B",
                     "INTL ST 150",
                     "INTL ST 163"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "Module B",
         "child": [
             {
-                "name": "E. One quarter of INTL ST 183A",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Visit the Global and International Studies website (https://www.globalstudies.uci.edu/) for a list of approved courses. Although some courses are listed in more than one focus, students may not double count a course for both their geographic and global focus. Study abroad counts as one course in the geographic focus.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "E. One quarter of:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "INTL ST 183A"
+                ]
+            }
+        ]
     }
 ]
