@@ -180,15 +180,14 @@ def write_to_json(name, info):
 
 if __name__ == "__main__":
     
-    # all_major_reqs = get_websites(MAJOR_TAGS)
-    # for elem in all_major_reqs:
-    #     major_info = scrape_courses(elem[1])
-    #     if major_info != None:
-    #         write_to_json(elem[0], major_info)
+    all_major_reqs = get_websites(MAJOR_TAGS)
+    for elem in all_major_reqs:
+        major_info = scrape_courses(elem[1])
+        if major_info != None:
+            write_to_json(elem[0], major_info)
 
-    # all_minor_reqs = get_websites(MINOR_TAGS)
-    # for elem in all_minor_reqs:
-    #     minor_req_info = scrape_courses(elem[1])
-    #     if minor_req_info != None:
-    #         write_to_json(elem[0] + '.', minor_req_info)
-    pass
+    all_minor_reqs = get_websites(MINOR_TAGS)
+    for elem in all_minor_reqs:
+        minor_req_info = scrape_courses(elem[1])
+        if minor_req_info != None:
+            write_to_json(elem[0] + '.', minor_req_info)
