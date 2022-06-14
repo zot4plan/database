@@ -1,5 +1,3 @@
-USE zot4plandb;
-GO
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("AC ENG 139W","IB");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("AFAM 40A","III");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("AFAM 40A","IV");
@@ -1024,8 +1022,8 @@ INSERT INTO courses_in_ges (courseId, geId) VALUES ("VIETMSE 2C","VIII");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("VIETMSE 50","IV");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 30","IA");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 31","IA");
-INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 45","IA");
-INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 50","IA");
-INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 60","IA");
+INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 37","IA");
+INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 39B","IA");
+INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 39C","IA");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 101W","IB");
 INSERT INTO courses_in_ges (courseId, geId) VALUES ("WRITING 139W","IB");

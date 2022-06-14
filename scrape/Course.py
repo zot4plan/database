@@ -15,6 +15,7 @@ class Course:
         self.units = '0'
         self.description = ''
         self.prerequisite = ''
+        self.prerequisite_tree = ''
         self.corequisite = ''
         self.repeatability = '1'
         self.restriction = ''
@@ -113,3 +114,10 @@ class Course:
         """
         swap = [" ".join(term.split(" ")[::-1]) for term in all_terms]
         self.past_terms = ", ".join(swap)
+
+
+    def set_prereq_tree(self, course_prereq_tree):
+        """
+        set_prereq_tree saves the course's prerequisites in tree format.
+        """
+        self.prerequisite_tree = course_prereq_tree.replace('"', "'")
