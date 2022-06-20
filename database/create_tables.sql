@@ -11,6 +11,7 @@ CREATE TABLE courses (
     description VARCHAR(1000) NOT NULL,
     prerequisite VARCHAR(1000) NOT NULL,
     prerequisite_tree VARCHAR(300) NOT NULL,
+    prerequisite_for VARCHAR(750) NOT NULL,
     restriction VARCHAR(1000) NOT NULL,
     repeatability INT NOT NULL,
     corequisite VARCHAR (1000),
