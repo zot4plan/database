@@ -19,10 +19,11 @@ CREATE TABLE courses (
     terms VARCHAR(350) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE majors(
+CREATE TABLE major_reqs(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
     major_requirement json DEFAULT NULL,
+    required_courses VARCHAR(2000),
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
 
@@ -30,6 +31,7 @@ CREATE TABLE minor_reqs(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
     minor_requirement json DEFAULT NULL,
+    required_courses VARCHAR(2200),
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
 

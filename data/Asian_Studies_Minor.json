@@ -60,22 +60,21 @@
             },
             {
                 "name": "(b) 2. Either Classical Chinese or Classical Japanese:",
+                "child": []
+            },
+            {
+                "name": "Series 1:",
                 "child": [
-                    {
-                        "name": "Series 1:",
-                        "child": [
-                            "CHINESE 100A",
-                            "CHINESE 100B",
-                            "CHINESE 100C"
-                        ]
-                    },
-                    {
-                        "name": "Series 2:",
-                        "child": [
-                            "JAPANSE 100A",
-                            "JAPANSE 100B"
-                        ]
-                    }
+                    "CHINESE 100A",
+                    "CHINESE 100B",
+                    "CHINESE 100C"
+                ]
+            },
+            {
+                "name": "Series 2:",
+                "child": [
+                    "JAPANSE 100A",
+                    "JAPANSE 100B"
                 ]
             },
             {

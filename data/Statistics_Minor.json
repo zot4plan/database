@@ -21,15 +21,20 @@
     {
         "name": "Select one elective from the following:",
         "child": [
-            "I&C SCI 31",
-            [
-                "MATH 130B",
-                "MATH 130C"
-            ],
-            "STATS 7",
-            "STATS 112",
-            "STATS 115",
-            "STATS 140"
+            {
+                "name": "",
+                "child": [
+                    "I&C SCI 31",
+                    [
+                        "MATH 130B",
+                        "MATH 130C"
+                    ],
+                    "STATS 7",
+                    "STATS 112",
+                    "STATS 115",
+                    "STATS 140"
+                ]
+            }
         ]
     }
 ]
