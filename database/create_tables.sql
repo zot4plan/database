@@ -19,18 +19,11 @@ CREATE TABLE courses (
     terms VARCHAR(350) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE major_reqs(
+CREATE TABLE programs(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
-    major_requirement json DEFAULT NULL,
-    required_courses VARCHAR(2000),
-    url VARCHAR(300) NOT NULL,
-    PRIMARY KEY(id));
-
-CREATE TABLE minor_reqs(
-    id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(50) NOT NULL,
-    minor_requirement json DEFAULT NULL,
+    isMajor boolean NOT NULL,
+    requirement json DEFAULT NULL,
     required_courses VARCHAR(2200),
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
@@ -45,6 +38,11 @@ CREATE TABLE general_educations(
     id VARCHAR(5) NOT NULL,
     name VARCHAR(55) NOT NULL,
     note VARCHAR(100) NOT NULL,
+    PRIMARY KEY(id));
+
+CREATE TABLE visits(
+    id VARCHAR(5) NOT NULL,
+    total INT NOT NULL,
     PRIMARY KEY(id));
 
 INSERT INTO general_educations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");

@@ -103,7 +103,7 @@ def write_courses():
     
     write_ge.close()
 
-    with open('../data/data.json', 'w') as f: 
+    with open('../database/courseIDs.json', 'w') as f: 
         json.dump(course_names, f,indent=4)
 
 
