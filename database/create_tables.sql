@@ -24,17 +24,23 @@ CREATE TABLE programs(
     name VARCHAR(50) NOT NULL,
     isMajor boolean NOT NULL,
     requirement json DEFAULT NULL,
-    required_courses VARCHAR(2200),
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE courses_in_ges(
+CREATE TABLE courses_in_programs(
+    id INT NOT NULL AUTO_INCREMENT,
+    courseId VARCHAR(25) NOT NULL,
+    programId INT NOT NULL,
+    PRIMARY KEY(id));
+
+
+CREATE TABLE courses_in_ge(
     id INT NOT NULL AUTO_INCREMENT,
     courseId VARCHAR(25) NOT NULL,
     geId VARCHAR(5) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE general_educations(
+CREATE TABLE general_education(
     id VARCHAR(5) NOT NULL,
     name VARCHAR(55) NOT NULL,
     note VARCHAR(100) NOT NULL,
@@ -45,15 +51,15 @@ CREATE TABLE visits(
     total INT NOT NULL,
     PRIMARY KEY(id));
 
-INSERT INTO general_educations VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
-INSERT INTO general_educations VALUES ("IB","Upper-Division Requirement","One upper-division course");
-INSERT INTO general_educations VALUES ("II","Science and Technology","Three courses");
-INSERT INTO general_educations VALUES ("III","Social and Behavioral Sciences", "Three courses");
-INSERT INTO general_educations VALUES ("IV","Arts and Humanities", "Three courses");
-INSERT INTO general_educations VALUES ("VA","Quantitative Literacy", "One Course (and an additional course from either Va or Vb - total of three courses)");
-INSERT INTO general_educations VALUES ("VB","Formal Reasoning","One Course (and an additional course from either Va or Vb - total of three courses)");
-INSERT INTO general_educations VALUES ("VI", "Language Other Than English","One course");
-INSERT INTO general_educations VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
-INSERT INTO general_educations VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
+INSERT INTO general_education VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
+INSERT INTO general_education VALUES ("IB","Upper-Division Requirement","One upper-division course");
+INSERT INTO general_education VALUES ("II","Science and Technology","Three courses");
+INSERT INTO general_education VALUES ("III","Social and Behavioral Sciences", "Three courses");
+INSERT INTO general_education VALUES ("IV","Arts and Humanities", "Three courses");
+INSERT INTO general_education VALUES ("VA","Quantitative Literacy", "One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO general_education VALUES ("VB","Formal Reasoning","One Course (and an additional course from either Va or Vb - total of three courses)");
+INSERT INTO general_education VALUES ("VI", "Language Other Than English","One course");
+INSERT INTO general_education VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
+INSERT INTO general_education VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
 
 ALTER TABLE courses ADD FULLTEXT(id);

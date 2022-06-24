@@ -27,19 +27,20 @@ def get_paths():
     return all_paths
 
 
-def get_course_id(info):
+def write_required_courses(info, index):
     
-    all_id = set()
+    out_file = open("../database/courses_in_programs.sql", "a")
     for header in info:
         for section in header['child']:
             for course in section['child']:    
                 if type(course) == str:
-                    all_id.add(course)
+                    out_file.write("INSERT INTO courses_in_programs (courseId, programId) VALUES (" +
+                                    "'" + course + "', " + "'" + str(index) + "');" + "\n")
                 else:
                     for elem in course:
-                        all_id.add(elem)
-    return all_id
-
+                        out_file.write("INSERT INTO courses_in_programs (courseId, programId) VALUES (" +
+                                    "'" + elem + "', " + "'" + str(index) + "');" + "\n")
+    out_file.close
 
 def write_requirements(file_names, out_file):
     """
@@ -52,17 +53,17 @@ def write_requirements(file_names, out_file):
     write_majors = open(out_file, 'w')
     sorted_files = sorted(file_names)
 
-    for name in sorted_files: 
+    for index, name in enumerate(sorted_files, 1): 
         with open(file_names[name], 'r') as f:
             all_info = json.load(f)
             requirement = str(all_info).replace("'", '"')
-            course_id = ", ".join(get_course_id(all_info)).replace("'", '"')
             is_major = 1 
             if "Minor" in name:
                 is_major = 0
-            write_majors.write("INSERT INTO programs (name, isMajor, requirement, required_courses, url) VALUES (" + 
-                                "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" + course_id + 
-                                "', '" +  all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
+            write_majors.write("INSERT INTO programs (name, isMajor, requirement, url) VALUES (" + 
+                                "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" + 
+                                all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
+            write_required_courses(all_info, index)
 
     open_urls.close()
     write_majors.close()

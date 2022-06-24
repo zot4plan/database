@@ -1,29 +1,19 @@
 [
     {
-        "name": "Completion of seven courses (28 units) as specified below. At least four courses must be upper-division.",
+        "name": "Completion of seven courses (28 units) as specified below.",
         "child": [
             {
-                "name": "",
+                "name": "(b) At least four courses must be upper-division.",
                 "child": []
-            }
-        ]
-    },
-    {
-        "name": "A. Complete:",
-        "child": [
+            },
             {
-                "name": "",
+                "name": "(b) A. Complete:",
                 "child": [
                     "ANTHRO 2C"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "B. Select one of the following:",
-        "child": [
+            },
             {
-                "name": "",
+                "name": "(b) B. Select one of the following:",
                 "child": [
                     "ART HIS 40A",
                     "ART HIS 42A",
@@ -31,14 +21,9 @@
                     "ART HIS 42E",
                     "ANTHRO 141A"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "C. Select five additional elective courses chosen from Areas B or C",
-        "child": [
+            },
             {
-                "name": "",
+                "name": "(b) C. Select five additional elective courses chosen from Areas B or C",
                 "child": [
                     "ANTHRO 48",
                     "ANTHRO 147",
