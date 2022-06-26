@@ -22,22 +22,9 @@ CREATE TABLE courses (
 CREATE TABLE programs(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
-    isMajor boolean NOT NULL,
+    is_major boolean NOT NULL,
     requirement json DEFAULT NULL,
     url VARCHAR(300) NOT NULL,
-    PRIMARY KEY(id));
-
-CREATE TABLE courses_in_programs(
-    id INT NOT NULL AUTO_INCREMENT,
-    courseId VARCHAR(25) NOT NULL,
-    programId INT NOT NULL,
-    PRIMARY KEY(id));
-
-
-CREATE TABLE courses_in_ge(
-    id INT NOT NULL AUTO_INCREMENT,
-    courseId VARCHAR(25) NOT NULL,
-    geId VARCHAR(5) NOT NULL,
     PRIMARY KEY(id));
 
 CREATE TABLE general_education(
@@ -45,6 +32,21 @@ CREATE TABLE general_education(
     name VARCHAR(55) NOT NULL,
     note VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
+
+CREATE TABLE courses_in_programs(
+    id INT NOT NULL AUTO_INCREMENT,
+    course_id VARCHAR(25) NOT NULL,
+    program_id INT NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY (program_id) REFERENCES programs(id));
+
+CREATE TABLE courses_in_ge(
+    id INT NOT NULL AUTO_INCREMENT,
+    course_id VARCHAR(25) NOT NULL,
+    ge_id VARCHAR(5) NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY (course_id) REFERENCES courses(id),
+    FOREIGN KEY (ge_id) REFERENCES general_education(id));
 
 CREATE TABLE visits(
     id VARCHAR(5) NOT NULL,
@@ -63,3 +65,11 @@ INSERT INTO general_education VALUES ("VII","Multicultural Studies","One course 
 INSERT INTO general_education VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
 
 ALTER TABLE courses ADD FULLTEXT(id);
+ALTER TABLE programs RENAME COLUMN isMajor TO is_major;
+ALTER TABLE courses_in_ge RENAME COLUMN geId TO ge_id;
+ALTER TABLE courses_in_ge RENAME COLUMN courseId TO course_id;
+ALTER TABLE courses_in_programs RENAME COLUMN courseId TO course_id;
+ALTER TABLE courses_in_programs RENAME COLUMN programId TO program_id;
+ALTER TABLE courses_in_ge ADD FOREIGN KEY (course_id) REFERENCES courses(id);
+ALTER TABLE courses_in_ge ADD FOREIGN KEY (ge_id) REFERENCES general_education(id);
+
