@@ -19,7 +19,7 @@
         "name": "B. Upper-Division Laboratories:",
         "child": [
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E106L",
@@ -48,7 +48,7 @@
         "name": "C. Upper-Division Biology Electives:",
         "child": [
             {
-                "name": "Select two upper-division, four-unit courses from the following:",
+                "name": "(b) Select two upper-division, four-unit courses from the following:",
                 "child": [                    
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
@@ -113,8 +113,11 @@
                 ]
             },
             {
-                "name": "Or Humanities Core Alternative (including MED HUM 1 and MED HUM 3)",
-                "child": []
+                "name": "(b) Or Humanities Core Alternative (including MED HUM 1 and MED HUM 3)",
+                "child": [
+                    "MED HUM 1",
+                    "MED HUM 3"
+                ]
             }
         ]
     }

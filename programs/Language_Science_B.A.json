@@ -3,7 +3,7 @@
         "name": "Core",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "(b) A. Complete the following:",
                 "child": [
                     "LSCI 3",
                     "LSCI 10",
@@ -13,7 +13,7 @@
                 ]
             },
             {
-                "name": "B. Select two courses from the following:",
+                "name": "(b) B. Select two courses from the following:",
                 "child": [
                     "LSCI 164A",
                     "LSCI 164B",

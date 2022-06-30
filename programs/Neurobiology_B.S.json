@@ -3,7 +3,7 @@
         "name": "A. Upper-Division Core:",
         "child": [
             {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "BIO SCI D103",
                     "BIO SCI D104",
@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "name": "And select two of the following:",
+                "name": "(b) And select two of the following:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E106L",

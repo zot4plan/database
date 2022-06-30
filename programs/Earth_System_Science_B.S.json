@@ -127,7 +127,7 @@
         "name": "Specialization in Atmospheric Science",
         "child": [
             {
-                "name": "Three courses selected from the following:",
+                "name": "(b) Three courses selected from the following:",
                 "child": [
                     "EARTHSS 122",
                     "EARTHSS 124",
@@ -136,7 +136,7 @@
                 ]
             },
             {
-                "name": "One advanced tools courses selected from the following:",
+                "name": "(b) One advanced tools courses selected from the following:",
                 "child": [
                     "EARTHSS 118",
                     "EARTHSS 134",
@@ -150,10 +150,10 @@
         ]
     },
     {
-        "name": " Specialization in Hydrology and Terrestrial Ecosystems",
+        "name": "Specialization in Hydrology and Terrestrial Ecosystems",
         "child": [
             {
-                "name": "Three courses selected from the following:",
+                "name": "(b) Three courses selected from the following:",
                 "child": [
                     "EARTHSS 132",
                     [
@@ -165,7 +165,7 @@
                 ]
             },
             {
-                "name": "One advanced tools course selected from the following:",
+                "name": "(b) One advanced tools course selected from the following:",
                 "child": [
                     "EARTHSS 118",
                     "EARTHSS 134",
@@ -179,10 +179,10 @@
         ]
     },
     {
-        "name": "  Specialization in Oceanography",
+        "name": "Specialization in Oceanography",
         "child": [
             {
-                "name": "Three courses selected from the following:",
+                "name": "(b) Three courses selected from the following:",
                 "child": [
                     "EARTHSS 130",
                     "EARTHSS 144",
@@ -192,7 +192,7 @@
                 ]
             },
             {
-                "name": "One advanced tools course selected from the following:",
+                "name": "(b) One advanced tools course selected from the following:",
                 "child": [
                     "EARTHSS 118",
                     "EARTHSS 138"
@@ -200,6 +200,41 @@
             },
             {
                 "name": "(These courses may overlap in Major Requirements, Section B.)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Concentration in Geosciences Education with Secondary Teaching Certification",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "CHEM 193",
+                        "PHYSICS 193"
+                    ],
+                    [
+                        "EARTHSS 7",
+                        "EARTHSS 140"
+                    ],
+                    "EDUC 55",
+                    "EDUC 109",
+                    "EDUC 143AW",
+                    "EDUC 143BW",
+                    "EDUC 148",
+                    "EDUC 158",
+                    "LPS 60",
+                    "PHY SCI 5",
+                    "PHY SCI 105",
+                    [
+                        "PHYSICS 20A",
+                        "PHYSICS 20B"
+                    ]
+                ]
+            },
+            {
+                "name": "EARTHSS 140 may overlap with the major requirement in section B.",
                 "child": []
             }
         ]

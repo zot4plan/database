@@ -31,13 +31,9 @@
     },
     {
         "name": "D. Global Focus: Three upper-division courses. At least one must be from Module A.",
-        "child": []
-    },
-    {
-        "name": "Module A:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Module A:",
                 "child": [
                     "INTL ST 100",
                     "INTL ST 101A",
@@ -51,12 +47,11 @@
                     "INTL ST 150",
                     "INTL ST 163"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Module B",
-        "child": [
+            },
+            {
+                "name": "(b) Module B",
+                "child": []
+            },
             {
                 "name": "Visit the Global and International Studies website (https://www.globalstudies.uci.edu/) for a list of approved courses. Although some courses are listed in more than one focus, students may not double count a course for both their geographic and global focus. Study abroad counts as one course in the geographic focus.",
                 "child": []

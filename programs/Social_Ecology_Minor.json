@@ -13,7 +13,7 @@
                 ]
             },
             {
-                "name": "Select one of the following courses:",
+                "name": "(b) Select one of the following courses:",
                 "child": [
                     "PSCI 9",
                     "PSCI 11B",

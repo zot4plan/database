@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import sys
 
-NAME_REQ_OUT = '../database/requirements.sql'
+NAME_REQ_OUT = '../database/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
 
 def get_paths():
@@ -34,11 +34,11 @@ def write_required_courses(info, index):
         for section in header['child']:
             for course in section['child']:    
                 if type(course) == str:
-                    out_file.write("INSERT INTO courses_in_programs (courseId, programId) VALUES (" +
+                    out_file.write("INSERT INTO courses_in_programs (course_id, program_id) VALUES (" +
                                     "'" + course + "', " + "'" + str(index) + "');" + "\n")
                 else:
                     for elem in course:
-                        out_file.write("INSERT INTO courses_in_programs (courseId, programId) VALUES (" +
+                        out_file.write("INSERT INTO courses_in_programs (course_id, program_id) VALUES (" +
                                     "'" + elem + "', " + "'" + str(index) + "');" + "\n")
     out_file.close
 
@@ -48,7 +48,7 @@ def write_requirements(file_names, out_file):
     given file paths and write them into a given outfile.
     """
     
-    open_urls = open('../database/program_Urls.json')
+    open_urls = open('../other/program_Urls.json')
     all_urls = json.load(open_urls)
     write_majors = open(out_file, 'w')
     sorted_files = sorted(file_names)
@@ -60,7 +60,7 @@ def write_requirements(file_names, out_file):
             is_major = 1 
             if "Minor" in name:
                 is_major = 0
-            write_majors.write("INSERT INTO programs (name, isMajor, requirement, url) VALUES (" + 
+            write_majors.write("INSERT INTO programs (name, is_major, requirement, url) VALUES (" + 
                                 "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" + 
                                 all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
             write_required_courses(all_info, index)

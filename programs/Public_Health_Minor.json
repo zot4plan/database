@@ -19,7 +19,7 @@
                 "child": []
             },
             {
-                "name": "PUBHLTH  101-119",
+                "name": "PUBHLTH 101-119",
                 "child": [
                     "PUBHLTH 101",
                     "PUBHLTH 102",
@@ -35,7 +35,7 @@
                 "child": []
             },
             {
-                "name": "PUBHLTH  120-139",
+                "name": "PUBHLTH 120-139",
                 "child": [
                     "PUBHLTH 120",
                     "PUBHLTH 121",
@@ -55,7 +55,7 @@
                 "child": []
             },
             {
-                "name": "PUBHLTH  140-159",
+                "name": "PUBHLTH 140-159",
                 "child": [
                     "PUBHLTH 141",
                     "PUBHLTH 144",
@@ -71,7 +71,7 @@
                 "child": []
             },
             {
-                "name": "PUBHLTH  160-179",
+                "name": "PUBHLTH 160-179",
                 "child": [
                     "PUBHLTH 161",
                     "PUBHLTH 163",
@@ -92,7 +92,7 @@
                 "child": []
             },
             {
-                "name": "PUBHLTH  180-189",
+                "name": "PUBHLTH 180-189",
                 "child": [
                     "PUBHLTH 180",
                     "PUBHLTH 181",

@@ -3,14 +3,14 @@
         "name": "Lower-Division Requirements (24 units):",
         "child": [
             {
-                "name": "A. Complete the following Research Methods and Data Literacy Requirement (8 units)",
+                "name": "(b) A. Complete the following Research Methods and Data Literacy Requirement (8 units)",
                 "child": [
                     "EDUC 10",
                     "EDUC 15"
                 ]
             },
             {
-                "name": "B. Complete the following Introduction to Education Science Requirement (16 units)",
+                "name": "(b) B. Complete the following Introduction to Education Science Requirement (16 units)",
                 "child": [
                     "EDUC 25",
                     "EDUC 30",
@@ -24,42 +24,42 @@
         "name": "Upper-Division Requirements (20 units):",
         "child": [
             {
-                "name": "C. Select one Human Development course (4 units):",
+                "name": "(b) C. Select one Human Development course (4 units):",
                 "child": [
                     "EDUC 107",
                     "EDUC 108"
                 ]
             },
             {
-                "name": "D. Select one Learning course (4 units):",
+                "name": "(b) D. Select one Learning course (4 units):",
                 "child": [
                     "EDUC 146",
                     "EDUC 173"
                 ]
             },
             {
-                "name": "E. Select one Social Structures and Stratification course (4 units):",
+                "name": "(b) E. Select one Social Structures and Stratification course (4 units):",
                 "child": [
                     "EDUC 124",
                     "EDUC 147"
                 ]
             },
             {
-                "name": "F. Select one Policymaking in Education course (4 units):",
+                "name": "(b) F. Select one Policymaking in Education course (4 units):",
                 "child": [
                     "EDUC 142",
                     "EDUC 140"
                 ]
             },
             {
-                "name": "G. Select one Schools as Organizations course (4 units):",
+                "name": "(b) G. Select one Schools as Organizations course (4 units):",
                 "child": [
                     "EDUC 144",
                     "EDUC 150"
                 ]
             },
             {
-                "name": "H. Five additional elective Education courses (20 units). At least 12 units must be upper-division (numbered 100-199).",
+                "name": "(b) H. Five additional elective Education courses (20 units). At least 12 units must be upper-division (numbered 100-199).",
                 "child": []
             },
             {
@@ -67,7 +67,7 @@
                 "child": []
             },
             {
-                "name": "I. Practicum Requirement (40 hours total):",
+                "name": "(b) I. Practicum Requirement (40 hours total):",
                 "child": []
             },
             {

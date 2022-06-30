@@ -17,8 +17,13 @@
         "child": []
     },
     {
-        "name": "C. Select one additional upper-division course in Comparative Literature or another upper-division course offered in the School of Humanities.",
-        "child": []
+        "name": "C. Select one additional:",
+        "child": [
+            {
+                "name": "Upper-division course in Comparative Literature or another upper-division course offered in the School of Humanities.",
+                "child": []
+            }
+        ]
     },
     {
         "name": "Residence Requirement for the Comparative Literature Minor",

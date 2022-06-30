@@ -91,14 +91,14 @@
         "name": "Specialization in Electronic Circuit Design:",
         "child": [
             {
-                "name": "Requires:",
+                "name": "(b) Requires:",
                 "child": [
                     "EECS 170D",
                     "EECS 170E"
                 ]
             },
             {
-                "name": "And select four of the following:",
+                "name": "(b) And select four of the following:",
                 "child": [
                     "EECS 166A",
                     "EECS 174",
@@ -114,7 +114,7 @@
         "name": "Specialization in Semiconductors and Optoelectronics:",
         "child": [
             {
-                "name": "Requires:",
+                "name": "(b) Requires:",
                 "child": [
                     "EECS 174",
                     "EECS 188",
@@ -122,7 +122,7 @@
                 ]
             },
             {
-                "name": "And select three of the following:",
+                "name": "(b) And select three of the following:",
                 "child": [
                     "EECS 170D",
                     "EECS 176",
@@ -138,7 +138,7 @@
         "name": "Specialization in RF, Antennas and Microwaves:",
         "child": [
             {
-                "name": "Requires:",
+                "name": "(b) Requires:",
                 "child": [
                     "EECS 144",
                     "EECS 180B",
@@ -146,7 +146,7 @@
                 ]
             },
             {
-                "name": "And select three of the following:",
+                "name": "(b) And select three of the following:",
                 "child": [
                     "EECS 170D",
                     "EECS 170E",
@@ -161,7 +161,7 @@
         "name": "Specialization in Digital Signal Processing:",
         "child": [
             {
-                "name": "Requires:",
+                "name": "(b) Requires:",
                 "child": [
                     "EECS 22",
                     "EECS 152A",
@@ -169,7 +169,7 @@
                 ]
             },            
             {
-                "name": "And select three of the following:",
+                "name": "(b) And select three of the following:",
                 "child": [
                     "EECS 20",
                     "EECS 101",
@@ -184,14 +184,14 @@
         "name": "Specialization in Communications:",
         "child": [
             {
-                "name": "Requires:",
+                "name": "(b) Requires:",
                 "child": [
                     "EECS 141A",
                     "EECS 141B"
                 ]
             },
             {
-                "name": "and select four of the following:",
+                "name": "(b) And select four of the following:",
                 "child": [
                     "EECS 20",
                     "EECS 22",

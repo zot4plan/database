@@ -3,7 +3,7 @@
         "name": "Lower Division: A. Select one of the following series:",
         "child": [
             {
-                "name": "Group 1",
+                "name": "(b) Group 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "name": "Group 2",
+                "name": "(b) Group 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
@@ -61,13 +61,13 @@
         "name": "1. Specialization in Human-Computer Interaction",
         "child": [
             {
-                "name": "Complete:",
+                "name": "(b) Complete:",
                 "child": [
                     "IN4MATX 132"
                 ]
             },
             {
-                "name": "And select three of the following:",
+                "name": "(b) And select three of the following:",
                 "child": [
                     "IN4MATX 133",
                     "IN4MATX 141",
@@ -78,7 +78,7 @@
                 ]
             },
             {
-                "name": "And select two project courses from the following:",
+                "name": "(b) And select two project courses from the following:",
                 "child": [
                     "IN4MATX 125",
                     "IN4MATX 134",
@@ -88,7 +88,7 @@
                 ]
             },
             {
-                "name": "And select two additional courses from the following:",
+                "name": "(b) And select two additional courses from the following:",
                 "child": []
             },
             {
@@ -101,7 +101,7 @@
         "name": "2. Specialization in Organizations and Information Technology",
         "child": [
             {
-                "name": "Complete:",
+                "name": "(b) Complete:",
                 "child": [
                     "IN4MATX 141",
                     "IN4MATX 162W",
@@ -111,7 +111,7 @@
                 ]
             },
             {
-                "name": "And select four of the following:",
+                "name": "(b) And select four of the following:",
                 "child": [
                     "MGMT 107",
                     "MGMT 173",
@@ -130,7 +130,7 @@
                 "child": []
             },
             {
-                "name": "And select two additional courses from the following:",
+                "name": "(b) And select two additional courses from the following:",
                 "child": []
             },
             {
@@ -147,14 +147,14 @@
         "name": "3. Specialization in Health Informatics",
         "child": [
             {
-                "name": "Complete the following:",
+                "name": "(b) Complete the following:",
                 "child": [
                     "IN4MATX 171",
                     "IN4MATX 172"
                 ]
             },
             {
-                "name": "Select four from the following:",
+                "name": "(b) Select four from the following:",
                 "child": [
                     "IN4MATX 124",
                     "IN4MATX 132",
@@ -177,7 +177,7 @@
                 ]
             },
             {
-                "name": "And select two courses from the following:",
+                "name": "(b) And select two courses from the following:",
                 "child": [
                     "NUR SCI 110W",
                     "PUBHLTH 101",
@@ -185,7 +185,7 @@
                 ]
             },
             {
-                "name": "And select two additional courses from the following:",
+                "name": "(b) And select two additional courses from the following:",
                 "child": []
             },
             {

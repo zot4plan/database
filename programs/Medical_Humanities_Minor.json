@@ -43,8 +43,12 @@
         ]
     },
     {
-        "name": "D. Select three additional courses (two of which must be upper-division) chosen from those listed above in A, B, and C, and among a list of quarterly approved courses. With the approval of the Co-Directors of the Minor in Medical Humanities, other relevant courses may satisfy the requirements for the minor.",
+        "name": "D. Select:",
         "child": [
+            {
+                "name": "Three additional courses (two of which must be upper-division) chosen from those listed above in A, B, and C, and among a list of quarterly approved courses. With the approval of the Co-Directors of the Minor in Medical Humanities, other relevant courses may satisfy the requirements for the minor.",
+                "child": []
+            },
             {
                 "name": "The list of quarterly approved courses is available on the Medical Humanities website: https://www.humanities.uci.edu/medicalhumanities",
                 "child": []

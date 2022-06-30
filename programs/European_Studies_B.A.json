@@ -49,5 +49,42 @@
             }
 
         ]
+    },
+    {
+        "name": "Specializations and Approved Courses:",
+        "child": [
+            {
+                "name": "(b) The following specializations are available in the major in European Studies:",
+                "child": []
+            },
+            {
+                "name": "Early Europe (Pre-1789)",
+                "child": []
+            },
+            {
+                "name": "Modern Europe (Post-1789)",
+                "child": []
+            },
+            {
+                "name": "French Studies",
+                "child": []
+            },
+            {
+                "name": "German Studies",
+                "child": []
+            },
+            {
+                "name": "Italian Studies",
+                "child": []
+            },
+            {
+                "name": "Russian Studies",
+                "child": []
+            },
+            {
+                "name": "Spanish Studies",
+                "child": []
+            }
+        ]
     }
 ]

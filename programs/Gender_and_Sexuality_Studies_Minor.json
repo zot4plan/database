@@ -40,7 +40,28 @@
         "child": [
             {
                 "name": "(b) GEN&SEX 139-190",
-                "child": []
+                "child": [
+                    "GEN&SEX 139",
+                    "GEN&SEX 155",
+                    "GEN&SEX 157",
+                    "GEN&SEX 165F",
+                    "GEN&SEX 167A",
+                    "GEN&SEX 170",
+                    "GEN&SEX 171",
+                    "GEN&SEX 171A",
+                    "GEN&SEX 174",
+                    "GEN&SEX 175",
+                    "GEN&SEX 180",
+                    "GEN&SEX 181",
+                    "GEN&SEX 182",
+                    "GEN&SEX 183",
+                    "GEN&SEX 184",
+                    "GEN&SEX 185",
+                    "GEN&SEX 187",
+                    "GEN&SEX 188",
+                    "GEN&SEX 189",
+                    "GEN&SEX 190"
+                ]
             }
         ]
     },

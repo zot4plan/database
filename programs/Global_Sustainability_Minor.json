@@ -3,7 +3,7 @@
         "name": "A. Introductory Course",
         "child": [
             {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "EARTHSS 1",
                     "EARTHSS 3",
@@ -17,7 +17,7 @@
         "name": "B. Introductory Course B",
         "child": [
             {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "BIO SCI 6",
                     "BIO SCI 9K",
@@ -30,7 +30,7 @@
         "name": "C. Introductory Course C",
         "child": [
             {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "ANTHRO 20A",
                     "ANTHRO 30A",
@@ -105,7 +105,10 @@
                     "EARTHSS 51",
                     "EARTHSS 55",
                     "EARTHSS 146",
-                    "EARTHSS 164/BIO SCI E118",
+                    [
+                        "EARTHSS 164",
+                        "BIO SCI E118"
+                    ],
                     "UPPP 131",
                     "UPPP 132",
                     "ENGRCEE 60",
@@ -125,9 +128,15 @@
                     "BIO SCI 55",
                     "BIO SCI 94",
                     "BIO SCI E106",
-                    "BIO SCI E118/EARTHSS 164",
+                    [
+                        "BIO SCI E118",
+                        "EARTHSS 164"
+                    ],
                     "BIO SCI E120",
-                    "BIO SCI E127/EARTHSS 168",
+                    [
+                        "BIO SCI E127",
+                        "EARTHSS 168"
+                    ],
                     "BIO SCI E150",
                     "BIO SCI E172",
                     "BIO SCI E179",
@@ -142,7 +151,7 @@
         "name": "E. Methods",
         "child": [
             {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "BIO SCI E166L",
                     "EARTHSS 19",
@@ -173,7 +182,7 @@
                 ]
             },
             {
-                "name": "Or",
+                "name": "(b) Or",
                 "child": [
                     "EARTHSS 190A",
                     "EARTHSS 190B",
@@ -181,7 +190,7 @@
                 ]
             },
             {
-                "name": "Or",
+                "name": "(b) Or",
                 "child": [
                     "SOCECOL 186A",
                     "SOCECOL 186B",

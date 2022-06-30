@@ -1,1 +1,33 @@
-[]
+[
+    {
+        "name": "Mathematics and Basic Science Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MATH 2D",
+                    "MATH 2E",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7D",
+                    "PHYSICS 7LD"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses",
+        "child": [
+            {
+                "name": "ENGRMAE 10 or equivalent. With the approval of a faculty advisor and the Associate Dean, students select all additional Engineering Topics courses.",
+                "child": [
+                    "ENGRMAE 10"
+                ]
+            }
+        ]
+    }
+]

@@ -15,8 +15,12 @@
         ]
     },
     {
-        "name": "B. Complete at least five upper-division French courses other than FRENCH 102A, 102B, 102C,  102D,  or 102E:",
+        "name": "B. Complete:",
         "child": [
+            {
+                "name": "At least five upper-division French courses other than FRENCH 102A, 102B, 102C,  102D,  or 102E",
+                "child": []
+            },
             {
                 "name": "A maximum of three courses may be taught entirely in English.",
                 "child": []

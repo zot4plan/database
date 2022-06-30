@@ -72,7 +72,12 @@
         ]
     },
     {
-        "name": "NOTE: A student must earn a grade of C or better in all courses used to satisfy the requirements of this minor.",
-        "child": []
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "A student must earn a grade of C or better in all courses used to satisfy the requirements of this minor.",
+                "child": []
+            }
+        ]
     }
 ]

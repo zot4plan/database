@@ -1,40 +1,42 @@
 [
     {
-        "name": "",
+        "name": "A. Required Major Courses:",
         "child": [
             {
-                "name": "A. Required Major Courses:",
+                "name": "",
                 "child": [
                     "BIO SCI M121",
                     "BIO SCI M122",
                     "BIO SCI M124A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-Division Laboratories:",
+        "child": [
             {
-                "name": "B. Upper-Division Laboratories:",
+                "name": "",
                 "child": [
                     "BIO SCI M116L"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and either",
+                "name": "(b) And either",
                 "child": [
                     [
                         "BIO SCI M118L",
                         "BIO SCI M121L"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Upper-Division Biology Electives:",
+        "child": [
             {
-                "name": "C. Upper-Division Biology Electives:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Select at least four from the following:",
+                "name": "(b) Select at least four from the following:",
                 "child": [
                     "BIO SCI E124",
                     "BIO SCI M119",
@@ -46,21 +48,18 @@
                     "BIO SCI M143",
                     "BIO SCI M180",
                     "MOL BIO 205"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and two can be selected from the following:",
+                "name": "(b) And two can be selected from the following:",
                 "child": [
                     "BIO SCI D103",
                     "BIO SCI D137",
                     "BIO SCI M114",
                     "BIO SCI M116",
                     "BIO SCI M144"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

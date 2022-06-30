@@ -63,7 +63,11 @@
         "name": "Residence Requirement for the Minor:",
         "child": [
             {
-                "name": "LIT JRN 20, LIT JRN 21, LIT JRN 100, and LIT JRN 101A must be completed successfully at UCI. By petition, two of the three LIT JRN 103 courses may be taken through the UC Education Abroad Program, providing course content is approved in advance by the Literary Journalism program.",
+                "name": "LIT JRN 20, LIT JRN 21, LIT JRN 100, and LIT JRN 101A must be completed successfully at UCI.",
+                "child": []
+            },
+            {
+                "name": "By petition, two of the three LIT JRN 103 courses may be taken through the UC Education Abroad Program, providing course content is approved in advance by the Literary Journalism program.",
                 "child": []
             }
         ]

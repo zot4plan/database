@@ -11,10 +11,10 @@
         ]
     },
     {
-        "name": "B. Three course topics from the following, no more than two of which may be lower-division:",
+        "name": "B. Three course topics from the following:",
         "child": [
             {
-                "name": "",
+                "name": "(b) No more than two of which may be lower-division:",
                 "child": [
                     "ITALIAN 50",
                     "ITALIAN 150"
@@ -23,10 +23,10 @@
         ]
     },
     {
-        "name": "C. Four courses selected from the following, when topics are appropriate. No more than two courses may be taken from any one department, with the exception of Italian courses.",
+        "name": "C. Four courses selected from the following when topics are appropriate.",
         "child": [
             {
-                "name": "",
+                "name": "No more than two courses may be taken from any one department, with the exception of Italian courses.",
                 "child": [
                     "ART HIS 120",
                     "ART HIS 121",

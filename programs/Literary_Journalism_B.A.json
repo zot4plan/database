@@ -58,7 +58,11 @@
         "name": "E. Select:",
         "child": [
             {
-                "name": "At least three more Departmental (English, Literary Journalism, Writing) courses numbered 102 or above (excluding ENGLISH 150, LIT JRN 197, LIT JRN 198, LIT JRN 199, WRITING 139W, and WRITING 197). An upper-division course in a foreign literature in the original language or in translation may be substituted for one of the three courses.",
+                "name": "At least three more Departmental (English, Literary Journalism, Writing) courses numbered 102 or above (excluding ENGLISH 150, LIT JRN 197, LIT JRN 198, LIT JRN 199, WRITING 139W, and WRITING 197).",
+                "child": []
+            },
+            {
+                "name": "An upper-division course in a foreign literature in the original language or in translation may be substituted for one of the three courses.",
                 "child": []
             }
         ]

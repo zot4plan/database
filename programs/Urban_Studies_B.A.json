@@ -33,7 +33,7 @@
         "name": "C. Complete six additional upper-division electives:",
         "child": [
             {
-                "name": "From UPPP 100-189 or ECON 144A-ECON 144B.",
+                "name": "(b) From UPPP 100-189 or ECON 144A-ECON 144B.",
                 "child": [
                     "ECON 144A",
                     "ECON 144B"
@@ -45,7 +45,7 @@
         "name": "Optional Geographic Information Systems (GIS) Specialization",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "(b) A. Complete:",
                 "child": [
                     "UPPP 120",
                     "UPPP 125",

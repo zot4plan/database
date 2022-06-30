@@ -12,8 +12,17 @@
         ]
     },
     {
-        "name": "B. One course from each of the following three categories - History, Culture, and Social Sciences - selected from the approved list on the Latin American Studies website.",
-        "child": []
+        "name": "B. One course from each of the following three categories:",
+        "child": [
+            {
+                "name": "(b) - History, Culture, and Social Sciences - selected from the approved list on the Latin American Studies website.",
+                "child": []
+            },
+            {
+                "name": "The approved list is available at: https://www.humanities.uci.edu/latinamericanstudies/",
+                "child": []
+            }
+        ]
     },
     {
         "name": "C. Three additional courses selected from the approved list.",

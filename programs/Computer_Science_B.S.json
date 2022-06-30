@@ -3,7 +3,7 @@
         "name": "Lower Division - A. Select one of the following series:",
         "child": [
             {
-                "name": "Group 1",
+                "name": "(b) Group 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "name": "Group 2",
+                "name": "(b) Group 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"

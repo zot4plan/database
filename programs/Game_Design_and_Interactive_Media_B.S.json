@@ -3,7 +3,7 @@
         "name": "Lower-division",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "(b) A. Complete:",
                 "child": [
                     "GDIM 25",
                     "GDIM 27",
@@ -24,7 +24,7 @@
         "name": "Upper-Division",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "(b) A. Complete:",
                 "child": [
                     "GDIM 129",
                     "GDIM 131",
@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "name": "B. Select one of the following:",
+                "name": "(b) B. Select one of the following:",
                 "child": [
                     "GDIM 127",
                     "IN4MATX 151",
@@ -47,7 +47,7 @@
         "name": "Core Electives",
         "child": [
             {
-                "name": "A. Select an additional six courses from the following list:",
+                "name": "(b) A. Select an additional six courses from the following list:",
                 "child": [
                     "GDIM 49",
                     "GDIM 127",

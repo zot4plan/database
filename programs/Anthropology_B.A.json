@@ -31,7 +31,12 @@
                 "child": [
                     "ANTHRO 2B",
                     "ANTHRO 2C",
-                    "ANTHRO 2D",
+                    "ANTHRO 2D"
+                ]
+            },
+            {
+                "name": "(b) ANTHRO 20A-89",
+                "child": [
                     "ANTHRO 20A",
                     "ANTHRO 25A",
                     "ANTHRO 30A",
@@ -60,7 +65,7 @@
         "name": "E. Select six additional elective courses from the following:",
         "child": [
             {
-                "name": "ANTHRO 120-179",
+                "name": "(b) ANTHRO 120-179",
                 "child": []
             }
         ]

@@ -83,10 +83,15 @@
             {
                 "name": "(b) Ancient:",
                 "child": [
+                    "ART HIS 155A"
+                ]
+            },
+            {
+                "name": "Art History 100–107",
+                "child": [
                     "ART HIS 100",
                     "ART HIS 103",
-                    "ART HIS 107",
-                    "ART HIS 155A"
+                    "ART HIS 107"
                 ]
             },
             {
@@ -102,12 +107,17 @@
             {
                 "name": "(b) Early Modern:",
                 "child": [
+                    "ART HIS 151B",
+                    "ART HIS 165A"
+                ]
+            },
+            {
+                "name": "Art History 120–128",
+                "child": [
                     "ART HIS 120",
                     "ART HIS 121",
                     "ART HIS 125",
-                    "ART HIS 128",
-                    "ART HIS 151B",
-                    "ART HIS 165A"
+                    "ART HIS 128"
                 ]
             },
             {

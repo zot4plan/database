@@ -3,7 +3,7 @@
         "name": "A. Select three of the following:",
         "child": [
             {
-                "name": "At least one of which must be ENGLISH 15",
+                "name": "(b) At least one of which must be ENGLISH 15",
                 "child": [
                     "ENGLISH 8",
                     "ENGLISH 9",
@@ -50,6 +50,15 @@
         "child": [
             {
                 "name": "At least three more Departmental (English, Literary Journalism, Writing) courses numbered 102 or above, excluding ENGLISH 150, LIT JRN 197, LIT JRN 198, LIT JRN 199, WRITING 139W, and WRITING 197. An upper-division course in a foreign literature in the original language or in translation may be substituted for one of the three courses.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the English Major:",
+        "child": [
+            {
+                "name": "ENGLISH 100, ENGLISH 101W, two ENGLISH 102s, and ENGLISH 106 must be completed successfully at UCI.",
                 "child": []
             }
         ]

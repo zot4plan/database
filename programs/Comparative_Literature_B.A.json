@@ -24,8 +24,13 @@
         ]
     },
     {
-        "name": "C. Two additional courses selected from upper- or lower-division Comparative Literature courses or other upper-division courses offered in the School of Humanities.",
-        "child": []
+        "name": "C. Two additional courses selected from:",
+        "child": [
+            {
+                "name": "Upper- or lower-division Comparative Literature courses or other upper-division courses offered in the School of Humanities.",
+                "child": []
+            }
+        ]
     },
     {
         "name": "D. Completion of one of the three emphases:",
@@ -102,6 +107,15 @@
                 "child": []
             }
 
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Comparative Literature Major:",
+        "child": [
+            {
+                "name": "COM LIT 190W and four additional upper-division courses in Comparative Literature or other upper-division courses offered in the School of Humanities must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved by the appropriate program advisor or chair.",
+                "child": []
+            }
         ]
     }
 ]

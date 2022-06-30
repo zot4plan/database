@@ -3,7 +3,7 @@
         "name": "Emphasis in Greek and Latin Language and Literature",
         "child": [
             {
-                "name": "A. Choose either Greek Focus or Latin Focus:",
+                "name": "(b) A. Choose either Greek Focus or Latin Focus:",
                 "child": []
             },
             {
@@ -55,7 +55,11 @@
                 ]
             },
             {
-                "name": "B. One additional upper-division course in Greek or Latin. One upper-division Classics class (CLASSIC 140, CLASSIC 150, CLASSIC 160, CLASSIC 170, CLASSIC 176) may be substituted for the upper-division Greek or Latin course with prior approval of the departmental undergraduate advisor.",
+                "name": "(b) B. One additional upper-division course in Greek or Latin.",
+                "child": []
+            },
+            {
+                "name": "One upper-division Classics class (CLASSIC 140, CLASSIC 150, CLASSIC 160, CLASSIC 170, CLASSIC 176) may be substituted for the upper-division Greek or Latin course with prior approval of the departmental undergraduate advisor.",
                 "child": [
                     "CLASSIC 140",
                     "CLASSIC 150",
@@ -65,7 +69,7 @@
                 ]
             },
             {
-                "name": "C. Senior Capstone Requirement:",
+                "name": "(b) C. Senior Capstone Requirement:",
                 "child": []
             },
             {
@@ -89,7 +93,7 @@
         "name": "Emphasis in Latin Language and Literature",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "(b) A. Complete:",
                 "child": [
                     "CLASSIC 37A",
                     "CLASSIC 37B",
@@ -97,7 +101,7 @@
                 ]
             },
             {
-                "name": "B. Select six upper-division courses in LATIN 100-104.",
+                "name": "(b) B. Select six upper-division courses in LATIN 100-104.",
                 "child": [
                     "LATIN 100",
                     "LATIN 103",
@@ -105,7 +109,7 @@
                 ]
             },
             {
-                "name": "C. Select four upper-division courses from the following:",
+                "name": "(b) C. Select four upper-division courses from the following:",
                 "child": [
                     "LATIN 103",
                     "LATIN 104",
@@ -121,7 +125,7 @@
                 "child": []
             },
             {
-                "name": "D. Senior Capstone Requirement:",
+                "name": "(b) D. Senior Capstone Requirement:",
                 "child": []
             },
             {
@@ -146,7 +150,7 @@
         "name": "Emphasis in Classical Civilization",
         "child": [
             {
-                "name": "A. Select one of the following:",
+                "name": "(b) A. Select one of the following:",
                 "child": [
                     "LATIN 1A",
                     "LATIN 1B",
@@ -194,15 +198,19 @@
                 ]
             },
             {
-                "name": "B. Select five upper-division Classics courses.",
+                "name": "(b) B. Select five upper-division Classics courses.",
                 "child": []
             },
             {
-                "name": "C. Select two additional upper-division Classics courses. These courses may be in Classics, Greek, Latin, History, Art History, Philosophy, or other related field. Courses must focus on the ancient Mediterranean and if taken in another UCI department, must have the prior approval of the departmental undergraduate advisor.",
+                "name": "(b) C. Select two additional upper-division Classics courses.",
                 "child": []
             },
             {
-                "name": "D. Senior Capstone Requirement:",
+                "name": "These courses may be in Classics, Greek, Latin, History, Art History, Philosophy, or other related field. Courses must focus on the ancient Mediterranean and if taken in another UCI department, must have the prior approval of the departmental undergraduate advisor.",
+                "child": []
+            },
+            {
+                "name": "(b) D. Senior Capstone Requirement:",
                 "child": []
             },
             {

@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "FLM&MDA 85A",
                     "FLM&MDA 85B",
@@ -11,34 +11,45 @@
                     "FLM&MDA 101A",
                     "FLM&MDA 101B",
                     "FLM&MDA 101C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete either:",
+        "child": [
             {
-                "name": "B. Complete either:",
+                "name": "",
                 "child": [
                     "FLM&MDA 110"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "or",
+                "name": "(b) Or",
                 "child": [
                     "FLM&MDA 111"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following:",
+        "child": [
             {
-                "name": "C. Select one of the following:",
+                "name": "",
                 "child": [
                     "FLM&MDA 117A",
                     "FLM&MDA 118A",
                     "FLM&MDA 120A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select four of the following:",
+        "child": [
             {
-                "name": "D. Select four of the following:",
+                "name": "",
                 "child": [
                     "FLM&MDA 112",
                     "FLM&MDA 113",
@@ -66,10 +77,8 @@
                     "FLM&MDA 192",
                     "FLM&MDA 193",
                     "FLM&MDA 194"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

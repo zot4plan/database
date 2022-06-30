@@ -46,7 +46,11 @@
         "name": "Residence Requirement for the Spanish/English Bilingual Education Minor",
         "child": [
             {
-                "name": "HUMAN 52/EDUC 52, EDUC 101, EDUC 107, EDUC 124, and at least one upper-division Spanish course must be completed successfully at UCI. By petition, the upper-division Spanish course may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate undergraduate studies advisor or department chair.",
+                "name": "HUMAN 52/EDUC 52, EDUC 101, EDUC 107, EDUC 124, and at least one upper-division Spanish course must be completed successfully at UCI.",
+                "child": []
+            },
+            {
+                "name": "By petition, the upper-division Spanish course may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate undergraduate studies advisor or department chair.",
                 "child": []
             }
         ]

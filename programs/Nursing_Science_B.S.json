@@ -118,5 +118,14 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Double majors with Nursing Science, Pharmaceutical Sciences, Public Health Sciences, Biomedical Engineering: Premedical, or with any of the School of Biological Sciences majors are not permitted. Students majoring in Nursing Science may not minor in Biological Sciences.",
+                "child": []
+            }
+        ]
     }
 ]

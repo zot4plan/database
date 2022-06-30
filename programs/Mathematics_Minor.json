@@ -1,24 +1,26 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "MATH 13",
                     [
                         "MATH 120A",
                         "MATH 140A"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select five additional four-unit courses in MATH (plus the associated lab, where applicable) numbered 77-189.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Select:",
+        "child": [
+            {
+                "name": "Five additional four-unit courses in MATH (plus the associated lab, where applicable) numbered 77-189.",
+                "child": []
+            }
+        ]
     }
 ]

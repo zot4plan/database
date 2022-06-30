@@ -81,7 +81,7 @@
                 ]
             },
             {
-                "name": "Or",
+                "name": "(b) Or",
                 "child": [
                     "DRAMA 183A",
                     "DRAMA 183B"

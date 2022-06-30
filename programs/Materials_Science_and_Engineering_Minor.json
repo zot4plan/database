@@ -30,7 +30,7 @@
                 ]
             },
             {
-                "name": "Select three of the following:",
+                "name": "(b) Select three of the following:",
                 "child": [
                     "MSE 69",
                     "MSE 151",
@@ -49,7 +49,7 @@
         "name": "Electives:",
         "child": [
             {
-                "name": "Select two of the following:",
+                "name": "(b) Select two of the following:",
                 "child": [
                     "BME 110B",
                     "BME 111",

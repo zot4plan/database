@@ -10,7 +10,7 @@
                 ]
             },
             {
-                "name": "And one course or one sequence selected from:",
+                "name": "(b) And one course or one sequence selected from:",
                 "child": [
                     "ANTHRO 10A",
                     "ANTHRO 10B",
@@ -46,7 +46,7 @@
         "name": "A. One lower-division core course:",
         "child": [
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "MGMT 1"
                 ]
@@ -74,7 +74,7 @@
         "name": "C. Select two of the following:",
         "child": [
             {
-                "name": "A course from the core course list above",
+                "name": "(b)A course from the core course list above",
                 "child": [
                     "MGMT 113",
                     "MGMT 115",

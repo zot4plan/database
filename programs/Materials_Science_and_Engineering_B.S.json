@@ -3,7 +3,7 @@
         "name": "Mathematics and Basic Science Courses:",
         "child": [
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     [
                         "ENGR 1A",
@@ -31,7 +31,7 @@
         "name": "Engineering Topics Courses:",
         "child": [
             {
-                "name": "Core Courses:",
+                "name": "(b) Core Courses:",
                 "child": [
                     "MSE 60",
                     "MSE 69",

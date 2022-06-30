@@ -1,5 +1,14 @@
 [
     {
+        "name": "The B.S. in Computer Game Science is no longer accepting students.",
+        "child": [
+            {
+                "name": "Effective Fall 2021, the B.S. in Computer Game Science has been renamed to the B.S. in Game Design and Interactive Media.",
+                "child": []
+            }
+        ]
+    },
+    {
         "name": "Lower Division - A. Select one of the following series:",
         "child": [
             {

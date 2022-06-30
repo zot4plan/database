@@ -49,10 +49,10 @@
         ]
     },
     {
-        "name": "E. Select five of the following, of which at least one must be DRAMA 50C, DRAMA 50D, or DRAMA 50E:",
+        "name": "E. Select five of the following:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Of which at least one must be DRAMA 50C, DRAMA 50D, or DRAMA 50E",
                 "child": [
                     "DRAMA 30B",
                     "DRAMA 30C",

@@ -29,11 +29,16 @@
         ]
     },
     {
-        "name": "C. One additional four-unit upper-division lecture course in MATH numbered 100-189.",
-        "child": []
+        "name": "C. One additional four-unit upper-division lecture course in:",
+        "child": [
+            {
+                "name": "(b) MATH numbered 100-189.",
+                "child": []
+            }
+        ]
     },
     {
-        "name": "NOTE",
+        "name": "NOTE:",
         "child": [
             {
                 "name": "Nearly all upper-division courses in Mathematics have MATH 2A-MATH 2B as prerequisites, and many courses have additional prerequisites such as MATH 2D, MATH 2E, MATH 3A, and/or MATH 3D.",
@@ -43,7 +48,7 @@
                     "MATH 2D",
                     "MATH 2E",
                     "MATH 3A",
-                    "MMATH 3D"
+                    "MATH 3D"
                 ]
             }
         ]

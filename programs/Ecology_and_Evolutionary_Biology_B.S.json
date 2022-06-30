@@ -1,26 +1,29 @@
 [
     {
-        "name": "",
+        "name": "A. Required Major Courses:",
         "child": [
             {
-                "name": "A. Required Major Courses:",
+                "name": "",
                 "child": [
                     "BIO SCI E106",
                     "BIO SCI E107",
                     "STATS 8"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-Division Laboratories:",
+        "child": [
             {
-                "name": "B. Upper-Division Laboratories:",
+                "name": "",
                 "child": [
                     "BIO SCI E115L",
                     "BIO SCI E166L"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select one of the following:",
+                "name": "(b) And select one of the following:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E106L",
@@ -35,41 +38,35 @@
                     "BIO SCI M121L",
                     "BIO SCI M130L",
                     "BIO SCI N113L"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "One laboratory can be satisfied with completion of Excellence in Research in the Biological Sciences.",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "C. Upper-Division Biology Electives:",
+        "child": [
             {
-                "name": "C. Upper-Division Biology Electives:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Select one of the following:",
+                "name": "(b) Select one of the following:",
                 "child": [
                     "BIO SCI D103",
                     "BIO SCI D104",
                     "BIO SCI D105",
                     "BIO SCI E109",
                     "BIO SCI N110"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "and select three four-unit courses from the following:",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) And select three four-unit courses from the following:",
+                "child": []
             },
             {
                 "name": "BIO SCI E118-E190. BIO SCI 199 Research is strongly encouraged.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

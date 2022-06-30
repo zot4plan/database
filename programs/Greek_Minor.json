@@ -15,11 +15,15 @@
         ]
     },
     {
-        "name": "B. Select six upper-division courses from: GREEK 120 may be substituted for one course at the 100 level.",
+        "name": "B. Select six upper-division courses from:",
         "child": [
             {
                 "name": "(b) GREEK 100-104",
-                "child": []
+                "child": [
+                    "GREEK 100",
+                    "GREEK 103",
+                    "GREEK 104"
+                ]
             },
             {
                 "name": "GREEK 120 may be substituted for one course at the 100 level.",
