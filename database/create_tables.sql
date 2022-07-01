@@ -34,7 +34,7 @@ CREATE TABLE general_education(
     PRIMARY KEY(id));
 
 CREATE TABLE courses_in_programs(
-    id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT, 
     course_id VARCHAR(25) NOT NULL,
     program_id INT NOT NULL,
     PRIMARY KEY(id),

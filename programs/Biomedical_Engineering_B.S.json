@@ -61,11 +61,15 @@
                 ]
             },
             {
-                "name": "Engineering Electives: Students select, with the approval of a faculty advisor a minimum of 12 units of engineering topics needed to satisfy school and major requirements.",
+                "name": "Engineering Electives:",
                 "child": []
             },
             {
-                "name": "Note: The nominal Biomedical Engineering program will require 181 units of courses to satisfy all university and major requirements.",
+                "name": "Students select, with the approval of a faculty advisor a minimum of 12 units of engineering topics needed to satisfy school and major requirements.",
+                "child": []
+            },
+            {
+                "name": "The nominal Biomedical Engineering program will require 181 units of courses to satisfy all university and major requirements.",
                 "child": []
             },
             {

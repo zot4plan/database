@@ -22,7 +22,7 @@
                 ]
             },
             {
-                "name": "NOTE: Individual courses that students may select within the minor may require additional prerequisites.",
+                "name": "(r) NOTE: Individual courses that students may select within the minor may require additional prerequisites.",
                 "child": []
             }
         ]
@@ -80,7 +80,7 @@
                 "child": []
             },
             {
-                "name": "(b) NOTE: Students may not receive both the minor in Accounting and the minor in Management.",
+                "name": "(r) NOTE: Students may not receive both the minor in Accounting and the minor in Management.",
                 "child": []
             }
         ]

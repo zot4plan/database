@@ -35,7 +35,7 @@
                 ]
             },
             {
-                "name": "NOTE: Individual courses that students may select within the minor may require additional prerequisites, including MATH 2A.",
+                "name": "(r) NOTE: Individual courses that students may select within the minor may require additional prerequisites, including MATH 2A.",
                 "child": [
                     "MATH 2A"
                 ]
@@ -74,7 +74,7 @@
         "name": "C. Select two of the following:",
         "child": [
             {
-                "name": "(b)A course from the core course list above",
+                "name": "(b) A course from the core course list above",
                 "child": [
                     "MGMT 113",
                     "MGMT 115",

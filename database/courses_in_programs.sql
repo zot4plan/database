@@ -271,6 +271,7 @@ INSERT INTO courses_in_programs (course_id, program_id) VALUES ('HISTORY 131B', 
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('HISTORY 132B', '9');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('HISTORY 132C', '9');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('HISTORY 132H', '9');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('INTL ST 117A', '9');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('ANTHRO 125X', '9');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('INTL ST 165', '9');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('POL SCI 158D', '9');
@@ -4375,6 +4376,7 @@ INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 11', '13
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 12', '135');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 13', '135');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 101', '135');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 102', '135');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 102W', '135');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 103', '135');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PHILOS 100W', '135');
@@ -4660,6 +4662,8 @@ INSERT INTO courses_in_programs (course_id, program_id) VALUES ('SOC SCI H1F', '
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('SOC SCI H1G', '142');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112A', '142');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LA', '142');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112D', '142');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LD', '142');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112M', '142');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LM', '142');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112R', '142');
@@ -4838,6 +4842,8 @@ INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112BW', '
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LB', '143');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112C', '143');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LC', '143');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112D', '143');
+INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LD', '143');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112M', '143');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112LM', '143');
 INSERT INTO courses_in_programs (course_id, program_id) VALUES ('PSYCH 112R', '143');

@@ -24,7 +24,10 @@
                     "HISTORY 132B",
                     "HISTORY 132C",
                     "HISTORY 132H",
-                    "ANTHRO 125X",
+                    [
+                        "INTL ST 117A",
+                        "ANTHRO 125X"
+                    ],
                     [
                         "INTL ST 165", 
                         "POL SCI 158D", 

@@ -44,26 +44,43 @@
         "name": "C. A one-quarter course and laboratory in experimental psychology or research methods selected from the following:",
         "child": [
             {
-                "name": "",
+                "name": "Reseach Method 1",
                 "child": [
                     "PSYCH 112A",
-                    "PSYCH 112LA",
+                    "PSYCH 112LA"
+                ]
+            },
+            {
+                "name": "Research Method 2",
+                "child": [
+                    "PSYCH 112D",
+                    "PSYCH 112LD"
+                ]
+            },
+            {
+                "name": "Research Method 3",
+                "child": [
                     "PSYCH 112M",
-                    "PSYCH 112LM",
+                    "PSYCH 112LM"
+                ]
+            },
+            {
+                "name": "Research Method 4",
+                "child": [
                     "PSYCH 112R",
                     "PSYCH 112LR"
                 ]
             },
             {
-                "name": "NOTE: These courses have as prerequisites PSYCH 9A, PSYCH 9B, PSYCH 9C and one year of mathematics/statistics (see course listings).",
+                "name": "(r) NOTE: These courses have as prerequisites PSYCH 9A, PSYCH 9B, PSYCH 9C and one year of mathematics/statistics (see course listings).",
                 "child": []
             },
             {
-                "name": "These prerequisites are strictly enforced. PSYCH 112A, PSYCH 112LA are the first quarter of a multi-quarter sequence that satisfies the upper-division writing requirement and allows students to plan and conduct research projects.",
+                "name": "(r) These prerequisites are strictly enforced. PSYCH 112A, PSYCH 112LA are the first quarter of a multi-quarter sequence that satisfies the upper-division writing requirement and allows students to plan and conduct research projects.",
                 "child": []
             },
             {
-                "name": "Students taking these courses should plan to continue in them through at least the second quarter. Students who intend to fulfill the upper-division writing requirement in some other way should consider taking PSYCH 112D and PSYCH 112LD, PSYCH 112M and PSYCH 112LM, or PSYCH 112R and PSYCH 112LR to fulfill the laboratory requirement.",
+                "name": "(r) Students taking these courses should plan to continue in them through at least the second quarter. Students who intend to fulfill the upper-division writing requirement in some other way should consider taking PSYCH 112D and PSYCH 112LD, PSYCH 112M and PSYCH 112LM, or PSYCH 112R and PSYCH 112LR to fulfill the laboratory requirement.",
                 "child": []
             }
         ]

@@ -200,15 +200,46 @@
         "child": [
             {
                 "name": "(b) Research Methods",
+                "child": []
+            },
+            {
+                "name":"Reseach Method 1",
                 "child": [
                     "PSYCH 112A",
-                    "PSYCH 112LA",
+                    "PSYCH 112LA"
+                ]
+            },
+            {
+                "name":"Reseach Method 2",
+                "child": [
                     "PSYCH 112BW",
-                    "PSYCH 112LB",
+                    "PSYCH 112LB"
+                ]
+            },
+            {
+                "name":"Reseach Method 3",
+                "child": [
                     "PSYCH 112C",
-                    "PSYCH 112LC",
+                    "PSYCH 112LC"
+                ]
+            },
+            {
+                "name":"Reseach Method 4",
+                "child": [
+                    "PSYCH 112D",
+                    "PSYCH 112LD"
+                ]
+            },
+            {
+                "name":"Reseach Method 5",
+                "child": [
                     "PSYCH 112M",
-                    "PSYCH 112LM",
+                    "PSYCH 112LM"
+                ]
+            },
+            {
+                "name":"Reseach Method 6",
+                "child": [
                     "PSYCH 112R",
                     "PSYCH 112LR"
                 ]

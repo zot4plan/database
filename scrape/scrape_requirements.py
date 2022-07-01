@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json 
 
-f = open('../database/courseIDs.json')   
+f = open('../other/courseIDs.json')   
 Data = {elem for elem in json.load(f)}
 f.close()
 
@@ -90,7 +90,7 @@ def expand_series(courses):
     return items
 
 
-def scrape_courses(url):
+def scrape_programs(url):
     """
     scrape_courses takes in one parameter, major's url, and attain the information from the provided link.
     It sort the information by headers/courses and adjust the data model accordingly.
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     all_program_reqs = get_websites()
     print(all_program_reqs)
     for elem in all_program_reqs:
-        program_info = scrape_courses(elem[1])
+        program_info = scrape_programs(elem[1])
         if program_info != None:
             write_to_json(elem[0], program_info)
 

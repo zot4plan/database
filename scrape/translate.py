@@ -1,10 +1,12 @@
-from gzip import READ
+from Course import Course
 import json 
 from pathlib import Path
 import sys
 
 NAME_REQ_OUT = '../database/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
+NO_COURSE_WARNING = "Course information cannot be found. This course may no longer be offered. If you believe there is an error or require more information, please contact the course department."
+
 
 def get_paths():
     """
@@ -27,20 +29,56 @@ def get_paths():
     return all_paths
 
 
-def write_required_courses(info, index):
+def check_course_exist(course_id):
+    """
+    check_course_exist determines if a course is in the database based on course ID. If not, it will create a new Course
+    object for that course ID with a warning message as description.
+    """
+
+    all_courses = []
+    with open('../other/courseIDs.json', "r") as course_file:
+        all_courses = [elem for elem in json.load(course_file)]
     
+    if course_id in all_courses:
+        course_file.close()
+        return
+    
+    new_course = Course()
+    new_course.course_key, new_course.description = course_id, NO_COURSE_WARNING
+
+    f = open("../database/courses.sql", "a")
+    f.write('INSERT INTO courses VALUES ("' + course_id + '","' + new_course.name.strip() +  '","' + new_course.department + '","' + 
+            new_course.units + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
+            new_course.prerequisite_for + '","' + new_course.restriction + '","' + new_course.repeatability + '","' + 
+            new_course.corequisite + '","' + new_course.ge_string + '","' + new_course.past_terms + '");' + '\n')
+
+    all_courses.append(course_id)
+    with open('../other/courseIDs.json', "w") as course_file:
+        json.dump(all_courses, course_file, indent=4)
+    f.close()
+
+
+def write_required_courses(info, index):
+    """
+    write_required_courses write the ID of courses that students 
+    have to take for the program requirements.
+    """
+
     out_file = open("../database/courses_in_programs.sql", "a")
     for header in info:
         for section in header['child']:
             for course in section['child']:    
                 if type(course) == str:
+                    check_course_exist(course)
                     out_file.write("INSERT INTO courses_in_programs (course_id, program_id) VALUES (" +
                                     "'" + course + "', " + "'" + str(index) + "');" + "\n")
                 else:
                     for elem in course:
+                        check_course_exist(elem)
                         out_file.write("INSERT INTO courses_in_programs (course_id, program_id) VALUES (" +
                                     "'" + elem + "', " + "'" + str(index) + "');" + "\n")
     out_file.close
+
 
 def write_requirements(file_names, out_file):
     """

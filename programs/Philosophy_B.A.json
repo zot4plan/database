@@ -47,7 +47,10 @@
                 "name": "",
                 "child": [
                     "PHILOS 101",
-                    "PHILOS 102W",
+                    [
+                        "PHILOS 102",
+                        "PHILOS 102W"
+                    ],
                     "PHILOS 103"
                 ]
             }

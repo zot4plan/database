@@ -102,7 +102,7 @@
                 ]
             },
             {
-                "name": "NOTE: BIO SCI 194S is a prerequisite to BME 199 and BIO SCI 199.",
+                "name": "(r) NOTE: BIO SCI 194S is a prerequisite to BME 199 and BIO SCI 199.",
                 "child": [
                     "BIO SCI 194S"
                 ]
