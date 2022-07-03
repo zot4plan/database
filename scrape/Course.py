@@ -63,7 +63,7 @@ class Course:
         """
 
         raw_info = raw_info.replace('"', "'")
-        print(self.course_key, raw_info)
+
         if 'Restriction:' in raw_info:
             self.restriction = raw_info.replace('Restriction:', '')
         elif 'Prerequisite:' in raw_info:
@@ -76,7 +76,7 @@ class Course:
         elif self.corequisite == '' and 'Corequisite:' in raw_info:
             self.corequisite = raw_info.replace('\n', '').replace('Corequisite:','')
     
-    
+
     def set_ge(self, raw_text_ge=None):
         """
         set_ge takes in a raw text that contains information regarding course's GE category. The string
