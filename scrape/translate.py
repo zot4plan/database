@@ -45,17 +45,17 @@ def check_course_exist(course_id):
     
     new_course = Course()
     new_course.course_key, new_course.description = course_id, NO_COURSE_WARNING
-
+    
     f = open("../database/courses.sql", "a")
     f.write('INSERT INTO courses VALUES ("' + course_id + '","' + new_course.name.strip() +  '","' + new_course.department + '","' + 
             new_course.units + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
             new_course.prerequisite_for + '","' + new_course.restriction + '","' + new_course.repeatability + '","' + 
             new_course.corequisite + '","' + new_course.ge_string + '","' + new_course.past_terms + '");' + '\n')
+    f.close()
 
     all_courses.append(course_id)
     with open('../other/courseIDs.json', "w") as course_file:
         json.dump(all_courses, course_file, indent=4)
-    f.close()
 
 
 def write_required_courses(info, index):
