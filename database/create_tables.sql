@@ -17,7 +17,8 @@ CREATE TABLE courses (
     corequisite VARCHAR (1000),
     ge VARCHAR(25) NOT NULL,
     terms VARCHAR(350) NOT NULL,
-    PRIMARY KEY(id));
+    PRIMARY KEY(id),
+    FULLTEXT(id));
 
 CREATE TABLE programs(
     id INT NOT NULL AUTO_INCREMENT,
@@ -49,9 +50,9 @@ CREATE TABLE courses_in_ge(
     FOREIGN KEY (ge_id) REFERENCES general_education(id));
 
 CREATE TABLE schedules (
-    id VARCHAR(32) NOT NULL ,
+    id VARCHAR(64) NOT NULL ,
     schedule json NOT NULL,
-    saved_date DATE NOT NULL,
+    last_access_date DATE NOT NULL,
     PRIMARY KEY(id));
 
 CREATE TABLE visits(
@@ -70,9 +71,8 @@ INSERT INTO general_education VALUES ("VI", "Language Other Than English","One c
 INSERT INTO general_education VALUES ("VII","Multicultural Studies","One course that may also satisfy another GE category");
 INSERT INTO general_education VALUES ("VIII", "International/Global Issues","One course that may also satisfy another GE category");
 
-ALTER TABLE courses ADD FULLTEXT(id);
-
 /*
+ALTER TABLE courses ADD FULLTEXT(id);
 ALTER TABLE programs RENAME COLUMN isMajor TO is_major;
 ALTER TABLE courses_in_ge RENAME COLUMN geId TO ge_id;
 ALTER TABLE courses_in_ge RENAME COLUMN courseId TO course_id;

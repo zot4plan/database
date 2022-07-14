@@ -3,19 +3,23 @@ USE zot4plandb;
 GO
 
 DROP PROCEDURE IF EXISTS get_program;
-DROP PROCEDURE IF EXISTS get_all_ge;
+DROP PROCEDURE IF EXISTS get_schedule_by_id;
 
 DELIMITER $$
 
 CREATE PROCEDURE get_program(IN p_id INT) 
 BEGIN
 SELECT id, name, is_major, requirement, url FROM programs WHERE id = p_id;     
-SELECT course_id as id, name ,department, units , description, 
-prerequisite, prerequisite_tree, prerequisite_for, 
-restriction, repeatability, corequisite, ge, terms
+SELECT DISTINCT(department)
 FROM (SELECT DISTINCT(course_id) 
                    FROM courses_in_programs 
                    WHERE program_id = p_id) as p LEFT JOIN courses ON courses.id = p.course_id; 
+END $$
+
+CREATE PROCEDURE get_schedule_by_id(IN user_id VARCHAR(32)) 
+BEGIN
+UPDATE schedules SET last_access_date = CURRENT_DATE() WHERE id = user_id;
+SELECT schedule FROM schedules WHERE id = user_id;     
 END $$
 
 DELIMITER ;
