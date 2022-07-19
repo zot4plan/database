@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 """
 Course is a class is responsible for storing information of each individual
 UCI courses. 
@@ -111,9 +113,18 @@ class Course:
         set_terms takes in a list of past terms and convert it into a string
         :param all_terms: list of past terms that offered the course
         """
-        swap = [" ".join(term.split(" ")[::-1]) for term in all_terms]
-        self.past_terms = ", ".join(swap)
-
+        past_terms = defaultdict(str)
+        terms_in_order = ['Fall', 'Winter', 'Spring', 'Summer1', 'Summer10wk', 'Summer2']
+        for term in all_terms:
+            year, quarter = term.split(' ')
+            past_terms[quarter] += str(year) + ', '
+        
+        in_string = ''
+        for term in terms_in_order:
+            if past_terms[term] != '':
+                in_string += term + ': ' + past_terms[term][:-2] + '.'
+        
+        self.past_terms = in_string
 
     def set_prereq_info(self, course_prereq_tree):
         """
