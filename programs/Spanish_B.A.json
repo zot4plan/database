@@ -18,7 +18,34 @@
         "name": "B. Complete:",
         "child": [
             {
-                "name": "Seven additional Spanish courses by the Department of Spanish and Portuguese.",
+                "name": "(b) Seven additional Spanish courses by the Department of Spanish and Portuguese.",
+                "child": []
+            },
+            {
+                "name": "A maximum of one from SPANISH 3 and SPANISH 3H may apply.",
+                "child": [
+                    "SPANISH 3",
+                    "SPANISH 3H"
+                ]
+            },
+            {
+                "name": "A maximum of two from the following may apply: SPANISH 50, SPANISH 61, SPANISH 62, and either SPANISH 60E or SPANISH 60S.",
+                "child": [
+                    "SPANISH 50",
+                    "SPANISH 61",
+                    "SPANISH 62",
+                    [
+                        "SPANISH 60E",
+                        "SPANISH 60S"
+                    ]
+                ]
+            },
+            {
+                "name": "No other lower-division courses are permitted.",
+                "child": []
+            },
+            {
+                "name": "A maximum of one upper-division course taught in English may apply. This course may be taken outside the Department of Spanish and Portuguese as long as the course is relevant to topics of U.S. Latino communities, Latin America, or Spain and it is approved by the Undergraduate Director of the Department of Spanish and Portuguese.",
                 "child": []
             }
         ]

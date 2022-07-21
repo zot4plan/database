@@ -43,21 +43,16 @@
         ]
     },
     {
-        "name": "A. One lower-division core course:",
+        "name": "Requirements for the Undergraduate Minor in Management",
         "child": [
             {
-                "name": "(b) Core Courses:",
+                "name": "(b) A. One lower-division core course:",
                 "child": [
                     "MGMT 1"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "B. Select four core courses from the following:",
-        "child": [
+            },
             {
-                "name": "",
+                "name": "(b) B. Select four core courses from the following:",
                 "child": [
                     "MGMT 30A",
                     "MGMT 101",
@@ -67,29 +62,22 @@
                     "MGMT 109",
                     "MGMT 110"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "C. Select two of the following:",
-        "child": [
+            },
             {
-                "name": "(b) A course from the core course list above",
+                "name": "(b) C. Select two of the following:",
+                "child": []
+            },
+            {
+                "name": "A course from the core course list above",
                 "child": [
-                    "MGMT 113",
-                    "MGMT 115",
-                    "MGMT 120",
-                    "MGMT 123",
-                    "MGMT 124",
-                    "MGMT 125",
-                    "MGMT 126",
-                    "MGMT 127",
-                    "MGMT 128",
-                    "MGMT 129",
                     "MGMT 189",
                     "MGMT 192",
                     "MGMT 190"
                 ]
+            },
+            {
+                "name": "MGMT 113–129",
+                "child": []
             },
             {
                 "name": "MGMT 141–184",

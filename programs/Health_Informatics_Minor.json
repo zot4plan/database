@@ -6,13 +6,17 @@
                 "name": "",
                 "child": [
                     "IN4MATX 171",
-                    "IN4MATX 172"
+                    "IN4MATX 172",
+                    [
+                        "IN4MATX 173",
+                        "IN4MATX 174"
+                    ]
                 ]
             }
         ]
     },
     {
-        "name": "B. Select two of the following:",
+        "name": "B. Select two Informatics, Technology, and Data Science courses from the following:",
         "child": [
             {
                 "name": "",
@@ -26,6 +30,10 @@
                     "IN4MATX 121",
                     "IN4MATX 131",
                     "IN4MATX 133",
+                    [
+                        "IN4MATX 173",
+                        "IN4MATX 174"
+                    ],
                     "IN4MATX 143",
                     "COMPSCI 111",
                     [
@@ -37,36 +45,30 @@
                     "COMPSCI 134",
                     "COMPSCI 145",
                     "COMPSCI 171",
-                    "COMPSCI 178"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "C. Select two of the following:",
-        "child": [
-            {
-                "name": "",
-                "child": [
-                    "NUR SCI 110W",
-                    "PUBHLTH 101",
-                    "PUBHLTH 122"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "D. Select one of the following:",
-        "child": [
-            {
-                "name": "",
-                "child": [
+                    "COMPSCI 178",
                     "IN4MATX 151",
                     "IN4MATX 161",
                     "IN4MATX 162W",
                     "STATS 7",
                     "STATS 8",
                     "STATS 67"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select two Health Sciences courses from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PUBHLTH 1",
+                    "PUBHLTH 2",
+                    "PUBHLTH 91",
+                    "PUBHLTH 101",
+                    "PUBHLTH 122",
+                    "PUBHLTH 127",
+                    "PUBHLTH 125"
                 ]
             }
         ]

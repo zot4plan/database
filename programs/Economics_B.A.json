@@ -31,12 +31,7 @@
     },
     {
         "name": "C. Six additional ECON courses, one of which may be lower-division.",
-        "child": [
-            {
-                "name": "",
-                "child": []
-            }
-        ]
+        "child": []
     },
     {
         "name": "D. A maximum of three four-unit courses selected from:",

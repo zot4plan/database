@@ -143,7 +143,6 @@
                     "ANTHRO 128B",
                     "ANTHRO 132A",
                     "ANTHRO 134A",
-                    "ANTHRO 134G",
                     "CHC/LAT 168",
                     "CHC/LAT 179",
                     "PSYCH 120A",
@@ -153,6 +152,15 @@
                     "SOCIOL 135",
                     "SOCIOL 154"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Certain special topics courses may be applicable to this major; students should see their undergraduate advisor prior to enrolling in a special topics course to ensure that it meets the requirements. SOC SCI 184A Sage Leader Research I-SOC SCI 184B Sage Leader Research II may not be used to satisfy school requirements.",
+                "child": []
             }
         ]
     }

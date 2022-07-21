@@ -35,12 +35,12 @@
                     "SPANISH 101B",
                     "SPANISH 113B"
                 ]
+            },
+            {
+                "name": "One additional upper-division course taught in Spanish, in the Department of Spanish and Portuguese.",
+                "child": []
             }
         ]
-    },
-    {
-        "name": "One additional upper-division course taught in Spanish, in the Department of Spanish and Portuguese.",
-        "child": []
     },
     {
         "name": "Residence Requirement for the Spanish/English Bilingual Education Minor",

@@ -114,12 +114,15 @@
                     "ENGRMAE 147",
                     "ENGRMAE 151",
                     "ENGRMAE 153",
-                    "ENGRMAE 155",
                     "ENGRMAE 157",
                     "MSE 141",
+                    "MSE 142",
                     "MSE 171",
                     "MSE 173",
-                    "MSE 174",
+                    [
+                        "MSE 174",
+                        "ENGRMAE 155"
+                    ],
                     "MSE 176",
                     "MSE 199"
                 ]

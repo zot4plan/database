@@ -29,7 +29,6 @@
                     "I&C SCI 46",
                     "I&C SCI 51",
                     "I&C SCI 53",
-                    "I&C SCI 53L",
                     "IN4MATX 43",
                     "MATH 2A",
                     "MATH 2B",
@@ -95,6 +94,7 @@
                     "COMPSCI 113",
                     "COMPSCI 114",
                     "COMPSCI 117",
+                    "COMPSCI 118",
                     "COMPSCI 122B",
                     "COMPSCI 122C",
                     "COMPSCI 122D",
@@ -103,7 +103,6 @@
                     "COMPSCI 142B",
                     "COMPSCI 143B",
                     "COMPSCI 145",
-                    "COMPSCI 145L",
                     "COMPSCI 147",
                     "COMPSCI 153",
                     "COMPSCI 154",
@@ -137,7 +136,6 @@
                 "name": "(b) Architecture and Embedded Systems: four courses from the following list:",
                 "child": [
                     "COMPSCI 145",
-                    "COMPSCI 145L",
                     "COMPSCI 147",
                     "COMPSCI 151",
                     "COMPSCI 152",
@@ -254,6 +252,7 @@
                     "COMPSCI 114",
                     "COMPSCI 116",
                     "COMPSCI 117",
+                    "COMPSCI 118",
                     "I&C SCI 162"
                 ]
             }

@@ -1,3 +1,5 @@
+USE zot4plandb;
+GO
 INSERT INTO courses_in_ge (course_id, ge_id) VALUES ("AC ENG 139W","IB");
 INSERT INTO courses_in_ge (course_id, ge_id) VALUES ("AFAM 40A","III");
 INSERT INTO courses_in_ge (course_id, ge_id) VALUES ("AFAM 40A","IV");

@@ -46,7 +46,7 @@
         "name": "C. Select one course from each of the following areas:",
         "child": [            
             {
-                "name": "(b) Humanities/Arts: ASIANAM 110-129",
+                "name": "(b) Humanities/Arts: Asian American Studies 110-129",
                 "child": [
                     "ASIANAM 110", 
                     "ASIANAM 111", 
@@ -56,7 +56,7 @@
                 ]
             },
             {
-                "name": "(b) Social Science/Social Ecology: ASIANAM 130-149",
+                "name": "(b) Social Science/Social Ecology: Asian American Studies 130-149",
                 "child": [
                     "ASIANAM 130", 
                     "ASIANAM 132", 
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "name": "(b) Asian American Sub-groups: ASIANAM 151-160",
+                "name": "(b) Asian American Sub-groups: Asian American Studies 151-160",
                 "child": [
                     "ASIANAM 151C", 
                     "ASIANAM 151D", 
@@ -80,7 +80,7 @@
                 ]
             },
             {
-                "name": "(b) Ethnic/Race/Gender Relations: ASIANAM 161-170",
+                "name": "(b) Ethnic/Race/Gender Relations: Asian American Studies 161-170",
                 "child": [
                     "ASIANAM 162", 
                     "ASIANAM 164",
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "name": "D. Select Four additional upper-division elective ASIANAM courses",
+        "name": "D. Select Four additional upper-division elective Asian American Studies courses",
         "child": [
             {
                 "name": "Students may request, by petition, one lower-division course to count as an elective. This course must be primarily focused on issues relevant to Asian American Studies.",

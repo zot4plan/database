@@ -99,7 +99,7 @@
                 ]
             },
             {
-                "name": "And a minimum of  8 units from the following:",
+                "name": "And a minimum of 8 units from the following:",
                 "child": [
                     "BIO SCI 98",
                     "BIO SCI 99",
@@ -121,6 +121,8 @@
             {
                 "name": "Requires a minimum of 11 units including at least one course from the following:",
                 "child": [
+                    "CBE 172",
+                    "CBE 175",
                     "CBE 176",
                     "CBE 199",
                     "MSE 141"

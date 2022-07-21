@@ -61,7 +61,6 @@
                     "BIO SCI D133",
                     "BIO SCI D135",
                     "BIO SCI D190",
-                    "BIO SCI M120",
                     "BIO SCI M144"
                 ]
             },
@@ -89,6 +88,15 @@
                     "BIO SCI N153",
                     "BIO SCI N154"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "No course may be used to satisfy more than one requirement.",
+                "child": []
             }
         ]
     }

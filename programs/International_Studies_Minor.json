@@ -27,7 +27,12 @@
     },
     {
         "name": "C. Geographic Focus: Two upper-division courses in one geographic area",
-        "child": []
+        "child": [
+            {
+                "name": "Visit the Global and International Studies website for a list of approved courses. Although some courses are listed in more than one focus, students may not double count a course for both their geographic and global focus. Study abroad counts as one course in the geographic focus.",
+                "child": []
+            }
+        ]
     },
     {
         "name": "D. Global Focus: Three upper-division courses. At least one must be from Module A.",
@@ -44,7 +49,10 @@
                     "INTL ST 104BW",
                     "INTL ST 106A",
                     "INTL ST 106B",
+                    "INTL ST 146",
+                    "INTL ST 148W",
                     "INTL ST 150",
+                    "INTL ST 155",
                     "INTL ST 163"
                 ]
             },

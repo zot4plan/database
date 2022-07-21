@@ -35,5 +35,14 @@
                 "child": []
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "A maximum of two courses can be taken Pass/Not Pass toward a minor. Bren School majors should refer to the Majors/Minors Restrictions Catalogue section before attempting to minor in Digital Information Systems, Health Informatics, or Informatics. Students who are considering a major in Informatics must complete the major requirements for a letter grade.",
+                "child": []
+            }
+        ]
     }
 ]

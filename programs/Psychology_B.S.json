@@ -10,25 +10,14 @@
                     "PSYCH 10C",
                     "PSYCH 9A",
                     "PSYCH 9B",
-                    "PSYCH 9C"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "B. Select one of the following:",
-        "child": [
-            {
-                "name": "",
-                "child": [
-                    "LPS 30",
+                    "PSYCH 9C",
                     "LPS 31"
                 ]
             }
         ]
     },
     {
-        "name": "C. Select three of the following:",
+        "name": "B. Select three of the following:",
         "child": [
             {
                 "name": "At least two of these courses must come from a single discipline.",
@@ -51,6 +40,7 @@
                     "CHEM 1B",
                     "CHEM 1C",
                     "CHEM 1LC",
+                    "COGS 108",
                     "PHYSICS 3A",
                     "PHYSICS 3B",
                     "PHYSICS 3LB",
@@ -66,19 +56,12 @@
         ]
     },
     {
-        "name": "D. Complete three additional courses that must be taken in:",
+        "name": "C. Complete three additional courses that can be selected from the above list or from the following list:",
         "child": [
-            {
-                "name": "Biology, Physics, Chemistry, Logic and Philosophy of Science, Mathematics, or Statistics.",
-                "child": []
-            },
-            {
-                "name": "They can be selected from the above list, from the Logic requirements (requirement B.), or from the following list:",
-                "child": []
-            },
             {
                 "name": "(b) Additional Science Background",
                 "child": [
+                    "COGS 14P",
                     "MATH 2A",
                     "MATH 2B",
                     "MATH 5A",
@@ -86,7 +69,6 @@
                     "MATH 3A",
                     "MATH 3D",
                     "LPS 30",
-                    "LPS 31",
                     "LPS 40",
                     "LPS 60",
                     "PHYSICS 15",
@@ -114,6 +96,7 @@
                     "PSYCH 120P",
                     "PSYCH 130A",
                     "PSYCH 140C",
+                    "PSYCH 140J",
                     "PSYCH 140L",
                     "PSYCH 140M",
                     "PSYCH 150",
@@ -146,6 +129,7 @@
                     "PSYCH 123P",
                     "PSYCH 124S",
                     "PSYCH 124V",
+                    "PSYCH 127P",
                     "PSYCH 129"
                 ]
             },
@@ -226,15 +210,15 @@
             {
                 "name":"Reseach Method 4",
                 "child": [
-                    "PSYCH 112D",
-                    "PSYCH 112LD"
+                    "PSYCH 112M",
+                    "PSYCH 112LM"
                 ]
             },
             {
                 "name":"Reseach Method 5",
                 "child": [
-                    "PSYCH 112M",
-                    "PSYCH 112LM"
+                    "PSYCH 112P",
+                    "PSYCH 112LP"
                 ]
             },
             {
@@ -259,6 +243,10 @@
             },
             {
                 "name": "2. No more than one of the courses may be numbered 190-199.",
+                "child": []
+            },
+            {
+                "name": "3. If accepted into the Honors Program, only two courses are needed to fulfill this requirement.",
                 "child": []
             }
         ]

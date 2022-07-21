@@ -5,8 +5,11 @@
             {
                 "name": "",
                 "child": [
+                    "BIO SCI 2E",
+                    "BIO SCI 4B",
                     "BIO SCI E106",
                     "BIO SCI E107",
+                    "ECO EVO 201",
                     "STATS 8"
                 ]
             }
@@ -25,19 +28,13 @@
             {
                 "name": "(b) And select one of the following:",
                 "child": [
-                    "BIO SCI D111L",
                     "BIO SCI E106L",
                     "BIO SCI E112L",
                     "BIO SCI E131L",
                     "BIO SCI E140L",
                     "BIO SCI E160L",
                     "BIO SCI E179L",
-                    "BIO SCI M114L",
-                    "BIO SCI M116L",
-                    "BIO SCI M118L",
-                    "BIO SCI M121L",
-                    "BIO SCI M130L",
-                    "BIO SCI N113L"
+                    "BIO SCI E186L"
                 ]
             },
             {
@@ -50,21 +47,29 @@
         "name": "C. Upper-Division Biology Electives:",
         "child": [
             {
-                "name": "(b) Select one of the following:",
-                "child": [
-                    "BIO SCI D103",
-                    "BIO SCI D104",
-                    "BIO SCI D105",
-                    "BIO SCI E109",
-                    "BIO SCI N110"
-                ]
-            },
-            {
-                "name": "(b) And select three four-unit courses from the following:",
+                "name": "(b) Select three four-unit courses from the following:",
                 "child": []
             },
             {
-                "name": "BIO SCI E118-E190. BIO SCI 199 Research is strongly encouraged.",
+                "name": "BIO SCI E118–E190. These electives fall into three areas (ecology, evolution, and physiology), but students may take any combination of three courses from BIO SCI E118 to BIO SCI E190 and are not required to distribute them among these three areas.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Independent Study",
+        "child": [
+            {
+                "name": "Miniumum one quarter of independent study, usually BIO SCI 199. BIO SCI 197 can be substituted for BIO SCI 199.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Double majors within the School of Biological Sciences or with Public Health Sciences, Biomedical Engineering: Premedical, Nursing Science, or Pharmaceutical Sciences are not permitted.",
                 "child": []
             }
         ]

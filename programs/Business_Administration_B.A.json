@@ -81,7 +81,11 @@
                 ]
             },
             {
-                "name": "(b) Emphasis in Information Systems (three courses):",
+                "name": "(b) Emphasis in Information Systems:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
                 "child": [
                     "MGMT 171",
                     "MGMT 173",
@@ -89,9 +93,12 @@
                     "MGMT 178"
                 ]
             },
-        
             {
-                "name": "(b) Emphasis in Marketing (three courses):",
+                "name": "(b) Emphasis in Marketing:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
                 "child": [
                     "MGMT 150",
                     "MGMT 151",
@@ -113,7 +120,11 @@
                 ]
             },
             {
-                "name": "(b) Emphasis in Organization and Management (three courses):",
+                "name": "(b) Emphasis in Organization and Management:",
+                "child": []
+            },
+            {
+                "name": "Select three of the following:",
                 "child": [
                     "MGMT 125",
                     "MGMT 126",
@@ -131,7 +142,7 @@
                 "child": []
             },
             {
-                "name": "1. Selecting one of the following (which may also be used for specified category C requirements above):",
+                "name": "(b) 1. Selecting one of the following (which may also be used for specified category C requirements above):",
                 "child": [
                     "MGMT 128",
                     "MGMT 144",
@@ -139,7 +150,7 @@
                 ]
             },
             {
-                "name": "2. or, participating in select UC Education Abroad Program options, with prior approval of the Associate Dean.",
+                "name": "(b) 2. or, participating in select UC Education Abroad Program options, with prior approval of the Associate Dean.",
                 "child": []
             }
         ]

@@ -34,10 +34,7 @@
         "child": [
             {
                 "name": "(b) From UPPP 100-189 or ECON 144A-ECON 144B.",
-                "child": [
-                    "ECON 144A",
-                    "ECON 144B"
-                ]
+                "child": []
             }
         ]
     },

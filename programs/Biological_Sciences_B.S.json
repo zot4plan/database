@@ -30,12 +30,14 @@
                     "BIO SCI E160L",
                     "BIO SCI E166L",
                     "BIO SCI E179L",
+                    "BIO SCI E186L",
                     "BIO SCI M114L",
                     "BIO SCI M116L",
                     "BIO SCI M118L",
                     "BIO SCI M121L",
                     "BIO SCI M130L",
-                    "BIO SCI N113L"  
+                    "BIO SCI N113L",
+                    "BIO SCI N123L"
                 ]
             },
             {
@@ -54,18 +56,15 @@
             {
                 "name": "BIO SCI D103-D190, E106-E190, M114-M190, N110-N190 and",
                 "child": [
+                    "CHEM 132A",
+                    "CHEM 132B",
+                    "CHEM 132C",
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
                     "PHRMSCI 171",
                     "PHRMSCI 173",
                     "PHRMSCI 174",
                     "PHRMSCI 177"
-                ]
-            },
-            {
-                "name": "(b) The following course can be used to partially satisfy the Upper-Division Biology Elective Requirement:",
-                "child": [
-                    "PHYSICS 147B"
                 ]
             },
             {
@@ -101,7 +100,8 @@
                     "EARTHSS 1",
                     "EARTHSS 7",
                     "PHYSICS 20A",
-                    "PHYSICS 20B"]
+                    "PHYSICS 20B"
+                ]
             },
             {
                 "name": "And Select one of the following:",

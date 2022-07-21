@@ -109,7 +109,6 @@
                     "CHEM 127",
                     "CHEM 128",
                     "CHEM 133",
-                    "CHEM 137",
                     "CHEM 138",
                     "CHEM 141",
                     "CHEM 145A",
@@ -158,6 +157,18 @@
                     "CHEM 197",
                     "EARTHSS 114"
                 ]
+            },
+            {
+                "name": "CHEM 180 and CHEM H180 can be counted toward this requirement no more than once.",
+                "child": []
+            },
+            {
+                "name": "CHEM 197 must be taken for 4 units and can be counted toward this requirement no more than once.",
+                "child": []
+            },
+            {
+                "name": "At least three of the courses used to satisfy the Elective Requirement must be courses offered by the Chemistry Department, including at least one lecture course and one laboratory course.",
+                "child": []
             }
         ]
     }

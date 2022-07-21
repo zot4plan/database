@@ -3,7 +3,7 @@
         "name": "Lower Division: A. Select one of the following series:",
         "child": [
             {
-                "name": "(b) Group 1",
+                "name": "(b) Series 1",
                 "child": [
                     "I&C SCI 31",
                     "I&C SCI 32",
@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "name": "(b) Group 2",
+                "name": "(b) Series 2",
                 "child": [
                     "I&C SCI 32A",
                     "I&C SCI 33"
@@ -118,7 +118,6 @@
                     "MGMT 178",
                     "PSCI 9",
                     "PSCI 104S",
-                    "PSCI 176S",
                     "SOCIOL 41",
                     "SOCIOL 135",
                     "SOCIOL 141",
@@ -150,7 +149,11 @@
                 "name": "(b) Complete the following:",
                 "child": [
                     "IN4MATX 171",
-                    "IN4MATX 172"
+                    "IN4MATX 172",
+                    [
+                        "IN4MATX 173",
+                        "IN4MATX 174"
+                    ]
                 ]
             },
             {
@@ -171,7 +174,6 @@
                     "COMPSCI 131",
                     "COMPSCI 134",
                     "COMPSCI 145",
-                    "COMPSCI 145L",
                     "COMPSCI 171",
                     "COMPSCI 178"
                 ]
@@ -179,9 +181,13 @@
             {
                 "name": "(b) And select two courses from the following:",
                 "child": [
-                    "NUR SCI 110W",
+                    "PUBHLTH 1",
+                    "PUBHLTH 2",
+                    "PUBHLTH 91",
                     "PUBHLTH 101",
-                    "PUBHLTH 122"
+                    "PUBHLTH 122",
+                    "PUBHLTH 127",
+                    "PUBHLTH 125"
                 ]
             },
             {

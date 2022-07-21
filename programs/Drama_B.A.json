@@ -45,6 +45,10 @@
                     "DRAMA 40B",
                     "DRAMA 40C"
                 ]
+            },
+            {
+                "name": "Students are required to take DRAMA 40A, DRAMA 40B, DRAMA 40C in their sophomore year, after completion of the lower-division writing requirement.",
+                "child": []
             }
         ]
     },
@@ -62,6 +66,10 @@
                     "DRAMA 50D",
                     "DRAMA 50E"
                 ]
+            },
+            {
+                "name": "Students entering the Department as freshman must complete the requirement of three courses chosen from DRAMA 50A, DRAMA 50B, DRAMA 50C, DRAMA 50D, DRAMA 50E by the end of their junior year. All other students must complete these courses within one year of entering the major.",
+                "child": []
             }
         ]
     },
@@ -89,19 +97,6 @@
             },
             {
                 "name": "Transfer Students: Sophomores\u2014six units, of which four units must be completed during the first year of residency at UCI; Juniors and Seniors\u2014four units, which must be completed during the first year of residency at UCI.",
-                "child": []
-            }
-        ]
-    },
-    {
-        "name": "Requirements for Sections D and E:",
-        "child": [
-            {
-                "name": "Students are required to take DRAMA 40A, DRAMA 40B, DRAMA 40C in their sophomore year, after completion of the lower-division writing requirement.",
-                "child": []
-            },
-            {
-                "name": "Students entering the Department as freshman must complete the requirement of three courses chosen from DRAMA 50A, DRAMA 50B, DRAMA 50C, DRAMA 50D, DRAMA 50E by the end of their junior year. All other students must complete these courses within one year of entering the major.",
                 "child": []
             }
         ]

@@ -5,6 +5,7 @@
             {
                 "name": "",
                 "child": [
+                    "ART HIS 30",
                     "ART HIS 40A",
                     "ART HIS 40B",
                     "ART HIS 40C",
@@ -52,7 +53,6 @@
                     "ART HIS 107",
                     "ART HIS 110",
                     "ART HIS 111B",
-                    "ART HIS 112",
                     "ART HIS 114",
                     "ART HIS 120",
                     "ART HIS 121",
@@ -99,7 +99,6 @@
                 "child": [
                     "ART HIS 110",
                     "ART HIS 111B",
-                    "ART HIS 112",
                     "ART HIS 114",
                     "ART HIS 155B"
                 ]
@@ -133,9 +132,7 @@
                     "ART HIS 164A",
                     "ART HIS 164E",
                     "ART HIS 165B",
-                    "ART HIS 165C",
-                    "ART HIS 183B",
-                    "ART HIS 183C"
+                    "ART HIS 165C"
                 ]
             },
             {
@@ -147,9 +144,7 @@
                     "ART HIS 162C",
                     "ART HIS 163",
                     "ART HIS 164B",
-                    "ART HIS 164D",
-                    "ART HIS 183B",
-                    "ART HIS 183C"  
+                    "ART HIS 164D"
                 ]
             }
         ]
@@ -170,7 +165,9 @@
         "child": [
             {
                 "name": "(b) 1. Two quarters of:",
-                "child": ["ART HIS 198"]
+                "child": [
+                    "ART HIS 198"
+                ]
             },
             {
                 "name": "(b) 2. Or one quarter of:",

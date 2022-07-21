@@ -75,11 +75,18 @@
         ]
     },
     {
-        "name": "E. 4-unit courses selected from ECON 190-199",
+        "name": "E. A maximum of:",
         "child": [
             {
-                "name": "A maximum of three four-unit courses selected from ECON 190-199 may be counted toward the major.",
-                "child": ["ECON 190", "ECON 190BW", "ECON H190A", "ECON 197", "ECON 198", "ECON 199"]
+                "name": "Three four-unit courses selected from ECON 190-199 may be counted toward the major.",
+                "child": [
+                    "ECON 190",
+                    "ECON 190BW",
+                    "ECON H190A",
+                    "ECON 197",
+                    "ECON 198",
+                    "ECON 199"
+                ]
             }
         ]
     }

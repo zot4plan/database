@@ -117,17 +117,6 @@
                     "UPPP 103",
                     "UPPP 112",
                     "UPPP 166",
-                    "PUBHLTH 120",
-                    "PUBHLTH 121",
-                    "PUBHLTH 122",
-                    "PUBHLTH 125",
-                    "PUBHLTH 126",
-                    "PUBHLTH 127",
-                    "PUBHLTH 129",
-                    "PUBHLTH 132",
-                    "PUBHLTH 135",
-                    "PUBHLTH 138",
-                    "PUBHLTH 139",
                     "PUBHLTH 172",
                     "PUBHLTH 174",
                     "PUBHLTH 190",
@@ -136,24 +125,43 @@
                 ]
             },
             {
+                "name": "PUBHLTH 120–139",
+                "child": [
+                    "PUBHLTH 120",
+                    "PUBHLTH 122",
+                    "PUBHLTH 125",
+                    "PUBHLTH 126",
+                    "PUBHLTH 127",
+                    "PUBHLTH 129",
+                    "PUBHLTH 132",
+                    "PUBHLTH 135",
+                    "PUBHLTH 138",
+                    "PUBHLTH 139"
+                ]
+            },
+            {
                 "name": "(b) Social and Behavioral Health Sciences:",
                 "child": [
                     "ANTHRO 134A",
                     "ANTHRO 134C",
                     "ANTHRO 134F",
-                    "ANTHRO 134G",
                     "PSCI 137H",
                     "PSCI 138H",
                     "PSCI 183S",
                     "PUBHLTH 102",
+                    "PUBHLTH 176"
+                ]
+            },
+            {
+                "name": "PUBHLTH 140–159",
+                "child": [
                     "PUBHLTH 141",
                     "PUBHLTH 144",
                     "PUBHLTH 146",
                     "PUBHLTH 147",
                     "PUBHLTH 148",
                     "PUBHLTH 150",
-                    "PUBHLTH 159",
-                    "PUBHLTH 176"
+                    "PUBHLTH 159"
                 ]
             }
         ]

@@ -48,7 +48,6 @@
                     "LSCI 143",
                     "LSCI 145B",
                     "LSCI 145C",
-                    "LSCI 151",
                     "LSCI 158",
                     "LSCI 168J",
                     "LSCI 168S"
@@ -82,6 +81,7 @@
             {
                 "name": "(b) II. Behavioral and Neuroscientific",
                 "child": [
+                    "LSCI 151",
                     "LSCI 151B",
                     "LSCI 151S",
                     "LSCI 159",

@@ -43,7 +43,6 @@
                     "PSCI 113D",
                     "PSCI 115D",
                     "PSCI 116D",
-                    "PSCI 117D",
                     "PSCI 118D",
                     "PSCI 121D",
                     "PSCI 126D",
@@ -80,7 +79,10 @@
                     "PSCI 162C",
                     "PSCI 163C",
                     "PSCI 164C",
-                    "PSCI 165C"
+                    "PSCI 165C",
+                    "PSCI 166S",
+                    "PSCI 167C",
+                    "PSCI 168C"
                 ]
             },
             {
@@ -90,7 +92,6 @@
                     "PSCI 171S",
                     "PSCI 173S",
                     "PSCI 174S",
-                    "PSCI 176S",
                     "PSCI 178S",
                     "PSCI 179S",
                     "PSCI 183S",

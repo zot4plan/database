@@ -128,7 +128,6 @@
                     "EECS 176",
                     "EECS 179",
                     "EECS 180B",
-                    "EECS 180C",
                     "ENGR 54"
                 ]
             }
@@ -150,7 +149,6 @@
                 "child": [
                     "EECS 170D",
                     "EECS 170E",
-                    "EECS 180C",
                     "EECS 188",
                     "PHYSICS 52A"
                 ]

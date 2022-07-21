@@ -38,7 +38,6 @@
             "name": "(b) Lower-division ART 20-99",
             "child": [
                 "ART 20A",
-                "ART 20B",
                 "ART 30A",
                 "ART 30B",
                 "ART 40",
@@ -94,7 +93,6 @@
                     "ART 152A",
                     "ART 152B",
                     "ART 152C",
-                    "ART 152D",
                     "ART 152F",
                     "ART 153",
                     "ART 154",
@@ -114,8 +112,6 @@
             {
                 "name": "(b) Issues courses from ART 116-129",
                 "child": [
-                    "ART 119",
-                    "ART 119A",
                     "ART 121A",
                     "ART 121B",
                     "ART 123B",

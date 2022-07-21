@@ -21,7 +21,8 @@
                 "child": [
                     "BIO SCI 6",
                     "BIO SCI 9K",
-                    "BIO SCI 55"
+                    "BIO SCI 55",
+                    "BIO SCI 94"
                 ]
             }
         ]
@@ -39,8 +40,7 @@
                     "PUBHLTH 30",
                     "PUBHLTH 60",
                     "UPPP 8",
-                    "SOCIOL 44",
-                    "UNI STU 13C"
+                    "SOCIOL 44"
                 ]
             }
         ]
@@ -62,6 +62,7 @@
                     "HISTORY 100W",
                     "HISTORY 190",
                     "PHILOS 131A",
+                    "PSCI 192B",
                     "PUBHLTH 60",
                     "PUBHLTH 90",
                     "PUBHLTH 125",
@@ -86,8 +87,7 @@
                     "SOC SCI 5D",
                     "SOC SCI 119",
                     "UPPP 8",
-                    "SOCIOL 44",
-                    "UNI STU 13C"
+                    "SOCIOL 44"
                 ]
             },
             {
@@ -141,7 +141,6 @@
                     "BIO SCI E172",
                     "BIO SCI E179",
                     "BIO SCI E182",
-                    "BIO SCI E186",
                     "BIO SCI E189"
                 ]
             }
@@ -157,6 +156,7 @@
                     "EARTHSS 19",
                     "EARTHSS 114",
                     "EARTHSS 116",
+                    "EARTHSS 115",
                     "ENGRCEE 11",
                     "ENGRCEE 20",
                     "UPPP 107",

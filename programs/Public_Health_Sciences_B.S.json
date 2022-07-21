@@ -129,13 +129,18 @@
                     "BIO SCI M123",
                     "BIO SCI M137",
                     "COMPSCI 183",
-                    "PSCI 183S",
+                    "PSCI 183S"
+                ]
+            },
+            {
+                "name": "PUBHLTH 102–119",
+                "child": [
                     "PUBHLTH 102",
                     "PUBHLTH 105",
                     "PUBHLTH 106",
                     "PUBHLTH 107",
                     "PUBHLTH 115",
-                    "PUBHLTH 119"
+                    "PUBHLTH 119"    
                 ]
             },
             {
@@ -146,7 +151,6 @@
                     "ANTHRO 134A",
                     "ANTHRO 134C",
                     "ANTHRO 134F",
-                    "ANTHRO 134G",
                     "BIO SCI D124",
                     "BIO SCI E179",
                     "BIO SCI E179L",
@@ -157,7 +161,12 @@
                     "PUBHLTH 127",
                     "PUBHLTH 190",
                     "PUBHLTH 193",
-                    "SOCECOL E127",
+                    "SOCECOL E127"
+                ]
+            },
+            {
+                "name": "PUBHLTH 160–179",
+                "child": [
                     "PUBHLTH 161",
                     "PUBHLTH 163",
                     "PUBHLTH 167",
@@ -191,7 +200,12 @@
                     "BIO SCI M143",
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
-                    "PUBHLTH 150",
+                    "PUBHLTH 150"
+                ]
+            },
+            {
+                "name": "PUBHLTH 180–189",
+                "child": [
                     "PUBHLTH 180",
                     "PUBHLTH 181",
                     "PUBHLTH 182",

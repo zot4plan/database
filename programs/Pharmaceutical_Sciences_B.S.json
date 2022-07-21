@@ -115,8 +115,7 @@
                 "name": "Complete:",
                 "child": [
                     "BIO SCI 100",
-                    "PHRMSCI 120",
-                    "PHRMSCI 120L",
+                    "BIO SCI E109",
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
                     "PHRMSCI 171",
@@ -151,7 +150,6 @@
                     "BIO SCI M114L",
                     "BIO SCI M116L",
                     "BIO SCI M118L",
-                    "BIO SCI M120",
                     "BIO SCI M121",
                     "BIO SCI M122",
                     "BIO SCI M123",
@@ -172,9 +170,34 @@
                     "CHEM 128L",
                     "CHEM 138",
                     "CHEM 156",
-                    "CHEM 160",
-                    "PUBHLTH 121"
+                    "CHEM 160"
                 ]
+            },
+            {
+                "name": "Course may not be used to satisfy more than one requirement.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Upper-Division Writing Requirement:",
+        "child": [
+            {
+                "name": "Pharmaceutical Sciences majors satisfy the upper-division writing requirement by completing BIO SCI 100 with a grade of C or better, followed by the completion of PHRMSCI 174L and PHRMSCI 177L.",
+                "child": [
+                    "BIO SCI 100",
+                    "PHRMSCI 174L",
+                    "PHRMSCI 177L"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Double majors with Pharmaceutical Sciences, Public Health Sciences, Nursing Science, Biomedical Engineering: Premedical, or with any of the School of Biological Sciences majors are not permitted.",
+                "child": []
             }
         ]
     }

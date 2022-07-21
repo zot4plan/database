@@ -62,17 +62,11 @@
                 "child": []
             },
             {
-                "name": "BIO SCI D103, BIO SCI D104, BIO SCI D105, BIO SCI E106, BIO SCI E109, BIO SCI N110 may not be used to satisfy more than one requirement.",
+                "name": "Additionally, Psychology/Biological Sciences double majors may also use PSYCH 112A-PSYCH 112C to partially satisfy the Upper-Division Biology Elective Requirement.",
                 "child": []
             },
             {
-                "name": "The following course can be used to partially satisfy the Upper-Division Biology Elective Requirement:",
-                "child": [
-                    "PHYSICS 147B"
-                ]
-            },
-            {
-                "name": "Additionally, Psychology/Biological Sciences double majors may also use PSYCH 112A-PSYCH 112C to partially satisfy the Upper-Division Biology Elective Requirement.",
+                "name": "BIO SCI D103, BIO SCI D104, BIO SCI D105, BIO SCI E106, BIO SCI E109, BIO SCI N110 may not be used to satisfy more than one requirement.",
                 "child": []
             }
         ]

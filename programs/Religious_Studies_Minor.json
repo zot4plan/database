@@ -17,14 +17,14 @@
         ]
     },
     {
-        "name": "B. Four upper-division electives selected from: ",
+        "name": "B. Three upper-division electives selected from:",
         "child": [
             {
-                "name": "The three categories under B in the B.A. in Religous Studies, including at least one course from both categories 1 and 2.",
+                "name": "The two categories under B in the B.A. in Religous Studies, including at least one course from both categories 1 and 2.",
                 "child": []
             },
             {
-                "name": "Two of the four courses must be outside of the student\u2019s major. One relevant lower-division course may be substituted for an upper-division course, with prior approval.",
+                "name": "One relevant lower-division course may be substituted for an upper-division course, with prior approval.",
                 "child": []
             }
         ]

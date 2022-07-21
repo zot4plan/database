@@ -32,9 +32,14 @@
             {
                 "name": "Three additional courses (12 units). Selected from Social Ecology or the departments of Criminology, Law, and Society; Urban Planning and Public Policy; and Psychological Science. Course prerequisites established by the individual departments must be satisfied.",
                 "child": []
-            },
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
             {
-                "name": "(r) NOTE: Students pursuing a major in the School of Social Ecology may not use upper-division coursework for both school major or minor requirements. No overlap is permitted. SOCECOL 198 and SOCECOL 199 may not be applied toward the minor.",
+                "name": "Students pursuing a major in the School of Social Ecology may not use upper-division coursework for both school major or minor requirements. No overlap is permitted. SOCECOL 198 and SOCECOL 199 may not be applied toward the minor.",
                 "child": []
             }
         ]

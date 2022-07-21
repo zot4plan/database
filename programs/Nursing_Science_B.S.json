@@ -5,21 +5,28 @@
             {
                 "name": "",
                 "child": [
+                    "BIO SCI 93",
                     "BIO SCI 97",
-                    "BIO SCI 98",
+                    "BIO SCI M115",
                     "BIO SCI D170",
-                    "BIO SCI E109",
-                    "BIO SCI E112L",
-                    "BIO SCI M122",
-                    "BIO SCI M118L",
                     "CHEM 1A",
                     "CHEM 1B",
                     "CHEM 1C",
-                    "CHEM 51A",
-                    [
-                        "PHILOS 4",
-                        "PHILOS 5"
-                    ]
+                    "PHRMSCI 120",
+                    "PHRMSCI 120L",
+                    "PUBHLTH 1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PHILOS 4",
+                    "PHILOS 5"
                 ]
             }
         ]
@@ -31,14 +38,7 @@
                 "name": "",
                 "child": [
                     "PSCI 9",
-                    "PSCI 11A",
-                    "PSCI 11B",
-                    "PSCI 11C",
-                    "PSYCH 7A",
-                    "PSYCH 9A",
-                    "PSYCH 9B",
-                    "PSYCH 9C",
-                    "PSYCH 78A"
+                    "PSYCH 7A"
                 ]
             }
         ]
@@ -79,36 +79,25 @@
         ]
     },
     {
-        "name": "Complete the following course:",
-        "child": [
-            {
-                "name": "",
-                "child": [
-                    "PUBHLTH 1"
-                ]
-            }
-        ]
-    },
-    {
         "name": "Complete the following Nursing Science courses:",
         "child": [
             {
                 "name": "",
                 "child": [
-                    "NUR SCI 110W",
-                    "NUR SCI 112LA",
-                    "NUR SCI 112LB",
-                    "NUR SCI 114A",
-                    "NUR SCI 114B",
+                    "NUR SCI 50",
+                    "NUR SCI 101",
+                    "NUR SCI 108W",
+                    "NUR SCI 109A",
+                    "NUR SCI 109B",
                     "NUR SCI 116",
-                    "NUR SCI 118A",
-                    "NUR SCI 118B",
-                    "NUR SCI 120",
+                    "NUR SCI 117",
+                    "NUR SCI 119",
+                    "NUR SCI 121A",
+                    "NUR SCI 121B",
                     "NUR SCI 125",
+                    "NUR SCI 128",
                     "NUR SCI 130",
                     "NUR SCI 132",
-                    "NUR SCI 135",
-                    "NUR SCI 140",
                     "NUR SCI 150",
                     "NUR SCI 160",
                     "NUR SCI 170",

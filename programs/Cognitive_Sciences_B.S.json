@@ -30,7 +30,7 @@
         "name": "B. Select three courses from the following:",
         "child": [
             {
-                "name": "Research Methods",
+                "name": "(b) Research Methods",
                 "child": [
                     "PSYCH 112A",
                     "PSYCH 112LA",
@@ -69,12 +69,7 @@
                     "MATH 2D",
                     "MATH 2E",
                     "MATH 3A",
-                    "MATH 3D"
-                ]
-            },
-            {
-                "name": "",
-                "child": [
+                    "MATH 3D",
                     "PHYSICS 15",
                     "PSYCH 14M",
                     "STATS 7",
@@ -112,7 +107,7 @@
         "name": "D. Select three courses from the following:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Upper Division Core Courses",
                 "child": [
                     "PSYCH 130A",
                     "PSYCH 140C",
@@ -130,7 +125,7 @@
         "name": "E. Select seven courses from the following list. Up to three courses may also be taken from Requirement B and Requirement D:",
         "child": [            
             {
-            "name": "Upper-Division Core Electives:",
+            "name": "(b) Upper-Division Core Electives:",
             "child": [
                 "COMPSCI 171",
                 "COMPSCI 178",

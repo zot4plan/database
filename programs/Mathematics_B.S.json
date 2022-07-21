@@ -72,21 +72,21 @@
                 "child": []
             },
             {
-                "name": "(b) Lower-Division:",
+                "name": "(b) Lower-Division Requirements:",
                 "child": []
             },
             {
-                "name": "Complete:",
+                "name": "A. Complete:",
                 "child": [
                     "MATH 2E"
                 ]
             },
             {
-                "name": "(b) Upper-Division:",
+                "name": "(b) Upper-Division Requirements:",
                 "child": []
             },
             {
-                "name": "Complete:",
+                "name": "A. Complete:",
                 "child": [
                     "MATH 120B",
                     "MATH 121B",
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "name": "And five additional four-unit MATH lecture courses numbered 100–189.",
+                "name": "B. Five additional four-unit MATH lecture courses numbered 100–189.",
                 "child": []
             }
         ]
@@ -107,7 +107,7 @@
                 "child": []
             },
             {
-                "name": "(b) Lower-Division:",
+                "name": "(b) Lower-Division Requirements:",
                 "child": []
             },
             {
@@ -133,6 +133,8 @@
                 "child": [
                     "MATH 105A",
                     "MATH 105B",
+                    "MATH 105LA",
+                    "MATH 105LB",
                     "MATH 121B",
                     "MATH 130B",
                     "MATH 110A",

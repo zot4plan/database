@@ -51,6 +51,7 @@
                     "POL SCI 126C",
                     "POL SCI 126D",
                     "POL SCI 126F",
+                    "POL SCI 126G",
                     "POL SCI 128BW",
                     "POL SCI 128C",
                     "POL SCI 129"
@@ -86,11 +87,10 @@
                     "POL SCI 142B",
                     "POL SCI 142D",
                     "POL SCI 142G",
-                    "POL SCI 142H",
                     "POL SCI 142J",
+                    "POL SCI 143D",
                     "POL SCI 143G",
                     "POL SCI 144A",
-                    "POL SCI 145A",
                     "POL SCI 146B",
                     "POL SCI 147CW",
                     "POL SCI 147D",
@@ -104,9 +104,7 @@
                     "POL SCI 151B",
                     "POL SCI 151C",
                     "POL SCI 151H",
-                    "POL SCI 152F",
                     "POL SCI 152K",
-                    "POL SCI 153B",
                     "POL SCI 153E",
                     "POL SCI 153G",
                     "POL SCI 154C",
@@ -126,7 +124,6 @@
                 "name": "(b) Public Law (POL SCI 170-179)",
                 "child": [
                     "POL SCI 171AW",
-                    "POL SCI 171CW",
                     "POL SCI 171D",
                     "POL SCI 171F",
                     "POL SCI 171G",
@@ -134,7 +131,6 @@
                     "POL SCI 174A",
                     "POL SCI 174C",
                     "POL SCI 174CW",
-                    "POL SCI 175",
                     "POL SCI 179"
                 ]
             }

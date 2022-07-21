@@ -53,19 +53,12 @@
             {
                 "name": "Research Method 2",
                 "child": [
-                    "PSYCH 112D",
-                    "PSYCH 112LD"
-                ]
-            },
-            {
-                "name": "Research Method 3",
-                "child": [
                     "PSYCH 112M",
                     "PSYCH 112LM"
                 ]
             },
             {
-                "name": "Research Method 4",
+                "name": "Research Method 3",
                 "child": [
                     "PSYCH 112R",
                     "PSYCH 112LR"
@@ -129,6 +122,9 @@
                 "name": "(b) Psychology 110-119 (Research Methodologies):",
                 "child": [
                     "PSYCH 111BW",
+                    "PSYCH H111A",
+                    "PSYCH H111B",
+                    "PSYCH H111C",
                     "PSYCH 112A",
                     "PSYCH 112BW",
                     "PSYCH 112C",
@@ -159,6 +155,7 @@
                     "PSYCH 123P",
                     "PSYCH 124S",
                     "PSYCH 124V",
+                    "PSYCH 127P",
                     "PSYCH 129"
                 ]
             },
@@ -224,6 +221,39 @@
             {
                 "name": "4. No more than three of the courses (each of four or more units) may be numbered 190-199.",
                 "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Psychology majors are strongly encouraged to take BIO SCI 1A and BIO SCI 35 toward satisfaction of the science and technology portion of the general education requirement (category II).",
+                "child": [
+                    "BIO SCI 1A",
+                    "BIO SCI 35"
+                ]
+            },
+            {
+                "name": "Furthermore, it is strongly recommended that students who intend to pursue post-baccalaureate work in psychology take the PSYCH 112A-PSYCH 112BW-PSYCH 112C sequence.",
+                "child": [
+                    "PSYCH 112A",
+                    "PSYCH 112BW",
+                    "PSYCH 112C"
+                ]
+            },
+            {
+                "name": "Most psychology graduate programs require statistics (which, at UCI, may be satisfied by taking PSYCH 10A-PSYCH 10B-PSYCH 10C or SOC SCI 10A-SOC SCI 10B-SOC SCI 10C), but some require calculus (which, at UCI, may be satisfied by taking MATH 2A-MATH 2B).",
+                "child": [
+                    "PSYCH 10A",
+                    "PSYCH 10B",
+                    "PSYCH 10C",
+                    "SOC SCI 10A",
+                    "SOC SCI 10B",
+                    "SOC SCI 10C",
+                    "MATH 2A",
+                    "MATH 2B"
+                ]
             }
         ]
     }

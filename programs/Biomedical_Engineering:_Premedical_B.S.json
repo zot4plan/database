@@ -71,6 +71,15 @@
         ]
     },
     {
+        "name": "The nominal Biomedical Engineering:",
+        "child": [
+            {
+                "name": "Premedical program will require 194 units of courses to satisfy all university and major requirements. Because each student comes to UCI with a different level of preparation, the actual number of units will vary",
+                "child": []
+            }
+        ]
+    },
+    {
         "name": "Optional Specialization in Biophotonics",
         "child": [
             {

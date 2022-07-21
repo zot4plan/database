@@ -36,5 +36,14 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "A maximum of two courses can be taken Pass/Not Pass toward a minor. Visit the ICS Student Affairs Office website for Majors and Minors restrictions.",
+                "child": []
+            }
+        ]
     }
 ]

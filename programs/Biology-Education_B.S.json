@@ -63,13 +63,7 @@
                 ]
             },
             {
-                "name": "(b) The following courses can be used to partially satisfy the Upper-Division Biology Elective Requirement:",
-                "child": [
-                    "PHYSICS 147B"
-                ]
-            },
-            {
-                "name": "Additionally, Psychology/Biological Sciences double majors may also use PSYCH 112A-PSYCH 112C to partially satisfy the Upper-Division Biology Elective Requirement.",
+                "name": "Psychology/Biological Sciences double majors may use PSYCH 112A-PSYCH 112C to partially satisfy the Upper-Division Biology Elective Requirement.",
                 "child": []
             },
             {
@@ -98,6 +92,15 @@
                         "HISTORY 60"
                     ]
                 ]
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Double majors within the School of Biological Sciences or with Public Health Sciences, Biomedical Engineering: Premedical, Nursing Science, or Pharmaceutical Sciences are not permitted.",
+                "child": []
             }
         ]
     },

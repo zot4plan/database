@@ -22,5 +22,21 @@
                 "child": []
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Nearly all upper-division courses in Mathematics have MATH 2A-MATH 2B as prerequisites, and many courses have additional prerequisites such as MATH 2D, MATH 2E, MATH 3A, and/or MATH 3D.",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B",
+                    "MATH 2D",
+                    "MATH 2E",
+                    "MATH 3A",
+                    "MATH 3D"
+                ]
+            }
+        ]
     }
 ]

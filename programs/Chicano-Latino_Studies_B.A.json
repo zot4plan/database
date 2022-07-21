@@ -54,7 +54,9 @@
             {
                 "name": "(b) History (CHC/LAT 130-139)",
                 "child": [
+                    "CHC/LAT 131",
                     "CHC/LAT 132B",
+                    "CHC/LAT 133",
                     "CHC/LAT 134",
                     "CHC/LAT 135",
                     "CHC/LAT 139"
@@ -78,6 +80,7 @@
                     "CHC/LAT 156W",
                     "CHC/LAT 157",
                     "CHC/LAT 158",
+                    "CHC/LAT 158B",
                     "CHC/LAT 159",
                     "CHC/LAT 161",
                     "CHC/LAT 161A",

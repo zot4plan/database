@@ -5,13 +5,10 @@
             {
                 "name": "",
                 "child": [
-                    "CHEM 1A",
-                    "ENGR 1A"
-                ]
-            },
-            {
-                "name": "",
-                "child": [
+                    [
+                        "CHEM 1A",
+                        "ENGR 1A"
+                    ],
                     "CHEM 1B",
                     "ENGRCEE 11",
                     "MATH 2A",

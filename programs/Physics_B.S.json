@@ -190,6 +190,17 @@
                     "PHYSICS 20A",
                     "PHYSICS 20B"
                 ]
+            },
+            {
+                "name": " NOTE: With this concentration, a Secondary Teaching Certification option is available.",
+                "child": [
+                    "LPS 60",
+                    "EDUC 109",
+                    "EDUC 143AW",
+                    "EDUC 143BW",
+                    "EDUC 148",
+                    "EDUC 158"
+                ]
             }
         ]
     },

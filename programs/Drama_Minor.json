@@ -5,7 +5,7 @@
             {
                 "name": "",
                 "child": [
-                    "I&C SCI 10"
+                    "DRAMA 10"
                 ]
             }
         ]
@@ -68,6 +68,10 @@
                     "DRAMA 101D",
                     "DRAMA 101E"
                 ]
+            },
+            {
+                "name": "DRAMA 101 units may not overlap with any other major or minor requirements.",
+                "child": []
             }
         ]
     },

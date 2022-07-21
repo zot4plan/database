@@ -27,8 +27,14 @@
                     "ENGLISH 16",
                     "ENGLISH 17"
                 ]
+            },
+            {
+                "name": "Students can substitute COM LIT 60A or COM LIT 60C for the lower-division English course requirement.",
+                "child": [
+                    "COM LIT 60A",
+                    "COM LIT 60C"
+                ]
             }
-
         ]
     },
     {

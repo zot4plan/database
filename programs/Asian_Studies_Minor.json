@@ -25,15 +25,9 @@
                     "CHINESE 2A",
                     "CHINESE 2B",
                     "CHINESE 2C",
-                    "CHINESE 2MA",
-                    "CHINESE 2MB",
-                    "CHINESE 2MC",
                     "CHINESE 3A",
                     "CHINESE 3B",
                     "CHINESE 3C",
-                    "CHINESE 101A",
-                    "CHINESE 101B",
-                    "CHINESE 101C",
                     "JAPANSE 2A",
                     "JAPANSE 2B",
                     "JAPANSE 2C",
@@ -80,9 +74,7 @@
             {
                 "name": "(b) 3. Literature courses taught in the original language:",
                 "child": [
-                    "CHINESE 115",
-                    "JAPANSE 115",
-                    "KOREAN 115"
+                    "CHINESE 115"
                 ]
             },
             {

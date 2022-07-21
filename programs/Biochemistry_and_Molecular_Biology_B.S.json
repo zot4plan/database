@@ -24,6 +24,7 @@
             {
                 "name": "And Select one of the following:",
                 "child": [
+                    "BIO SCI M118L",
                     "BIO SCI M121L",
                     "BIO SCI M130L",
                     "BIO SCI 199"
@@ -47,26 +48,40 @@
                 "child": []
             },
             {
-                "name": "BIO SCI M119-M190",
+                "name": "",
                 "child": [
                     "BIO SCI D137",
                     "BIO SCI D145",
                     "CHEM 128",
+                    "CHEM 132A",
+                    "CHEM 132B",
+                    "CHEM 132C",
                     "PHRMSCI 170A",
                     "PHRMSCI 171"
                 ]
+            },
+            {
+                "name": "BIO SCI M119-M190",
+                "child": []
             },
             {
                 "name": "(b) Select two four-unit courses from the following:",
                 "child": []
             },
             {
-                "name": "BIO SCI D103-D189, E106-E189, M119-M190, N110-N189",
+                "name": "",
                 "child": [
                     "CHEM 128",
+                    "CHEM 132A",
+                    "CHEM 132B",
+                    "CHEM 132C",
                     "PHRMSCI 170A",
                     "PHRMSCI 171"
                 ]
+            },
+            {
+                "name": "BIO SCI D103-D189, E106-E189, M119-M190, N110-N189",
+                "child": []
             },
             {
                 "name": "(r) Note: NO course may be used to satisfy more than one requirement.",
