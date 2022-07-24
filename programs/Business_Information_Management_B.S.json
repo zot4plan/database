@@ -109,5 +109,14 @@
                 "child": []
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students majoring in Business Information Management may not double major in Business Administration nor minor in Management, Innovation and Entrepreneurship, Informatics, or Information and Computer Science.",
+                "child": []
+            }
+        ] 
     }
 ]

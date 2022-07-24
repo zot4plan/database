@@ -5,12 +5,13 @@ DROP TABLE IF EXISTS courses_in_ge;
 DROP TABLE IF EXISTS courses_in_programs;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS programs;
+DROP TABLE IF EXISTS general_education;
+
 CREATE TABLE courses (
     id VARCHAR(25) NOT NULL,
     name VARCHAR(200) NOT NULL,
     department VARCHAR(20) NOT NULL,
-    units_int INT NOT NULL,
-    units_str VARCHAR(20) NOT NULL,
+    units INT NOT NULL,
     description VARCHAR(1000) NOT NULL,
     prerequisite VARCHAR(1000) NOT NULL,
     prerequisite_tree VARCHAR(300) NOT NULL,
@@ -55,17 +56,6 @@ CREATE TABLE courses_in_ge(
     PRIMARY KEY(id),
     FOREIGN KEY (course_id) REFERENCES courses(id),
     FOREIGN KEY (ge_id) REFERENCES general_education(id));
-
-CREATE TABLE schedules (
-    id VARCHAR(64) NOT NULL ,
-    schedule json NOT NULL,
-    last_access_date DATE NOT NULL,
-    PRIMARY KEY(id));
-
-CREATE TABLE visits(
-    id VARCHAR(5) NOT NULL,
-    total INT NOT NULL,
-    PRIMARY KEY(id));
 
 INSERT INTO general_education VALUES ("IA","Lower-Division Requirement","Two lower-division courses");
 INSERT INTO general_education VALUES ("IB","Upper-Division Requirement","One upper-division course");

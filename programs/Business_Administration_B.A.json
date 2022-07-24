@@ -154,5 +154,14 @@
                 "child": []
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students majoring in Business Administration may not minor in Management, Accounting, or Innovation and Entrepreneurship or double major in Business Information Management. Students may pursue more than one Merage School emphasis via the Business Electives in the category C requirements above. Students are strongly advised to work closely with faculty, staff, and career advisors to tailor a course of study optimal for their educational and career plans. Pairing of particular emphases could be beneficial; examples include Accounting and Finance, Marketing and Information Systems, Operations and Decision Technologies and Information Systems, or Health Care Management and Organization and Management. Students are permitted to pursue additional courses within an area of emphasis to exceed the required three.",
+                "child": []
+            }
+        ]
     }
 ]
