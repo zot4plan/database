@@ -105,6 +105,11 @@
     },
     {
         "name": "E. Select four additional elective courses, three of which must be upper-division, selected from CHC/LAT courses.",
-        "child": []
+        "child": [
+            {
+                "name": "Electives may include Independent Study courses (CHC/LAT 199). Students may obtain credit for one of these three courses through participation in a study abroad program in Mexico. Students must consult with the Department office for additional information regarding this option.",
+                "child": []
+            }
+        ]
     }
 ]

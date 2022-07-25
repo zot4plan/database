@@ -85,7 +85,7 @@
         ]
     },
     {
-        "name": "E. Select four from the following:",
+        "name": "D. Select four from the following:",
         "child": [
             {
                 "name": "(b) Psychology Core Courses",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "name": "F. Select three courses from the following modules:",
+        "name": "E. Select three courses from the following modules:",
         "child": [
             {
                 "name": "Psychology Module Courses",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "name": "G. Select three of the following:",
+        "name": "F. Select three of the following:",
         "child": [
             {
                 "name": "(b) Research Methods",
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "name": "H. Select:",
+        "name": "G. Select:",
         "child": [
             {
                 "name": "Four courses from the following (four or more units each) with emphasis in psychology, distributed as follows:",

@@ -171,5 +171,14 @@
                 "child": []
             }
         ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "This major is open to all students. However, courses being applied to another major cannot also be counted as upper-division electives for the B.A. in Environmental Science and Policy.",
+                "child": []
+            }
+        ]
     }
 ]
