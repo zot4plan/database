@@ -41,9 +41,9 @@ CREATE TABLE general_education(
     note VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
 
-CREATE TABLE courses_in_programs(
+CREATE TABLE depts_in_programs(
     id INT NOT NULL AUTO_INCREMENT, 
-    course_id VARCHAR(25) NOT NULL,
+    depth_id VARCHAR(25) NOT NULL,
     program_id INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY (program_id) REFERENCES programs(id));

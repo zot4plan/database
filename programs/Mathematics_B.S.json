@@ -467,13 +467,8 @@
                 ]
             },
             {
-                "name": "NOTE:",
-                "child": [
-                    {
-                        "name": "Students may pursue either the concentration in Mathematics for Education/Secondary Teaching Certification or the specialization in Mathematics for Education, but not both.",
-                        "child": []
-                    }
-                ]
+                "name": "(r) NOTE: Students may pursue either the concentration in Mathematics for Education/Secondary Teaching Certification or the specialization in Mathematics for Education, but not both.",
+                "child": []
             }
         ]
     }
