@@ -48,6 +48,10 @@
                     "UPPP 125",
                     "UPPP 127"
                 ]
+            },
+            {
+                "name": "Courses taken for the GIS Specialization can be used towards the Urban Studies major. Courses must be taken for a letter grade in order to count for the GIS Specialization.",
+                "child": []
             }
         ]
     }

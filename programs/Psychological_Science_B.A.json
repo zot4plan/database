@@ -114,6 +114,14 @@
             {
                 "name": "PSCI 190A-193Z",
                 "child": []
+            },
+            {
+                "name": "Three additional upper-division courses chosen from the specialty areas in C-1 above or from courses numbered PSCI 100, 190-193Z, 196, Social Ecology H190A, and H190W.",
+                "child": []
+            },
+            {
+                "name": "NOTE: Courses used to satisfy requirement C-1 cannot be used to satisfy C-2; a maximum of two courses from 192A-Z and one 196 course may be counted toward the major.", 
+                "child": []
             }
         ]
     }
