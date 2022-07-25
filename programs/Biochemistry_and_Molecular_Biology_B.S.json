@@ -22,7 +22,7 @@
                 ]
             },
             {
-                "name": "And Select one of the following:",
+                "name": "Select one of the following:",
                 "child": [
                     "BIO SCI M118L",
                     "BIO SCI M121L",
@@ -84,7 +84,7 @@
                 "child": []
             },
             {
-                "name": "(r) Note: NO course may be used to satisfy more than one requirement.",
+                "name": "(r) Note: No course may be used to satisfy more than one requirement.",
                 "child": []
             }
 

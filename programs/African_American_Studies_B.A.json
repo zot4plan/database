@@ -72,8 +72,10 @@
         "name": "C. Select five additional upper-division electives from: ",
         "child": [
             {
-                "name": "AFAM 110-159, 163",
-                "child": ["AFAM 163"]
+                "name": "(b) AFAM 110-159, 163",
+                "child": [
+                    "AFAM 163"
+                ]
             }
         ]
     },

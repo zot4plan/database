@@ -48,9 +48,10 @@ def check_course_exist(course_id):
     
     f = open("../database/courses.sql", "a")
     f.write('INSERT INTO courses VALUES ("' + course_id + '","' + new_course.name.strip() +  '","' + new_course.department + '","' + 
-            new_course.units + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
+            new_course.units_int + '","' + new_course.units_str + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
             new_course.prerequisite_for + '","' + new_course.restriction + '","' + new_course.repeatability + '","' + 
-            new_course.corequisite + '","' + new_course.ge_string + '","' + new_course.past_terms + '");' + '\n')
+            new_course.corequisite + '","' + new_course.pre_or_core + '","' + new_course.same_as + '","' +
+            new_course.overlaps_with + '","' + new_course.concurrent_with + '","' + new_course.ge_string + '","' + new_course.past_terms + '");' + '\n')
     f.close()
 
     all_courses.append(course_id)

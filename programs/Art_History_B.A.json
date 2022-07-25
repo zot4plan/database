@@ -81,6 +81,10 @@
                 ]
             },
             {
+                "name": "(b) And at least one course in each of the following five historical periods:",
+                "child": []
+            },
+            {
                 "name": "(b) Ancient:",
                 "child": [
                     "ART HIS 155A"
@@ -146,6 +150,10 @@
                     "ART HIS 164B",
                     "ART HIS 164D"
                 ]
+            },
+            {
+                "name": "NOTE: A course may apply as both one Geographical Region and one Historical Period, but no course may be used to satisfy more than one Geographical Region or more than one Historical Period.",
+                "child": []
             }
         ]
     },
@@ -177,5 +185,9 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Students should enroll in ART HIS 190W (for upper-division writing) as early as possible in their junior year, after successfully completing UCI’s lower-division writing requirement. It is strongly recommended that students complete ART HIS 190W before taking ART HIS 198.",
+        "child": []
     }
 ]
