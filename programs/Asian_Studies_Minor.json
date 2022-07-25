@@ -9,25 +9,47 @@
             {
                 "name": "Requirements for the minor are met by taking eight courses (of which no more than four may be lower-division) as specified below.",
                 "child": []
+            },
+            {
+                "name": "NOTE: A maximum overlap of two courses is permitted between this minor and a student\u2019s major.",
+                "child": []
             }
         ]
     },
     {
-        "name": "A. One upper-division History course with a focus on Asia approved by the director.",
-        "child": []
-    },
-    {
-        "name": "B. Three quarters of course work in one Asian language of specialization beyond the first-year level. Approved courses are:",
+        "name": "A. One upper-division History course.",
         "child": [
             {
+                "name": "Course with a focus on Asia approved by the director.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Three quarters of course work in one Asian language of specialization beyond the first-year level.",
+        "child": [
+            {
+                "name": "Approved courses are:",
+                "child": []
+            },
+            {
                 "name": "(b) 1. Second-, third-, or fourth-year language:",
+                "child": []
+            },
+            {
+                "name": "CHINESE",
                 "child": [
                     "CHINESE 2A",
                     "CHINESE 2B",
                     "CHINESE 2C",
                     "CHINESE 3A",
                     "CHINESE 3B",
-                    "CHINESE 3C",
+                    "CHINESE 3C"
+                ]
+            },
+            {
+                "name": "JAPANSE",
+                "child": [
                     "JAPANSE 2A",
                     "JAPANSE 2B",
                     "JAPANSE 2C",
@@ -35,7 +57,12 @@
                     "JAPANSE 3B",
                     "JAPANSE 3C",
                     "JAPANSE 101A",
-                    "JAPANSE 101B",
+                    "JAPANSE 101B"
+                ]
+            },
+            {
+                "name": "KOREAN",
+                "child": [
                     "KOREAN 2A",
                     "KOREAN 2B",
                     "KOREAN 2C",
@@ -50,6 +77,10 @@
             },
             {
                 "name": "Other sequences in Asian languages as available.",
+                "child": []
+            },
+            {
+                "name": "(r) These courses require placement examinations given by the Academic Testing Center. Students who, for example, place out of CHINESE 2B would then take CHINESE 2C, CHINESE 3A-CHINESE 3B to meet the requirement.",
                 "child": []
             },
             {
@@ -80,6 +111,10 @@
             {
                 "name": "Or graduate seminars",
                 "child": []
+            },
+            {
+                "name": "(r) These courses have a prerequisite of completion of the fourth-year language sequence or its equivalent.",
+                "child": []
             }
         ]
     },
@@ -96,6 +131,10 @@
             },
             {
                 "name": "3. No more than two of the courses may be lower-division (and only one may be lower-division if any combination of second- or third-year East Asian language is used for the language required above).",
+                "child": []
+            },
+            {
+                "name": "(r) Available at the Asian Studies Minor website (https://www.humanities.uci.edu/asianstudies).",
                 "child": []
             }
         ]

@@ -16,14 +16,9 @@
                     ],
                     "COMPSCI 184C"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "NOTE",
-        "child": [
+            },
             {
-                "name": "A maximum of two courses may be taken Pass/Not Pass toward a minor. Bren School majors should refer to the Majors/Minors Restrictions Catalogue section before attempting to minor in Bionformatics. Students who are considering a major in Computer Science or Computer Science and Engineering must complete the major requirements for a letter grade. Visit the ICS Student Affairs Office website for Majors and Minors restrictions",
+                "name": "(r) NOTE: A maximum of two courses may be taken Pass/Not Pass toward a minor. Bren School majors should refer to the Majors/Minors Restrictions Catalogue section before attempting to minor in Bionformatics. Students who are considering a major in Computer Science or Computer Science and Engineering must complete the major requirements for a letter grade. Visit the ICS Student Affairs Office website for Majors and Minors restrictions (https://www.ics.uci.edu/ugrad/degrees/MajorMinor_Restrictions_Chart.pdf)",
                 "child": []
             }
         ]

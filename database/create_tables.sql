@@ -10,7 +10,7 @@ CREATE TABLE courses (
     name VARCHAR(200) NOT NULL,
     department VARCHAR(20) NOT NULL,
     units INT NOT NULL,
-    units_text VARCHAR(20) NOT NULL,
+    units_text VARCHAR(10) NOT NULL,
     description VARCHAR(1000) NOT NULL,
     prerequisite VARCHAR(1000) NOT NULL,
     prerequisite_tree VARCHAR(300) NOT NULL,

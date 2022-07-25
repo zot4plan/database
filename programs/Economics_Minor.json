@@ -26,6 +26,14 @@
                     "ECON 105B",
                     "ECON 105C"
                 ]
+            },
+            {
+                "name": "(r) MGMT 7 may not be used to substitute for ECON 15A-ECON 15B. Furthermore, students will not received credit for MGMT 7 if taken after ECON 15A-ECON 15B.",
+                "child": []
+            },
+            {
+                "name": "(r) Note that ECON 20A-ECON 20B is a requirement of both the undergraduate major in Business Administration and the Economics minor.",
+                "child": []
             }
         ]
     },

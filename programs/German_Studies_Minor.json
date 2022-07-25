@@ -45,19 +45,23 @@
                 ]
             },
             {
-                "name": "Comparative Literature",
+                "name": "Comparative Literature (1)",
                 "child": []
             },
             {
-                "name": "German history",
+                "name": "German history (1)",
                 "child": []
             },
             {
-                "name": "German philosophy",
+                "name": "German philosophy (1)",
                 "child": []
             },
             {
-                "name": "German political science",
+                "name": "German political science (1)",
+                "child": []
+            },
+            {
+                "name": "(1) Must be approved by the advisor for the minor.",
                 "child": []
             }
         ]

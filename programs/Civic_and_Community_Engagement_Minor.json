@@ -37,7 +37,15 @@
         "name": "D.",
         "child": [
             {
-                "name": "For students in the Poverty track, select four of the following. For students in the Leadership track, select three elective courses from the Leadership and Public Policy theme. For all other students, select five elective courses related to public problems and civic and community engagement from the following:",
+                "name": "For students in the Poverty track, select four of the following.",
+                "child": []
+            },
+            {
+                "name": "For students in the Leadership track, select three elective courses from the Leadership and Public Policy theme.",
+                "child": []
+            },
+            {
+                "name": "For all other students, select five elective courses related to public problems and civic and community engagement from the following:",
                 "child": []
             },
             {

@@ -74,6 +74,10 @@
             {
                 "name": "Or equivalent course offered if faculty is in another department",
                 "child": []
+            },
+            {
+                "name": "(r) By each student's junior year, they must identify and secure an independent study advisor for their capstone project. Students will work with this advisor for the duration of their project (1 unit of PUBHLTH 198 or equivalent independent study per quarter). The results from the capstone project will be presented at a symposium at the end of the graduating year.",
+                "child": []
             }
         ]
     }

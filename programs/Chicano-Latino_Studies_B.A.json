@@ -26,10 +26,10 @@
         ]
     },
     {
-        "name": "C. Complete one comparative ethnic studies course selected from African American Studies, Asian American Studies, or",
+        "name": "C. Complete one comparative ethnic studies course",
         "child": [
             {
-                "name": "",
+                "name": "One course selected from African American Studies, Asian American Studies, or",
                 "child": [
                     "EDUC 124"
                 ]
