@@ -43,7 +43,7 @@ CREATE TABLE general_education(
 
 CREATE TABLE depts_in_programs(
     id INT NOT NULL AUTO_INCREMENT, 
-    depth_id VARCHAR(25) NOT NULL,
+    dept_id VARCHAR(25) NOT NULL,
     program_id INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY (program_id) REFERENCES programs(id));
