@@ -10,10 +10,7 @@ DELIMITER $$
 CREATE PROCEDURE get_program(IN p_id INT) 
 BEGIN
 SELECT id, name, is_major, requirement, url FROM programs WHERE id = p_id;     
-SELECT DISTINCT(department)
-FROM (SELECT DISTINCT(course_id) 
-                   FROM courses_in_programs 
-                   WHERE program_id = p_id) as p LEFT JOIN courses ON courses.id = p.course_id; 
+SELECT DISTINCT(dept_id) as department FROM depts_in_programs WHERE program_id = p_id;
 END $$
 
 CREATE PROCEDURE get_schedule_by_id(IN user_id VARCHAR(32)) 
