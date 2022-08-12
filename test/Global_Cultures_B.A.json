@@ -1,0 +1,56 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 21A",
+                    "HISTORY 21B",
+                    "HISTORY 21C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "GLBLCLT 103A",
+                    "GLBLCLT 103B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "GLBLCLT 191"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select seven upper-division courses from an approved list.",
+        "child": [
+            {
+                "name": "Five of the courses must focus on one emphasis and two on a second emphasis chosen from the approved course lists on the Global Cultures website. Quarterly consultation with a faculty advisor is also required.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "E. Select one additional upper- or lower-division course from an approved list.",
+        "child": [
+            {
+                "name": "The selected course must focus on the primary or secondary emphasis chosen from the approved course lists on the Global Cultures website.",
+                "child": []
+            }
+        ]
+    }
+]

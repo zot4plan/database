@@ -1,0 +1,46 @@
+[
+    {
+        "name": "A. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGLISH 8",
+                    "ENGLISH 9",
+                    "ENGLISH 10",
+                    "ENGLISH 11",
+                    "ENGLISH 12",
+                    "ENGLISH 15",
+                    "ENGLISH 16",
+                    "ENGLISH 17"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select:",
+        "child": [
+            {
+                "name": "Select at least five Departmental (English, Literary Journalism, Writing) courses numbered 102 or above, excluding ENGLISH 150, LIT JRN 197, LIT JRN 198, LIT JRN 199, WRITING 139W, and WRITING 197.",
+                "child": []
+            },
+            {
+                "name": "Two courses from the following may be substituted:",
+                "child": [
+                    "ENGLISH 100",
+                    "ENGLISH 101W",
+                    "WRITING 101W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the English Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the department undergraduate chair.",
+                "child": []
+            }
+        ]
+    }
+]

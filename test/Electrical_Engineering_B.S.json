@@ -1,0 +1,216 @@
+[
+    {
+        "name": "Mathematics and Basic Science Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "or",
+                        "ENGR 1A",
+                        "CHEM 1A"
+                    ],
+                    "EECS 55",
+                    "EECS 70LA",
+                    "EECS 145",
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    "MATH 2D",
+                    "MATH 2E",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    [
+                        "-",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ],
+                    "PHYSICS 7LD",
+                    "PHYSICS 51A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses:",
+        "child": [
+            {
+                "name": "Students must complete each of the following courses and accumulate a minimum of 28 units of engineering design:",
+                "child": [
+                    "EECS 1",
+                    "EECS 10",
+                    "EECS 31",
+                    "EECS 31L",
+                    "EECS 50",
+                    "EECS 70A",
+                    "EECS 70B",
+                    "EECS 70LB",
+                    "EECS 150",
+                    [
+                        "-",
+                        "EECS 159A",
+                        "EECS 159B"
+                    ],
+                    "EECS 160A",
+                    "EECS 160LA",
+                    "EECS 170A",
+                    "EECS 170LA",
+                    "EECS 170B",
+                    "EECS 170LB",
+                    "EECS 170C",
+                    "EECS 170LC",
+                    "EECS 180A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Electrical Engineering Specialization:",
+        "child": [
+            {
+                "name": "Students must satisfy the requirements for one of the five specializations listed below.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Technical Elective Courses:",
+        "child": [
+            {
+                "name": "In addition to a specialization, and with approval of a faculty advisor, students must select a minimum of three other technical elective courses, comprising of at least 10 units. At least one of these courses must be from outside the student\u2019s specialization. All EECS courses not required for the major are approved as technical electives. Four (4) units of 199 course work count as one technical elective. ENGR 7A and ENGR 7B can be counted as 4 units of Technical Electives. ENGR 7A and ENGR 7B are available only to lower-division students. Both ENGR 7A and ENGR 7B must be taken to be counted as a Technical Elective.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering Professional Topics Courses",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGR 190W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Electronic Circuit Design:",
+        "child": [
+            {
+                "name": "(b) Requires:",
+                "child": [
+                    "EECS 170D",
+                    "EECS 170E"
+                ]
+            },
+            {
+                "name": "and select four of the following:",
+                "child": [
+                    "EECS 166A",
+                    "EECS 174",
+                    "EECS 176",
+                    "EECS 179",
+                    "EECS 182",
+                    "EECS 188"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Semiconductors and Optoelectronics:",
+        "child": [
+            {
+                "name": "(b) Requires:",
+                "child": [
+                    "EECS 174",
+                    "EECS 188",
+                    "PHYSICS 52A"
+                ]
+            },
+            {
+                "name": "and select three of the following:",
+                "child": [
+                    "EECS 170D",
+                    "EECS 176",
+                    "EECS 179",
+                    "EECS 180B",
+                    "ENGR 54"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in RF, Antennas and Microwaves:",
+        "child": [
+            {
+                "name": "(b) Requires:",
+                "child": [
+                    "EECS 144",
+                    "EECS 180B",
+                    "EECS 182"
+                ]
+            },
+            {
+                "name": "and select three of the following:",
+                "child": [
+                    "EECS 170D",
+                    "EECS 170E",
+                    "EECS 188",
+                    "PHYSICS 52A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Digital Signal Processing:",
+        "child": [
+            {
+                "name": "(b) Requires:",
+                "child": [
+                    "EECS 22",
+                    "EECS 152A",
+                    "EECS 152B"
+                ]
+            },
+            {
+                "name": "and select three of the following:",
+                "child": [
+                    "EECS 20",
+                    "EECS 101",
+                    "EECS 112",
+                    "EECS 141A",
+                    "EECS 141B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Communications:",
+        "child": [
+            {
+                "name": "(b) Requires:",
+                "child": [
+                    "EECS 141A",
+                    "EECS 141B"
+                ]
+            },
+            {
+                "name": "and select four of the following:",
+                "child": [
+                    "EECS 20",
+                    "EECS 22",
+                    "EECS 144",
+                    "EECS 148",
+                    "EECS 152A",
+                    "EECS 152B",
+                    "EECS 170E",
+                    "EECS 188"
+                ]
+            }
+        ]
+    }
+]

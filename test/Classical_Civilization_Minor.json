@@ -1,0 +1,34 @@
+[
+    {
+        "name": "A. Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "CLASSIC 36A",
+                        "CLASSIC 36B",
+                        "CLASSIC 36C"
+                    ],
+                    [
+                        "-",
+                        "CLASSIC 37A",
+                        "CLASSIC 37B",
+                        "CLASSIC 37C"
+                    ],
+                    [
+                        "-",
+                        "CLASSIC 45A",
+                        "CLASSIC 45B",
+                        "CLASSIC 45C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select five upper-division Classics courses, one of which may be in a related field such as history, art history, or philosophy.",
+        "child": []
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "ANTHRO 2A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select one of the following:",
+                "child": [
+                    "ANTHRO 2B",
+                    "ANTHRO 2C",
+                    "ANTHRO 2D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select one of the following:",
+                "child": [
+                    "ANTHRO 30A",
+                    "ANTHRO 100B"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Complete:",
+                "child": [
+                    "ANTHRO 134A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Select three topical courses (12 units) from the following:",
+                "child": [
+                    "ANTHRO 25A",
+                    "ANTHRO 121D",
+                    "ANTHRO 125F",
+                    "ANTHRO 128A",
+                    "ANTHRO 128B",
+                    "ANTHRO 132A",
+                    "ANTHRO 134B",
+                    "ANTHRO 134C",
+                    "ANTHRO 134F",
+                    "ANTHRO 134N",
+                    "ANTHRO 136K",
+                    "ANTHRO 139",
+                    "SOCIOL 154"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

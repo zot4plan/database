@@ -1,0 +1,46 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "Required Courses",
+                "child": [
+                    [
+                        "or",
+                        "MATH 3A",
+                        "I&C SCI 6N"
+                    ],
+                    [
+                        "-",
+                        "STATS 110",
+                        "STATS 111"
+                    ],
+                    [
+                        "-",
+                        "STATS 120A",
+                        "STATS 120B",
+                        "STATS 120C"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Select one elective from the following:",
+                "child": [
+                    "I&C SCI 31",
+                    [
+                        "or",
+                        "MATH 130B",
+                        "MATH 130C"
+                    ],
+                    "STATS 7",
+                    "STATS 112",
+                    "STATS 115",
+                    "STATS 140"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

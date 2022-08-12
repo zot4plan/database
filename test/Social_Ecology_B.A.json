@@ -1,0 +1,18 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Three courses (12 units)\u2014one course (numbered 100-193) selected from each of the three departments\u2014Criminology, Law and Society; Urban Planning and Public Policy; and Psychological Science",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Seven additional courses (28 units - numbered 100-193) selected from Social Ecology or the departments of Criminology, Law and Society; Urban Planning and Public Policy; and Psychological Science. Course prerequisites established by the individual departments must be satisfied.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

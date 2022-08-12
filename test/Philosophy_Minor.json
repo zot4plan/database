@@ -1,0 +1,30 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select three of the following:",
+                "child": [
+                    "PHILOS 1",
+                    "PHILOS 2",
+                    "PHILOS 3",
+                    "PHILOS 4",
+                    "PHILOS 5",
+                    "PHILOS 10",
+                    "PHILOS 11",
+                    "PHILOS 12",
+                    "PHILOS 13",
+                    "PHILOS 22",
+                    "PHILOS 30"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete four additional upper-division courses selected from PHILOS 100W-199. (PHILOS 199 may be taken for four units only.)",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

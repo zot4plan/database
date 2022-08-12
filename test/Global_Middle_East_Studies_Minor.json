@@ -1,0 +1,36 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "GLBL ME 60A",
+                        "GLBL ME 60B",
+                        "GLBL ME 60C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete four upper-division courses selected from an approved list.",
+        "child": [
+            {
+                "name": "Courses must be selected from the approved lists published on the Global Middle East Studies website: https://www.humanities.uci.edu/gmes",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate program director.",
+                "child": []
+            }
+        ]
+    }
+]

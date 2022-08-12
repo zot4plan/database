@@ -1,0 +1,73 @@
+[
+    {
+        "name": "A. Complete the following core courses (28 units):",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "ECON 15A",
+                        "ECON 15B"
+                    ],
+                    [
+                        "-",
+                        "ECON 20A",
+                        "ECON 20B"
+                    ]
+                ]
+            },
+            {
+                "name": "(b) And select one of the following sequences:",
+                "child": [
+                    [
+                        "-",
+                        "ECON 100A",
+                        "ECON 100B",
+                        "ECON 100C"
+                    ]
+                ]
+            },
+            {
+                "name": "(b) or",
+                "child": [
+                    [
+                        "-",
+                        "ECON 105A",
+                        "ECON 105B",
+                        "ECON 105C"
+                    ]
+                ]
+            },
+            {
+                "name": "(r) MGMT 7 may not be used to substitute for ECON 15A-ECON 15B. Furthermore, students will not received credit for MGMT 7 if taken after ECON 15A-ECON 15B.",
+                "child": []
+            },
+            {
+                "name": "(r) Note that ECON 20A-ECON 20B is a requirement of both the undergraduate major in Business Administration and the Economics minor.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Electives (eight units):",
+        "child": [
+            {
+                "name": "(b) Two upper-division ECON electives (excluding ECON 199).",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "(b) Prerequisites for the Economics core courses include MATH 2A-MATH 2B.",
+                "child": [
+                    "MATH 2A",
+                    "MATH 2B"
+                ]
+            }
+        ]
+    }
+]

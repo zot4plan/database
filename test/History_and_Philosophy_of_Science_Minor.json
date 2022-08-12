@@ -1,0 +1,56 @@
+[
+    {
+        "name": "A. Select two of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "LPS 31",
+                    "LPS 40",
+                    "HISTORY 60"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select two of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 135B",
+                    "HISTORY 135E",
+                    "PSYCH 120H"
+                ]
+            },
+            {
+                "name": "(b) PHILOS 110-115 (when topic is science)",
+                "child": [
+                    "PHILOS 110",
+                    "PHILOS 111",
+                    "PHILOS 113",
+                    "PHILOS 114",
+                    "PHILOS 115"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "LSCI 141",
+                    "LPS 106",
+                    "LPS 108",
+                    "LPS 140",
+                    "LPS 142W",
+                    "LPS 143",
+                    "LPS 145",
+                    "LPS 147"
+                ]
+            }
+        ]
+    }
+]

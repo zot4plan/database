@@ -1,0 +1,51 @@
+[
+    {
+        "name": "A. Select three of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ARTS 1",
+                    "ART 1C",
+                    "ART 8",
+                    "ART 12A",
+                    "ART 12B",
+                    "ART 12C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select four of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ART 50A",
+                    "ART 50B",
+                    "ART 65A",
+                    "ART 65B",
+                    "ART 65C",
+                    "ART 71B",
+                    "ART 81A",
+                    "ART 81B",
+                    "ART 95",
+                    "ART 100",
+                    "ART 106A",
+                    "ART 106C",
+                    "ART 110A",
+                    "ART 113",
+                    "ART 126B",
+                    "ART 130A",
+                    "ARTS 75",
+                    "DANCE 163",
+                    "DANCE 164",
+                    "MUSIC 51",
+                    "MUSIC 147",
+                    "MUSIC 151",
+                    "MUSIC 152"
+                ]
+            }
+        ]
+    }
+]

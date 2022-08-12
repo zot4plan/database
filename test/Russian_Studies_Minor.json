@@ -1,0 +1,38 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "RUSSIAN 2C"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "RUSSIAN 50"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select sixteen units of upper-division courses from the following:",
+                "child": [
+                    "RUSSIAN 150",
+                    "RUSSIAN 190",
+                    "HISTORY 124B",
+                    "HISTORY 190",
+                    [
+                        "/",
+                        "POL SCI 154F",
+                        "ANTHRO 164P"
+                    ],
+                    "POL SCI 159"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

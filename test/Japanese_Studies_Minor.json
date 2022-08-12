@@ -1,0 +1,59 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "JAPANSE 2C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EAS 55"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. One upper-division course in Japanese history",
+        "child": []
+    },
+    {
+        "name": "D. One upper-division course on Japan, offered by the School of Social Sciences",
+        "child": [
+            {
+                "name": "A list of approved courses can be viewed on the East Asian Studies website: https://www.humanities.uci.edu/eastasian/quarterly-approved-courses-13",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "E. One upper-division course on Japan, offered by the School of Humanities",
+        "child": [
+            {
+                "name": "A list of approved courses can be viewed on the East Asian Studies website: https://www.humanities.uci.edu/eastasian/quarterly-approved-courses-13",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "F. Select three courses from the East Asian Studies offerings on Japanese topics, one of which may be lower-division.",
+        "child": []
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

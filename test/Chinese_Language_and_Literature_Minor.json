@@ -1,0 +1,38 @@
+[
+    {
+        "name": "A. Three quarters of advanced Chinese language instruction selected from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHINESE 3A",
+                    "CHINESE 3B",
+                    "CHINESE 3C",
+                    "CHINESE 40",
+                    "CHINESE 100A",
+                    "CHINESE 100B",
+                    "CHINESE 100C",
+                    "CHINESE 115"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select four upper-division courses from the East Asian Studies offerings on Chinese topics.",
+        "child": [
+            {
+                "name": "For a list of approved courses, please consult https://www.humanities.uci.edu/eastasian/chinese/course/acourses2.php.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

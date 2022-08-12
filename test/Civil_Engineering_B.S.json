@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Mathematics and Basic Science Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "or",
+                        "CHEM 1A",
+                        "ENGR 1A"
+                    ],
+                    "CHEM 1B",
+                    "ENGRCEE 11",
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    "MATH 2D",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "MATH 2E",
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    "PHYSICS 7D",
+                    "PHYSICS 7LD"
+                ]
+            },
+            {
+                "name": "One basic science elective selected from any Biological Science or Earth Systems Science course with approved GE II designation.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Lower-Division Technical Elective:",
+        "child": [
+            {
+                "name": "(b) Select one course from two of the sections:",
+                "child": []
+            },
+            {
+                "name": "Section A:",
+                "child": [
+                    [
+                        "-",
+                        "ENGR 7A",
+                        "ENGR 7B"
+                    ]
+                ]
+            },
+            {
+                "name": "Section B:",
+                "child": [
+                    "CHEM 1LE",
+                    [
+                        "-",
+                        "CHEM 1C",
+                        "CHEM 1LC"
+                    ]
+                ]
+            },
+            {
+                "name": "Section C:",
+                "child": [
+                    "EECS 70A",
+                    "ENGR 54",
+                    "ENGRMAE 80",
+                    "ENGRMAE 91"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGRCEE 20",
+                    "ENGRCEE 21",
+                    "ENGRCEE 30",
+                    "ENGRCEE 81A",
+                    "ENGRCEE 81B",
+                    "ENGRCEE 110",
+                    "ENGRCEE 111",
+                    "ENGRCEE 121",
+                    "ENGRCEE 130",
+                    "ENGRCEE 130L",
+                    "ENGRCEE 150",
+                    "ENGRCEE 150L",
+                    "ENGRCEE 151A",
+                    "ENGRCEE 151C",
+                    "ENGRCEE 160",
+                    "ENGRCEE 170",
+                    "ENGRCEE 171",
+                    [
+                        "-",
+                        "ENGRCEE 181A",
+                        "ENGRCEE 181B",
+                        "ENGRCEE 181C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Engineering Professional Topics Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGR 190W",
+                    [
+                        "or",
+                        "ENGRCEE 60",
+                        "UPPP 8"
+                    ]
+                ]
+            },
+            {
+                "name": "Select either",
+                "child": [
+                    "ENGRCEE 40"
+                ]
+            },
+            {
+                "name": "or",
+                "child": [
+                    [
+                        "-",
+                        "ECON 20A",
+                        "ECON 20B"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization Electives:",
+        "child": [
+            {
+                "name": "Students must select one of the areas of specialization and complete the associated requirements, as shown below. Students select, with the approval of a faculty advisor, any additional engineering topics courses needed to satisfy school and departmental requirements.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Specialization in General Civil Engineering:",
+        "child": [
+            {
+                "name": "(b) Requires four courses, at least one course each from three of the following four options:",
+                "child": []
+            },
+            {
+                "name": "(1) Select one:",
+                "child": [
+                    "ENGRCEE 122",
+                    "ENGRCEE 123"
+                ]
+            },
+            {
+                "name": "(2) Select one:",
+                "child": [
+                    "ENGRCEE 149",
+                    "ENGRCEE 151B",
+                    "ENGRCEE 152",
+                    "ENGRCEE 155",
+                    "ENGRCEE 156"
+                ]
+            },
+            {
+                "name": "(3) Select one:",
+                "child": [
+                    "ENGRCEE 163",
+                    "ENGRCEE 164",
+                    "ENGRCEE 165",
+                    "ENGRCEE 169"
+                ]
+            },
+            {
+                "name": "(4) Select one:",
+                "child": [
+                    "ENGRCEE 172",
+                    "ENGRCEE 173",
+                    "ENGRCEE 176",
+                    "ENGRCEE 178"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Environmental Hydrology and Water Resources:",
+        "child": [
+            {
+                "name": "Select four of the following:",
+                "child": [
+                    "ENGRCEE 163",
+                    "ENGRCEE 164",
+                    "ENGRCEE 165",
+                    "ENGRCEE 169",
+                    "ENGRCEE 172",
+                    "ENGRCEE 173",
+                    "ENGRCEE 176",
+                    "ENGRCEE 178"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Structural Engineering:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGRCEE 155"
+                ]
+            },
+            {
+                "name": "(b) Select three of the following:",
+                "child": [
+                    "ENGRCEE 149",
+                    "ENGRCEE 151B",
+                    "ENGRCEE 152",
+                    "ENGRCEE 156",
+                    "ENGRMAE 155",
+                    "ENGRMAE 157"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Specialization in Transportation Systems Engineering:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ENGRCEE 122",
+                    "ENGRCEE 123"
+                ]
+            },
+            {
+                "name": "(b) Select two of the following:",
+                "child": [
+                    "EECS 70A",
+                    "ENGRCEE 124",
+                    "ENGRCEE 125",
+                    "ENGRMAE 170",
+                    "ENGRMAE 171"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "*",
+        "child": [
+            {
+                "name": "ENGR 7A-ENGR 7B is available only to lower-division students in Fall and Winter quarters. Both ENGR 7A-ENGR 7B must be taken to be counted as one Lower-Division Technical Elective.",
+                "child": []
+            },
+            {
+                "name": "(The nominal Civil Engineering program will require 185 units of courses depending on specialization to satisfy all university and major requirements. Because each student comes to UCI with a different level of preparation, the actual number of units will vary.)",
+                "child": []
+            },
+            {
+                "name": "At most an aggregate total of 6 units of 199 or H199 courses may be used to satisfy degree requirements.",
+                "child": []
+            }
+        ]
+    }
+]

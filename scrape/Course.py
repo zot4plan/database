@@ -87,6 +87,8 @@ class Course:
                 self.overlaps_with = elem.replace('Overlaps with ', '')
             elif 'Concurrent with' in elem:
                 self.concurrent_with = elem.replace('Concurrent with ', '')
+            elif 'Corequisite:' in elem:
+                self.corequisite = elem.replace('Corequisite:', '')
 
 
     def set_ge(self, raw_text_ge=None):

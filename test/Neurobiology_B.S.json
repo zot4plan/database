@@ -1,0 +1,100 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Upper-Division Core:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Select one of the following:",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI D104",
+                    "BIO SCI E109"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Required Major Courses:",
+                "child": [
+                    [
+                        "-",
+                        "BIO SCI N115A",
+                        "BIO SCI  N115B"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Upper-Division Laboratories:",
+                "child": [
+                    "BIO SCI N113L"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and select two of the following:",
+                "child": [
+                    "BIO SCI D111L",
+                    "BIO SCI E106L",
+                    "BIO SCI E112L",
+                    "BIO SCI E115L",
+                    "BIO SCI E131L",
+                    "BIO SCI E140L",
+                    "BIO SCI E160L",
+                    "BIO SCI E166L",
+                    "BIO SCI E179L",
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "BIO SCI M121L",
+                    "BIO SCI M130L"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "One of these two laboratories can be satisfied by completion of Excellence in Research in the Biological Sciences.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Upper-Division Biology Electives:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Select three of the following:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "BIO SCI N119-N190",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and select one four-unit course from the following:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "BIO SCI D103-D190, E106-E190, M114-M190, N110-N190",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "No course may be used to satisfy more than one requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Honors Track of the Neurobiology Major: BIO SCI H195 in the area of neurobiology and Excellence in Research in the Biological Sciences - presenting neurobiology related research.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

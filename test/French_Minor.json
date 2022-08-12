@@ -1,0 +1,55 @@
+[
+    {
+        "name": "A. Select two courses from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "FRENCH 102A",
+                    "FRENCH 102B",
+                    "FRENCH 102C",
+                    "FRENCH 102D",
+                    "FRENCH 102E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "At least five upper-division French courses other than FRENCH 102A, 102B, 102C,  102D,  or 102E",
+                "child": []
+            },
+            {
+                "name": "A maximum of three courses may be taught entirely in English.",
+                "child": []
+            },
+            {
+                "name": "(b) At least one course must be completed in each of the following historical periods:",
+                "child": []
+            },
+            {
+                "name": "- Pre-18th century literature and culture",
+                "child": []
+            },
+            {
+                "name": "- 18th or 19th century literature and culture",
+                "child": []
+            },
+            {
+                "name": "- 20th or 21st century literature and culture",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "At least four upper-division courses required for the minor must be completed successfully at UCI, of which a maximum of two may be taught entirely in English. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department Undergraduate Director.",
+                "child": []
+            }
+        ]
+    }
+]

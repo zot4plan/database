@@ -1,0 +1,71 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "PUBHLTH 1",
+                    "PUBHLTH 2"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Seven upper-division courses in Public Health with at least one course from four of the five areas:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Epidemiology, Genetics, and Health Informatics",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PUBHLTH  101-119",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Health Policy and Management",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PUBHLTH  120-139",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Social and Behavioral Health Sciences",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PUBHLTH  140-159",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Environmental and Global Health Sciences",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PUBHLTH  160-179",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Infectious and Chronic Diseases",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PUBHLTH  180-189",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

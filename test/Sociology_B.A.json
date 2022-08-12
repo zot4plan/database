@@ -1,0 +1,45 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "SOCIOL 1",
+                    [
+                        "or",
+                        "SOCIOL 2",
+                        "SOCIOL 3"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete one course in methods and one in theory:",
+                "child": [
+                    "SOCIOL 110",
+                    "SOCIOL 120"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete one course in research design and implementation:",
+                "child": [
+                    "SOCIOL 180A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Complete seven SOCIOL courses, of which no more than three may be lower-division.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Complete three additional School of Social Sciences courses, of which no more than one may be lower-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

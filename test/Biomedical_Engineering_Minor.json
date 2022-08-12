@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Mathematics Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "MATH 3A",
+                    "MATH 3D"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BME 1",
+                    [
+                        "-",
+                        "BME 50A",
+                        "BME 50B"
+                    ],
+                    "BME 120",
+                    "BME 121"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Technical Electives:",
+        "child": [
+            {
+                "name": "Students select, with the approval of a faculty advisor, two technical elective courses:",
+                "child": [
+                    "BME 110A",
+                    "BME 110B",
+                    "BME 130",
+                    [
+                        "/",
+                        "BME 135",
+                        "BIO SCI D130"
+                    ],
+                    "BME 136",
+                    "BME 140",
+                    "BME 160",
+                    "BME 199",
+                    "CBE 181",
+                    "EECS 179",
+                    "EECS 188"
+                ]
+            }
+        ]
+    }
+]

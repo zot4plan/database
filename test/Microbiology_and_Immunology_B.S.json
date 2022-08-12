@@ -1,0 +1,75 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Required Major Courses:",
+                "child": [
+                    "BIO SCI M121",
+                    "BIO SCI M122",
+                    "BIO SCI M124A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Upper-Division Laboratories:",
+                "child": [
+                    "BIO SCI M116L"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and either",
+                "child": [
+                    [
+                        "or",
+                        "BIO SCI M118L",
+                        "BIO SCI M121L"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Upper-Division Biology Electives:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C1. Select at least four from the following:",
+                "child": [
+                    "BIO SCI D139",
+                    "BIO SCI E109",
+                    "BIO SCI E124",
+                    "BIO SCI M119",
+                    "BIO SCI M124B",
+                    "BIO SCI M125",
+                    "BIO SCI M131",
+                    "BIO SCI M137",
+                    "BIO SCI M143",
+                    "BIO SCI M153",
+                    "BIO SCI M180",
+                    "BIO SCI N127",
+                    "MOL BIO 205"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C2. Select two from C1 or the following:",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI D137",
+                    "BIO SCI M114",
+                    "BIO SCI M116",
+                    "BIO SCI M144"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "NOTE: No course may be used to satisfy more than one requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

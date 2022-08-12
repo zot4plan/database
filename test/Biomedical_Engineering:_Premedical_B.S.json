@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Mathematics and Basic Science Courses:",
+        "child": [
+            {
+                "name": "Students must complete a minimum of 48 units of mathematics and basic sciences including:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 1A",
+                        "CHEM 1B",
+                        "CHEM 1C"
+                    ],
+                    [
+                        "-",
+                        "CHEM 1LC",
+                        "CHEM 1LD"
+                    ],
+                    [
+                        "-",
+                        "CHEM 51A",
+                        "CHEM 51B",
+                        "CHEM 51C"
+                    ],
+                    [
+                        "-",
+                        "CHEM 51LB",
+                        "CHEM 51LC"
+                    ],
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    "MATH 2D",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 7C",
+                    "PHYSICS 7LC",
+                    [
+                        "-",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ],
+                    "PHYSICS 7LD"
+                ]
+            },
+            {
+                "name": "Students select, with the approval of a faculty advisor, any additional basic science course needed to satisfy school and major requirements.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering Topics Courses:",
+        "child": [
+            {
+                "name": "Students must complete the following engineering topics including:",
+                "child": [
+                    "BIO SCI 97",
+                    "BIO SCI 98",
+                    "BIO SCI 99",
+                    "BIO SCI 100",
+                    [
+                        "or",
+                        "BIO SCI D103",
+                        "BIO SCI D104"
+                    ],
+                    "BIO SCI D111L",
+                    [
+                        "-",
+                        "BIO SCI E112L",
+                        "BIO SCI M114L",
+                        "BIO SCI M116L"
+                    ],
+                    "BME 1",
+                    [
+                        "-",
+                        "BME 60A",
+                        "BME 60B",
+                        "BME 60C"
+                    ],
+                    [
+                        "-",
+                        "BME 110A",
+                        "BME 110B"
+                    ],
+                    "BME 111",
+                    "BME 120",
+                    "BME 121",
+                    "BME 130",
+                    "BME 150"
+                ]
+            },
+            {
+                "name": "Students select, with the approval of a faculty advisor, at least three additional engineering topics courses needed to satisfy school and major requirements.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "The nominal Biomedical Engineering:",
+        "child": [
+            {
+                "name": "Premedical program will require 194 units of courses to satisfy all university and major requirements. Because each student comes to UCI with a different level of preparation, the actual number of units will vary",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Biophotonics",
+        "child": [
+            {
+                "name": "(b) Select three of the following:",
+                "child": [
+                    "BME 135",
+                    "BME 136",
+                    "BME 137",
+                    "BME 138",
+                    "EECS 180A"
+                ]
+            },
+            {
+                "name": "Completion of this specialization also satisfies the Engineering electives requirement.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Micro and Nano Biomedical Engineering",
+        "child": [
+            {
+                "name": "(b) Select three of the following:",
+                "child": [
+                    "BME 142",
+                    "BME 147",
+                    "BME 148",
+                    "MSE 141",
+                    "ENGRMAE 153"
+                ]
+            },
+            {
+                "name": "Completion of this specialization also satisfies the Engineering electives requirement.",
+                "child": []
+            }
+        ]
+    }
+]

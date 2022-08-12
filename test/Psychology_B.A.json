@@ -1,0 +1,121 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    [
+                        "-",
+                        "PSYCH 9A",
+                        "PSYCH 9B",
+                        "PSYCH 9C"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Two introductory courses (eight units) in the social sciences selected from:",
+                "child": [
+                    "ANTHRO 2A",
+                    "ANTHRO 2B",
+                    "ANTHRO 2D",
+                    "ECON 1",
+                    "LSCI 3",
+                    "POL SCI 11C",
+                    "SOC SCI 5A",
+                    "SOCIOL 1",
+                    "SOCIOL 2",
+                    "SOCIOL 3"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or one or two quarters of the following when topic is not psychology:",
+                "child": [
+                    [
+                        "-",
+                        "SOC SCI H1E",
+                        "SOC SCI  H1F",
+                        "SOC SCI  H1G"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. A one-quarter course and laboratory in experimental psychology or research methods selected from the following:",
+                "child": [
+                    [
+                        "-",
+                        "PSYCH 112A",
+                        "PSYCH 112LA"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112M",
+                        "PSYCH 112LM"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112R",
+                        "PSYCH 112LR"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "NOTE: These courses have as prerequisites PSYCH 9A, PSYCH 9B, PSYCH 9C and one year of mathematics/statistics (see course listings). These prerequisites are strictly enforced. PSYCH 112A, PSYCH 112LA are the first quarter of a multi-quarter sequence that satisfies the upper-division writing requirement and allows students to plan and conduct research projects. Students taking these courses should plan to continue in them through at least the second quarter. Students who intend to fulfill the upper-division writing requirement in some other way should consider taking PSYCH 112D and PSYCH 112LD, PSYCH 112M and PSYCH 112LM, or PSYCH 112R and PSYCH 112LR to fulfill the laboratory requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select four upper-division Psychology core courses (16 units). These courses are designated with an ending number \"0\" and include the following:",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 130A",
+                    "PSYCH 140C",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 150",
+                    "PSYCH 160A",
+                    "PSYCH 160D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Select seven additional courses (four or more units each) with emphasis in psychology, distributed as follows:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "1. No more than one of the seven may be lower-division. PSYCH 7A may not be used to fulfill this requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "2. Three of the upper-division courses used to satisfy requirements D and E must be taken from one of the following modules: Psychology 110-119 (Research Methodologies), 120-129 (General Psychology), 130-139 (Perception and Sensory Processes), 140-149 and 150-159 (Learning and Cognition and Language Sciences combined), 160-169 (Cognitive Neuroscience), and 170-179 (Interdisciplinary Studies).",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "3. Certain courses offered in the School of Biological Sciences and the School of Social Ecology may be used in partial satisfaction of this requirement. A total of three of these courses (12 units) may be used in this way with a maximum of two from either of these Schools.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Psychology and Social Behavior courses that do not overlap with Psychology courses may be used along with PSY BEH 193E (same as CRM/LAW C105) and BIO SCI D137, BIO SCI E174, BIO SCI N110, and BIO SCI N159.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "4. No more than three of the courses (each of four or more units) may be numbered 190-199.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

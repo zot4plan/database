@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Prerequisite Courses",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "MGMT 1",
+                    "ECON 20A"
+                ]
+            },
+            {
+                "name": "(b) And one course or one sequence selected from:",
+                "child": [
+                    [
+                        "-",
+                        "ANTHRO 10A",
+                        "ANTHRO 10B",
+                        "ANTHRO 10C"
+                    ],
+                    "ENGRCEE 11",
+                    [
+                        "-",
+                        "ECON 15A",
+                        "ECON 15B"
+                    ],
+                    "MGMT 7",
+                    "STATS 7",
+                    "STATS 8",
+                    "STATS 67",
+                    "SOCECOL 13",
+                    [
+                        "-",
+                        "PSYCH 10A",
+                        "PSYCH 10B",
+                        "PSYCH 10C"
+                    ],
+                    [
+                        "-",
+                        "SOC SCI 10A",
+                        "SOC SCI 10B",
+                        "SOC SCI 10C"
+                    ],
+                    [
+                        "-",
+                        "SOCIOL 10A",
+                        "SOCIOL 10B",
+                        "SOCIOL 10C"
+                    ]
+                ]
+            },
+            {
+                "name": "(r) NOTE: Individual courses that students may select within the minor may require additional prerequisites, including MATH 2A.",
+                "child": [
+                    "MATH 2A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Requirements for the Undergraduate Minor in Management",
+        "child": [
+            {
+                "name": "(b) A. One lower-division core course:",
+                "child": [
+                    "MGMT 1"
+                ]
+            },
+            {
+                "name": "(b) B. Select four core courses from the following:",
+                "child": [
+                    "MGMT 30A",
+                    "MGMT 101",
+                    "MGMT 102",
+                    "MGMT 105",
+                    "MGMT 107",
+                    "MGMT 109",
+                    "MGMT 110"
+                ]
+            },
+            {
+                "name": "(b) C. Select two of the following:",
+                "child": []
+            },
+            {
+                "name": "A course from the core course list above",
+                "child": [
+                    "MGMT 189",
+                    "MGMT 192",
+                    "MGMT 190"
+                ]
+            },
+            {
+                "name": "MGMT 113–129",
+                "child": []
+            },
+            {
+                "name": "MGMT 141–184",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students may not receive both the minor in Management and the minor in Accounting. Students may not receive both the minor in Management and the minor in Innovation and Entrepreneurship.",
+                "child": []
+            }
+        ]
+    }
+]

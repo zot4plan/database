@@ -1,0 +1,195 @@
+[
+    {
+        "name": "A. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 10A",
+                        "PSYCH 10B",
+                        "PSYCH 10C"
+                    ],
+                    "COGS 106",
+                    "COGS 107",
+                    "COGS 108",
+                    [
+                        "or",
+                        "PSYCH 14M",
+                        "COGS 14P",
+                        "I&C SCI 31"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 9A",
+                        "PSYCH 9B",
+                        "PSYCH 9C"
+                    ],
+                    "COGS 109"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select three courses from the following:",
+        "child": [
+            {
+                "name": "(b) Research Methods",
+                "child": [
+                    [
+                        "-",
+                        "PSYCH 112A",
+                        "PSYCH 112LA"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112BW",
+                        "PSYCH 112LB"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112C",
+                        "PSYCH 112LC"
+                    ],
+                    [
+                        "-",
+                        "COGS 112P",
+                        "COGS 112LP"
+                    ],
+                    [
+                        "-",
+                        "COGS 112R",
+                        "COGS 112LR"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select six courses from the following list:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI 35",
+                    "BIO SCI 36",
+                    "BIO SCI 37",
+                    "BIO SCI 38",
+                    "COGS 14P",
+                    "LSCI 3",
+                    "LSCI 10",
+                    "LSCI 20",
+                    "LSCI 51",
+                    "I&C SCI 31",
+                    "I&C SCI 32",
+                    "I&C SCI 33",
+                    "LPS 30",
+                    "LPS 31",
+                    "MATH 2D",
+                    "MATH 2E",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 15",
+                    "PSYCH 14M",
+                    "STATS 7",
+                    "STATS 110",
+                    "STATS 111",
+                    "STATS 112"
+                ]
+            },
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "PHYSICS 3A",
+                        "PHYSICS 3B",
+                        "PHYSICS 3C"
+                    ]
+                ]
+            },
+            {
+                "name": "Or PHYSICS 7C-7D-7E (with labs PHYSICS 7LC and PHYSICS 7LD)",
+                "child": [
+                    [
+                        "-",
+                        "PHYSICS 7C",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ],
+                    "PHYSICS 7LC",
+                    "PHYSICS 7LD"
+                ]
+            },
+            {
+                "name": "(r) NOTE: Careful selection should be made in order to satisfy general education requirements and prerequisites for upper-division courses.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Select three courses from the following:",
+        "child": [
+            {
+                "name": "(b) Upper Division Core Courses",
+                "child": [
+                    "PSYCH 130A",
+                    "PSYCH 140C",
+                    "PSYCH 140J",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 150",
+                    "PSYCH 160A",
+                    "PSYCH 160D"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select seven courses from the following list. Up to three courses may also be taken from Requirement B and Requirement D:",
+        "child": [
+            {
+                "name": "Upper-Division Core Electives:",
+                "child": [
+                    "COMPSCI 171",
+                    "COMPSCI 178",
+                    "COMPSCI 183",
+                    "LSCI 102",
+                    "LSCI 111",
+                    "LSCI 121",
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 131A",
+                    "PSYCH 131B",
+                    "PSYCH 156A",
+                    "PSYCH 161",
+                    "PSYCH 161H",
+                    "PSYCH 162N"
+                ]
+            },
+            {
+                "name": "Research methods (Requirement B) and core (Requirement D) courses may be used to fulfill the core elective requirement (Requirement E) but cannot count for both requirements.",
+                "child": []
+            },
+            {
+                "name": "If accepted into the Honors Program, COGS H101A-COGS H101B-COGS H101C may be used for three of the seven elective courses under Requirement E.",
+                "child": [
+                    [
+                        "-",
+                        "COGS H101A",
+                        "COGS H101B",
+                        "COGS H101C"
+                    ]
+                ]
+            }
+        ]
+    }
+]

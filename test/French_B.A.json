@@ -1,0 +1,46 @@
+[
+    {
+        "name": "A. Select two courses from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "FRENCH 102A",
+                    "FRENCH 102B",
+                    "FRENCH 102C",
+                    "FRENCH 102D",
+                    "FRENCH 102E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "10 additional upper-division French courses other than FRENCH 102A, 102B, 102C, 102D, or 102E",
+                "child": []
+            },
+            {
+                "name": "A maximum of four courses may be taught entirely in English.",
+                "child": []
+            },
+            {
+                "name": "At least one course must be completed in each of the following historical periods:",
+                "child": []
+            },
+            {
+                "name": "- Pre-18th century literature and culture",
+                "child": []
+            },
+            {
+                "name": "- 18th or 19th century literature and culture",
+                "child": []
+            },
+            {
+                "name": "- 20th or 21st century literature and culture",
+                "child": []
+            }
+        ]
+    }
+]

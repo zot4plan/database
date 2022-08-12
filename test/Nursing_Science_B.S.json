@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Complete the following courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 97",
+                    "BIO SCI M115",
+                    "BIO SCI D170",
+                    [
+                        "-",
+                        "CHEM 1A",
+                        "CHEM 1B",
+                        "CHEM 1C"
+                    ],
+                    "PHRMSCI 120",
+                    "PHRMSCI 120L",
+                    "PUBHLTH 1"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PHILOS 4",
+                    "PHILOS 5"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSCI 9",
+                    "PSYCH 7A"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2A",
+                    "ANTHRO 2D",
+                    "ANTHRO 41A",
+                    "SOC SCI 1A",
+                    "SOCIOL 1",
+                    "SOCIOL 2",
+                    "SOCIOL 3",
+                    "SOCIOL 31",
+                    "SOCIOL 44",
+                    "SOCIOL 62"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Select one of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSYCH 10A",
+                    "SOC SCI 10A",
+                    "SOCIOL 10A",
+                    "STATS 7",
+                    "STATS 8",
+                    "NUR SCI 50",
+                    "NUR SCI 101",
+                    "NUR SCI 108W",
+                    "NUR SCI 109A",
+                    "NUR SCI 109B",
+                    "NUR SCI 116",
+                    "NUR SCI 117",
+                    "NUR SCI 119",
+                    "NUR SCI 121A",
+                    "NUR SCI 121B",
+                    "NUR SCI 125",
+                    "NUR SCI 128",
+                    "NUR SCI 130",
+                    "NUR SCI 132",
+                    "NUR SCI 150",
+                    "NUR SCI 160",
+                    "NUR SCI 170",
+                    "NUR SCI 175L",
+                    "NUR SCI 179AW",
+                    "NUR SCI 179B"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "PERSIAN 2C",
+                    "PERSIAN 50"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Complete the following:",
+                "child": [
+                    "HISTORY 131B",
+                    "HISTORY 131C",
+                    "HISTORY 131D"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Select four courses chosen from an approved list.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

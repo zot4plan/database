@@ -1,0 +1,105 @@
+[
+    {
+        "name": "A. Three introductory Asian American Studies core courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "or",
+                        "ASIANAM 50",
+                        "ASIANAM 51"
+                    ]
+                ]
+            },
+            {
+                "name": "And",
+                "child": [
+                    [
+                        "or",
+                        "ASIANAM 52",
+                        "ASIANAM 53"
+                    ]
+                ]
+            },
+            {
+                "name": "And",
+                "child": [
+                    [
+                        "or",
+                        "ASIANAM 54",
+                        "ASIANAM 55"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ASIANAM 100W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one course from each of the following areas:",
+        "child": [
+            {
+                "name": "Humanities/Arts: Asian American Studies 110-129",
+                "child": [
+                    "ASIANAM 110", 
+                    "ASIANAM 111", 
+                    "ASIANAM 112", 
+                    "ASIANAM 114", 
+                    "ASIANAM 116"
+                ]
+            },
+            {
+                "name": "Social Science/Social Ecology: Asian American Studies 130-149",
+                "child": [
+                    "ASIANAM 130", 
+                    "ASIANAM 132", 
+                    "ASIANAM 137", 
+                    "ASIANAM 138",
+                    "ASIANAM 142", 
+                    "ASIANAM 143", 
+                    "ASIANAM 144"
+                ]
+            },
+            {
+                "name": "Asian American Sub-groups: Asian American Studies 151-160",
+                "child": [
+                    "ASIANAM 151C", 
+                    "ASIANAM 151D", 
+                    "ASIANAM 151E", 
+                    "ASIANAM 151F", 
+                    "ASIANAM 151H", 
+                    "ASIANAM 151J", 
+                    "ASIANAM 151K"
+                ]
+            },
+            {
+                "name": "Ethnic/Race/Gender Relations: Asian American Studies 161-170",
+                "child": [
+                    "ASIANAM 162", 
+                    "ASIANAM 164",
+                    "ASIANAM 166",
+                    "ASIANAM 168"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select four additional upper-division elective Asian American Studies courses",
+        "child": [
+            {
+                "name": "Students may request, by petition, one lower-division course to count as an elective. This course must be primarily focused on issues relevant to Asian American Studies.",
+                "child": []
+            }
+        ]
+    }
+]

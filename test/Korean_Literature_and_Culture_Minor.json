@@ -1,0 +1,55 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "or",
+                        "KOREAN 2C",
+                        "KOREAN 2KC"
+                    ]
+                ]
+            },
+            {
+                "name": "Or equivalent",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EAS 130",
+                    "EAS 140"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one course dealing with Korean visual culture (examples: Korean cinema, visual art)",
+        "child": []
+    },
+    {
+        "name": "D. Select four courses from the East Asian Studies offerings on Korean topics, one of which may be lower-division.",
+        "child": [
+            {
+                "name": "For a list of approved courses, please consult https://www.humanities.uci.edu/eastasian/korean/courses/acourses.php.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Select one of the following:",
+                "child": [
+                    "POL SCI 11A",
+                    "POL SCI 11C",
+                    "POL SCI 21A",
+                    "POL SCI 31A",
+                    "POL SCI 41A",
+                    "POL SCI 51A",
+                    "POL SCI 61A",
+                    "POL SCI 71A"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select six additional Political Science courses, four of which must be upper-division.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

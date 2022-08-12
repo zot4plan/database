@@ -1,0 +1,54 @@
+[
+    {
+        "name": "A. Select two of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 21A",
+                    "HISTORY 21B",
+                    "HISTORY 21C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "GLBLCLT 103A",
+                    "GLBLCLT 103B"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select three upper-division courses from one emphasis.",
+        "child": [
+            {
+                "name": "List of emphases can be found: https://catalogue.uci.edu/schoolofhumanities/undergraduateprograminglobalcultures/globalcultures_minor/#emphasestext",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Select one upper-division course from a second emphasis.",
+        "child": [
+            {
+                "name": "List of emphases can be found: https://catalogue.uci.edu/schoolofhumanities/undergraduateprograminglobalcultures/globalcultures_minor/#emphasestext",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be completed successfully at UCI. Two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

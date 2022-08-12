@@ -1,0 +1,95 @@
+[
+    {
+        "name": "A. Complete the following African American Studies introductory series:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "AFAM 40A",
+                    "AFAM 40B",
+                    "AFAM 40C"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select three courses, with one from three of the following five rubrics:",
+        "child": [
+            {
+                "name": "(b) Humanities (AFAM 110-119)",
+                "child": [                    
+                    "AFAM 111A",
+                    "AFAM 111B",
+                    "AFAM 112A",
+                    "AFAM 112B",
+                    "AFAM 113",
+                    "AFAM 114",
+                    "AFAM 115",
+                    "AFAM 118"
+                ]
+            },
+            {
+                "name": "(b) Gender/Sexuality (AFAM 120-129)",
+                "child": [
+                    "AFAM 125",
+                    "AFAM 128"
+                ]
+            },
+            {
+                "name": "(b) History (AFAM 130-139)",
+                "child": [
+                    "AFAM 134A",
+                    "AFAM 134B",
+                    "AFAM 137",
+                    "AFAM 138"
+                ]
+            },
+            {
+                "name": "(b) Fine Arts (AFAM 140-149)",
+                "child": [
+                    "AFAM 143",
+                    "AFAM 144",
+                    "AFAM 145"
+                ]
+            },
+            {
+                "name": "(b) Social Sciences (AFAM 150-159)",
+                "child": [
+                    "AFAM 151",
+                    "AFAM 152",
+                    "AFAM 153",
+                    "AFAM 154",
+                    "AFAM 155",
+                    "AFAM 156",
+                    "AFAM 157",
+                    "AFAM 158",
+                    "AFAM 159"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one additional upper-division elective from:",
+        "child": [
+            {
+                "name": "AFAM 110-159, 163",
+                "child": [
+                    "AFAM 163"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI.",
+                "child": []
+            },
+            {
+                "name": "Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

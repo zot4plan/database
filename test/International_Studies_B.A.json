@@ -1,0 +1,129 @@
+[
+    {
+        "name": "A. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "INTL ST 1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select four from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "INTL ST 11",
+                    "INTL ST 12",
+                    "INTL ST 15",
+                    "INTL ST 16",
+                    "INTL ST 17"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one from the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "ANTHRO 2A",
+                    "HISTORY 21A",
+                    "HISTORY 21B",
+                    "HISTORY 21C",
+                    "INTL ST 13",
+                    "INTL ST 14",
+                    "POL SCI 51A",
+                    "SOC SCI 5D",
+                    "SOCIOL 2"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Competency in a language other than English.",
+        "child": [
+            {
+                "name": "Competency is established by college-level course work equivalent to UCIs fifth quarter of study (usually 2B).",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "E. Geographic Focus:",
+        "child": [
+            {
+                "name": "Select two upper-division courses in any one geographic area.",
+                "child": []
+            },
+            {
+                "name": "Visit the Global and International Studies website for a list of approved courses. Although some courses are listed in more than one focus, students may not double count a course for both their geographic and global focus areas. Study abroad counts as one course in the geographic focus.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "F. Global Focus:",
+        "child": [
+            {
+                "name": "Select five upper-division courses. At least two courses must be from Module A.",
+                "child": []
+            },
+            {
+                "name": "(b) Module A:",
+                "child": [
+                    "INTL ST 100",
+                    "INTL ST 101A",
+                    "INTL ST 101B",
+                    "INTL ST 102A",
+                    "INTL ST 103A",
+                    "INTL ST 104A",
+                    "INTL ST 104BW",
+                    "INTL ST 106A",
+                    "INTL ST 106B",
+                    "INTL ST 146",
+                    "INTL ST 148W",
+                    "INTL ST 150",
+                    "INTL ST 155",
+                    "INTL ST 163"
+                ]
+            },
+            {
+                "name": "(b) Module B:",
+                "child": []
+            },            
+            {
+                "name": "For a quarterly list of approved upper-division courses, please visit the Social Sciences Undergraduate Student Affairs Office: https://www.undergrad.socsci.uci.edu/policies/index.php",
+                "child": []
+            },
+            {
+                "name": "Visit the Global and International Studies website for a list of approved courses. Although some courses are listed in more than one focus, students may not double count a course for both their geographic and global focus areas. Study abroad counts as one course in the geographic focus.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "G. Two quarters of INTL ST 183A:",
+        "child": [
+            {
+                "name": "One quarter of which must be taken during the junior or senior year as a capstone experience.",
+                "child": [
+                    "INTL ST 183A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "H. At least one quarter of international experience.",
+        "child": [
+            {
+                "name": "Majors are encouraged to study abroad through the University’s Education Abroad Program (UCEAP) or the Independent Programs, which are available for periods of a quarter, year, or summer. When this is not possible, work overseas (through Independent Programs) or a domestic internship with the UCDC Internship Program, the UCI Washington D.C. Academic Internship Program, or Social Science Internship Program (SOC SCI 197) with an international focus may be substituted. Study abroad counts as one course in the regional focus.",
+                "child": []
+            }
+        ]
+    }
+]

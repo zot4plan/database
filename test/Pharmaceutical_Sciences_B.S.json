@@ -1,0 +1,212 @@
+[
+    {
+        "name": "A. Lower-Division Requirements:",
+        "child": [
+            {
+                "name": "1. Select one of the following sequences:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 1A",
+                        "CHEM 1B",
+                        "CHEM 1C"
+                    ],
+                    [
+                        "-",
+                        "CHEM H2A",
+                        "CHEM  H2B",
+                        "CHEM  H2C"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and select one of the following lab sequences:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 1LC",
+                        "CHEM 1LD"
+                    ],
+                    [
+                        "-",
+                        "CHEM H2LA",
+                        "CHEM  H2LB",
+                        "CHEM  H2LC"
+                    ],
+                    [
+                        "-",
+                        "CHEM M2LA",
+                        "CHEM  M2LB",
+                        "CHEM  M3LC"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "Complete the following organic chemistry sequence and accompanying labs:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 51A",
+                        "CHEM 51B",
+                        "CHEM 51C"
+                    ],
+                    [
+                        "-",
+                        "CHEM 51LB",
+                        "CHEM 51LC",
+                        "CHEM 51LD"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "2. Complete:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "and select one of the following:",
+                "child": [
+                    "MATH 2D",
+                    "MATH 3A",
+                    "STATS 7",
+                    "STATS 8"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "3. Select one of the following physics sequences:",
+                "child": [
+                    [
+                        "-",
+                        "PHYSICS 3A",
+                        "PHYSICS 3B",
+                        "PHYSICS 3C"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "or",
+                "child": [
+                    [
+                        "-",
+                        "PHYSICS 7C",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "4. Complete:",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 94",
+                    "BIO SCI 97",
+                    "BIO SCI 98",
+                    "BIO SCI 99"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "5. Complete:",
+                "child": [
+                    "PHRMSCI 1",
+                    "PHRMSCI 42",
+                    "PHRMSCI 76"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "B. Upper-Division Requirements:",
+        "child": [
+            {
+                "name": "Complete:",
+                "child": [
+                    "BIO SCI 100",
+                    "BIO SCI E109",
+                    [
+                        "-",
+                        "PHRMSCI 170A",
+                        "PHRMSCI 170B"
+                    ],
+                    "PHRMSCI 171",
+                    "PHRMSCI 172",
+                    "PHRMSCI 173",
+                    [
+                        "-",
+                        "PHRMSCI 174",
+                        "PHRMSCI 174L"
+                    ],
+                    [
+                        "-",
+                        "PHRMSCI 177",
+                        "PHRMSCI 177L"
+                    ]
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "C. Upper-Division Electives (8 units):",
+        "child": [
+            {
+                "name": "The upper-division electives may be selected from the following:",
+                "child": [
+                    "BIO SCI D103",
+                    "BIO SCI D104",
+                    "BIO SCI D111L",
+                    "BIO SCI D136",
+                    "BIO SCI D137",
+                    "BIO SCI D145",
+                    "BIO SCI D148",
+                    "BIO SCI D170",
+                    "BIO SCI E136",
+                    "BIO SCI E142W",
+                    "BIO SCI E189",
+                    "BIO SCI M114",
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "BIO SCI M121",
+                    "BIO SCI M122",
+                    "BIO SCI M123",
+                    "BIO SCI M124A",
+                    "BIO SCI M124B",
+                    "BIO SCI M125",
+                    "BIO SCI M137",
+                    "BIO SCI M143",
+                    "BIO SCI M144",
+                    "BIO SCI N110",
+                    "BIO SCI N113L",
+                    "BIO SCI N153",
+                    "BIO SCI N154",
+                    "CHEM 107",
+                    "CHEM 107L",
+                    "CHEM 125",
+                    "CHEM 128",
+                    "CHEM 128L",
+                    "CHEM 138",
+                    "CHEM 156",
+                    "CHEM 160"
+                ],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

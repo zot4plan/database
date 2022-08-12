@@ -1,0 +1,27 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "REL STD 5A",
+                    "REL STD 5B",
+                    "REL STD 5C",
+                    [
+                        "or",
+                        "REL STD 110",
+                        "REL STD 110W"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Three upper-division electives selected from the two categories under B in the B.A. in Religous Studies, including at least one course from both categories 1 and 2. One relevant lower-division course may be substituted for an upper-division course, with prior approval.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

@@ -1,0 +1,533 @@
+[
+    {
+        "name": "Lower-Division Requirements:",
+        "child": [
+            {
+                "name": "(b) A. Complete the following:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    "MATH 2D",
+                    "MATH 3A",
+                    "MATH 3D",
+                    "MATH 13"
+                ]
+            },
+            {
+                "name": "B. Computing skills:",
+                "child": [
+                    "MATH 9"
+                ]
+            },
+            {
+                "name": "C. Select one three-quarter lecture course sequence from the following:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 1A",
+                        "CHEM 1B",
+                        "CHEM 1C"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 7C",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ],
+                    [
+                        "-",
+                        "STATS 7",
+                        "MATH 10",
+                        "PHYSICS 7C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Upper-Division Requirements:",
+        "child": [
+            {
+                "name": "(b) A. Complete:",
+                "child": [
+                    "MATH 120A",
+                    "MATH 121A",
+                    "MATH 130A",
+                    [
+                        "-",
+                        "MATH 140A",
+                        "MATH 140B"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Requirements for the Pure Mathematics Major",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 2E"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 120B",
+                    "MATH 121B",
+                    "MATH 147"
+                ]
+            },
+            {
+                "name": "B. Five additional four-unit MATH lecture courses numbered 100-189.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Concentration in Data Science",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 2E"
+                ]
+            },
+            {
+                "name": "B. Replace item C in the Core Requirements with the following:",
+                "child": [
+                    "MATH 10",
+                    "STATS 7",
+                    "PHYSICS 7C"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 105A",
+                        "MATH 105B"
+                    ],
+                    [
+                        "MATH 105LA",
+                        "MATH 105LB"
+                    ],
+                    "MATH 121B",
+                    "MATH 130B",
+                    [
+                        "MATH 110A",
+                        "MATH 110B"
+                    ],
+                    "MATH 120B",
+                    "MATH 147"
+                ]
+            },
+            {
+                "name": "B. Select three electives from the following:",
+                "child": [
+                    "MATH 115",
+                    "MATH 117",
+                    "MATH 118",
+                    "MATH 130C",
+                    [
+                        "-",
+                        "MATH 134A",
+                        "MATH 134B"
+                    ],
+                    "MATH 140C",
+                    [
+                        "-",
+                        "MATH 162A",
+                        "MATH 162B"
+                    ],
+                    [
+                        "-",
+                        "MATH 173A",
+                        "MATH 173B"
+                    ],
+                    "MATH 175",
+                    "MATH 176",
+                    "STATS 110",
+                    "COMPSCI 171",
+                    "COMPSCI 172B",
+                    "COMPSCI 177",
+                    "COMPSCI 178",
+                    "COMPSCI 179",
+                    "COMPSCI 183",
+                    [
+                        "-",
+                        "COMPSCI 184A",
+                        "COMPSCI 184C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Concentration in Mathematical Finance",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 2E"
+                ]
+            },
+            {
+                "name": "B. Replace item C in the Core Requirements with the following:",
+                "child": [
+                    "MATH 10",
+                    "STATS 7",
+                    "PHYSICS 7C"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 120B",
+                    "MATH 121B",
+                    "MATH 130B",
+                    "MATH 130C",
+                    "MATH 134A",
+                    "MATH 134B",
+                    "MATH 134C",
+                    "MATH 147"
+                ]
+            },
+            {
+                "name": "B. Select one elective lecture course from the following:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 105A",
+                        "MATH 105B"
+                    ],
+                    "MATH 110A",
+                    "MATH 173A",
+                    "MATH 176",
+                    "COMPSCI 171",
+                    "COMPSCI 172B",
+                    "COMPSCI 177",
+                    "COMPSCI 178"
+                ]
+            },
+            {
+                "name": "C. Complete the following eight required Economics courses:",
+                "child": [
+                    "ECON 20A",
+                    "ECON 20B",
+                    [
+                        "-",
+                        "ECON 105A",
+                        "ECON 105B",
+                        "ECON 105C"
+                    ],
+                    [
+                        "or",
+                        "ECON 122A",
+                        "ECON 123A"
+                    ],
+                    "ECON 132A",
+                    [
+                        "or",
+                        "ECON 134A",
+                        "ECON 161A"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Specialization in Applied and Computational Mathematics",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 2E"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Six required lecture courses:",
+                "child": [
+                    "MATH 105A",
+                    "MATH 105B",
+                    "MATH 112A",
+                    "MATH 112B",
+                    "MATH 115",
+                    "MATH 121B"
+                ]
+            },            
+            {
+                "name": "B. Select three additional Mathematics courses from the following:",
+                "child": [
+                    "MATH 107",
+                    [
+                        "-",
+                        "MATH 110A",
+                        "MATH 110B"
+                    ],
+                    "MATH 112C",
+                    "MATH 117",
+                    "MATH 118",
+                    [
+                        "-",
+                        "MATH 130B",
+                        "MATH 130C"
+                    ],
+                    [
+                        "-",
+                        "MATH 134A",
+                        "MATH 134B"
+                    ],
+                    "MATH 140C",
+                    "MATH 176"
+                ]
+            },
+            {
+                "name": "C. Two approved upper-division courses in an area of application outside of Mathematics. Approval must be obtained in advance from the advisor for this specialization. The student is responsible for satisfying any prerequisites for these courses.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Specialization in Mathematical Biology",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 2E"
+                ]
+            },
+            {
+                "name": "B. Replace item C in the Core Requirements with the following:",
+                "child": [
+                    "BIO SCI 93",
+                    "BIO SCI 94"
+                ]
+            },           
+            {
+                "name": "And two courses selected from the following:",
+                "child": [
+                    "BIO SCI 97",
+                    "CHEM 1A",
+                    "CHEM 1B",
+                    "PHYSICS 2",
+                    "PHYSICS 7C",
+                    "PHYSICS 7D"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },            
+            {
+                "name": "A. Complete the following seven required upper-division lecture courses:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 105A",
+                        "MATH 105B"
+                    ],
+                    [
+                        "-",
+                        "MATH 112A",
+                        "MATH 112B"
+                    ],
+                    [
+                        "-",
+                        "MATH 113A",
+                        "MATH 113B"
+                    ],
+                    "MATH 115"
+                ]
+            },
+            {
+                "name": "B. Two additional elective courses, at least one from MATH courses numbered 100-189. The second elective may be either an upper-division MATH course or a four-unit upper-division Biological Sciences course with the advanced approval by the advisor for this specialization.",
+                "child": []
+            }
+
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Specialization in Mathematics for Education",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 8"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 105A",
+                        "MATH 105LA"
+                    ],
+                    "MATH 120B",
+                    "MATH 130B",
+                    "MATH 150",
+                    "MATH 161",
+                    "MATH 180A",
+                    [
+                        "-",
+                        "MATH 184",
+                        "MATH 184L"
+                    ]
+                ]
+            },
+            {
+                "name": "Plus one additional four-unit MATH course numbered 100-189.",
+                "child": []
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    "PHY SCI 5",
+                    "PHY SCI 105"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Requirements for Mathematics Major with a Concentration in Mathematics for Education/Secondary Teaching Certification",
+        "child": [
+            {
+                "name": "(b) Core requirements for all Mathematics majors plus:",
+                "child": []
+            },
+            {
+                "name": "(b) Lower-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    "MATH 8"
+                ]
+            },
+            {
+                "name": "(b) Upper-Division Requirements:",
+                "child": []
+            },
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "MATH 105A",
+                        "MATH 105LA"
+                    ],
+                    "MATH 120B",
+                    "MATH 130B",
+                    "MATH 150",
+                    "MATH 161",
+                    "MATH 180A",
+                    [
+                        "-",
+                        "MATH 184",
+                        "MATH 184L"
+                    ]
+                ]
+            },
+            {
+                "name": "Plus one addtional four-unit MATH course numbered 100-189.",
+                "child": []
+            },
+            {
+                "name": "B. Complete:",
+                "child": [
+                    [
+                        "or",
+                        "CHEM 193",
+                        "PHYSICS 193"
+                    ],
+                    "EDUC 55",
+                    "EDUC 109",
+                    "EDUC 143AW",
+                    "EDUC 143BW",
+                    "EDUC 148",
+                    "EDUC 158",
+                    "PHY SCI 5",
+                    "PHY SCI 105"
+                ]
+            },
+            {
+                "name": "(r) NOTE: Students may pursue either the concentration in Mathematics for Education/Secondary Teaching Certification or the specialization in Mathematics for Education, but not both.",
+                "child": []
+            }
+        ]
+    }
+]

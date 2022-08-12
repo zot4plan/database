@@ -1,0 +1,271 @@
+[
+    {
+        "name": "",
+        "child": [
+            {
+                "name": "A. Complete:",
+                "child": [
+                    [
+                        "-",
+                        "PSYCH 10A",
+                        "PSYCH 10B",
+                        "PSYCH 10C"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 9A",
+                        "PSYCH 9B",
+                        "PSYCH 9C"
+                    ],
+                    "LPS 31"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "B. Select three of the following. At least two of these courses must come from a single discipline:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Background in Science",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI 35",
+                    "BIO SCI 36",
+                    "BIO SCI 37",
+                    "BIO SCI 38",
+                    "BIO SCI 41",
+                    "BIO SCI 47",
+                    "BIO SCI 75",
+                    "BIO SCI 93",
+                    "BIO SCI 94",
+                    [
+                        "-",
+                        "CHEM 1A",
+                        "CHEM 1LA"
+                    ],
+                    "CHEM 1B",
+                    [
+                        "-",
+                        "CHEM 1C",
+                        "CHEM 1LC"
+                    ],
+                    "COGS 108",
+                    "PHYSICS 3A",
+                    [
+                        "-",
+                        "PHYSICS 3B",
+                        "PHYSICS 3LB"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 3C",
+                        "PHYSICS 3LC"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 7C",
+                        "PHYSICS 7LC"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 7D",
+                        "PHYSICS 7LD"
+                    ],
+                    "PHYSICS 7E"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "C. Complete three additional courses that can be selected from the above list or from the following list:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Additional Science Background",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "COGS 14P",
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B"
+                    ],
+                    [
+                        "-",
+                        "MATH 5A",
+                        "MATH 5B"
+                    ],
+                    "MATH 3A",
+                    "MATH 3D",
+                    "LPS 30",
+                    "LPS 40",
+                    "LPS 60",
+                    "PHYSICS 15",
+                    [
+                        "-",
+                        "STATS 110",
+                        "STATS 111",
+                        "STATS 112"
+                    ],
+                    "CHEM 51A",
+                    [
+                        "-",
+                        "CHEM 51B",
+                        "CHEM 51LB"
+                    ],
+                    [
+                        "-",
+                        "CHEM 51C",
+                        "CHEM 51LC"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "D. Select four from the following:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Psychology Core Courses",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 130A",
+                    "PSYCH 140C",
+                    "PSYCH 140J",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 150",
+                    "PSYCH 160A",
+                    "PSYCH 160D",
+                    "PSYCH 160H"
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "E. Select three courses from the following modules:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Psychology Module Courses",
+        "child": [
+            {
+                "name": "PSYCH 120 to PSYCH 129 (General)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PSYCH 130 to PSYCH 139 (Perception and Sensory Processes)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PSYCH 140 to PSYCH 149 (Cognition and Learning)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PSYCH 150 to PSYCH 159 (Language)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "PSYCH 160 to PSYCH 169 (Cognitive Neuroscience)",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "F. Select three of the following:",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    },
+    {
+        "name": "Research Methods",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "PSYCH 112A",
+                        "PSYCH 112LA"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112BW",
+                        "PSYCH 112LB"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112C",
+                        "PSYCH 112LC"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112M",
+                        "PSYCH 112LM"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112P",
+                        "PSYCH 112LP"
+                    ],
+                    [
+                        "-",
+                        "PSYCH 112R",
+                        "PSYCH 112LR"
+                    ]
+                ],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "G. Select four courses (four or more units each) with emphasis in psychology and distributed as follows:",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "1. No more than one may be lower-division. PSYC 7A may not be used to fulfill this requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "2. No more than one of the courses may be numbered 190-199.",
+                "child": [],
+                "typeParent": "Courses"
+            },
+            {
+                "name": "3. If accepted into the Honors Program, only two courses are needed to fulfill this requirement.",
+                "child": [],
+                "typeParent": "Courses"
+            }
+        ],
+        "typeParent": "Header"
+    }
+]

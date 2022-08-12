@@ -1,0 +1,115 @@
+[
+    {
+        "name": "A. Complete the following five core courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHC/LAT 61",
+                    "CHC/LAT 62",
+                    "CHC/LAT 63",
+                    "CHC/LAT 101",
+                    "CHC/LAT 102W"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "SPANISH 2A"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. C. Complete one comparative ethnic studies course selected from African American Studies, Asian American Studies, or",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EDUC 124"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Select three upper-division electives, one from each of the following categories:",
+        "child": [
+            {
+                "name": "(b) Literature, Arts, and Media (CHC/LAT 110-129)",
+                "child": [
+                    "CHC/LAT 110",
+                    "CHC/LAT 118",
+                    "CHC/LAT 120",
+                    "CHC/LAT 121",
+                    "CHC/LAT 123",
+                    "CHC/LAT 124W",
+                    "CHC/LAT 129"
+                ]
+            },
+            {
+                "name": "(b) History (CHC/LAT 130-139)",
+                "child": [
+                    "CHC/LAT 131",
+                    "CHC/LAT 132B",
+                    "CHC/LAT 133",
+                    "CHC/LAT 134",
+                    "CHC/LAT 135",
+                    "CHC/LAT 139"
+                ]
+            },
+            {
+                "name": "(b) Inequalities and Social Context (CHC/LAT 140-189)",
+                "child": [
+                    "CHC/LAT 146",
+                    "CHC/LAT 147",
+                    "CHC/LAT 148",
+                    "CHC/LAT 148W",
+                    "CHC/LAT 150",
+                    "CHC/LAT 150A",
+                    "CHC/LAT 151",
+                    "CHC/LAT 151B",
+                    "CHC/LAT 152A",
+                    "CHC/LAT 152B",
+                    "CHC/LAT 154",
+                    "CHC/LAT 155",
+                    "CHC/LAT 156W",
+                    "CHC/LAT 157",
+                    "CHC/LAT 158",
+                    "CHC/LAT 158B",
+                    "CHC/LAT 159",
+                    "CHC/LAT 161",
+                    "CHC/LAT 161A",
+                    "CHC/LAT 162A",
+                    "CHC/LAT 163",
+                    "CHC/LAT 164A",
+                    "CHC/LAT 166",
+                    "CHC/LAT 167",
+                    "CHC/LAT 168",
+                    "CHC/LAT 169",
+                    "CHC/LAT 170",
+                    "CHC/LAT 176",
+                    "CHC/LAT 178",
+                    "CHC/LAT 178A",
+                    "CHC/LAT 179",
+                    "CHC/LAT 181",
+                    "CHC/LAT 183",
+                    "CHC/LAT 189"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select four additional elective courses, three of which must be upper-division, selected from CHC/LAT courses.",
+        "child": [
+            {
+                "name": "Electives may include Independent Study courses (CHC/LAT 199). Students may obtain credit for one of these three courses through participation in a study abroad program in Mexico. Students must consult with the Department office for additional information regarding this option.",
+                "child": []
+            }
+        ]
+    }
+]

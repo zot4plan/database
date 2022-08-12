@@ -1,0 +1,45 @@
+[
+    {
+        "name": "A. Complete one of the following core courses:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "SPANISH 50",
+                    "HISTORY 70D"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. One course from each of the following three categories:",
+        "child": [
+            {
+                "name": "(b) - History, Culture, and Social Sciences - selected from the approved list on the Latin American Studies website.",
+                "child": []
+            },
+            {
+                "name": "The approved list is available at: https://www.humanities.uci.edu/latinamericanstudies/",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "C. Three additional courses selected from the approved list.",
+        "child": [
+            {
+                "name": "The approved list is available at the Latin American Studies website: https://www.humanities.uci.edu/latinamericanstudies/",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
+    }
+]

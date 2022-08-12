@@ -1,0 +1,93 @@
+[
+    {
+        "name": "A. Select two of the following:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "HISTORY 70B",
+                    "EURO ST 9",
+                    "EURO ST 10",
+                    "EURO ST S10",
+                    "EURO ST 11",
+                    "EURO ST S11",
+                    "EURO ST 12",
+                    "EURO ST 13"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "EURO ST 101A",
+                        "EURO ST 101B"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Seven courses from:",
+        "child": [
+            {
+                "name": "The generally approved and quarterly approved lists, four of which must be upper-division and five of which must be in the students specialization.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "D. Complete:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "EURO ST 190W"
+                ]
+            }
+
+        ]
+    },
+    {
+        "name": "Specializations and Approved Courses:",
+        "child": [
+            {
+                "name": "(b) The following specializations are available in the major in European Studies:",
+                "child": []
+            },
+            {
+                "name": "Early Europe (Pre-1789)",
+                "child": []
+            },
+            {
+                "name": "Modern Europe (Post-1789)",
+                "child": []
+            },
+            {
+                "name": "French Studies",
+                "child": []
+            },
+            {
+                "name": "German Studies",
+                "child": []
+            },
+            {
+                "name": "Italian Studies",
+                "child": []
+            },
+            {
+                "name": "Russian Studies",
+                "child": []
+            },
+            {
+                "name": "Spanish Studies",
+                "child": []
+            }
+        ]
+    }
+]

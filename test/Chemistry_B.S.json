@@ -1,0 +1,458 @@
+[
+    {
+        "name": "Basic Requirements",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "-",
+                        "MATH 2A",
+                        "MATH 2B",
+                        "MATH 2D"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 7C",
+                        "PHYSICS 7D",
+                        "PHYSICS 7E"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 7LC",
+                        "PHYSICS 7LD"
+                    ]
+                ]
+            },
+            {
+                "name": "(b) Select one of the following sequences and accompanying labs:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM M2A",
+                        "CHEM M2B",
+                        "CHEM M2C"
+                    ],
+                    [
+                        "-",
+                        "CHEM M2LA",
+                        "CHEM M2LB"
+                    ]
+                ]
+            },
+            {
+                "name": "or",
+                "child": [
+                    [
+                        "-",
+                        "CHEM H2A",
+                        "CHEM H2B",
+                        "CHEM H2C"
+                    ],
+                    [
+                        "-",
+                        "CHEM H2LA",
+                        "CHEM H2LB"
+                    ]
+                ]
+            },
+            {
+                "name": "(b) Complete the analytical chemistry laboratory",
+                "child": [
+                    "CHEM M3LC"
+                ]
+            },
+            {
+                "name": "(b) Select one of the following organic chemistry sequences and accompanying labs:",
+                "child": [
+                    [
+                        "-",
+                        "CHEM 51A",
+                        "CHEM 51B",
+                        "CHEM 51C"
+                    ],
+                    [
+                        "-",
+                        "CHEM M52LA",
+                        "CHEM M52LB",
+                        "CHEM M52LC"
+                    ]
+                ]
+            },
+            {
+                "name": "or",
+                "child": [
+                    [
+                        "-",
+                        "CHEM H52LA",
+                        "CHEM H52LB",
+                        "CHEM H52LC"
+                    ]
+                ]
+            },
+            {
+                "name": "(b) Complete:",
+                "child": [
+                    "CHEM 5",
+                    [
+                        "-",
+                        "CHEM 107",
+                        "CHEM 107L"
+                    ],
+                    "CHEM 152",
+                    [
+                        "-",
+                        "CHEM 132A",
+                        "CHEM 132B",
+                        "CHEM 132C"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Elective Requirements",
+        "child": [
+            {
+                "name": "Select at least five electives from the following lists, including at least two courses selected from the lecture list and at least two courses selected from the laboratory list:",
+                "child": []
+            },
+            {
+                "name": "(b) Lectures:",
+                "child": [
+                    "BIO SCI 98",
+                    "BIO SCI 99",
+                    "BIO SCI M114",
+                    "BIO SCI M116",
+                    "BIO SCI M123",
+                    "CBE 110",
+                    "CBE 130",
+                    "CBE 145",
+                    "CBE 161",
+                    "CBE 181",
+                    "CBE 183",
+                    "CHEM 100",
+                    "CHEM 125",
+                    "CHEM 127",
+                    "CHEM 128",
+                    "CHEM 133",
+                    "CHEM 138",
+                    "CHEM 141",
+                    "CHEM 145A",
+                    "CHEM 145B",
+                    "CHEM 150",
+                    "CHEM 177"
+                ]
+            },
+            {
+                "name": "Any level 200 four-unit course numbered between 201-205, 210-269",
+                "child": [
+                    "EARTHSS 142",
+                    "EARTHSS 144",
+                    "EARTHSS 171",
+                    "ENGRCEE 162",
+                    "ENGRMAE 114",
+                    "ENGRMAE 164",
+                    "MSE 141",
+                    "MSE 164",
+                    "PHRMSCI 170A",
+                    "PHRMSCI 170B",
+                    "PHRMSCI 171",
+                    [
+                        "-",
+                        "PHYSICS 111A",
+                        "PHYSICS 111B"
+                    ],
+                    [
+                        "-",
+                        "PHYSICS 112A",
+                        "PHYSICS 112B"
+                    ],
+                    "PUBHLTH 171"
+                ]
+            },
+            {
+                "name": "(b) Laboratories:",
+                "child": [
+                    "BIO SCI M114L",
+                    "BIO SCI M116L",
+                    "BIO SCI M118L",
+                    "CBE 140A",
+                    "CBE 140B",
+                    "CHEM 128L",
+                    "CHEM 133L",
+                    "CHEM 150L",
+                    "CHEM 153",
+                    "CHEM 156",
+                    "CHEM 160",
+                    "CHEM 177L",
+                    "CHEM 180",
+                    "CHEM 197",
+                    "EARTHSS 114"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional American Chemical Society Certification",
+        "child": [
+            {
+                "name": "For ACS Certification, the program must include:",
+                "child": []
+            },
+            {
+                "name": "(b) A. The Chemical Biology lecture and lab courses:",
+                "child": [
+                    "CHEM 128",
+                    "CHEM 128L"
+                ]
+            },
+            {
+                "name": "(b) B. One course selected from the following:",
+                "child": [
+                    "CHEM 153",
+                    "CHEM 156",
+                    "CHEM 160",
+                    "CHEM 180",
+                    "CHEM H180A",
+                    "CHEM H180B",
+                    "CHEM H180C"
+                ]
+            },
+            {
+                "name": "(b) C. One course or the lecture/lab pair selected from:",
+                "child": [
+                    "CHEM 125",
+                    "CHEM 127",
+                    "CHEM 133",
+                    "CHEM 133L",
+                    "CHEM 138",
+                    "CHEM 141",
+                    "CHEM 150",
+                    "CHEM 150L",
+                    "CHEM 177",
+                    "CHEM 177L"
+                ]
+            },
+            {
+                "name": "or",
+                "child": []
+            },
+            {
+                "name": "CHEM 201-205, 213-249",
+                "child": []
+            },
+            {
+                "name": "(b) D. One course or the lecture/lab pair selected from list B or C.",
+                "child": []
+            },
+            {
+                "name": "(b) E. Independent research with a written thesis submitted as part of CHEM 180W or CHEM H181W.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Optional Concentrations and Specializations in Chemistry", 
+        "child": [
+            {
+                "name": "The core chemistry curriculum provides the students with the foundational knowledge of the traditional areas of chemistry. In addition, the students have an option to focus their education on one of the following areas of chemistry by completing the chemistry core requirements and strategically choosing their elective requirements as shown below. At least two quarters of undergraduate research (CHEM 180, CHEM H180A, CHEM H180B, CHEM H180C) with a research group chosen in consultation with the faculty advisors are strongly recommended but not required for all the concentrations and specializations listed below. The names of the faculty advisors for each concentration and specialization can be found on the Department of Chemistry website.",
+                "child": []
+            },
+            {
+                "name": "Only one specialization or concentration may appear on the transcript. If students simultaneously satisfy requirements for more than one specialization or concentration, they should choose which one will be appearing on their transcript.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Optional Concentration in Chemical Biology",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "BIO SCI 97",
+                    "BIO SCI 98",
+                    "BIO SCI 99",
+                    "CHEM 128",
+                    "CHEM 128L"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Environmental Chemistry",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    [
+                        "or",
+                        "CHEM 145A",
+                        "EARTHSS 142"
+                    ],
+                    "EARTHSS 144",
+                    "CHEM 141",
+                    "CHEM 153"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Medicinal Chemistry",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHEM 128",
+                    "CHEM 128L",
+                    "CHEM 160",
+                    "CHEM 177",
+                    "CHEM 177L"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Nuclear and Radiochemistry", 
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHEM 133",
+                    "CHEM 133L",
+                    "CHEM 153"
+                ]
+            },
+            {
+                "name": "and an approved elective", 
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Optional Specialization in Synthetic Chemistry", 
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHEM 125",
+                    "CHEM 127",
+                    "CHEM 156",
+                    "CHEM 160"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional Concentration in Chemistry Education", 
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "CHEM 193",
+                    "EDUC 55",
+                    "PHY SCI 5",
+                    "PHY SCI 105"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Optional Concentration in Theoretical and Computational Chemistry and Quantum Science",
+        "child": [
+            {
+                "name": "The concentration in Theoretical and Computational Chemistry and Quantum Science aims to provide a rigorous education for Chemistry majors with special interests in theory and computation and quantum science. Compared to the regular Chemistry major, additional courses in mathematics, physics, and computer science are required, while upper-division laboratory courses are option. Enrolling in this concentration requires approval by a faculty advisor. The advisors will be members of the Theoretical and Computational Chemistry faculty group, and will assist the students in choosing elective courses tailored to the students interests.",
+                "child": []
+            },
+            {
+                "name": "A. Complete the following:",
+                "child": [
+                    "MATH 3A",
+                    "MATH 3D",
+                    "PHYSICS 50",
+                    "CHEM 150",
+                    "CHEM 150L"
+                ]
+            },
+            {
+                "name": "(b) Select at least nine courses from the following or the Chemistry major electives:",
+                "child": []
+            },
+            {
+                "name": "B. Select at least one from the following:",
+                "child": [
+                    "PHYSICS 111A",
+                    "PHYSICS 112A",
+                    "PHYSICS 111B",
+                    "PHYSICS 112B",
+                    "PHYSICS 113A",
+                    "PHYSICS 113B",
+                    "PHYSICS 113C",
+                    "PHYSICS 115A",
+                    "PHYSICS 125A",
+                    "PHYSICS 125B"
+                ]
+            },
+            {
+                "name": "C. Select at least one from the following:",
+                "child": [
+                    [
+                        "-",
+                        "MATH 105A",
+                        "MATH 105LA"
+                    ],
+                    [
+                        "-",
+                        "MATH 105B",
+                        "MATH 105LB"
+                    ],
+                    "STATS 7",
+                    "STATS 110",
+                    "STATS 111",
+                    "STATS 112"
+                ]
+            },
+            {
+                "name": "D. Select at least one of the following:",
+                "child": [
+                    "EECS 12",
+                    "EECS 20",
+                    "EECS 22",
+                    "EECS 22L"
+                ]
+            },
+            {
+                "name": "Optional Courses - The following courses are required for the regular Chemistry major, but optional for the Concentration in Theoretical and Computational Chemistry:",
+                "child": [
+                    "CHEM 5",
+                    "CHEM 107L",
+                    "CHEM 152"
+                ]
+            },
+            {
+                "name": "All electives listed under the Chemistry major.", 
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Secondary Teaching Certification Option",
+        "child": [
+            {
+                "name": "With additional course work and field experience offered through the UCI Cal Teach program, students who complete the concentration in Chemistry Education can also earn a California Preliminary Single Subject Teaching Credential. Completing the bachelor’s degree, concentration, and teacher certification in four years is possible with careful, early planning. Additional courses required for teacher certification are:",
+                "child": [
+                    "EDUC 109",
+                    [
+                        "-",
+                        "EDUC 143AW",
+                        "EDUC 143BW"
+                    ],
+                    "EDUC 148",
+                    "EDUC 158",
+                    "LPS 60"
+                ]
+            }
+        ]
+    }
+]
