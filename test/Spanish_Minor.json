@@ -1,24 +1,30 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     [
                         "or",
                         "SPANISH 3",
                         "SPANISH 3H"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Six upper-division departmental Spanish courses, one of which may be taught in English (excluding SPANISH 150).",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Six upper-division departmental Spanish courses, one of which may be taught in English (excluding SPANISH 150).",
+        "child": []
+    },
+    {
+        "name": "Residence Requirement for the Spanish Minor",
+        "child": [
+            {
+                "name": "At least four upper-division courses required for the minor must be completed successfully at UCI. By petition, two of the four may be taken through the UC Education Abroad Program, providing course content is approved in advance by the appropriate department or committee chair.",
+                "child": []
+            }
+        ]
     }
 ]

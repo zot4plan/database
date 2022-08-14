@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Minor Requirements",
+        "child": [
+            {
+                "name": "The minor in Psychological Science is met by completing eight courses (32 units). Students have the option of choosing between two versions of the minor as specified below",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Version 1:",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSCI 11A",
+                    "PSCI 11B",
+                    "PSCI 11C",
+                    "SOCECOL 10"
+                ]
+            },
+            {
+                "name": "(b) Select four courses from PSCI 100–193Z.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Version 2",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "PSCI 9",
+                    "SOCECOL 10"
+                ]
+            },
+            {
+                "name": "(b) Select six courses from PSCI 100–193Z.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "Six courses required for the minor must be completed successfully at UCI.",
+                "child": []
+            }
+        ]
+    }
+]

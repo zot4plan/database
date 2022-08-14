@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Eight courses (32 units):",
+        "child": [
+            {
+                "name": "",
+                "child": [
+                    "UPPP 4"
+                ]
+            },
+            {
+                "name": "(b) Select any seven upper-division UPPP courses.",
+                "child": []
+            }
+        ]
+    }
+]

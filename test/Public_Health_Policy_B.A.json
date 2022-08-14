@@ -7,8 +7,7 @@
                 "child": [
                     "PUBHLTH 1",
                     "PUBHLTH 2"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Select three of the following:",
@@ -17,84 +16,73 @@
                     "PUBHLTH 60",
                     "PUBHLTH 80",
                     "PUBHLTH 90"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Complete:",
                 "child": [
                     "PUBHLTH 7A",
                     "PUBHLTH 7B"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Select three of the following:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "Psychology:",
+                "name": "(b) Psychology:",
                 "child": [
                     "PSCI 9"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Sociology:",
+                "name": "(b) Sociology:",
                 "child": [
                     "SOCIOL 1",
                     "SOCIOL 2",
                     "SOCIOL 3"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Economics:",
+                "name": "(b) Economics:",
                 "child": [
                     "ECON 1",
                     "ECON 13",
                     "ECON 20A",
                     "ECON 20B"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Anthropology:",
+                "name": "(b) Anthropology:",
                 "child": [
                     "ANTHRO 2A",
                     "ANTHRO 2B",
                     "ANTHRO 2C",
                     "ANTHRO 2D",
                     "ANTHRO 41A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Political Science:",
+                "name": "(b) Political Science:",
                 "child": [
                     "POL SCI 31A",
                     "POL SCI 51A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Social Ecology:",
+                "name": "(b) Social Ecology:",
                 "child": [
                     "UPPP 8"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "International Studies:",
+                "name": "(b) International Studies:",
                 "child": [
                     "INTL ST 11",
                     "INTL ST 13"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "B. Upper-Division Requirements",
@@ -111,16 +99,14 @@
                         "PUBHLTH 139",
                         "PUBHLTH 159"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Eight additional upper-division courses with at least two courses in each topic area  selected  from  the  following courses:",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Eight additional upper-division courses with at least two courses in each topic area selected from the following courses:",
+                "child": []
             },
             {
-                "name": "Health Policy and Management:",
+                "name": "(b) Health Policy and Management:",
                 "child": [
                     [
                         "-",
@@ -134,23 +120,31 @@
                     "UPPP 102",
                     "UPPP 103",
                     "UPPP 112",
-                    "UPPP 166"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "PUBHLTH  120-139",
-                "child": [
+                    "UPPP 166",
                     "PUBHLTH 172",
                     "PUBHLTH 174",
                     "PUBHLTH 190",
                     "PUBHLTH 193",
                     "SOCIOL 154"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Social and Behavioral Health Sciences:",
+                "name": "PUBHLTH 120-139",
+                "child": [
+                    "PUBHLTH 120",
+                    "PUBHLTH 122",
+                    "PUBHLTH 125",
+                    "PUBHLTH 126",
+                    "PUBHLTH 127",
+                    "PUBHLTH 129",
+                    "PUBHLTH 132",
+                    "PUBHLTH 135",
+                    "PUBHLTH 138",
+                    "PUBHLTH 139"
+                ]
+            },
+            {
+                "name": "(b) Social and Behavioral Health Sciences:",
                 "child": [
                     "ANTHRO 134A",
                     "ANTHRO 134C",
@@ -158,19 +152,23 @@
                     "PSCI 137H",
                     "PSCI 138H",
                     "PSCI 183S",
-                    "PUBHLTH 102"
-                ],
-                "typeParent": "Courses"
+                    "PUBHLTH 102",
+                    "PUBHLTH 176"
+                ]
             },
             {
-                "name": "PUBHLTH  140-159",
+                "name": "PUBHLTH 140-159",
                 "child": [
-                    "PUBHLTH 176"
-                ],
-                "typeParent": "Courses"
+                    "PUBHLTH 141",
+                    "PUBHLTH 144",
+                    "PUBHLTH 146",
+                    "PUBHLTH 147",
+                    "PUBHLTH 148",
+                    "PUBHLTH 150",
+                    "PUBHLTH 159" 
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "C. Practicum Requirement",
@@ -179,10 +177,8 @@
                 "name": "",
                 "child": [
                     "PUBHLTH 195W"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

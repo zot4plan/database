@@ -1,51 +1,71 @@
 [
     {
-        "name": "",
+        "name": "A. An understanding of the fundamental concepts, analytical tools, and methods of social science:",
         "child": [
             {
-                "name": "A. An understanding of the fundamental concepts, analytical tools, and methods of social science:",
+                "name": "",
                 "child": [
                     "SOC SCI 1A",
                     "SOC SCI 2A",
                     "SOC SCI 3A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. One course in Introduction to Social Policy and Public Service:",
+        "child": [
             {
-                "name": "B. One course in Introduction to Social Policy and Public Service:",
+                "name": "",
                 "child": [
                     "SOC SCI 40"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. One course in Cultural Competency:",
+        "child": [
             {
-                "name": "C. One course in Cultural Competency:",
+                "name": "",
                 "child": [
                     [
                         "or",
                         "SOC SCI 70C",
                         "SOCIOL 63"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. One course in Leadership:",
+        "child": [
             {
-                "name": "D. One course in Leadership:",
+                "name": "",
                 "child": [
                     "SOC SCI 181A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Two courses in Research Methods:",
+        "child": [
             {
-                "name": "E. Two courses in Research Methods:",
+                "name": "",
                 "child": [
                     "SOC SCI 102A",
                     "SOC SCI 170A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "F. Three quarters of Field Studies:",
+        "child": [
             {
-                "name": "F. Three quarters of Field Studies:",
+                "name": "",
                 "child": [
                     [
                         "-",
@@ -53,23 +73,26 @@
                         "SOC SCI 193B",
                         "SOC SCI 193C"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "G. Four units of off-campus internship experience:",
+        "child": [
             {
-                "name": "G. Four units of off-campus internship experience:",
+                "name": "",
                 "child": [
                     "SOC SCI 194A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "H. Functional Focus: 12 units in one of the following areas:",
+        "child": [            
             {
-                "name": "H. Functional Focus: 12 units in one of the following areas:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Education:",
+                "name": "(b) Education:",
                 "child": [
                     "EDUC 124",
                     "EDUC 126",
@@ -81,11 +104,10 @@
                     "CHC/LAT 189",
                     "ECON 158",
                     "SOC SCI 196"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Governance:",
+                "name": "(b) Governance:",
                 "child": [
                     "ANTHRO 121J",
                     "INTL ST 161A",
@@ -117,11 +139,10 @@
                     "SOCIOL 141",
                     "SOCIOL 144",
                     "SOCIOL 177W"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Health:",
+                "name": "(b) Health:",
                 "child": [
                     "ANTHRO 128B",
                     "ANTHRO 132A",
@@ -134,10 +155,17 @@
                     "PSYCH 174E",
                     "SOCIOL 135",
                     "SOCIOL 154"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Certain special topics courses may be applicable to this major; students should see their undergraduate advisor prior to enrolling in a special topics course to ensure that it meets the requirements. SOC SCI 184A Sage Leader Research I-SOC SCI 184B Sage Leader Research II may not be used to satisfy school requirements.",
+                "child": []
+            }
+        ]
     }
 ]

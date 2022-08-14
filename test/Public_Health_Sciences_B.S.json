@@ -33,8 +33,7 @@
                         "MATH 2A",
                         "MATH 2B"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "or",
@@ -45,76 +44,66 @@
                         "MATH 5B"
                     ],
                     "PUBHLTH 7A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Select three of the following:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "Psychology:",
+                "name": "(b) Psychology:",
                 "child": [
                     "PSCI 9"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Sociology:",
+                "name": "(b) Sociology:",
                 "child": [
                     "SOCIOL 1",
                     "SOCIOL 2",
                     "SOCIOL 3"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Economics:",
+                "name": "(b) Economics:",
                 "child": [
                     "ECON 1",
                     "ECON 13",
                     "ECON 20A",
                     "ECON 20B"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Anthropology:",
+                "name": "(b) Anthropology:",
                 "child": [
                     "ANTHRO 2A",
                     "ANTHRO 2B",
                     "ANTHRO 2C",
                     "ANTHRO 2D",
                     "ANTHRO 41A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Political Science:",
+                "name": "(b) Political Science:",
                 "child": [
                     "POL SCI 31A",
                     "POL SCI 51A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Social Ecology:",
+                "name": "(b) Social Ecology:",
                 "child": [
                     "UPPP 8"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "International Studies:",
+                "name": "(b) International Studies:",
                 "child": [
                     "INTL ST 11",
                     "INTL ST 13"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "B. Upper-Division Requirements",
@@ -123,8 +112,7 @@
                 "name": "",
                 "child": [
                     "PUBHLTH 101"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Select two of the following:",
@@ -133,16 +121,14 @@
                     "BIO SCI D104",
                     "BIO SCI E109",
                     "BIO SCI N110"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Five additional upper-division courses with at least one course chosen from each of the three topic areas:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "Epidemiology, Genetics, and Health Informatics:",
+                "name": "(b) Epidemiology, Genetics, and Health Informatics:",
                 "child": [
                     "BIO SCI D137",
                     "BIO SCI D148",
@@ -151,16 +137,21 @@
                     "BIO SCI M137",
                     "COMPSCI 183",
                     "PSCI 183S"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "PUBHLTH 102-119",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 102",
+                    "PUBHLTH 105",
+                    "PUBHLTH 106",
+                    "PUBHLTH 107",
+                    "PUBHLTH 115",
+                    "PUBHLTH 119"    
+                ]
             },
             {
-                "name": "Environmental and Global Health Sciences:",
+                "name": "(b) Environmental and Global Health Sciences:",
                 "child": [
                     "ANTHRO 125B",
                     "ANTHRO 128B",
@@ -174,21 +165,31 @@
                     "CHEM 125",
                     "CHC/LAT 176",
                     "PUBHLTH 126",
-                    "PUBHLTH 127"
-                ],
-                "typeParent": "Courses"
+                    "PUBHLTH 127",
+                    "PUBHLTH 190",
+                    "PUBHLTH 193",
+                    "SOCECOL E127"
+                ]
             },
             {
                 "name": "PUBHLTH  160-179",
                 "child": [
-                    "PUBHLTH 190",
-                    "PUBHLTH 193",
-                    "SOCECOL E127"
-                ],
-                "typeParent": "Courses"
+                    "PUBHLTH 161",
+                    "PUBHLTH 163",
+                    "PUBHLTH 167",
+                    "PUBHLTH 168",
+                    "PUBHLTH 170",
+                    "PUBHLTH 171",
+                    "PUBHLTH 172",
+                    "PUBHLTH 173",
+                    "PUBHLTH 174",
+                    "PUBHLTH 176",
+                    "PUBHLTH 177",
+                    "PUBHLTH 179"
+                ]
             },
             {
-                "name": "Infectious and Chronic Diseases:",
+                "name": "(b) Infectious and Chronic Diseases:",
                 "child": [
                     "BIO SCI D111L",
                     "BIO SCI E112L",
@@ -207,16 +208,18 @@
                     "PHRMSCI 170A",
                     "PHRMSCI 170B",
                     "PUBHLTH 150"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "PUBHLTH 180-189",
-                "child": [],
-                "typeParent": "Courses"
+                "child": [
+                    "PUBHLTH 180",
+                    "PUBHLTH 181",
+                    "PUBHLTH 182",
+                    "PUBHLTH 189"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "C. Practicum Requirement",
@@ -225,10 +228,8 @@
                 "name": "",
                 "child": [
                     "PUBHLTH 195W"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

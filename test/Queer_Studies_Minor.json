@@ -1,16 +1,20 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "GEN&SEX 20"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select two of the following:",
+        "child": [
             {
-                "name": "B. Select two of the following:",
+                "name": "",
                 "child": [
                     "GEN&SEX 50A",
                     "GEN&SEX 50B",
@@ -18,28 +22,38 @@
                     "GEN&SEX 60A",
                     "GEN&SEX 60B",
                     "GEN&SEX 60C"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Complete two upper-division core courses:",
+        "child": [
             {
-                "name": "C. Complete two upper-division core courses:",
+                "name": "",
                 "child": [
                     "GEN&SEX 100D",
                     "GEN&SEX 157"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Select two upper-division courses from the following:",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "GEN&SEX 100-190 (excluding GEN&SEX 100D and GEN&SEX 157)",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "D. Select two upper-division courses from the following:",
+        "child": [
+            {
+                "name": "(b) GEN&SEX 100-190 (excluding GEN&SEX 100D and GEN&SEX 157)",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minor",
+        "child": [
+            {
+                "name": "A minimum of four upper-division courses required for the minor must be successfully completed at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the appropriate department chair.",
+                "child": []
+            }
+        ]
     }
 ]

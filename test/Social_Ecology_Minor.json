@@ -11,40 +11,33 @@
                         "UPPP 8",
                         "UPPP 4"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "Select one of the following courses:",
+                "name": "(b) Select one of the following courses:",
                 "child": [
                     "PSCI 9",
                     "PSCI 11B",
                     "PSCI 11C"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "B. Six upper-division courses (24 units):",
         "child": [
             {
                 "name": "Three courses (12 units). One upper-division course (numbered 100-196) selected from each of the three departments-Criminology, Law and Society; Urban Planning and Public Policy; and Psychological Science.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "Three additional courses (12 units). Selected from Social Ecology or the departments of Criminology, Law, and Society; Urban Planning and Public Policy; and Psychological Science. Course prerequisites established by the individual departments must be satisfied.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "NOTE: Students pursuing a major in the School of Social Ecology may not use upper-division coursework for both school major or minor requirements. No overlap is permitted. SOCECOL 198 and SOCECOL 199 may not be applied toward the minor.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

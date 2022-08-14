@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     [
                         "-",
@@ -18,22 +18,19 @@
                         "PSYCH 9C"
                     ],
                     "LPS 31"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select three of the following. At least two of these courses must come from a single discipline:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Background in Science",
+        "name": "B. Select three of the following:",
         "child": [
             {
-                "name": "",
+                "name": "At least two of these courses must come from a single discipline.",
+                "child": []
+            },
+            {
+                "name": "(b) Background in Science",
                 "child": [
                     "BIO SCI 35",
                     "BIO SCI 36",
@@ -44,11 +41,8 @@
                     "BIO SCI 75",
                     "BIO SCI 93",
                     "BIO SCI 94",
-                    [
-                        "-",
-                        "CHEM 1A",
-                        "CHEM 1LA"
-                    ],
+                    "CHEM 1A",
+                    "CHEM 1LA",
                     "CHEM 1B",
                     [
                         "-",
@@ -78,22 +72,15 @@
                         "PHYSICS 7LD"
                     ],
                     "PHYSICS 7E"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Complete three additional courses that can be selected from the above list or from the following list:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Additional Science Background",
+        "name": "C. Complete three additional courses that can be selected from the above list or from the following list:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Additional Science Background",
                 "child": [
                     "COGS 14P",
                     [
@@ -129,22 +116,15 @@
                         "CHEM 51C",
                         "CHEM 51LC"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "D. Select four from the following:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Psychology Core Courses",
+        "name": "D. Select four from the following:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Psychology Core Courses",
                 "child": [
                     "PSYCH 120A",
                     "PSYCH 120D",
@@ -159,58 +139,90 @@
                     "PSYCH 160A",
                     "PSYCH 160D",
                     "PSYCH 160H"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "E. Select three courses from the following modules:",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Psychology Module Courses",
+        "name": "E. Select three courses from the following modules:",
         "child": [
             {
-                "name": "PSYCH 120 to PSYCH 129 (General)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Psychology Module Courses",
+                "child": []
             },
             {
-                "name": "PSYCH 130 to PSYCH 139 (Perception and Sensory Processes)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) PSYCH 120 to PSYCH 129 (General):",
+                "child": [
+                    "PSYCH 120A",
+                    "PSYCH 120D",
+                    "PSYCH 120H",
+                    "PSYCH 120P",
+                    "PSYCH 121M",
+                    "PSYCH 121S",
+                    "PSYCH 122C",
+                    "PSYCH 122I",
+                    "PSYCH 122P",
+                    "PSYCH 123P",
+                    "PSYCH 124S",
+                    "PSYCH 124V",
+                    "PSYCH 127P",
+                    "PSYCH 129"
+                ]
             },
             {
-                "name": "PSYCH 140 to PSYCH 149 (Cognition and Learning)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) PSYCH 130 to PSYCH 139 (Perception and Sensory Processes):",
+                "child": [
+                    "PSYCH 130A",
+                    "PSYCH 131A",
+                    "PSYCH 131B",
+                    "PSYCH 135M",
+                    "PSYCH 139"
+                ]
             },
             {
-                "name": "PSYCH 150 to PSYCH 159 (Language)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) PSYCH 140 to PSYCH 149 (Cognition and Learning):",
+                "child": [
+                    "PSYCH 140C",
+                    "PSYCH 140J",
+                    "PSYCH 140L",
+                    "PSYCH 140M",
+                    "PSYCH 143P",
+                    "PSYCH 146MW",
+                    "PSYCH 149"
+                ]
             },
             {
-                "name": "PSYCH 160 to PSYCH 169 (Cognitive Neuroscience)",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) PSYCH 150 to PSYCH 159 (Language):",
+                "child": [
+                    "PSYCH 150",
+                    "PSYCH 156A",
+                    "PSYCH 157M",
+                    "PSYCH 159"
+                ]
             },
             {
-                "name": "F. Select three of the following:",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) PSYCH 160 to PSYCH 169 (Cognitive Neuroscience):",
+                "child": [
+                    "PSYCH 160A",
+                    "PSYCH 160D",
+                    "PSYCH 160H",
+                    "PSYCH 161",
+                    "PSYCH 161H",
+                    "PSYCH 162N",
+                    "PSYCH 169"
+                ]
+            },
+            {
+                "name": "Psychology core courses may be used to fulfill this requirement but cannot count for both requirements.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
-        "name": "Research Methods",
+        "name": "F. Select three of the following:",
         "child": [
             {
-                "name": "",
+                "name": "(b) Research Methods",
                 "child": [
                     [
                         "-",
@@ -242,30 +254,29 @@
                         "PSYCH 112R",
                         "PSYCH 112LR"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "G. Select:",
+        "child": [
             {
-                "name": "G. Select four courses (four or more units each) with emphasis in psychology and distributed as follows:",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Four courses from the following (four or more units each) with emphasis in psychology, distributed as follows:",
+                "child": []
             },
             {
                 "name": "1. No more than one may be lower-division. PSYC 7A may not be used to fulfill this requirement.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "2. No more than one of the courses may be numbered 190-199.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "3. If accepted into the Honors Program, only two courses are needed to fulfill this requirement.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

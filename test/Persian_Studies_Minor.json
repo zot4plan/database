@@ -1,30 +1,45 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "PERSIAN 2C",
                     "PERSIAN 50"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Complete the following:",
+        "child": [
             {
-                "name": "B. Complete the following:",
+                "name": "",
                 "child": [
                     "HISTORY 131B",
                     "HISTORY 131C",
                     "HISTORY 131D"
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "C. Select four courses chosen from an approved list.",
-                "child": [],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "C. Select four courses chosen from an approved list.",
+        "child": [
+            {
+                "name": "Consult the Persian Studies minor website (https://www.humanities.uci.edu/persianstudiesminor) for a list of approved courses. With the approval of the Director, other relevant courses also may satisfy the requirements for the minor.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence requirement for the minor:",
+        "child": [
+            {
+                "name": "Four upper-division courses required for the minor must be completed successfully at UCI.",
+                "child": []
+            }
+        ]
     }
 ]

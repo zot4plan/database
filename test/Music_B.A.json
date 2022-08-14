@@ -1,11 +1,11 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
-                    "MUSIC 15",
+                    "MUSIC 15A",
                     [
                         "-",
                         "MUSIC 16A",
@@ -19,31 +19,43 @@
                         "MUSIC 40C"
                     ],
                     "MUSIC 40D"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "*Exception: MUSIC 40B, MUSIC 40C, MUSIC 40D must be completed with a grade of D or higher.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "B. Select six quarters of instrumental or vocal instruction for Music majors from the following:",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                "name": "MUSIC 15 is a repeatable course students must take starting at the beginning of their major studies. At the end of the course, there is a Musicianship Proficiency Exam, which students must pass within six quarters of entering the major.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "B. Select six quarters of instrumental or vocal instruction for Music majors from the following:",
+        "child": [
             {
-                "name": "MUSIC 65-70",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                "name": "(b) MUSIC 65-70",
+                "child": [
+                    "MUSIC 65",
+                    "MUSIC 66",
+                    "MUSIC 67",
+                    "MUSIC 68",
+                    "MUSIC 69",
+                    "MUSIC 70"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Additional Requirements for the Bachelor of Arts Degree",
+        "child": [
             {
                 "name": "In addition to completing the common curriculum, students in the B.A. program must pass the departmental piano proficiency examination or take three quarters of MUSIC 10 (Piano for Majors) with a grade of C or better and complete the following course requirements:",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
-                "name": "A. Select three courses in Theory, Composition, and Technology from the following:",
+                "name": "(b) A. Select three courses in Theory, Composition, and Technology from the following:",
                 "child": [
                     "MUSIC 51",
                     "MUSIC 131",
@@ -60,11 +72,10 @@
                     "MUSIC 183B",
                     "MUSIC 183C",
                     "MUSIC 189"
-                ],
-                "typeParent": "Courses"
+                ] 
             },
             {
-                "name": "B. Select three courses in Music and Culture (including at least two upper-division courses) from the following:",
+                "name": "(b) B. Select three courses in Music and Culture (including at least two upper-division courses) from the following:",
                 "child": [
                     "AFAM 143",
                     "AFAM 144",
@@ -92,11 +103,10 @@
                     "MUSIC 156A",
                     "MUSIC 156B",
                     "MUSIC 181"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "C. Select six courses in Performance and Practice from the following:",
+                "name": "(b) C. Select six courses in Performance and Practice from the following:",
                 "child": [
                     "MUSIC 21A",
                     "MUSIC 21B",
@@ -114,35 +124,38 @@
                     "MUSIC 182",
                     "MUSIC 193",
                     "MUSIC 197"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "D. Depending upon the student\u2019s area of emphasis, one of the following BA projects (which may develop work originally completed in meeting the requirements of another course) must be completed:",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "(b) D. Depending upon the student\u2019s area of emphasis, one of the following BA projects (which may develop work originally completed in meeting the requirements of another course) must be completed:",
+                "child": []
             },
             {
-                "name": "(1) a formal lecture or lecture/performance lasting a minimum of 20 minutes",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (1) a formal lecture or lecture/performance lasting a minimum of 20 minutes",
+                "child": []
             },
             {
-                "name": "(2) a composition or portfolio of compositions of appropriate length growing out of work done in MUSIC 157",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (2) a composition or portfolio of compositions of appropriate length growing out of work done in MUSIC 157",
+                "child": []
             },
             {
-                "name": "(3) a thesis of at least 20 double-spaced pages on an appropriate musical subject",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "   (3) a thesis of at least 20 double-spaced pages on an appropriate musical subject",
+                "child": []
             },
+
             {
                 "name": "Proposed projects, along with the name of the Senate faculty member who has agreed to supervise it, must be submitted to the undergraduate faculty advisor by November 1 of the academic year in which graduation is expected. Upon approval of the project proposal the student may register for up to two quarters of independent study (MUSIC 199) in which to complete the project.",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "In order to cover the extra costs generated by private lesson instruction, the Claire Trevor School of the Arts charges a laboratory fee for students enrolled in such courses (MUSIC 65-70, MUSIC 165-170).",
+                "child": []
+            }
+        ]
     }
 ]

@@ -1,40 +1,56 @@
 [
     {
-        "name": "",
+        "name": "A. Complete the following:",
         "child": [
             {
-                "name": "A. Complete the following:",
+                "name": "",
                 "child": [
                     "ANTHRO 2A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select one of the following:",
+        "child": [
             {
-                "name": "B. Select one of the following:",
+                "name": "",
                 "child": [
                     "ANTHRO 2B",
                     "ANTHRO 2C",
                     "ANTHRO 2D"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following:",
+        "child": [
             {
-                "name": "C. Select one of the following:",
+                "name": "",
                 "child": [
                     "ANTHRO 30A",
                     "ANTHRO 100B"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Complete:",
+        "child": [
             {
-                "name": "D. Complete:",
+                "name": "",
                 "child": [
                     "ANTHRO 134A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "E. Select three topical courses (12 units) from the following:",
+        "child": [
             {
-                "name": "E. Select three topical courses (12 units) from the following:",
+                "name": "",
                 "child": [
                     "ANTHRO 25A",
                     "ANTHRO 121D",
@@ -49,10 +65,26 @@
                     "ANTHRO 136K",
                     "ANTHRO 139",
                     "SOCIOL 154"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Students may complete only one of the following programs: the major in Anthropology, the minor in Anthropology, or the minor in Medical Anthropology.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "Residence Requirement for the Minors",
+        "child": [
+            {
+                "name": "The four required upper-division courses must be completed successfully at UCI. Two of the four may be taken through the UC Education Abroad Program, provided course content is approved in advance by the Undergraduate Director of the Department of Anthropology.",
+                "child": []
+            }
+        ]
     }
 ]

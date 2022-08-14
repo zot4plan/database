@@ -3,7 +3,7 @@
         "name": "A. Lower-Division Requirements:",
         "child": [
             {
-                "name": "1. Select one of the following sequences:",
+                "name": "(b) 1. Select one of the following sequences:",
                 "child": [
                     [
                         "-",
@@ -14,11 +14,10 @@
                     [
                         "-",
                         "CHEM H2A",
-                        "CHEM  H2B",
-                        "CHEM  H2C"
+                        "CHEM H2B",
+                        "CHEM H2C"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "and select one of the following lab sequences:",
@@ -31,17 +30,16 @@
                     [
                         "-",
                         "CHEM H2LA",
-                        "CHEM  H2LB",
-                        "CHEM  H2LC"
+                        "CHEM H2LB",
+                        "CHEM H2LC"
                     ],
                     [
                         "-",
                         "CHEM M2LA",
-                        "CHEM  M2LB",
-                        "CHEM  M3LC"
+                        "CHEM M2LB",
+                        "CHEM M3LC"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Complete the following organic chemistry sequence and accompanying labs:",
@@ -58,19 +56,17 @@
                         "CHEM 51LC",
                         "CHEM 51LD"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "2. Complete:",
+                "name": "(b) 2. Complete:",
                 "child": [
                     [
                         "-",
                         "MATH 2A",
                         "MATH 2B"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "and select one of the following:",
@@ -79,11 +75,10 @@
                     "MATH 3A",
                     "STATS 7",
                     "STATS 8"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "3. Select one of the following physics sequences:",
+                "name": "(b) 3. Select one of the following physics sequences:",
                 "child": [
                     [
                         "-",
@@ -91,8 +86,7 @@
                         "PHYSICS 3B",
                         "PHYSICS 3C"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "or",
@@ -103,31 +97,27 @@
                         "PHYSICS 7D",
                         "PHYSICS 7E"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "4. Complete:",
+                "name": "(b) 4. Complete:",
                 "child": [
                     "BIO SCI 93",
                     "BIO SCI 94",
                     "BIO SCI 97",
                     "BIO SCI 98",
                     "BIO SCI 99"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "5. Complete:",
+                "name": "(b) 5. Complete:",
                 "child": [
                     "PHRMSCI 1",
                     "PHRMSCI 42",
                     "PHRMSCI 76"
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "B. Upper-Division Requirements:",
@@ -155,11 +145,9 @@
                         "PHRMSCI 177",
                         "PHRMSCI 177L"
                     ]
-                ],
-                "typeParent": "Courses"
+                ]
             }
-        ],
-        "typeParent": "Header"
+        ]
     },
     {
         "name": "C. Upper-Division Electives (8 units):",
@@ -203,10 +191,30 @@
                     "CHEM 138",
                     "CHEM 156",
                     "CHEM 160"
-                ],
-                "typeParent": "Courses"
+                ]
+            },
+            {
+                "name": "Course may not be used to satisfy more than one requirement.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "Upper-Division Writing Requirement:",
+        "child": [
+            {
+                "name": "Pharmaceutical Sciences majors satisfy the upper-division writing requirement by completing BIO SCI 100 with a grade of C or better, followed by the completion of PHRMSCI 174L and PHRMSCI 177L.",
+                "child": []
+            }
+        ]
+    },
+    {
+        "name": "NOTE:",
+        "child": [
+            {
+                "name": "Double majors with Pharmaceutical Sciences, Public Health Sciences, Nursing Science, Biomedical Engineering: Premedical, or with any of the School of Biological Sciences majors are not permitted.",
+                "child": []
+            }
+        ]
     }
 ]

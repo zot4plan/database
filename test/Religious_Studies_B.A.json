@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Complete:",
         "child": [
             {
-                "name": "A. Complete:",
+                "name": "",
                 "child": [
                     "REL STD 5A",
                     "REL STD 5B",
@@ -13,25 +13,29 @@
                         "REL STD 110",
                         "REL STD 110W"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Select eight upper-division electives, with at least three in each of the following categories:",
-                "child": [],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Select eight upper-division electives, with at least three in each of the following categories:",
+        "child": [
             {
                 "name": "1. World Religious Traditions",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             },
             {
                 "name": "2. Thematic Approaches to Religion",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
+            },
+            {
+                "name": "Selected from the approved lists published on the Religious Studies website: https://hq.humanities.uci.edu/religious_studies/",
+                "child": []
+            },
+            {
+                "name": "One relevant lower-division course may be substituted for an upper-division course, with prior approval.",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
     }
 ]

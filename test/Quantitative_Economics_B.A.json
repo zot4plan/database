@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Lower-division:",
         "child": [
             {
-                "name": "A. Lower-division:",
+                "name": "",
                 "child": [
                     [
                         "-",
@@ -16,11 +16,15 @@
                         "MATH 2B"
                     ],
                     "MATH 3A"
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "B. Upper-division:",
+        "child": [
             {
-                "name": "B. Upper-division:",
+                "name": "",
                 "child": [
                     [
                         "-",
@@ -33,11 +37,15 @@
                         "ECON 123A",
                         "ECON 123B"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C. Select one of the following series:",
+        "child": [
             {
-                "name": "C. Select one of the following series:",
+                "name": "",
                 "child": [
                     [
                         "-",
@@ -51,11 +59,15 @@
                         "MATH 130B",
                         "MATH 130C"
                     ]
-                ],
-                "typeParent": "Courses"
-            },
+                ]
+            }
+        ]
+    },
+    {
+        "name": "D. Complete five additional four-unit upper-division Economics electives:",
+        "child": [
             {
-                "name": "D. Complete five additional four-unit upper-division Economics electives. One course must satisfy the upper-division writing requirement. Two courses must be selected from the list below.",
+                "name": "One course must satisfy the upper-division writing requirement. Two courses must be selected from the list below.",
                 "child": [
                     "ECON 107",
                     "ECON 116A",
@@ -67,15 +79,28 @@
                     "ECON 129",
                     "ECON 131A",
                     "ECON 135"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
-                "name": "E. A maximum of three four-unit courses selected from ECON 190-199 may be counted toward the major.",
-                "child": [],
-                "typeParent": "Courses"
+                "name": "Additional courses may be added to this list; up-to-date information is available at the Department of Economics website (https://www.economics.uci.edu/).",
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "E. A maximum of:",
+        "child": [
+            {
+                "name": "Three four-unit courses selected from ECON 190-199 may be counted toward the major.",
+                "child": [
+                    "ECON 190",
+                    "ECON 190BW",
+                    "ECON H190A",
+                    "ECON 197",
+                    "ECON 198",
+                    "ECON 199"
+                ]
+            }
+        ]
     }
 ]

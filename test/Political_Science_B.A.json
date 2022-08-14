@@ -1,9 +1,9 @@
 [
     {
-        "name": "",
+        "name": "A. Select four lower-division (one or two digit) POL SCI courses below:",
         "child": [
             {
-                "name": "A. Select four lower-division (one or two digit) POL SCI courses below. One must be the introductory course for the module selected under II below.",
+                "name": "One must be the introductory course for the module selected under II below",
                 "child": [
                     "POL SCI 11A",
                     "POL SCI 11C",
@@ -13,45 +13,127 @@
                     "POL SCI 51A",
                     "POL SCI 61A",
                     "POL SCI 71A"
-                ],
-                "typeParent": "Courses"
+                ]
             },
             {
                 "name": "Complete any one additional lower-division POL SCI course (not used above) (4 units)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "B. Seven upper-division POL SCI courses (28 units) chosen from among the POL SCI modules numbered 120-179. Three of these courses must be from one module.",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "American Politics and Government            (POL SCI 120-129)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Political Theory and Methods  (POL SCI 130-139)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "International Relations     (POL SCI 140-149)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Comparative Politics (POL SCI 150-159)",
-                "child": [],
-                "typeParent": "Courses"
-            },
-            {
-                "name": "Public Law (POL SCI 170-179)",
-                "child": [],
-                "typeParent": "Courses"
+                "child": []
             }
-        ],
-        "typeParent": "Header"
+        ]
+    },
+    {
+        "name": "B. Seven upper-division POL SCI courses (28 units):",
+        "child": [  
+            {
+                "name": "Chosen from among the POL SCI modules numbered 120-179. Three of these courses must be from one module.",
+                "child": []
+
+            },          
+            {
+                "name": "(b) American Politics and Government (POL SCI 120-129)",
+                "child": [
+                    "POL SCI 120",
+                    "POL SCI 121A",
+                    "POL SCI 121C",
+                    "POL SCI 121F",
+                    "POL SCI 121G",
+                    "POL SCI 121HW",
+                    "POL SCI 122A",
+                    "POL SCI 122B",
+                    "POL SCI 122BW",
+                    "POL SCI 123B",
+                    "POL SCI 124A",
+                    "POL SCI 124B",
+                    "POL SCI 124C",
+                    "POL SCI 124E",
+                    "POL SCI 125A",
+                    "POL SCI 125CW",
+                    "POL SCI 126C",
+                    "POL SCI 126D",
+                    "POL SCI 126F",
+                    "POL SCI 126G",
+                    "POL SCI 128BW",
+                    "POL SCI 128C",
+                    "POL SCI 129"
+                ]
+            },
+            {
+                "name": "(b) Political Theory and Methods (POL SCI 130-139)",
+                "child": [
+                    "POL SCI 130A",
+                    "POL SCI 130B",
+                    "POL SCI 131C",
+                    "POL SCI 131F",
+                    "POL SCI 134F",
+                    "POL SCI 135A",
+                    "POL SCI 135B",
+                    "POL SCI 136B",
+                    "POL SCI 136BW",
+                    "POL SCI 136E",
+                    "POL SCI 137BW",
+                    "POL SCI 138A",
+                    "POL SCI 138AW",
+                    "POL SCI 138CW",
+                    "POL SCI 138DW",
+                    "POL SCI 139"
+                ]
+            },
+            {
+                "name": "(b) International Relations (POL SCI 140-149)",
+                "child": [
+                    "POL SCI 141B",
+                    "POL SCI 141C",
+                    "POL SCI 141E",
+                    "POL SCI 142B",
+                    "POL SCI 142D",
+                    "POL SCI 142G",
+                    "POL SCI 142J",
+                    "POL SCI 143D",
+                    "POL SCI 143G",
+                    "POL SCI 144A",
+                    "POL SCI 146B",
+                    "POL SCI 147CW",
+                    "POL SCI 147D",
+                    "POL SCI 147E",
+                    "POL SCI 149"
+                ]
+            },
+            {
+                "name": "(b) Comparative Politics (POL SCI 150-159)",
+                "child": [
+                    "POL SCI 151B",
+                    "POL SCI 151C",
+                    "POL SCI 151H",
+                    "POL SCI 152K",
+                    "POL SCI 153E",
+                    "POL SCI 153G",
+                    "POL SCI 154C",
+                    "POL SCI 154F",
+                    "POL SCI 154G",
+                    "POL SCI 154J",
+                    "POL SCI 154KW",
+                    "POL SCI 155C",
+                    "POL SCI 156A",
+                    "POL SCI 156D",
+                    "POL SCI 157B",
+                    "POL SCI 158D",
+                    "POL SCI 159"
+                ]
+            },
+            {
+                "name": "(b) Public Law (POL SCI 170-179)",
+                "child": [
+                    "POL SCI 171AW",
+                    "POL SCI 171D",
+                    "POL SCI 171F",
+                    "POL SCI 171G",
+                    "POL SCI 172A",
+                    "POL SCI 174A",
+                    "POL SCI 174C",
+                    "POL SCI 174CW",
+                    "POL SCI 179"
+                ]
+            }
+        ]
     }
 ]
