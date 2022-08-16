@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import sys
 
-NAME_REQ_OUT = '../database/programs.sql'
+NAME_REQ_OUT = '../data/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
 NO_COURSE_WARNING = "Course information cannot be found. This course may no longer be offered. If you believe there is an error or require more information, please contact the course department."
 
@@ -46,7 +46,7 @@ def check_course_exist(course_id):
     new_course = Course()
     new_course.course_key, new_course.description = course_id, NO_COURSE_WARNING
     
-    f = open("../database/courses.sql", "a")
+    f = open("../data/courses.sql", "a")
     f.write('INSERT INTO courses VALUES ("' + course_id + '","' + new_course.name.strip() +  '","' + new_course.department + '","' + 
             new_course.units_int + '","' + new_course.units_str + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
             new_course.prerequisite_for + '","' + new_course.restriction + '","' + new_course.repeatability + '","' + 
@@ -65,7 +65,7 @@ def write_required_depts(info, index):
     have to take for the program requirements.
     """
 
-    out_file = open("../database/depts_in_programs.sql", "a")
+    out_file = open("../data/depts_in_programs.sql", "a")
     all_depts = set()
     for header in info:
         for section in header['child']:

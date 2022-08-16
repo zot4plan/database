@@ -87,9 +87,9 @@ def write_courses():
 
     websites = get_courses_websites()
     course_names = []
-    write_ge = open('../database/courses_in_ge.sql', 'w')
+    write_ge = open('../data/courses_in_ge.sql', 'w')
 
-    with open('../database/courses.sql', 'w') as f:
+    with open('../data/courses.sql', 'w') as f:
         for each_url in websites:
             uci_course = get_courses(each_url)
             for key,value in uci_course.items():
