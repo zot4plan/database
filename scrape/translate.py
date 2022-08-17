@@ -79,7 +79,7 @@ def write_required_depts(info, index):
                         all_depts.add(get_dept(elem))
     
     for elem in all_depts:
-        out_file.write("INSERT INTO depths_in_programs (dept_id, program_id) VALUES (" +
+        out_file.write("INSERT INTO depts_in_programs (dept_id, program_id) VALUES (" +
                         "'" + elem + "', " + "'" + str(index) + "');" + "\n")
     out_file.close
 
