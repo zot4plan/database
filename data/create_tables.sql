@@ -37,6 +37,7 @@ CREATE TABLE programs(
     name VARCHAR(50) NOT NULL,
     is_major boolean NOT NULL,
     requirement json DEFAULT NULL,
+    depts VARCHAR[] NOT NULL,
     url VARCHAR(300) NOT NULL,
     PRIMARY KEY(id)
 );

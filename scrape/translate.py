@@ -2,6 +2,7 @@ from Course import Course
 import json 
 from pathlib import Path
 import sys
+from scrape_courses import write_course_helper
 
 NAME_REQ_OUT = '../data/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
@@ -47,11 +48,7 @@ def check_course_exist(course_id):
     new_course.course_key, new_course.description = course_id, NO_COURSE_WARNING
     
     f = open("../data/courses.sql", "a")
-    f.write('INSERT INTO courses VALUES ("' + course_id + '","' + new_course.name.strip() +  '","' + new_course.department + '","' + 
-            new_course.units_int + '","' + new_course.units_str + '","' + new_course.description + '","' + new_course.prerequisite +  '","' + new_course.prerequisite_tree + '","' +
-            new_course.prerequisite_for + '","' + new_course.restriction + '","' + new_course.repeatability + '","' + 
-            new_course.corequisite + '","' + new_course.pre_or_core + '","' + new_course.same_as + '","' +
-            new_course.overlaps_with + '","' + new_course.concurrent_with + '","' + new_course.ge_string + '","' + new_course.past_terms + '");' + '\n')
+    f.write(write_course_helper(course_id, new_course))
     f.close()
 
     all_courses.append(course_id)
@@ -59,13 +56,11 @@ def check_course_exist(course_id):
         json.dump(all_courses, course_file, indent=4)
 
 
-def write_required_depts(info, index):
+def write_required_depts(info):
     """
-    write_required_depts write the ID of courses that students 
-    have to take for the program requirements.
+    write_required_depts collects all unique departmental courses of a 
+    particular major and return the information in a list
     """
-
-    out_file = open("../data/depts_in_programs.sql", "a")
     all_depts = set()
     for header in info:
         for section in header['child']:
@@ -78,10 +73,7 @@ def write_required_depts(info, index):
                         check_course_exist(elem)
                         all_depts.add(get_dept(elem))
     
-    for elem in all_depts:
-        out_file.write("INSERT INTO depts_in_programs (dept_id, program_id) VALUES (" +
-                        "'" + elem + "', " + "'" + str(index) + "');" + "\n")
-    out_file.close
+    return list(all_depts)
 
 
 def get_dept(course):
@@ -107,21 +99,20 @@ def write_requirements(file_names, out_file):
     write_majors = open(out_file, 'w')
     sorted_files = sorted(file_names)
 
-    for index, name in enumerate(sorted_files, 1): 
+    for name in sorted_files: 
         with open(file_names[name], 'r') as f:
             all_info = json.load(f)
             requirement = str(all_info).replace("'", '"')
             is_major = 1 
             if "Minor" in name:
                 is_major = 0
-            write_majors.write("INSERT INTO programs (name, is_major, requirement, url) VALUES (" + 
-                                "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" + 
-                                all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
-            write_required_depts(all_info, index)
+            all_depts = write_required_depts(all_info)
+            write_majors.write("INSERT INTO programs (name, is_major, requirement, depts, url) VALUES (" + 
+                                "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" +
+                                str(all_depts).replace("'", '"') + "', '" + all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
 
     open_urls.close()
     write_majors.close()
-
 
 if __name__ == "__main__":
     

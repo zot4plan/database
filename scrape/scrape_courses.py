@@ -94,11 +94,7 @@ def write_courses():
             uci_course = get_courses(each_url)
             for key,value in uci_course.items():
                 course_names.append(key)
-                f.write('INSERT INTO courses VALUES ("' + key + '","' + value.name.strip() +  '","' + value.department + '","' + 
-                        value.units_int +  '","' + value.units_str + '","' + value.description + '","' + value.prerequisite +  '","' + value.prerequisite_tree + '","' +
-                        value.prerequisite_for + '","' + value.restriction + '","' + value.repeatability + '","' + 
-                        value.corequisite + '","' + value.pre_or_core + '","' + value.same_as + '","' + 
-                        value.overlaps_with + '","' + value.concurrent_with + '","' + value.ge_string + '","' + value.past_terms + '");' + '\n')
+                f.write(write_course_helper(key, value))
                 for cat in value.ge_list:
                     write_ge.write('INSERT INTO courses_in_ge (course_id, ge_id) VALUES ("' + key + '","' + cat + '");' + '\n')
     
@@ -106,6 +102,34 @@ def write_courses():
 
     with open('../other/courseIDs.json', 'w') as f: 
         json.dump(course_names, f,indent=4)
+
+
+def write_course_helper(key, info):
+    """ 
+    write_course_helper takes in the course key and its corresponding Course object
+    and form a sql string
+    """
+    sql_string = 'INSERT INTO courses VALUES ("' + key + '"'
+
+    info_order = ["name", "department", "units_int", "units_str", "description", 
+                "prerequisite", "prerequisite_tree", "prerequisite_for",
+                "restriction", "repeatability", "corequisite", "pre_or_core",
+                "same_as", "overlaps_with", "concurrent_with", "ge_string"]
+    course_info = info.__dict__
+
+    for value in info_order:
+        info = course_info[value]
+        if info != "":
+            sql_string += ',"' + info + '"'
+        else:
+            sql_string += ',' + 'null'
+    
+    if course_info['past_terms'] != '':
+        sql_string += ',"' + course_info['past_terms'] + '");' + '\n'
+    else:
+        sql_string += ',' + 'null' + ');' + '\n'
+    
+    return sql_string
 
 
 if __name__ == "__main__":
