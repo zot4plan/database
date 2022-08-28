@@ -1,1 +1,0 @@
-INSERT INTO `schedules` (`id`,`schedule`,`last_access_date`) VALUES (?,?,?) ON DUPLICATE KEY UPDATE `id`=VALUES(`id`),`schedule`=VALUES(`schedule`),`last_access_date`=VALUES(`last_access_date`);

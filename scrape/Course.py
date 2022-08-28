@@ -39,17 +39,20 @@ class Course:
         """
 
         header_info = header_info.text.split('.  ')
-        self.name = header_info[1]
+        self.name = header_info[1].strip().replace('\'', '\'\'')
         self.course_key = header_info[0].replace("\u00a0", " ")
 
         get_dept = self.course_key.split(" ")[:-1]
         self.department = " ".join(get_dept)
         
-        self.units_str = header_info[2]
-        if len(header_info[2].split(' ')[0]) > 1:
-            self.units_int = header_info[2].split(' ')[0][-1]
-        elif len(header_info[2].split(' ')[0]) == 1:
-            self.units_int = header_info[2].split(' ')[0]
+        if header_info[2] != "":
+            self.units_str = header_info[2]
+
+        units_range = header_info[2].split(' ')[0]
+        if len(units_range) > 1:
+            self.units_int = units_range[-1]
+        elif len(units_range) == 1:
+            self.units_int = units_range[0]
 
 
     def set_description(self, raw_description):
@@ -58,7 +61,7 @@ class Course:
         set the value to attribute description
         :param raw_description: string that contains the course description
         """
-        self.description = raw_description.replace('"', "'")
+        self.description = raw_description.replace('\'', '\'\'')
 
 
     def set_information(self, raw_info):
@@ -70,7 +73,7 @@ class Course:
         :param raw_info: a string containing course information
         """
 
-        raw_info = raw_info.replace('"', "'").split('\n')
+        raw_info = raw_info.replace('\'', '\'\'').split('\n')
 
         for elem in raw_info:
             if elem == '':
@@ -78,7 +81,7 @@ class Course:
             if 'Restriction:' in elem:
                 self.restriction = elem.replace('Restriction:', '')
             elif 'Prerequisite:' in elem:
-                self.prerequisite = elem.replace('"', "'").replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
+                self.prerequisite = elem.replace('\'', '\'\'').replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
             elif 'Prerequisite or corequisite:' in elem:
                 self.pre_or_core = elem.replace('Prerequisite or corequisite:','')
             elif 'Same as' in elem:
@@ -120,6 +123,7 @@ class Course:
                     self.repeatability = char
                     break
 
+
     def set_terms(self, all_terms):
         """
         set_terms takes in a list of past terms and convert it into a string
@@ -135,13 +139,13 @@ class Course:
         for term in terms_in_order:
             if past_terms[term] != '':
                 in_string += term + ': ' + past_terms[term][:-2] + '.'
-        
         self.past_terms = in_string
+
 
     def set_prereq_info(self, course_prereq_tree):
         """
         set_prereq_tree saves the course's prerequisites in tree format and
         courses that current course is prerequisite for.
         """
-        self.prerequisite_tree = course_prereq_tree['tree'].replace('"', "'")
-        self.prerequisite_for = (", ".join(course_prereq_tree['prereq_for'])).replace('"', "'")
+        self.prerequisite_tree = course_prereq_tree['tree'].replace('\'', '\'\'')
+        self.prerequisite_for = (", ".join(course_prereq_tree['prereq_for'])).replace('\'', '\'\'')
