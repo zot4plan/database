@@ -39,7 +39,7 @@ class Course:
         """
 
         header_info = header_info.text.split('.  ')
-        self.name = header_info[1].strip()
+        self.name = header_info[1].strip().replace('\'', '\'\'')
         self.course_key = header_info[0].replace("\u00a0", " ")
 
         get_dept = self.course_key.split(" ")[:-1]
@@ -61,7 +61,7 @@ class Course:
         set the value to attribute description
         :param raw_description: string that contains the course description
         """
-        self.description = raw_description.replace('"', "'")
+        self.description = raw_description.replace('\'', '\'\'')
 
 
     def set_information(self, raw_info):
@@ -73,7 +73,7 @@ class Course:
         :param raw_info: a string containing course information
         """
 
-        raw_info = raw_info.replace('"', "'").split('\n')
+        raw_info = raw_info.replace('\'', '\'\'').split('\n')
 
         for elem in raw_info:
             if elem == '':
@@ -81,7 +81,7 @@ class Course:
             if 'Restriction:' in elem:
                 self.restriction = elem.replace('Restriction:', '')
             elif 'Prerequisite:' in elem:
-                self.prerequisite = elem.replace('"', "'").replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
+                self.prerequisite = elem.replace('\'', '\'\'').replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
             elif 'Prerequisite or corequisite:' in elem:
                 self.pre_or_core = elem.replace('Prerequisite or corequisite:','')
             elif 'Same as' in elem:
@@ -147,5 +147,5 @@ class Course:
         set_prereq_tree saves the course's prerequisites in tree format and
         courses that current course is prerequisite for.
         """
-        self.prerequisite_tree = course_prereq_tree['tree'].replace('"', "'")
-        self.prerequisite_for = (", ".join(course_prereq_tree['prereq_for'])).replace('"', "'")
+        self.prerequisite_tree = course_prereq_tree['tree'].replace('\'', '\'\'')
+        self.prerequisite_for = (", ".join(course_prereq_tree['prereq_for'])).replace('\'', '\'\'')

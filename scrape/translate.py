@@ -8,7 +8,6 @@ NAME_REQ_OUT = '../data/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
 NO_COURSE_WARNING = "Course information cannot be found. This course may no longer be offered. If you believe there is an error or require more information, please contact the course department."
 
-
 def get_paths():
     """
     get paths attains all of the path addresses of files that store information of 
@@ -107,9 +106,12 @@ def write_requirements(file_names, out_file):
             if "Minor" in name:
                 is_major = 0
             all_depts = write_required_depts(all_info)
-            write_majors.write("INSERT INTO programs (name, is_major, requirement, depts, url) VALUES (" + 
-                                "'" + name + "', " + "'" + str(is_major) + "', " + "'" + requirement + "', '" +
-                                str(all_depts).replace("'", '"') + "', '" + all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
+            write_majors.write("INSERT INTO programs (name, is_major, requirement, departments, url) VALUES (" + 
+                                "'" + name + "', " 
+                                + "'" + str(is_major) + "', " 
+                                + "'" + requirement + "', " 
+                                + "ARRAY " + str(all_depts) + "::text[], '" 
+                                + all_urls[name.replace('-', '/')] + '#requirementstext' + "');" + "\n")
 
     open_urls.close()
     write_majors.close()

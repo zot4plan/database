@@ -4,7 +4,6 @@ from scrape_requirements import request_websites
 from Course import Course
 import json
 
-
 ALL_TERMS = {}
 ALL_PREREQ_INFO = {}
 
@@ -96,7 +95,7 @@ def write_courses():
                 course_names.append(key)
                 f.write(write_course_helper(key, value))
                 for cat in value.ge_list:
-                    write_ge.write('INSERT INTO courses_in_ge (course_id, ge_id) VALUES ("' + key + '","' + cat + '");' + '\n')
+                    write_ge.write('INSERT INTO courses_in_ge (course_id, ge_id) VALUES (\'' + key + '\',\'' + cat + '\');' + '\n')
     
     write_ge.close()
 
@@ -109,7 +108,7 @@ def write_course_helper(key, info):
     write_course_helper takes in the course key and its corresponding Course object
     and form a sql string
     """
-    sql_string = 'INSERT INTO courses VALUES ("' + key + '"'
+    sql_string = 'INSERT INTO courses VALUES (\'' + key + '\''
 
     info_order = ["name", "department", "units_int", "units_str", "description", 
                 "prerequisite", "prerequisite_tree", "prerequisite_for",
@@ -120,12 +119,12 @@ def write_course_helper(key, info):
     for value in info_order:
         info = course_info[value]
         if info != "":
-            sql_string += ',"' + info + '"'
+            sql_string += ',\'' + info + '\''
         else:
             sql_string += ',' + 'null'
     
     if course_info['past_terms'] != '':
-        sql_string += ',"' + course_info['past_terms'] + '");' + '\n'
+        sql_string += ',\'' + course_info['past_terms'] + '\');' + '\n'
     else:
         sql_string += ',' + 'null' + ');' + '\n'
     
