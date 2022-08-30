@@ -1,0 +1,26 @@
+[
+    [
+        ["MATH 2A","ENGRMAE 10", "CHEM 1A ", "ENGR 7A"],
+        ["MATH 2B","PHYSICS 7C", "PHYSICS 7LC ", "CHEM 1LE", "ENGR 7B"],
+        ["MATH 2D", "PHYSICS 7D", "PHYSICS 7LD"],
+        []
+    ],
+    [
+        ["MATH 3A", "PHYSICS 7E", "PHYSICS 52A", "ENGRMAE 30"],
+        ["MATH 3D", "ENGR 54", "ENGRMAE 60", "ENGRMAE 80"],
+        ["MATH 2E", "ENGRMAE 91", "ENGRMAE 130A", "ECON 23"],
+        []
+    ],
+    [
+        ["ENGRMAE 130B", "ENGRMAE 150", "ENGRMAE 150L", "ENGR 190W"],
+        ["ENGRMAE 146","ENGRMAE 157", "ENGRMAE 130C"],
+        ["ENGRMAE 108", "ENGRMAE 136", "ENGRMAE 170"],
+        []
+    ],
+    [
+        ["ENGRMAE 112", "ENGRMAE 158", "ENGRMAE 175"],
+        ["ENGRMAE 106", "ENGRMAE 159"],
+        [],
+        []
+    ]
+]

@@ -5,19 +5,20 @@ DROP TABLE IF EXISTS courses_in_ge;
 DROP TABLE IF EXISTS general_education;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS programs;
+DROP TABLE IF EXISTS visits;
 
 CREATE TABLE courses (
     course_id VARCHAR(25) PRIMARY KEY,
-    name TEXT NOT NULL,
-    department TEXT NOT NULL,
+    name TEXT,
+    department TEXT,
     units integer,
     units_text TEXT,
-    description TEXT NOT NULL,
+    description TEXT,
     prerequisite TEXT,
     prerequisite_tree json,
     prerequisite_for TEXT,
     restriction TEXT,
-    repeatability integer NOT NULL,
+    repeatability integer,
     corequisite TEXT,
     pre_or_core TEXT,
     same_as TEXT,
@@ -56,7 +57,22 @@ CREATE TABLE if not exists schedules (
     last_access_date DATE NOT NULL
 );
 
+/*CREATE TABLE sample_programs {
+    sample_id serial PRIMARY KEY,
+    program_ids integer [] NOT NULL,
+    schedule json NOT NULL,
+    author text,
+}
+
+CREATE TABLE if not exists schedules (
+    schedule_id VARCHAR(64) PRIMARY KEY,
+    schedule json NOT NULL,
+    program_ids integer [],
+    added_courses TEXT [],
+    last_access_date DATE NOT NULL
+);*/
+
 CREATE TABLE if not exists visits(
-    id VARCHAR(5) PRIMARY KEY,
-    total integer NOT NULL
+    date_visit DATE PRIMARY KEY,
+    number_of_visits integer DEFAULT 1
 );
