@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json 
 
-f = open('../other/courseIDs.json')   
+f = open('../../other/courseIDs.json')   
 Data = {elem for elem in json.load(f)}
 f.close()
 
@@ -98,7 +98,6 @@ def expand_same_as(courses):
     return ['/'] + items
 
 
-
 def scrape_programs(url):
     """
     scrape_courses takes in one parameter, major's url, and attain the information from the provided link.
@@ -166,7 +165,7 @@ def write_url(all_url):
     """
     write_url will saves all of the major requirement urls into a json file.
     """
-    with open('../database/program_Urls.json', 'w') as f:
+    with open('../../other/program_Urls.json', 'w') as f:
         json.dump(all_url, f, indent=4)
 
 
@@ -181,7 +180,7 @@ def write_to_json(name, info):
         name = name.replace(' ', '_').replace('/', '-').replace(',', '')
     if "Minor" in name:
             name += '.'
-    with open('../test/' + name + 'json', 'w') as f:
+    with open('../../test/' + name + 'json', 'w') as f:
         json_version = []
         for elem in info:
             if elem.typeParent == "Header":

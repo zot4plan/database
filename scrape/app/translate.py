@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 from scrape_courses import write_course_helper
 
-NAME_REQ_OUT = '../data/programs.sql'
+NAME_REQ_OUT = '../../data/programs.sql'
 REQ_TYPES = ['Minor', 'B.S.', 'B.A.', 'B.F.A.']
 NO_COURSE_WARNING = "Course information cannot be found. This course may no longer be offered. If you believe there is an error or require more information, please contact the course department."
 
@@ -36,7 +36,7 @@ def check_course_exist(course_id):
     """
 
     all_courses = []
-    with open('../other/courseIDs.json', "r") as course_file:
+    with open('../../other/courseIDs.json', "r") as course_file:
         all_courses = [elem for elem in json.load(course_file)]
     
     if course_id in all_courses:
@@ -45,13 +45,13 @@ def check_course_exist(course_id):
     
     new_course = Course()
     new_course.course_key, new_course.description = course_id, NO_COURSE_WARNING
-    
-    f = open("../data/courses.sql", "a")
+
+    f = open("../../data/courses.sql", "a")
     f.write(write_course_helper(course_id, new_course))
     f.close()
 
     all_courses.append(course_id)
-    with open('../other/courseIDs.json', "w") as course_file:
+    with open('../../other/courseIDs.json', "w") as course_file:
         json.dump(all_courses, course_file, indent=4)
 
 
@@ -93,7 +93,7 @@ def write_requirements(file_names, out_file):
     given file paths and write them into a given outfile.
     """
     
-    open_urls = open('../other/program_Urls.json')
+    open_urls = open('../../other/program_Urls.json')
     all_urls = json.load(open_urls)
     write_majors = open(out_file, 'w')
     sorted_files = sorted(file_names)

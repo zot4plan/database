@@ -47,7 +47,7 @@ def get_courses(url):
     and their information (course id, course name, units, description, restriction, and prereq).
     All the information is organized in a dictionary: id: Course Object
     """
-    
+
     course_dict = {}
     soup = request_websites(url)
     for elem in soup.find_all('div', class_='courseblock'):
@@ -55,8 +55,8 @@ def get_courses(url):
         section = elem.find('div', class_='courseblockdesc')
         get_info = section.find_all('p')
         course_info = Course()
-        
-        course_info.set_header_info(header)
+
+        course_info.set_header_info(header.text)
 
         for x in range(len(get_info)):
             info = get_info[x].text
@@ -67,8 +67,8 @@ def get_courses(url):
                 course_info.set_repeatability(info)
             else:
                 course_info.set_information(info)
-
-            course_info.set_ge(ge)
+            if ge:
+                course_info.set_ge(ge.text)
             course_info.set_terms(ALL_TERMS[course_info.course_key.replace(' ', '')])
             course_info.set_prereq_info(ALL_PREREQ_INFO[course_info.course_key.replace(' ', '')])
 
@@ -86,9 +86,9 @@ def write_courses():
 
     websites = get_courses_websites()
     course_names = []
-    write_ge = open('../data/courses_in_ge.sql', 'w')
+    write_ge = open('../../data/courses_in_ge.sql', 'w')
 
-    with open('../data/courses.sql', 'w') as f:
+    with open('../../data/courses.sql', 'w') as f:
         for each_url in websites:
             uci_course = get_courses(each_url)
             for key,value in uci_course.items():
@@ -99,7 +99,7 @@ def write_courses():
     
     write_ge.close()
 
-    with open('../other/courseIDs.json', 'w') as f: 
+    with open('../../other/courseIDs.json', 'w') as f: 
         json.dump(course_names, f,indent=4)
 
 
@@ -110,7 +110,7 @@ def write_course_helper(key, info):
     """
     sql_string = 'INSERT INTO courses VALUES (\'' + key + '\''
 
-    info_order = ["name", "department", "units_int", "units_str", "description", 
+    info_order = ["name", "department", "units_range", "units_str", "description", 
                 "prerequisite", "prerequisite_tree", "prerequisite_for",
                 "restriction", "repeatability", "corequisite", "pre_or_core",
                 "same_as", "overlaps_with", "concurrent_with", "ge_string"]
@@ -119,7 +119,14 @@ def write_course_helper(key, info):
     for value in info_order:
         info = course_info[value]
         if info != "":
-            sql_string += ',\'' + info + '\''
+            if type(info) == list:
+                sql_string += ', ARRAY ' + str(info)
+                if value == 'prerequisite_for':
+                    sql_string += '::text[]'
+            elif type(info) == int:
+                sql_string += ',' + str(info)
+            else:
+                sql_string += ',\'' + info + '\''
         else:
             sql_string += ',' + 'null'
     

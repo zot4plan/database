@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 """
 Course is a class is responsible for storing information of each individual
 UCI courses. 
@@ -13,14 +11,14 @@ class Course:
         self.course_key = ''
         self.department = ''
         self.units_str = '0'
-        self.units_int = '0'
+        self.units_range = [0.0, 0.0]
         self.description = ''
         self.prerequisite = ''
         self.prerequisite_tree = ''
-        self.prerequisite_for = ''
+        self.prerequisite_for = []
         self.corequisite = ''
         self.pre_or_core = ''
-        self.repeatability = '1'
+        self.repeatability = 1
         self.restriction = ''
         self.same_as = ''
         self.overlaps_with = ''
@@ -32,13 +30,13 @@ class Course:
 
     def set_header_info(self, header_info):
         """
-        set_header takes in a raw text (Course header in UCI catalogue) 
+        set_header takes in a string of information (Course header in UCI catalogue) 
         and split the string up by parts ('.'). Using given
         informtation, set attributes: name, course_key, and untis
         :param header_info: string that contains course key, course name, and units 
         """
 
-        header_info = header_info.text.split('.  ')
+        header_info = header_info.split('.  ')
         self.name = header_info[1].strip().replace('\'', '\'\'')
         self.course_key = header_info[0].replace("\u00a0", " ")
 
@@ -49,10 +47,11 @@ class Course:
             self.units_str = header_info[2]
 
         units_range = header_info[2].split(' ')[0]
-        if len(units_range) > 1:
-            self.units_int = units_range[-1]
-        elif len(units_range) == 1:
-            self.units_int = units_range[0]
+        units_range = [float(elem) if elem != '' else 0.0 for elem in units_range.split('-')]
+
+        if len(units_range) == 1:
+            units_range.append(units_range[0])
+        self.units_range = units_range
 
 
     def set_description(self, raw_description):
@@ -72,8 +71,7 @@ class Course:
         and corequisite
         :param raw_info: a string containing course information
         """
-
-        raw_info = raw_info.replace('\'', '\'\'').split('\n')
+        raw_info = raw_info.replace('\xa0', ' ').replace('\'', '\'\'').splitlines()
 
         for elem in raw_info:
             if elem == '':
@@ -81,7 +79,7 @@ class Course:
             if 'Restriction:' in elem:
                 self.restriction = elem.replace('Restriction:', '')
             elif 'Prerequisite:' in elem:
-                self.prerequisite = elem.replace('\'', '\'\'').replace('Prerequisite:','').replace('\xa0ENG\xa0', ' ')
+                self.prerequisite = elem.replace('Prerequisite:','')
             elif 'Prerequisite or corequisite:' in elem:
                 self.pre_or_core = elem.replace('Prerequisite or corequisite:','')
             elif 'Same as' in elem:
@@ -94,17 +92,30 @@ class Course:
                 self.corequisite = elem.replace('Corequisite:', '')
 
 
-    def set_ge(self, raw_text_ge=None):
+    def set_ge(self, ge_text):
         """
-        set_ge takes in a raw text that contains information regarding course's GE category. The string
+        set_ge takes in a string that contains information regarding course's GE category. The string
         will be saved in two format: string (display purposes) and list (checking purposes).
         :param raw_text_ge: string that contains information regarding course's GE
         """
+        roman_chars = {'I', 'V', 'A', 'B'}
+        ge_categories = {'IA', 'IB', 'II', 'III', 'IV',
+                    'VA', 'VB', 'VI', 'VII', 'VIII'}
 
-        if raw_text_ge is not None:
-            self.ge_string = raw_text_ge.text.replace('.', '').upper()
-            in_list = self.ge_string.replace(',', '').replace(')', '').replace('(', '').replace(')', '').replace('AND', '').replace('OR', '').replace('GE', '').split(' ')
-            self.ge_list = [elem.strip() for elem in in_list if elem != '']
+        ge_string = ''
+        for elem in ge_text:
+            if elem != '.':
+                ge_string += elem.upper()
+        self.ge_string = ge_string
+
+        current = ''
+        for char in self.ge_string:
+            if char in roman_chars:
+                current += char
+            elif current != '':
+                if current in ge_categories:
+                    self.ge_list.append(current)
+                current = ''
 
     
     def set_repeatability(self, raw_info):
@@ -115,12 +126,12 @@ class Course:
         """ 
 
         if 'Unlimited' in raw_info or 'unlimited' in raw_info:
-            self.repeatability = '9'
+            self.repeatability = 9
         else:
             repeat = raw_info.split(' ')
             for char in repeat:
                 if char.isdigit():
-                    self.repeatability = char
+                    self.repeatability = int(char)
                     break
 
 
@@ -129,23 +140,27 @@ class Course:
         set_terms takes in a list of past terms and convert it into a string
         :param all_terms: list of past terms that offered the course
         """
-        past_terms = defaultdict(str)
+        past_terms = dict()
         terms_in_order = ['Fall', 'Winter', 'Spring', 'Summer1', 'Summer10wk', 'Summer2']
         for term in all_terms:
             year, quarter = term.split(' ')
-            past_terms[quarter] += str(year) + ', '
+            if quarter in past_terms:
+                past_terms[quarter] += ', ' + str(year)
+            else:
+                past_terms[quarter] = str(year)
         
         in_string = ''
         for term in terms_in_order:
-            if past_terms[term] != '':
-                in_string += term + ': ' + past_terms[term][:-2] + '.'
+            if term in past_terms:
+                in_string += term + ': ' + past_terms[term] + '.'
         self.past_terms = in_string
 
 
-    def set_prereq_info(self, course_prereq_tree):
+    def set_prereq_info(self, prereq_dict):
         """
         set_prereq_tree saves the course's prerequisites in tree format and
         courses that current course is prerequisite for.
         """
-        self.prerequisite_tree = course_prereq_tree['tree'].replace('\'', '\'\'')
-        self.prerequisite_for = (", ".join(course_prereq_tree['prereq_for'])).replace('\'', '\'\'')
+        self.prerequisite_tree = prereq_dict['tree']
+        self.prerequisite_for = prereq_dict['prereq_for']
+    
