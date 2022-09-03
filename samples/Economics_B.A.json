@@ -1,0 +1,83 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "ECON 20A",
+                "MATH 2A",
+                "Lower-Division Writing "
+            ],
+            "Winter": [
+                "ECON 20B",
+                "MATH 2B",
+                "Lower-Division Writing ",
+                "General Education"
+            ],
+            "Spring": [
+                "Intro. Soc. Sci. course",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "ECON 15A",
+                "ECON 100A",
+                "SOC SCI 3A",
+                "General Education"
+            ],
+            "Winter": [
+                "ECON 15B",
+                "ECON 100B",
+                "Intro. Soc. Sci. course",
+                "General Education"
+            ],
+            "Spring": [
+                "ECON 100C",
+                "ECON 122A",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "U-D Econ. course",
+                "U-D Econ. course",
+                "General Education",
+                "Electives"
+            ],
+            "Winter": [
+                "U-D Econ. course",
+                "General Education",
+                "Electives",
+                "Electives"
+            ],
+            "Spring": [
+                "U-D Econ. course",
+                "U-D Econ. course",
+                "Electives",
+                "Electives"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "U-D Econ. course",
+                "Electives",
+                "Electives",
+                "Electives"
+            ],
+            "Winter": [
+                "U-D Econ. course",
+                "Electives",
+                "Electives",
+                "Electives"
+            ],
+            "Spring": [
+                "U-D Econ. course",
+                "Electives",
+                "Electives",
+                "Electives"
+            ]
+        },
+        "title": "Economics, B.A."
+    }
+]

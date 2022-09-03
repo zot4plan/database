@@ -1,0 +1,84 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "BIO SCI 93",
+                "CHEM 1A",
+                "HUMAN 1A",
+                "PHRMSCI 1",
+                "General Education"
+            ],
+            "Winter": [
+                "BIO SCI 94",
+                "CHEM 1B",
+                "WRITING 50",
+                "General Education"
+            ],
+            "Spring": [
+                "CHEM 1C-CHEM 1LC",
+                "MATH 2A",
+                "WRITING 60",
+                "General Education "
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "BIO SCI 97",
+                "CHEM 51A-CHEM 1LD",
+                "MATH 2B",
+                "BIO SCI 194S"
+            ],
+            "Winter": [
+                "BIO SCI 98",
+                "CHEM 51B-CHEM 51LB",
+                "PHRMSCI 42",
+                "General Education"
+            ],
+            "Spring": [
+                "BIO SCI 99",
+                "CHEM 51C-CHEM 51LC",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "PHRMSCI 120-PHRMSCI 120L",
+                "BIO SCI 100",
+                "PHYSICS 3A, PHYSICS 7C, or PHYSICS 7LD",
+                "CHEM 51LD"
+            ],
+            "Winter": [
+                "PHRMSCI 170A",
+                "General Education",
+                "PHYSICS 3B, PHYSICS 7D, or PHYSICS 7LD",
+                "Elective",
+                "STATS 7, STATS 8, MATH 2D, or MATH 3A"
+            ],
+            "Spring": [
+                "PHRMSCI 170B",
+                "Elective",
+                "PHYSICS 3C or PHYSICS 7E",
+                "PHRMSCI 76"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHRMSCI 171",
+                "PHRMSCI 174-PHRMSCI 174L",
+                "General Education",
+                "PHRMSCI 172"
+            ],
+            "Winter": [
+                "PHRMSCI 177-PHRMSCI 177L",
+                "General Education",
+                "Upper-Division Elective"
+            ],
+            "Spring": [
+                "General Education",
+                "Upper-Division Elective",
+                "PHRMSCI 173"
+            ]
+        },
+        "title": "Pharmaceutical Sciences, B.S."
+    }
+]

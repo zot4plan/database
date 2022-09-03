@@ -1,0 +1,90 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "MATH 2A",
+                "CHEM 1A or ENGR 1A",
+                "Lower-Division Engineering Elective",
+                "General Education"
+            ],
+            "Winter": [
+                "MATH 2B",
+                "CHEM 1B",
+                "PHYSICS 7C",
+                "PHYSICS 7LC"
+            ],
+            "Spring": [
+                "MATH 2D",
+                "CHEM 1C",
+                "CHEM 1LC",
+                "PHYSICS 7D",
+                "PHYSICS 7LD",
+                "ENGRCEE 81A"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "MATH 3A",
+                "CHEM 51A",
+                "CHEM 1LD",
+                "ENGRCEE 20",
+                "ENGRCEE 30"
+            ],
+            "Winter": [
+                "MATH 3D",
+                "ENGRCEE 11",
+                "ENGRCEE 81B",
+                "General Education"
+            ],
+            "Spring": [
+                "MATH 2E",
+                "ENGRCEE 21",
+                "ENGRMAE 91",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "ENGRCEE 150",
+                "ENGRCEE 150L",
+                "ENGRCEE 170",
+                "ENGR 190W",
+                "Basic Science Elective"
+            ],
+            "Winter": [
+                "ENGRCEE 130",
+                "ENGRCEE 130L",
+                "ENGRCEE 162",
+                "Engineering Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 110",
+                "ENGRCEE 160",
+                "Basic Science Elective",
+                "General Education"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "ENGRCEE 181A",
+                "Engineering Elective",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "ENGRCEE 181B",
+                "Engineering Elective",
+                "Engineering Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 181C",
+                "Engineering Elective",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "title": "Sample Program of Study \u2014 Environmental Engineering"
+    }
+]

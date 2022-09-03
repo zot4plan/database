@@ -1,0 +1,218 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "MATH 2B",
+                "PHYSICS 7C-PHYSICS 7LC",
+                "(PHYSICS 99)"
+            ],
+            "Winter": [
+                "MATH 2D",
+                "PHYSICS 7D-PHYSICS 7LD"
+            ],
+            "Spring": [
+                "MATH 2E",
+                "PHYSICS 7E"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "MATH 3A",
+                "PHYSICS 52A",
+                "PHYSICS 60"
+            ],
+            "Winter": [
+                "MATH 3D",
+                "PHYSICS 52B",
+                "PHYSICS 61A"
+            ],
+            "Spring": [
+                "PHYSICS 52C",
+                "PHYSICS 53",
+                "PHYSICS 61B or PHYSICS 61C"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "PHYSICS 111A",
+                "PHYSICS 50"
+            ],
+            "Winter": [
+                "PHYSICS 111B",
+                "PHYSICS 112A"
+            ],
+            "Spring": [
+                "PHYSICS 112B",
+                "PHYSICS 113A"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHYSICS 115A",
+                "PHYSICS 194"
+            ],
+            "Winter": [
+                "PHYSICS 121W",
+                "PHYSICS 125A"
+            ]
+        },
+        "title": "Sample Program \u2014 Physics Core Curriculum"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "I&C SCI 31"
+            ],
+            "Winter": [
+                "I&C SCI 32"
+            ],
+            "Spring": [
+                "I&C SCI 33"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "MATH 105A-MATH 105LA"
+            ],
+            "Winter": [
+                "MATH 105B-MATH 105LB"
+            ],
+            "Spring": [
+                "MATH 107-MATH 107L"
+            ]
+        },
+        "title": "Sample Program \u2014 Computational Physics Concentration"
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "MATH 2B",
+                "PHYSICS 7C-PHYSICS 7LC",
+                "General Education ",
+                "(PHYSICS 99)"
+            ],
+            "Winter": [
+                "MATH 2D",
+                "PHYSICS 7D-PHYSICS 7LD",
+                "General Education",
+                "PHY SCI 5"
+            ],
+            "Spring": [
+                "MATH 2E",
+                "PHYSICS 7E",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "MATH 3A",
+                "PHYSICS 52A",
+                "PHY SCI 105"
+            ],
+            "Winter": [
+                "MATH 3D",
+                "PHYSICS 61A",
+                "PHYSICS 52B",
+                "PHYSICS 193"
+            ],
+            "Spring": [
+                "PHYSICS 60",
+                "PHYSICS 61B",
+                "PHYSICS 52C",
+                "LPS 60"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "PHYSICS 50",
+                "PHYSICS 111A",
+                "General Science",
+                "General Science",
+                "EDUC 55"
+            ],
+            "Winter": [
+                "PHYSICS 111B",
+                "PHYSICS 112A",
+                "General Science",
+                "EDUC 143AW"
+            ],
+            "Spring": [
+                "PHYSICS 53",
+                "PHYSICS 112B",
+                "PHYSICS 113A",
+                "EDUC 148"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHYSICS 115A",
+                "General Science",
+                "EDUC 143BW"
+            ],
+            "Winter": [
+                "General Education",
+                "EDUC 109",
+                "EDUC 158"
+            ],
+            "Spring": [
+                "PHYSICS 121W",
+                "General Education",
+                "EDUC 158"
+            ]
+        },
+        "title": "Sample Program \u2014 Concentration in Physics Education with Secondary Teaching Certification Option"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "PHYSICS 137"
+            ],
+            "Winter": [
+                "PHYSICS 116"
+            ],
+            "Spring": [
+                "PHYSICS 144 or PHYSICS 145"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHYSICS 113B",
+                "PHYSICS 139"
+            ],
+            "Winter": [
+                "PHYSICS 138"
+            ],
+            "Spring": [
+                "PHYSICS 135",
+                "PHYSICS 125B",
+                "PHYSICS 144 or PHYSICS 145"
+            ]
+        },
+        "title": "Sample Program \u2014 Astrophysics Specialization"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "PHYSICS 115A or PHYSICS 116"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHYSICS 113B",
+                "PHYSICS 115A or PHYSICS 116",
+                "Physics Elective"
+            ],
+            "Winter": [
+                "PHYSICS 113C",
+                "Physics Elective"
+            ],
+            "Spring": [
+                "PHYSICS 135",
+                "PHYSICS 125B",
+                "Physics Elective"
+            ]
+        },
+        "title": "Sample Program - Physics Graduate School Track"
+    }
+]

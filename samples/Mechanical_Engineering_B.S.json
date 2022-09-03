@@ -46,35 +46,36 @@
         },
         "Junior": {
             "Fall": [
+                "ENGRMAE 115 or ENGRMAE 112",
                 "ENGRMAE 130B",
                 "ENGRMAE 150",
                 "ENGRMAE 150L",
                 "ENGR 190W"
             ],
             "Winter": [
-                "ENGRMAE 146",
-                "ENGRMAE 157",
+                "ENGRMAE 52",
+                "ENGRMAE 147",
                 "General Education",
-                "ENGRMAE 130C"
+                "ENGRMAE 155, ENGRMAE 156, or ENGRMAE 157"
             ],
             "Spring": [
-                "ENGRMAE 108",
-                "ENGRMAE 136",
-                "ENGRMAE 170",
+                "ENGRMAE 106",
+                "ENGRMAE 120",
+                "ENGRMAE 145",
                 "General Education"
             ]
         },
         "Senior": {
             "Fall": [
-                "ENGRMAE 112",
-                "ENGRMAE 158",
-                "ENGRMAE 175",
+                "ENGRMAE 107",
+                "ENGRMAE 170",
+                "ENGRMAE 189",
                 "General Education"
             ],
             "Winter": [
-                "ENGRMAE 106",
-                "ENGRMAE 159",
+                "ENGRMAE 151",
                 "Technical Elective*",
+                "Technical Elective",
                 "General Education"
             ],
             "Spring": [
@@ -83,6 +84,6 @@
                 "General Education"
             ]
         },
-        "title": "Aerospace Engineering, B.S."
+        "title": "Mechanical Engineering, B.S."
     }
 ]

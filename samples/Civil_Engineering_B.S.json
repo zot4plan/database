@@ -1,0 +1,163 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "MATH 2A",
+                "CHEM 1A or ENGR 1A",
+                "Lower-Division Technical Elective",
+                "General Education"
+            ],
+            "Winter": [
+                "MATH 2B",
+                "PHYSICS 7C",
+                "PHYSICS 7LC",
+                "CHEM 1B",
+                "General Education"
+            ],
+            "Spring": [
+                "MATH 2D",
+                "PHYSICS 7D",
+                "PHYSICS 7LD",
+                "ENGRCEE 81A",
+                "Basic Science Elective"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "MATH 3A",
+                "ENGRCEE 20",
+                "ENGRCEE 30",
+                "General Education"
+            ],
+            "Winter": [
+                "MATH 3D",
+                "ENGRCEE 11",
+                "ENGRCEE 81B",
+                "General Education"
+            ],
+            "Spring": [
+                "MATH 2E",
+                "ENGRCEE 21",
+                "Lower-Division Technical Elective",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "ENGRCEE 121",
+                "ENGRCEE 150",
+                "ENGRCEE 150L",
+                "ENGRCEE 170",
+                "ENGR 190W"
+            ],
+            "Winter": [
+                "ENGRCEE 130",
+                "ENGRCEE 130L",
+                "ENGRCEE 151A",
+                "ENGRCEE 171"
+            ],
+            "Spring": [
+                "ENGRCEE 110",
+                "ENGRCEE 151C",
+                "ENGRCEE 160",
+                "General Education"
+            ]
+        },
+        "title": "Sample Program of Study \u2014 Civil Engineering"
+    },
+    {
+        "Senior": {
+            "Fall": [
+                "ENGRCEE 181A",
+                "Spec. Elective",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "ENGRCEE 181B",
+                "ENGRCEE 111",
+                "Spec. Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 181C",
+                "Spec. Elective",
+                "Spec. Elective",
+                "General Education"
+            ]
+        },
+        "title": "Senior: General Civil Engineering Specialization"
+    },
+    {
+        "Senior": {
+            "Fall": [
+                "ENGRCEE 181A",
+                "Spec. Elective",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "ENGRCEE 181B",
+                "ENGRCEE 111",
+                "Spec. Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 181C",
+                "Spec. Elective",
+                "Spec. Elective",
+                "General Education"
+            ]
+        },
+        "title": "Civil Engineering, B.S.",
+        "text": "Senior: Environmental Hydrology and Water Resources Specialization"
+    },
+    {
+        "Senior": {
+            "Fall": [
+                "ENGRCEE 181A",
+                "ENGRCEE 155",
+                "Spec. Elective",
+                "General Education"
+            ],
+            "Winter": [
+                "ENGRCEE 181B",
+                "ENGRCEE 111",
+                "Spec. Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 181C",
+                "Spec. Elective",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "title": "Civil Engineering, B.S.",
+        "text": "\u00a0Senior: Structural Engineering Specialization"
+    },
+    {
+        "Senior": {
+            "Fall": [
+                "ENGRCEE 181A",
+                "Spec. Elective",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "ENGRCEE 181B",
+                "ENGRCEE 111",
+                "ENGRCEE 122",
+                "General Education"
+            ],
+            "Spring": [
+                "ENGRCEE 181C",
+                "ENGRCEE 123",
+                "Spec. Elective",
+                "General Education"
+            ]
+        },
+        "title": "Civil Engineering, B.S.",
+        "text": "Senior: Transportation Systems Engineering"
+    }
+]

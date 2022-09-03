@@ -1,0 +1,83 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "EARTHSS 40A",
+                "UPPP 8",
+                "General Education/Elective"
+            ],
+            "Winter": [
+                "EARTHSS 40B",
+                "STATS 7",
+                "General Education/Elective",
+                "General Education/Elective"
+            ],
+            "Spring": [
+                "EARTHSS 40C",
+                "UPPP 5",
+                "General Education/Elective",
+                "General Education/Elective"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "SOCECOL 10",
+                "General Education/Elective",
+                "Elective",
+                "Elective"
+            ],
+            "Winter": [
+                "EARTHSS 70B",
+                "General Education/Elective",
+                "General Education/Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "EARTHSS 70A",
+                "General Education/Elective",
+                "General Education/Elective"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "UPPP 145",
+                "EARTHSS 116",
+                "EARTHSS 192",
+                "Elective"
+            ],
+            "Winter": [
+                "SOCECOL 195",
+                "EARTHSS upper-division elective",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "UPPP 133",
+                "UPPP upper-division elective",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Upper-division elective",
+                "Upper-division elective",
+                "General Education/Elective",
+                "Elective"
+            ],
+            "Winter": [
+                "UPPP 146",
+                "Upper-division elective",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "UPPP upper-division elective",
+                "EARTHSS upper-division elective",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "title": "Environmental Science and Policy, B.A."
+    }
+]

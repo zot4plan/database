@@ -1,0 +1,78 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "I&C SCI 31",
+                "MATH 2A",
+                "WRITING 40"
+            ],
+            "Winter": [
+                "I&C SCI 32",
+                "MATH 2B",
+                "WRITING 50",
+                "General Education III"
+            ],
+            "Spring": [
+                "I&C SCI 33",
+                "IN4MATX 43",
+                "I&C SCI 6B",
+                "WRITING 60"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "I&C SCI 51",
+                "I&C SCI 6D",
+                "I&C SCI 45C"
+            ],
+            "Winter": [
+                "I&C SCI 46",
+                "I&C SCI 6N",
+                "General Education III"
+            ],
+            "Spring": [
+                "I&C SCI 53",
+                "STATS 67",
+                "Computer Science Spec./Elective"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "COMPSCI 161",
+                "Science Elective",
+                "General Education III",
+                "General Education VII"
+            ],
+            "Winter": [
+                "Computer Science Spec./Elective",
+                "Computer Science Spec./Elective",
+                "I&C SCI 139W",
+                "General Education VIII"
+            ],
+            "Spring": [
+                "Computer Science Spec./Elective",
+                "Computer Science Spec./Elective",
+                "Science Elective",
+                "General Education VI"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Computer Science Spec./Elective",
+                "Computer Science Spec./Elective",
+                "General Education IV"
+            ],
+            "Winter": [
+                "Computer Science Spec./Elective",
+                "Computer Science Spec./Elective",
+                "General Education IV"
+            ],
+            "Spring": [
+                "Computer Science Spec./Elective",
+                "Computer Science Spec./Elective",
+                "General Education IV"
+            ]
+        },
+        "title": "Computer Science, B.S."
+    }
+]

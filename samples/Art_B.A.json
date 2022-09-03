@@ -1,0 +1,25 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "ART 1A",
+                "Art History",
+                "WRITING 50",
+                "Lower-Division Art"
+            ],
+            "Winter": [
+                "ART 1B",
+                "Lower-Division Art",
+                "General Education",
+                "WRITING 60"
+            ],
+            "Spring": [
+                "ART 1C",
+                "Lower-Division Art",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "title": "Art Sample Program for Freshman"
+    }
+]
