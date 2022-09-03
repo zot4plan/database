@@ -1,27 +1,10 @@
-from bs4 import BeautifulSoup
 import requests
-from scrape_requirements import request_websites
+from request_websites import request_websites, get_courses_websites
 from Course import Course
 import json
 
 ALL_TERMS = {}
 ALL_PREREQ_INFO = {}
-
-def get_courses_websites():
-    """
-    get_courses_websites scrapes all of the websites that can be redirected from the main UCI
-    course website. 
-    """
-
-    all_websites = set()
-    soup = request_websites("http://catalogue.uci.edu/allcourses/")
-    for elem in soup.find_all('a'):
-        get_href = elem.get('href')
-        if '/allcourses' in str(get_href):
-            all_websites.add('http://catalogue.uci.edu' + get_href)
-
-    all_websites = [elem for elem in all_websites]
-    return sorted(all_websites)[1:]
 
 
 def get_all_terms_prereq():

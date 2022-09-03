@@ -15,6 +15,7 @@ def get_paths():
     """
 
     all_paths = {}
+    majors = set()
     path_name = Path(sys.argv[1])
     for addie in path_name.iterdir():
         find_name = ''
@@ -55,7 +56,7 @@ def check_course_exist(course_id):
         json.dump(all_courses, course_file, indent=4)
 
 
-def write_required_depts(info):
+def get_required_depts(info):
     """
     write_required_depts collects all unique departmental courses of a 
     particular major and return the information in a list
@@ -105,7 +106,7 @@ def write_requirements(file_names, out_file):
             is_major = 1 
             if "Minor" in name:
                 is_major = 0
-            all_depts = write_required_depts(all_info)
+            all_depts = get_required_depts(all_info)
             write_majors.write("INSERT INTO programs (name, is_major, requirement, departments, url) VALUES (" + 
                                 "'" + name + "', " 
                                 + "'" + str(is_major) + "', " 
@@ -115,6 +116,7 @@ def write_requirements(file_names, out_file):
 
     open_urls.close()
     write_majors.close()
+
 
 if __name__ == "__main__":
     

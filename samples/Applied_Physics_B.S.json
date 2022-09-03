@@ -1,0 +1,90 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "CHEM 1A"
+            ],
+            "Winter": [
+                "CHEM 1B"
+            ],
+            "Spring": [
+                "CHEM 1C-CHEM 1LC"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "CHEM 1LD",
+                "CHEM 51A"
+            ],
+            "Winter": [
+                "CHEM 51B"
+            ],
+            "Spring": [
+                "N/A"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "BIO SCI 97"
+            ],
+            "Winter": [
+                "BIO SCI 98"
+            ],
+            "Spring": [
+                "BIO SCI 99"
+            ]
+        },
+        "title": "Sample Program - Biomedical Physics Concentration in Applied Physics"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "N/A"
+            ],
+            "Winter": [
+                "EECS 70A"
+            ],
+            "Spring": [
+                "EECS 70B-EECS 70LB"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "EECS 170A-EECS 170LA"
+            ],
+            "Winter": [
+                "EECS 170B-EECS 170LB",
+                "EECS 188"
+            ],
+            "Spring": [
+                "PHYSICS 106W",
+                "EECS 170C-EECS 170LC"
+            ]
+        },
+        "title": "Sample Program - Engineering Physics Concentration in Applied Physics"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "PHYSICS 115A or PHYSICS 116"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PHYSICS 113B",
+                "PHYSICS 115A or PHYSICS 116",
+                "Physics Elective"
+            ],
+            "Winter": [
+                "PHYSICS 113C",
+                "Physics Elective"
+            ],
+            "Spring": [
+                "PHYSICS 135",
+                "PHYSICS 125B",
+                "Physics Elective"
+            ]
+        },
+        "title": "Sample Program - Physics Graduate School Track"
+    }
+]

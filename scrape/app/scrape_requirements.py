@@ -1,5 +1,4 @@
-from bs4 import BeautifulSoup
-import requests
+from request_websites import request_websites, get_requirements_websites
 import json 
 
 f = open('../../other/courseIDs.json')   
@@ -22,40 +21,6 @@ class Header:
         self.name = name
         self.child = []
         self.typeParent = typeParent
-
-
-def request_websites(url):
-    """
-    request_websites attains permission from the server - with the intend to scrape and turn
-    the link into a Soup object
-    """
-
-    link = requests.get(url).text
-    soup = BeautifulSoup(link, 'lxml')
-    return soup
-
-
-def get_websites():
-    """
-    get_websites scrapes all the redirected websites in the main page of UCI major requirements.
-    return: a list of all the URL addresses that display UCI major requirements
-    """
-
-    major_urls = {}
-    all_href = []
-    soup = request_websites("http://catalogue.uci.edu/undergraduatedegrees/")
-    for elem in soup.find_all('ul'):
-        for each in elem.find_all('a'):
-            href = each.get('href')
-            get_type = href.split('_')
-            website = 'http://catalogue.uci.edu/' + href
-            name = each.text
-            if get_type[-1] in ['minor/', 'bs/', 'ba/', 'bfa/'] and website not in major_urls:
-                all_href.append([each.text, website])
-                major_urls[name] = website
-
-    # write_url(major_urls)
-    return all_href
 
 
 def get_name(in_string):
@@ -191,10 +156,9 @@ def write_to_json(name, info):
 
 if __name__ == "__main__":
     
-    all_program_reqs = get_websites()
+    all_program_reqs = get_requirements_websites()
     for elem in all_program_reqs:
         print(elem[0])
         program_info = scrape_programs(elem[1])
         if program_info != None:
             write_to_json(elem[0], program_info)
-

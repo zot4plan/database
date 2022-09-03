@@ -1,0 +1,356 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "CHEM M2A-CHEM M2LA (CHEM H2A, CHEM H2LA)",
+                "MATH 2A",
+                "Lower-division Writing",
+                "CHEM 11"
+            ],
+            "Winter": [
+                "CHEM M2B-CHEM M2LB (CHEM H2B, CHEM H2LB)",
+                "MATH 2B",
+                "Lower-division Writing"
+            ],
+            "Spring": [
+                "CHEM M2C (CHEM H2C)",
+                "MATH 2D",
+                "CHEM M3LC"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "CHEM 51A-CHEM M52LA (CHEM H52A, CHEM H52LA)",
+                "CHEM 5",
+                "PHYSICS 7C-PHYSICS 7LC"
+            ],
+            "Winter": [
+                "CHEM 51B-CHEM M52LB (CHEM H52B, CHEM H52LB)",
+                "General Education",
+                "PHYSICS 7D-PHYSICS 7LD"
+            ],
+            "Spring": [
+                "CHEM 51C-CHEM M52LC (CHEM H52C, CHEM H52LC)",
+                "PHYSICS 7E",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "CHEM 132A",
+                "CHEM 107",
+                "Chemistry Elective",
+                "General Education"
+            ],
+            "Winter": [
+                "CHEM 132B",
+                "CHEM 152",
+                "Chemistry Elective",
+                "General Education"
+            ],
+            "Spring": [
+                "CHEM 132C",
+                "CHEM 107L",
+                "Elective",
+                "General Education"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Elective/Research",
+                "Upper-division Writing",
+                "Chemistry Elective",
+                "General Education"
+            ],
+            "Winter": [
+                "Elective/Research",
+                "Chemistry Elective",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "Elective/Research",
+                "Chemistry Elective",
+                "General Education"
+            ]
+        },
+        "title": "Sample Program \u2014 Chemistry Majors1",
+        "text": "Items in parentheses are recommended choices or alternatives."
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "CHEM M2A-CHEM M2LA (CHEM H2A, CHEM H2LA)",
+                "MATH 2A",
+                "Lower-Division Writing"
+            ],
+            "Winter": [
+                "CHEM M2B-CHEM M2LB (CHEM H2B, CHEM H2LB)",
+                "MATH 2B",
+                "Lower-Division Writing"
+            ],
+            "Spring": [
+                "CHEM M3C-CHEM M3LC (CHEM H2C, CHEM H2LC)",
+                "MATH 2D",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "CHEM 51A-CHEM M52LA (CHEM H52A, CHEM H52LA)",
+                "PHYSICS 7C-PHYSICS 7LC",
+                "MATH 3A"
+            ],
+            "Winter": [
+                "CHEM 51B-CHEM M52LB (CHEM H52B, CHEM H52LB)",
+                "PHYSICS 7D-PHYSICS 7LD",
+                "MATH 3D"
+            ],
+            "Spring": [
+                "CHEM 51C-CHEM M52LC (CHEM H52C, CHEM H52LC)",
+                "PHYSICS 7E"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "CHEM 132A",
+                "CHEM 107",
+                "PHYSICS 111A",
+                "EECS 12",
+                "PHYSICS 50"
+            ],
+            "Winter": [
+                "CHEM 132B",
+                "PHYSICS 112A",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "CHEM 132C",
+                "PHYSICS 113A",
+                "EECS 20",
+                "General Education"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "CHEM 150",
+                "MATH 105A-MATH 105LA",
+                "EECS 22 (STATS 7)",
+                "Upper-Division Writing"
+            ],
+            "Winter": [
+                "CHEM 150L",
+                "EECS 22L (MATH 105B - MATH 105LB)",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "Elective/Research",
+                "General Education",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "title": "Sample Program - Concentration in Theoretical and Computational Chemistry",
+        "text": "Items in parentheses are recommended choices or alternatives."
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "CHEM 132A",
+                "CHEM 107",
+                "MATH 105A-MATH 105LA",
+                "EECS 12"
+            ],
+            "Winter": [
+                "CHEM 132B",
+                "STATS 7",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "CHEM 132C",
+                "PHYSICS 50",
+                "EECS 20",
+                "General Education"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "CHEM 150",
+                "PHYSICS 111A",
+                "General Education",
+                "Upper-Division Writing"
+            ],
+            "Winter": [
+                "CHEM 150L",
+                "PHYSICS 112A",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "PHYSICS 113A",
+                "EECS 22L",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "title": "Sample program for transfer students entering at the Junior level"
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "CHEM M2A-CHEM M2LA (CHEM H2A, CHEM H2LA)",
+                "MATH 2A",
+                "PHY SCI 5"
+            ],
+            "Winter": [
+                "CHEM M2B-CHEM M2LB (CHEM H2B, CHEM H2LB)",
+                "MATH 2B",
+                "General Education"
+            ],
+            "Spring": [
+                "CHEM M3C-CHEM M3LC (CHEM H2C, CHEM H2LC)",
+                "MATH 2D",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "CHEM 51A-CHEM M52LA (CHEM H52C, CHEM H52LA)",
+                "CHEM 5",
+                "PHY SCI 105",
+                "(PHYSICS 2)"
+            ],
+            "Winter": [
+                "CHEM 51B-CHEM M52LB (CHEM H52B, CHEM H52LB)",
+                "PHYSICS 7C-PHYSICS 7LC",
+                "CHEM 193"
+            ],
+            "Spring": [
+                "CHEM 51C-CHEM M52LC (CHEM H52C, CHEM H52LC)",
+                "PHYSICS 7D-PHYSICS 7LD",
+                "LPS 60",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "CHEM 132A",
+                "CHEM 107",
+                "EDUC 55",
+                "PHYSICS 7E"
+            ],
+            "Winter": [
+                "CHEM 132B",
+                "CHEM 152",
+                "EDUC 143AW"
+            ],
+            "Spring": [
+                "CHEM 132C",
+                "CHEM 107L",
+                "EDUC 148",
+                "Chemistry Elective"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Chemistry Elective",
+                "EDUC 143BW",
+                "General Education"
+            ],
+            "Winter": [
+                "General Education",
+                "EDUC 109",
+                "EDUC 158"
+            ],
+            "Spring": [
+                "General Education",
+                "EDUC 158"
+            ]
+        },
+        "title": "Sample Program \u2014 Concentration in Chemistry Education (with Secondary Teaching Certification option)",
+        "text": "Items in parentheses are recommended choices or alternatives."
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "CHEM M2A-CHEM M2LA (CHEM H2A, CHEM H2LA)",
+                "MATH 2A",
+                "BIO SCI 93",
+                "CHEM 11",
+                "BIO SCI 2A"
+            ],
+            "Winter": [
+                "CHEM M2B-CHEM M2LB (CHEM H2B, CHEM H2LB)",
+                "MATH 2B",
+                "BIO SCI 94",
+                "General Education "
+            ],
+            "Spring": [
+                "CHEM M2C-CHEM M3LC (CHEM H2C, CHEM M3LC)",
+                "MATH 2D",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "CHEM 51A-CHEM M52LA (CHEM H52A, CHEM H52LA)",
+                "CHEM 5",
+                "(Physics 2)",
+                "BIO SCI 97"
+            ],
+            "Winter": [
+                "CHEM 51B-CHEM M52LB (CHEM H52B, CHEM H52LB)",
+                "PHYSICS 7C-PHYSICS 7LC",
+                "BIO SCI 98",
+                "General Education/Elective"
+            ],
+            "Spring": [
+                "CHEM 51C-CHEM M52LC (CHEM H52C, CHEM H52LC)",
+                "PHYSICS 7D-PHYSICS 7LD",
+                "BIO SCI 99",
+                "BIO SCI 194S"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "CHEM 132A",
+                "PHYSICS 7E",
+                "CHEM 107",
+                "BIO SCI 100"
+            ],
+            "Winter": [
+                "CHEM 132B",
+                "CHEM 107L",
+                "General Education/Elective"
+            ],
+            "Spring": [
+                "CHEM 132C",
+                "Bio. Sci. major course"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Bio. Sci. major course",
+                "Bio. Sci. Lab",
+                "General Education/Elective"
+            ],
+            "Winter": [
+                "Chemistry Elective",
+                "Bio. Sci. Elective",
+                "Bio. Sci. Lab",
+                "General Education/Elective"
+            ],
+            "Spring": [
+                "Chemistry Elective",
+                "Chemistry Elective",
+                "Bio. Sci. Lab",
+                "General Education/Elective"
+            ]
+        },
+        "title": "Sample Program \u2014 Chemistry-Biological Sciences Double Majors",
+        "text": "Items in parentheses are recommended choices or alternatives."
+    }
+]

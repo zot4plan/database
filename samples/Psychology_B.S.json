@@ -1,0 +1,375 @@
+[
+    {
+        "Freshman": {
+            "Fall": [
+                "PSYCH 9A",
+                "PSYCH 10A",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 9B",
+                "PSYCH 10B",
+                "General Education",
+                "Computer Tech Requirement"
+            ],
+            "Spring": [
+                "PSYCH 9C",
+                "PSYCH 10C",
+                "General Education"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "Psych. Core course",
+                "LPS 31",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "Psych. Core course",
+                "General Education",
+                "Science Course 1",
+                "Psych. Module"
+            ],
+            "Spring": [
+                "Research Methods",
+                "Research Methods Lab",
+                "General Education",
+                "Science Course 2"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "Research Methods",
+                "Research Methods Lab",
+                "Psych. Core course",
+                "Science course"
+            ],
+            "Winter": [
+                "Research Methods",
+                "Research Methods Lab",
+                "Psych. Core course",
+                "Additional science course"
+            ],
+            "Spring": [
+                "Psych. Module",
+                "Psych. Module",
+                "Additional science course",
+                "Additional science course"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Additional Psych. course",
+                "Additional Psych. course",
+                "Elective",
+                "Elective"
+            ],
+            "Winter": [
+                "Additional Psych. course",
+                "Elective",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "Elective",
+                "Elective",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "title": "Sample Program - General"
+    },
+    {
+        "Junior": {
+            "Fall": [
+                "PSYCH 9B",
+                "PSYCH 10A",
+                "Psych. Core course",
+                "Elective"
+            ],
+            "Winter": [
+                "Computer Tech Requirement",
+                "PSYCH 10B",
+                "Psych. Core course",
+                "Elective"
+            ],
+            "Spring": [
+                "LPS 31",
+                "PSYCH 10C",
+                "Psych. Core course",
+                "Upper-division writing"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "Research Methods",
+                "Research Methods Lab",
+                "Psych. Module",
+                "Psych. Core course"
+            ],
+            "Winter": [
+                "Research Methods",
+                "Research Methods Lab",
+                "Psych. Module",
+                "Additional Psych. course"
+            ],
+            "Spring": [
+                "Research Methods",
+                "Research Methods Lab",
+                "Psych. Module",
+                "Additional Psych. course"
+            ]
+        },
+        "title": "Psychology, B.S.",
+        "text": "Sample Program - Transfer"
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "PSYCH 9A",
+                "MATH 2A",
+                "Science course (C)",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 9B",
+                "MATH 2B",
+                "Science course (C)",
+                "General Education"
+            ],
+            "Spring": [
+                "PSYCH 9C",
+                "Science course (C)",
+                "General Education",
+                "Elective"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "PSYCH 10A",
+                "COGS 14P",
+                "Science course (C)",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 10B",
+                "Science course (C)",
+                "General Education",
+                "Core course (D)"
+            ],
+            "Spring": [
+                "PSYCH 10C",
+                "COGS 109",
+                "Science course (C)",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "Core course (D)",
+                "Core elective (E)",
+                "COGS 107",
+                "Research Methods (B)"
+            ],
+            "Winter": [
+                "Research Methods (B)",
+                "Core elective (E)",
+                "COGS 106",
+                "Elective"
+            ],
+            "Spring": [
+                "Core course (D)",
+                "Core elective (E)",
+                "COGS 108",
+                "Elective"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "COGS H101A",
+                "Research Methods (B)",
+                "Core elective (E)",
+                "Elective"
+            ],
+            "Winter": [
+                "COGS H101B",
+                "Elective",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "COGS H101C",
+                "Elective",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "title": "Sample Program - Honors in Cognitive Sciences"
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "PSYCH 9A",
+                "LPS 31",
+                "Science course",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 9B",
+                "Science course",
+                "General Education",
+                "Elective"
+            ],
+            "Spring": [
+                "PSYCH 9C",
+                "Science course",
+                "General Education",
+                "Elective"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "PSYCH 10A",
+                "Computer Tech Requirement",
+                "Additional Science course",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 10B",
+                "Additional Science course",
+                "General Education",
+                "Core course"
+            ],
+            "Spring": [
+                "PSYCH 10C",
+                "Psych Module",
+                "Additional Science course",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "Core course",
+                "Elective",
+                "Research Methods",
+                "Elective"
+            ],
+            "Winter": [
+                "Research Methods",
+                "Core course",
+                "Psych Module",
+                "Elective"
+            ],
+            "Spring": [
+                "Core course",
+                "Psych Module",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PSYCH H101A",
+                "Research Methods",
+                "Elective",
+                "Elective"
+            ],
+            "Winter": [
+                "PSYCH H101B",
+                "Elective",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "PSYCH H101C",
+                "Additional Psych Course",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "title": "Sample Program - Honors in Psychology, B.S."
+    },
+    {
+        "Freshman": {
+            "Fall": [
+                "PSYCH 9A",
+                "General Education",
+                "General Education"
+            ],
+            "Winter": [
+                "PSYCH 9B",
+                "General Education",
+                "General Education",
+                "SOC SCI 3A"
+            ],
+            "Spring": [
+                "PSYCH 9C",
+                "General Education",
+                "General Education",
+                "Intro. Soc. Sci. course"
+            ]
+        },
+        "Sophomore": {
+            "Fall": [
+                "Intro. Statistics",
+                "Psych. Core course",
+                "Intro. Soc. Sci. course",
+                "General Education"
+            ],
+            "Winter": [
+                "Intro. Statistics",
+                "Psych. Core course",
+                "General Education",
+                "General Education"
+            ],
+            "Spring": [
+                "Intro. Statistics",
+                "Psych. Core course",
+                "General Education",
+                "General Education"
+            ]
+        },
+        "Junior": {
+            "Fall": [
+                "Psych. Core course",
+                "Psych. Module",
+                "Research Methods",
+                "Elective"
+            ],
+            "Winter": [
+                "General Education",
+                "Psych. Module",
+                "Elective",
+                "U-D Psych. course"
+            ],
+            "Spring": [
+                "U-D Psych. course",
+                "Psych. Module",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "Senior": {
+            "Fall": [
+                "PSYCH H101A",
+                "U-D Psych. course",
+                "Elective",
+                "Elective"
+            ],
+            "Winter": [
+                "PSYCH H101B",
+                "U-D Psych. course",
+                "Elective",
+                "Elective"
+            ],
+            "Spring": [
+                "PSYCH H101C",
+                "Elective",
+                "Elective",
+                "Elective"
+            ]
+        },
+        "title": "Sample Program - Honors in Psychology, B.A."
+    }
+]
