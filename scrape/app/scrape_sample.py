@@ -11,7 +11,7 @@ def get_uci_samples():
     get_uci_samples searches for schedule tables of each
     major requirement and call create_tables to collect information
     """
-    open_urls = open('../../other/program_Urls.json')
+    open_urls = open('../../store/program_urls.json')
     all_urls = load(open_urls)
 
     for major, website in all_urls.items():

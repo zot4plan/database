@@ -1,7 +1,7 @@
 from request_websites import request_websites, get_requirements_websites
 import json 
 
-f = open('../../other/courseIDs.json')   
+f = open('../../store/course_ids.json')   
 Data = {elem for elem in json.load(f)}
 f.close()
 
@@ -130,7 +130,7 @@ def write_url(all_url):
     """
     write_url will saves all of the major requirement urls into a json file.
     """
-    with open('../../other/program_Urls.json', 'w') as f:
+    with open('../../store/program_urls.json', 'w') as f:
         json.dump(all_url, f, indent=4)
 
 
