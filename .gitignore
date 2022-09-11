@@ -2,6 +2,8 @@
 __pycache__/
 /__pycache__
 /scrape/__pycache__
-
+programs/
+other/
+holder/
 # misc
 .DS_Store

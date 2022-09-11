@@ -19,7 +19,6 @@ def get_all_terms_prereq():
         for course in all_info:
             ALL_TERMS[course['id']] = course['terms']
             ALL_PREREQ_INFO[course['id']] = {'tree': course['prerequisite_tree'], 'prereq_for': course['prerequisite_for']}
-
     except:
         print("Failed to attain API Request")
 
@@ -38,7 +37,6 @@ def get_courses(url):
         section = elem.find('div', class_='courseblockdesc')
         get_info = section.find_all('p')
         course_info = Course()
-
         course_info.set_header_info(header.text)
 
         for x in range(len(get_info)):
@@ -79,7 +77,7 @@ def write_courses():
                 f.write(write_course_helper(key, value))
                 for cat in value.ge_list:
                     write_ge.write('INSERT INTO courses_in_ge (course_id, ge_id) VALUES (\'' + key + '\',\'' + cat + '\');' + '\n')
-    
+
     write_ge.close()
 
     with open('../../other/courseIDs.json', 'w') as f: 
@@ -117,11 +115,10 @@ def write_course_helper(key, info):
         sql_string += ',\'' + course_info['past_terms'] + '\');' + '\n'
     else:
         sql_string += ',' + 'null' + ');' + '\n'
-    
+
     return sql_string
 
 
 if __name__ == "__main__":
-
     get_all_terms_prereq()
     write_courses()

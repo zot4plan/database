@@ -11,7 +11,7 @@ class Course:
         self.course_key = ''
         self.department = ''
         self.units_str = '0'
-        self.units_range = [0.0, 0.0]
+        self.units_range = [0, 0]
         self.description = ''
         self.prerequisite = ''
         self.prerequisite_tree = ''
@@ -47,7 +47,7 @@ class Course:
             self.units_str = header_info[2]
 
         units_range = header_info[2].split(' ')[0]
-        units_range = [float(elem) if elem != '' else 0.0 for elem in units_range.split('-')]
+        units_range = [0 if elem == '' else float(elem) if float(elem) % 1 != 0 else int(float(elem)) for elem in units_range.split('-')]
 
         if len(units_range) == 1:
             units_range.append(units_range[0])

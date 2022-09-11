@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS zot4plandb;
-\c zot4plandb;
-
 DROP TABLE IF EXISTS courses_in_ge;
 DROP TABLE IF EXISTS general_education;
 DROP TABLE IF EXISTS courses;
