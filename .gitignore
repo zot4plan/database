@@ -8,3 +8,4 @@ other/
 holder/
 # misc
 .DS_Store
+.vscode
