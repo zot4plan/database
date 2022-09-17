@@ -1,8 +1,5 @@
 DROP TABLE IF EXISTS courses_in_ge;
-DROP TABLE IF EXISTS general_education;
 DROP TABLE IF EXISTS courses;
-DROP TABLE IF EXISTS programs;
-DROP TABLE IF EXISTS visits;
 
 CREATE TABLE courses (
     course_id VARCHAR(25) PRIMARY KEY,
@@ -14,18 +11,20 @@ CREATE TABLE courses (
     prerequisite TEXT,
     prerequisite_tree json,
     prerequisite_for TEXT [],
-    restriction TEXT,
-    repeatability integer,
     corequisite TEXT,
-    pre_or_core TEXT,
+    corequisite_tree json,
+    prerequisite_or_corequisite TEXT,
+    prerequisite_or_corequisite_tree json,
+    restriction TEXT,
     same_as TEXT,
     overlaps_with TEXT,
     concurrent_with TEXT,
+    repeatability integer,
     ge TEXT,
-    terms TEXT
+    past_terms TEXT
 );
 
-CREATE TABLE programs(
+CREATE TABLE if not exists programs(
     program_id serial PRIMARY KEY,
     name TEXT NOT NULL,
     is_major boolean NOT NULL,
@@ -34,7 +33,7 @@ CREATE TABLE programs(
     url TEXT NOT NULL
 );
 
-CREATE TABLE general_education(
+CREATE TABLE if not exists general_education(
     ge_id VARCHAR(5) PRIMARY KEY,
     name TEXT NOT NULL,
     note TEXT NOT NULL

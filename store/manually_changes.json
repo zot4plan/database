@@ -1,0 +1,842 @@
+{
+    "BIO SCI 191CW": {
+        "prerequisite": "BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.",
+        "prerequisite_tree": {
+            "or": [
+                "BIO SCI 191B",
+                "EARTHSS 190B",
+                "SOCECOL 186B"
+            ]
+        }
+    },
+    "CHC/LAT 101": {
+        "prerequisite_tree": ""
+    }, 
+    "COGS 112P": { 
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "PSYCH 9A",
+                                "PSYCH 9B",
+                                "PSYCH 9C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "PSCI 11A",
+                                "PSCI 11B",
+                                "PSCI 11C"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 10C",
+                                "SOC SCI 10C",
+                                "ANTHRO 10C",
+                                "SOCIOL 10C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "MATH 2B",
+                                "STATS 7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "COGS 112R": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "PSYCH 9A",
+                                "PSYCH 9B",
+                                "PSYCH 9C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "PSCI 11A",
+                                "PSCI 11B",
+                                "PSCI 11C"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 10C",
+                                "SOC SCI 10C",
+                                "ANTHRO 10C",
+                                "SOCIOL 10C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "MATH 2B",
+                                "STATS 7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "COMPSCI 268": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        "STATS 67",
+                        {
+                            "and": [
+                                "STATS 7",
+                                "STATS 120A"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "I&C SCI 6N",
+                        "MATH 3A"
+                    ]
+                }
+            ]
+        }
+    },
+    "DANCE 134A": {
+        "prerequisite_tree": ""
+    },
+    "DANCE 135A": {
+        "prerequisite_tree": ""
+    },
+    "DANCE 142A": {
+        "prerequisite_tree": ""
+    },
+    "DANCE 152A": {
+        "prerequisite_tree": ""
+    },
+    "DANCE 155A": {
+        "prerequisite_tree": ""
+    },
+    "DRAMA 144": {
+        "prerequisite_tree": {
+            "and": [
+                "DRAMA 143A", 
+                "DRAMA 143B", 
+                "DRAMA 143C"
+            ]
+        }
+    },
+    "DRAMA 146": {
+        "prerequisite_tree": ""
+    },
+    "DRAMA 176": {
+        "prerequisite_tree": {
+            "or":[
+                {
+                    "and":[
+                        "DRAMA 148A",
+                        "DRAMA 148B"
+                    ]
+                },
+                {
+                    "and":[
+                        "DRAMA 148A",
+                        "DRAMA 148C"
+                    ]
+                },
+                {
+                    "and":[
+                        "DRAMA 148B",
+                        "DRAMA 148C"
+                    ]
+                }
+            ]
+        }
+    },
+    "EARTHSS 190CW": {
+        "prerequisite": "BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.",
+        "prerequisite_tree": {
+            "or": [
+                "BIO SCI 191B",
+                "EARTHSS 190B",
+                "SOCECOL 186B"
+            ]
+        }
+    },
+    "ECON 123A": {
+        "prerequisite_tree": {
+            "and": [
+                "MATH 2A",
+                "MATH 2B",
+                "MATH 3A",
+                {
+                    "or": [
+                        "STATS 120C",
+                        "MATH 130C"
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B",
+                                "ECON 100C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B",
+                                "ECON 105C"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 132A": {
+        "prerequisite_or_corequisite_tree": {
+            "or": [
+                {
+                    "and": [
+                        "ECON 15A",
+                        "ECON 15B",
+                        {
+                            "or": [
+                                "ECON 122A",
+                                "ECON 123A"
+                            ]
+                        },
+                        {
+                            "or": [
+                                {
+                                    "and": [
+                                        "ECON 100A",
+                                        "ECON 100B",
+                                        "ECON 100C"
+                                    ]
+                                }, 
+                                {
+                                    "and": [
+                                        "ECON 105A",
+                                        "ECON 105B",
+                                        "ECON 105C"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "and": [
+                        {
+                            "and": [
+                                "MATH 130A",
+                                "STATS 120A",
+                                "STATS 120B",
+                                "STATS 120C"
+                            ]
+                        },
+                        "MATH 130B"   
+                    ]
+                } 
+            ]
+        }
+    },
+    "ECON 161A": {
+        "prerequisite_or_corequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "ECON 100C",
+                        "ECON 105C"
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 161B": {
+        "prerequisite_or_corequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "ECON 100C",
+                        "ECON 105C"
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 134A": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B",
+                                "ECON 100C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B",
+                                "ECON 105C"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "ECON 15A",
+                        "MATH 130A",
+                        "STATS 120A"
+                    ]
+                },
+                {
+                    "or": [
+                        "ECON 15B",
+                        "MATH 130B",
+                        "STATS 120B"
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 142A": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "and": [
+                        "ECON 15A",
+                        "ECON 15B"
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 151A": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "and": [
+                        "ECON 15A",
+                        "ECON 15B"
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ECON 162": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        "ECON 15A",
+                        "STATS 120A"
+                    ]
+                },
+                {
+                    "or": [
+                        "ECON 15B",
+                        "STATS 120B"
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ECON 100A",
+                                "ECON 100B",
+                                "ECON 100C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ECON 105A",
+                                "ECON 105B",
+                                "ECON 105C"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "EECS 213P": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 101W": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 102A": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 102B": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 102C": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 102D": {
+        "prerequisite_tree": ""
+    },
+    "ENGLISH 106": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        "ENGLISH 101W",
+                        "WRITING 101W"
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 102A"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 102B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 102C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 102D"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 102A",
+                                "ENGLISH 102B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 102A",
+                                "ENGLISH 102C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 102A",
+                                "ENGLISH 102D"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 102B",
+                                "ENGLISH 102C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 102C",
+                                "ENGLISH 102D"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 103",
+                                "ENGLISH 102A"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 103",
+                                "ENGLISH 102B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 103",
+                                "ENGLISH 102C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 103",
+                                "ENGLISH 102D"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 105",
+                                "ENGLISH 102A"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 105",
+                                "ENGLISH 102B"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 105",
+                                "ENGLISH 102C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 105",
+                                "ENGLISH 102D"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 103"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 103",
+                                "ENGLISH 105"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "ENGLISH 100",
+                                "ENGLISH 105"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ENGRCEE 181A": {
+        "prerequisite_tree": {
+            "and": [
+                "ENGRCEE 81A",
+                "ENGRCEE 81B",
+                "ENGRCEE 110",
+                {
+                    "or": [
+                        "ENGRCEE 121",
+                        "ENGRCEE 151C",
+                        "ENGRCEE 162",
+                        "ENGRCEE 171"
+                    ]
+                },
+                "ENGRCEE 181A",
+                "ENGRCEE 181B"
+            ]
+        }
+    },
+    "PHYSICS 7C": {
+        "prerequisite_tree": "",
+        "corequisite_tree": {
+            "and": [
+                "PHYSICS 7LC"
+            ]
+        }
+    },
+    "PSYCH 112M": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "PSYCH 9A",
+                                "PSYCH 9B",
+                                "PSYCH 9C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "PSY BEH 11A",
+                                "PSY BEH 11B",
+                                "PSY BEH 11C"
+                            ]
+                        }
+                    ]
+                },
+                {   
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 10C",
+                                "SOC SCI 10C",
+                                "ANTHRO 10C",
+                                "POL SCI 10C",
+                                "SOCIOL 10C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "MATH 2B",
+                                "STATS 7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "PSYCH 112P": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "PSYCH 9A",
+                                "PSYCH 9B",
+                                "PSYCH 9C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "PSCI 11A",
+                                "PSCI 11B",
+                                "PSCI 11C"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 10C",
+                                "SOC SCI 10C",
+                                "ANTHRO 10C",
+                                "POL SCI 10C",
+                                "SOCIOL 10C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "MATH 2B",
+                                "STATS 7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "PSYCH 112R": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "and": [
+                                "PSYCH 9A",
+                                "PSYCH 9B",
+                                "PSYCH 9C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "PSCI 11A",
+                                "PSCI 11B",
+                                "PSCI 11C"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 10C",
+                                "SOC SCI 10C",
+                                "ANTHRO 10C",
+                                "POL SCI 10C",
+                                "SOCIOL 10C"
+                            ]
+                        },
+                        {
+                            "and": [
+                                "MATH 2B",
+                                "STATS 7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "PSYCH 120H": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 7A",
+                                "PSCI 9"
+                            ]
+                        },
+                        {
+                            "or": [
+                                "PSYCH 9A",
+                                "PSCI 11A"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "PSYCH 9B",
+                        "PSCI 11B"
+                    ]
+                },
+                {
+                    "or": [
+                        "PSYCH 9C",
+                        "PSCI 11C"
+                    ]
+                }
+            ]
+        }
+    },
+    "PSYCH 121M": {
+        "prerequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        {
+                            "or": [
+                                "PSYCH 7A",
+                                "PSCI 9"
+                            ]
+                        },
+                        {
+                            "or": [
+                                "PSYCH 9A",
+                                "PSCI 11A"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "or": [
+                        "PSYCH 9B",
+                        "PSCI 11B"
+                    ]
+                },
+                {
+                    "or": [
+                        "PSYCH 9C",
+                        "PSCI 11C"
+                    ]
+                }
+            ]
+        }
+    },
+    "VIETMSE 2A": {
+        "prerequisite_tree": {
+            "and": [
+                "VIETMSE 1C",
+                "VIETMSE S1BC",
+                {
+                    "or": [
+                        "Placement exam"
+                    ]
+                }
+            ]
+        }
+    }
+}
