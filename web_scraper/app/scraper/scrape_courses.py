@@ -4,9 +4,7 @@ from scraper.request_websites import request_websites, get_courses_websites
 from models.Course import Course
 import json
 
-ALL_TERMS = {}
-ALL_PREREQUISITE_FOR = {}
-
+TERMS = {}
 
 def get_terms() -> None:
     """
@@ -19,7 +17,7 @@ def get_terms() -> None:
         all_info = response.json()
 
         for course in all_info:
-            ALL_TERMS[course['id']] = course['terms']
+            TERMS[course['id']] = course['terms']
             
     except:
         print("Failed to attain API Request")
@@ -54,7 +52,7 @@ def get_courses(url: str) -> dict:
             if ge:
                 course.set_ge(ge.text)
 
-            course.set_terms(ALL_TERMS[course.course_id.replace(' ', '')])
+            course.set_terms(TERMS[course.course_id.replace(' ', '')])
 
         course_dict[course.course_id] = course
     return course_dict

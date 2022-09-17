@@ -134,6 +134,9 @@
     "DANCE 155A": {
         "prerequisite_tree": ""
     },
+    "DRAMA 130": {
+        "prerequisite_tree": ""
+    },
     "DRAMA 144": {
         "prerequisite_tree": {
             "and": [
