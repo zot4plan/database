@@ -1,4 +1,4 @@
-from helper.prerequisite_tree import build_trees
+from export.build_tree import build_trees
 from scraper.scrape_courses import scrape_courses
 from export.courses_sql import export_courses
 
