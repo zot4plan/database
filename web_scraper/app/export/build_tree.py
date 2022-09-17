@@ -158,22 +158,29 @@ def check_token (words: list) -> str:
 
 def filter_text(text: str) -> str:
     sentences = text.split('.')
-    sentences = [s for s in sentences if not any( w in s.lower() for w in invalid_words)]
-    if not sentences:
+    filter_sentences = []
+    for s in sentences:
+        if 'placement' in s.lower():
+            filter_sentences.append('Placement exam')
+        elif not any( w in s.lower() for w in invalid_words):
+            filter_sentences.append(s)
+
+    if not filter_sentences:
         return ''
-    elif len(sentences) == 1:
+    elif len(filter_sentences) == 1:
         return sentences[0]
     else:
-        return '. '.join(sentences)
+        return '. '.join(filter_sentences)
 
 def build_trees(file_path: str):
     types = ['prerequisite', 'corequisite', 'prerequisite_or_corequisite']
     for course_id, value in common.courses.items():         
         for type in types:
             common.courses[course_id][type + '_tree'] = build_tree(filter_text(value[type]))
-            print(course_id + ' - ' + type)
-            print(common.courses[course_id][type + '_tree'])
-            print()
+            if common.courses[course_id][type + '_tree']:
+                print(course_id + ' - ' + type)
+                print(common.courses[course_id][type + '_tree'])
+                print()
             
     for course_id, value in common.manually_changes.items():
         for type in types:

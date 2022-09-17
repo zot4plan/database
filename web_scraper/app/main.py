@@ -17,7 +17,7 @@ def menu():
     print("\n------------------Other------------------\n")
     print("Prerequisite/Corequisite Tree: 7")
     print("\n-----------------------------------------\n")
-    print("Exit: 0")      
+    print("Exit: 0\n")      
 
 def validate_option(option: str) -> bool:
     return option.isnumeric() and 0 <= int(option) < 8 
@@ -41,15 +41,11 @@ def execute_option(option: chr):
         build_trees(root_json + 'courses.json')
         
 if __name__ == "__main__":
-    exit = False
-    while not exit:
-        menu()       
-        option = input("Enter your option: ")
-        while not validate_option(option) :
-            option = input("Invalid option\n" + "Enter again: ")
-        
-        if option != '0':
-            execute_option(option)
-        else:
-            exit = True
+    menu()       
+    option = input("Enter your option: ")
+    while not validate_option(option) :
+        option = input("Invalid option\n" + "Enter again: ")
+    
+    if option != '0':
+        execute_option(option)
 
