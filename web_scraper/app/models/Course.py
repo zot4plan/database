@@ -27,7 +27,7 @@ class Course:
         self.repeatability = 1
         self.ge_string = ''
         self.ge_list = []
-        self.past_terms = ''
+        self.terms = ''
 
 
     def set_header_info(self, header_info):
@@ -156,7 +156,7 @@ class Course:
         for term in terms_in_order:
             if term in past_terms:
                 in_string += term + ': ' + past_terms[term] + '.'
-        self.past_terms = in_string
+        self.terms = in_string
 
 
     def set_prereq_info(self, prerequisite_for: str):
