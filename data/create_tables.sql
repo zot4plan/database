@@ -21,7 +21,7 @@ CREATE TABLE courses (
     concurrent_with TEXT,
     repeatability integer,
     ge TEXT,
-    past_terms TEXT
+    terms TEXT
 );
 
 CREATE TABLE if not exists programs(

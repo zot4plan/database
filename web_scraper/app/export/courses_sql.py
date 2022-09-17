@@ -40,8 +40,8 @@ def insert_course_string(course_id: str, course: dict) -> str:
         else:
             sql_string.append(', ' + 'null')
     
-    if course['past_terms']:
-        sql_string.append(',\'' + course['past_terms'] + '\');' + '\n')
+    if course['terms']:
+        sql_string.append(',\'' + course['terms'] + '\');' + '\n')
     else:
         sql_string.append(',' + 'null' + ');' + '\n')
 
