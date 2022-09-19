@@ -626,6 +626,7 @@
     },
     "PHYSICS 7C": {
         "prerequisite_tree": "",
+        "corequisite": "PHYSICS 7LC",
         "corequisite_tree": {
             "and": [
                 "PHYSICS 7LC"
