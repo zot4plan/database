@@ -159,6 +159,6 @@ class Course:
         self.terms = in_string
 
 
-    def set_prereq_info(self, prerequisite_for: str):
-        self.prerequisite_for = prerequisite_for
+    def set_prerequisite_tree(self, prerequisite_tree: str):
+        self.prerequisite_tree = prerequisite_tree
     

@@ -193,3 +193,16 @@ def build_trees(file_path: str):
         json.dump(common.courses, f, indent=4)
 
     print('Done\n')
+
+def export_trees_only(file_path: str):
+    types = ['prerequisite', 'corequisite', 'prerequisite_or_corequisite']
+    export_courses = {}
+    for course_id, value in common.courses.items():   
+        export_courses[course_id] = {}      
+        for type in types:
+            export_courses[course_id][type + '_tree'] = build_tree(filter_text(value[type]))
+            
+    with open(file_path, 'w') as f:
+        json.dump(export_courses, f, indent=2)
+
+    print('Done\n')

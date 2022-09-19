@@ -1,4 +1,4 @@
-from export.build_tree import build_trees
+from export.build_tree import build_trees, export_trees_only
 from scraper.scrape_courses import scrape_courses
 from export.courses_sql import export_courses
 
@@ -15,12 +15,13 @@ def menu():
             + "courses_in_ge.sql: 5\n\n"
             + "programs.sql: 6")
     print("\n------------------Other------------------\n")
-    print("Prerequisite/Corequisite Tree: 7")
+    print("Build Prerequisite/Corequisite Tree: 7\n")
+    print("Export Prerequisite/Corequisite Tree only: 8")
     print("\n-----------------------------------------\n")
     print("Exit: 0\n")      
 
 def validate_option(option: str) -> bool:
-    return option.isnumeric() and 0 <= int(option) < 8 
+    return option.isnumeric() and 0 <= int(option) < 9 
 
 def execute_option(option: chr):
     if option == '1':
@@ -39,6 +40,8 @@ def execute_option(option: chr):
         print('todo')
     elif option == '7':       
         build_trees(root_json + 'courses.json')
+    elif option == '8':       
+        export_trees_only(root_json + 'trees.json')
         
 if __name__ == "__main__":
     menu()       
