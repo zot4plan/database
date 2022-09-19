@@ -5,12 +5,11 @@ from models.Course import Course
 import json
 
 TERMS = {}
+#PREREQUISITE_TREES = {}
 
 def get_terms() -> None:
-    """
-    send an API request to PeterPortal API and retrieve all information
-    regarding UCI courses and save past terms that offered the course
-    """
+    # send an API request to PeterPortal API and retrieve all information
+    # regarding UCI courses and save past terms that offered the course
     
     try:
         response = requests.get("https://api.peterportal.org/rest/v0/courses/all")
@@ -18,7 +17,7 @@ def get_terms() -> None:
 
         for course in all_info:
             TERMS[course['id']] = course['terms']
-            
+            #PREREQUISITE_TREES[course['id']] = course['prerequisite_tree']
     except:
         print("Failed to attain API Request")
 
@@ -53,6 +52,7 @@ def get_courses(url: str) -> dict:
                 course.set_ge(ge.text)
 
             course.set_terms(TERMS[course.course_id.replace(' ', '')])
+            #course.set_prerequisite_tree(PREREQUISITE_TREES[course.course_id.replace(' ', '')])
 
         course_dict[course.course_id] = course
     return course_dict

@@ -624,6 +624,16 @@
             ]
         }
     },
+    "KOREAN S1BC": { 
+        "prerequisite": "KOREAN S1AB or KOREAN 1B or KOREAN 1KB. KOREAN S1AB with a grade of C or better. KOREAN 1B with a grade of C or better. KOREAN 1KB with a grade of C or better. Pacement into KOREAN 1C or KOREAN 1KC is also accepted.",
+        "prerequisite_tree": {
+            "or": [
+                "KOREAN S1AB",
+                "KOREAN 1B",
+                "Placement exam"
+            ]
+        }
+    },
     "PHYSICS 7C": {
         "prerequisite_tree": "",
         "corequisite": "PHYSICS 7LC",

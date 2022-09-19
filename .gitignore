@@ -6,6 +6,7 @@ __pycache__/
 programs/
 other/
 holder/
+store/trees.json
 # misc
 .DS_Store
 .vscode
