@@ -2,7 +2,7 @@ import json
 import common
 
 invalid_words = set([
-    'satisfaction', 'satisfactory', 'audition', 'year',
+    'satisfaction', 'satisfactory', 'audition', 'year', 'same',
     'better', 'below', 'grade', 'minimum', 'score', 'scores',
     'recommended:','recommemded', 'requirement', 'credit']) 
 
@@ -162,7 +162,7 @@ def filter_text(text: str) -> str:
     for s in sentences:
         if 'placement' in s.lower():
             filter_sentences.append('Placement exam')
-        elif not any( w in s.lower() for w in invalid_words):
+        elif not any( w in s.lower().split(' ') for w in invalid_words):
             filter_sentences.append(s)
 
     if not filter_sentences:
@@ -177,10 +177,10 @@ def build_trees(file_path: str):
     for course_id, value in common.courses.items():         
         for type in types:
             common.courses[course_id][type + '_tree'] = build_tree(filter_text(value[type]))
-            if common.courses[course_id][type + '_tree']:
-                print(course_id + ' - ' + type)
-                print(common.courses[course_id][type + '_tree'])
-                print()
+            # if common.courses[course_id][type + '_tree']:
+            #     print(course_id + ' - ' + type)
+            #     print(common.courses[course_id][type + '_tree'])
+            #     print()
             
     for course_id, value in common.manually_changes.items():
         for type in types:
@@ -194,7 +194,7 @@ def build_trees(file_path: str):
 
     print('Done\n')
 
-def export_trees_only(file_path: str):
+def export_trees(file_path: str):
     types = ['prerequisite', 'corequisite', 'prerequisite_or_corequisite']
     export_courses = {}
     for course_id, value in common.courses.items():   

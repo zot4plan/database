@@ -1,6 +1,7 @@
-from export.build_tree import build_trees, export_trees_only
+from export.build_tree import build_trees, export_trees
 from scraper.scrape_courses import scrape_courses
-from export.courses_sql import export_courses
+from export.courses import export_courses
+from export.ap_exams import export_ap_exam
 
 root_sql = '../../data/'
 root_json = '../../store/'
@@ -16,12 +17,13 @@ def menu():
             + "programs.sql: 6")
     print("\n------------------Other------------------\n")
     print("Build Prerequisite/Corequisite Tree: 7\n")
-    print("Export Prerequisite/Corequisite Tree only: 8")
+    print("Export Prerequisite/Corequisite Tree: 8\n")
+    print("Export AP exams: 9")
     print("\n-----------------------------------------\n")
     print("Exit: 0\n")      
 
 def validate_option(option: str) -> bool:
-    return option.isnumeric() and 0 <= int(option) < 9 
+    return option.isnumeric() and 0 <= int(option) < 10 
 
 def execute_option(option: chr):
     if option == '1':
@@ -41,7 +43,9 @@ def execute_option(option: chr):
     elif option == '7':       
         build_trees(root_json + 'courses.json')
     elif option == '8':       
-        export_trees_only(root_json + 'trees.json')
+        export_trees(root_json + 'trees.json')
+    elif option == '9':       
+        export_ap_exam(root_json + 'ap_exam.sql')
         
 if __name__ == "__main__":
     menu()       

@@ -1,4 +1,17 @@
 {
+    "BIO SCI 98": { 
+        "prerequisite_or_corequisite_tree": {
+            "and": [
+                {
+                    "or": [
+                        "BIO SCI 97",
+                        "BIO SCI H97"
+                    ]
+                },
+                "CHEM 51B"
+            ]
+        }
+    },
     "BIO SCI 191CW": {
         "prerequisite": "BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.",
         "prerequisite_tree": {
@@ -605,24 +618,24 @@
             ]
         }
     },
-    "ENGRCEE 181A": {
+    "ENGRCEE 181B": {
+        "prerequisite": "ENGRCEE 181A. CEE 181A and ENGRCEE 181B and ENGRCEE 181C must be taken in the same academic year.",
         "prerequisite_tree": {
             "and": [
-                "ENGRCEE 81A",
-                "ENGRCEE 81B",
-                "ENGRCEE 110",
-                {
-                    "or": [
-                        "ENGRCEE 121",
-                        "ENGRCEE 151C",
-                        "ENGRCEE 162",
-                        "ENGRCEE 171"
-                    ]
-                },
-                "ENGRCEE 181A",
+                "ENGRCEE 181A"
+            ]
+        }
+    },
+    "ENGRCEE 181C": {
+        "prerequisite": "ENGRCEE 181B. ENGRCEE 181A and CEE 181B and ENGRCEE 181C must be taken in the same academic year.",
+        "prerequisite_tree": {
+            "and": [
                 "ENGRCEE 181B"
             ]
         }
+    },
+    "ENGRMAE 10": { 
+        "corequisite_tree": ""
     },
     "KOREAN S1BC": { 
         "prerequisite": "KOREAN S1AB or KOREAN 1B or KOREAN 1KB. KOREAN S1AB with a grade of C or better. KOREAN 1B with a grade of C or better. KOREAN 1KB with a grade of C or better. Pacement into KOREAN 1C or KOREAN 1KC is also accepted.",
@@ -640,6 +653,20 @@
         "corequisite_tree": {
             "and": [
                 "PHYSICS 7LC"
+            ]
+        }
+    },
+    "PHYSICS 7D": {
+        "corequisite_tree": {
+            "and": [
+                "PHYSICS 7LD"
+            ]
+        }
+    },
+    "PHYSICS 7E": {
+        "prerequisite_tree": {
+            "and": [
+                "PHYSICS 7C"
             ]
         }
     },

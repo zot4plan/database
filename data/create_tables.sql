@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS courses_in_ge;
-DROP TABLE IF EXISTS courses;
+-- DROP TABLE IF EXISTS courses_in_ge;
+-- DROP TABLE IF EXISTS courses;
 
 CREATE TABLE courses (
     course_id VARCHAR(25) PRIMARY KEY,
@@ -50,25 +50,58 @@ CREATE TABLE courses_in_ge(
 CREATE TABLE if not exists schedules (
     schedule_id VARCHAR(64) PRIMARY KEY,
     schedule json NOT NULL,
-    last_access_date DATE NOT NULL
+    active_date DATE NOT NULL,
+    created_date DATE NOT NULL
 );
 
-/*CREATE TABLE sample_programs {
-    sample_id serial PRIMARY KEY,
-    program_ids integer [] NOT NULL,
-    schedule json NOT NULL,
-    author text,
-}
+-- CREATE TABLE if not exists ap_exam(
+--     ap_exam_id serial PRIMARY KEY,
+--     name text NOT NULL,
+--     score int NOT NULL,
+--     credit int NOT NULL,
+--     equivalent_courses TEXT []
+-- );
 
-CREATE TABLE if not exists schedules (
-    schedule_id VARCHAR(64) PRIMARY KEY,
-    schedule json NOT NULL,
-    program_ids integer [],
-    added_courses TEXT [],
-    last_access_date DATE NOT NULL
-);*/
+-- CREATE TABLE sample_programs {
+--     sample_id serial PRIMARY KEY,
+--     program_ids integer [] NOT NULL,
+--     schedule json NOT NULL,
+--     author text,
+-- };
+
+-- CREATE TABLE if not exists schedules (
+--     schedule_id VARCHAR(64) PRIMARY KEY,
+--     schedule json NOT NULL,
+--     program_ids integer [],
+--     added_courses TEXT [],
+--     last_access_date DATE NOT NULL
+-- );
+
+CREATE TABLE IF not exists playlists(
+    playlist_id VARCHAR(64) PRIMARY KEY,
+    thumbnail VARCHAR(64) NULL,
+    name VARCHAR(128) NOT NULL,
+    author VARCHAR(128),
+    share_by VARCHAR(128),
+    original_url VARCHAR(256) NOT NULL,
+    embed_url VARCHAR(256) NOT NULL,
+    language VARCHAR(64),
+    genre TEXT [],
+    like integer DEFAULT 0,
+    view integer DEFAULT 0,
+    created_date timestamp DEFAULT CURRENT_TIMESTAMP,
+    is_verified BOOLEAN DEFAULT false,
+);
+
+CREATE TABLE IF not exists reports {
+    report_id serial PRIMARY KEY,
+    playlist_id VARCHAR(64) NOT NULL,
+    reason VARCHAR(256) NOT NULL,
+    FOREIGN KEY (playlist_id) REFERENCES playlists(playlist_id)
+}
 
 CREATE TABLE if not exists visits(
     date_visit DATE PRIMARY KEY,
-    number_of_visits integer DEFAULT 1
+    home integer DEFAULT 1,
+    virtual_cafe integer DEFAULT 0,
 );
