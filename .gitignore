@@ -1,12 +1,12 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 /__pycache__
-/scrape/__pycache__
-/scrape/app/__pycache__
 programs/
 other/
 holder/
-store/trees.json
+store/
+scrape/
 # misc
 .DS_Store
+.vscode/
 .vscode
