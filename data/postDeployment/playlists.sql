@@ -3,7 +3,7 @@ INSERT INTO playlists
 	playlist_id, 
 	thumbnail, 
 	name, 
-	share_by, 
+	shared_by, 
 	original_url, 
 	embed_url, 
 	language, 
@@ -13,30 +13,41 @@ VALUES
 	(
         'PLSbcvcMOgs9EvNjev3R4LhcmubNH4Redk',
 	    'FN7ALfpGxiI', 
-	    'Lonely nights', 
+	    'Simple Love (Vietnamese)', 
 	    'LK', 
 	    'https://youtube.com/playlist?list=PLSbcvcMOgs9EvNjev3R4LhcmubNH4Redk',
 	    'https://www.youtube.com/embed/videoseries?list=PLSbcvcMOgs9EvNjev3R4LhcmubNH4Redk',
 	    'Vietnamese',
         True
     ),
-	(
-        'ja0HeFa8GJc',
-	    'ja0HeFa8GJc',
-	    'Lofi chill',
-	    'LK',
-	    'https://youtu.be/ja0HeFa8GJc',
-	    'https://www.youtube.com/embed/ja0HeFa8GJc',
-	    'Vietnamese',
-        True
-    ),
     (
         'PLSbcvcMOgs9E-8paOqVvdkDiBa4jeag1Y',
 	    'nSpYpZEcv8U',
-	    'Old Korean Songs',
+	    'Aloha (Korean)',
 	    'LK',
 	    'https://youtube.com/playlist?list=PLSbcvcMOgs9E-8paOqVvdkDiBa4jeag1Y',
 	    'https://www.youtube.com/embed/videoseries?list=PLSbcvcMOgs9E-8paOqVvdkDiBa4jeag1Y',
 	    'Korean',
         True
-    );
+    ),
+	(
+		'PLSbcvcMOgs9EFd-Vk_mjCvHiYKTcjG99o',
+	    'XLMu3CEwlcI',
+	    'Suteki Da Ne (Japanese)',
+	    'LK',
+	    'https://youtube.com/playlist?list=PLSbcvcMOgs9EFd-Vk_mjCvHiYKTcjG99o',
+	    'https://www.youtube.com/embed/videoseries?list=PLSbcvcMOgs9EFd-Vk_mjCvHiYKTcjG99o',
+	    'Korean',
+        True
+	)
+ON CONFLICT (playlist_id)
+DO UPDATE SET
+	thumbnail = EXCLUDED.thumbnail,
+    name = EXCLUDED.name,
+    author = EXCLUDED.author,
+    shared_by = EXCLUDED.shared_by,
+    original_url = EXCLUDED.original_url,
+    embed_url = EXCLUDED.embed_url,
+    language = EXCLUDED.language,
+    genre = EXCLUDED.genre,
+    is_verified = EXCLUDED.is_verified;
