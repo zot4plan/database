@@ -82,7 +82,7 @@ CREATE TABLE IF not exists playlists(
     thumbnail VARCHAR(64) NULL,
     name VARCHAR(128) NOT NULL,
     author VARCHAR(128),
-    share_by VARCHAR(128),
+    shared_by VARCHAR(128),
     original_url VARCHAR(256) NOT NULL,
     embed_url VARCHAR(256) NOT NULL,
     language VARCHAR(64),
@@ -93,12 +93,13 @@ CREATE TABLE IF not exists playlists(
     is_verified BOOLEAN DEFAULT false,
 );
 
-CREATE TABLE IF not exists reports {
+CREATE TABLE IF not exists reports (
     report_id serial PRIMARY KEY,
     playlist_id VARCHAR(64) NOT NULL,
     reason VARCHAR(256) NOT NULL,
+    created_date timestamp DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (playlist_id) REFERENCES playlists(playlist_id)
-}
+);
 
 CREATE TABLE if not exists visits(
     date_visit DATE PRIMARY KEY,

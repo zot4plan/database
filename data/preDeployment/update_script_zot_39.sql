@@ -1,3 +1,5 @@
+/* Need to run if you have not pull from the latest */
+
 ALTER TABLE visits
 RENAME COLUMN number_of_visits to home;
 
@@ -18,7 +20,7 @@ CREATE TABLE IF not exists playlists(
     thumbnail VARCHAR(64) NULL,
     name VARCHAR(128) NOT NULL,
     author VARCHAR(128),
-    share_by VARCHAR(128),
+    shared_by VARCHAR(128),
     original_url VARCHAR(256) NOT NULL,
     embed_url VARCHAR(256) NOT NULL,
     language VARCHAR(64),
@@ -28,6 +30,3 @@ CREATE TABLE IF not exists playlists(
     created_date DATE NOT NULL,
     is_verified BOOLEAN DEFAULT false
 );
-
-ALTER TABLE playlists
-RENAME COLUMN "thumdnail" to thumbnail;
