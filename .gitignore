@@ -9,3 +9,4 @@ scrape/
 # misc
 .DS_Store
 .vscode/
+.vscode
