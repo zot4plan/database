@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./web_scraper/app/models",
-        "./web_scraper/app/helper"
-    ]
-}
