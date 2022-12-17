@@ -37,6 +37,16 @@ VALUES
 	    'LK',
 	    'https://youtube.com/playlist?list=PLSbcvcMOgs9EFd-Vk_mjCvHiYKTcjG99o',
 	    'https://www.youtube.com/embed/videoseries?list=PLSbcvcMOgs9EFd-Vk_mjCvHiYKTcjG99o',
+	    'Japanese',
+        True
+	),
+	(
+		'PLSbcvcMOgs9ERq9csh6smTOczdv8JWD0P',
+	    'A8N_sQ_kK48',
+	    'Growing Fond of You (Chinese)',
+	    'LK',
+	    'https://youtube.com/playlist?list=PLSbcvcMOgs9ERq9csh6smTOczdv8JWD0P',
+	    'https://www.youtube.com/embed/videoseries?list=PLSbcvcMOgs9ERq9csh6smTOczdv8JWD0P',
 	    'Korean',
         True
 	)

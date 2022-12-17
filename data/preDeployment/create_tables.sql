@@ -87,10 +87,10 @@ CREATE TABLE IF not exists playlists(
     embed_url VARCHAR(256) NOT NULL,
     language VARCHAR(64),
     genre TEXT [],
-    like integer DEFAULT 0,
-    view integer DEFAULT 0,
+    "like" integer DEFAULT 0,
+    "view" integer DEFAULT 0,
     created_date timestamp DEFAULT CURRENT_TIMESTAMP,
-    is_verified BOOLEAN DEFAULT false,
+    is_verified BOOLEAN DEFAULT false
 );
 
 CREATE TABLE IF not exists reports (

@@ -25,8 +25,16 @@ CREATE TABLE IF not exists playlists(
     embed_url VARCHAR(256) NOT NULL,
     language VARCHAR(64),
     genre TEXT [],
-    like integer DEFAULT 0,
-    view integer DEFAULT 0,
-    created_date DATE NOT NULL,
+    "like" integer DEFAULT 0,
+    "view" integer DEFAULT 0,
+    created_date timestamp DEFAULT CURRENT_TIMESTAMP,
     is_verified BOOLEAN DEFAULT false
+);
+
+CREATE TABLE IF not exists reports (
+    report_id serial PRIMARY KEY,
+    playlist_id VARCHAR(64) NOT NULL,
+    reason VARCHAR(256) NOT NULL,
+    created_date timestamp DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (playlist_id) REFERENCES playlists(playlist_id)
 );
