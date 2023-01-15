@@ -1,5 +1,21 @@
 import common
 
+alt_depts = {
+    'PHYSICS': 'PHYS', 
+    'I&C SCI': 'ICS', 
+    'COMPSCI': 'CS',
+    'SOCECOL': 'SE',
+    'ENGRCEE': 'CEE',
+    'ENGRMAE': 'MAE',
+    'BIO SCI': 'BIOL',
+    'INTL ST': 'IS',
+    'SOCIOL': 'SOCL',
+    'SOC SCI': 'SSCI',
+    'EARTHSS': 'ESS',
+    'PHRMSCI': 'PHMS',
+    'CRM/LAW': 'CLS'
+}
+
 def insert_course_string(course_id: str, course: dict) -> str:
     fields = [
         "name", 
@@ -40,7 +56,12 @@ def insert_course_string(course_id: str, course: dict) -> str:
             sql_string.append(', ' + 'null')
     
     if course['terms']:
-        sql_string.append(',\'' + course['terms'] + '\');' + '\n')
+        sql_string.append(',\'' + course['terms'] + '\'')
+    else:
+        sql_string.append(', ' + 'null')
+    
+    if course['department'] in alt_depts:
+        sql_string.append(',\'' + course_id.replace(course['department'], alt_depts[course['department']]) + '\');' + '\n')
     else:
         sql_string.append(',' + 'null' + ');' + '\n')
 

@@ -1,62 +1,72 @@
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP 2-D Art and Design', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP 3-D Art and Design', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Art History', 4, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Art History', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Biology', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Calculus AB', 4, 4, ARRAY ['MATH 2A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Calculus AB', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Calculus BC', 4, 8, ARRAY ['MATH 2A', 'MATH 2B']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Calculus BC', 3, 8, ARRAY ['MATH 2A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Chemistry', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Chemistry', 4, 8, ARRAY ['CHEM 1A', 'ENGR 1A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Chinese Language and Culture', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Chinese Language and Culture', 4, 8, ARRAY ['CHINESE 1A-CHINESE 1B-CHINESE 1C, CHINESE 2A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Comparative Government and Politics', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Computer Science A', 3, 8, ARRAY ['ENGRMAE 10']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Computer Science Principles', 3, 8, ARRAY ['I&C SCI 20']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Drawing', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP English Language and Composition', 4, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP English Language and Composition', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP English Literature and Composition', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP English Literature and Composition', 4, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Environmental Science', 4, 4, ARRAY ['EARTHSS 1', 'SOCECOL E8']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Environmental Science', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP European History', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP European History', 5, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP French Language and Culture', 3, 8, ARRAY ['FRENCH 1A', 'FRENCH 1B', 'FRENCH 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP French Language and Culture', 4, 8, ARRAY ['FRENCH 2A', 'FRENCH 2B', 'FRENCH 2C.']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP German Language and Culture', 3, 8, ARRAY ['GERMAN 1A', 'GERMAN 1B', 'GERMAN 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP German Language and Culture', 4, 8, ARRAY ['GERMAN 2A', 'GERMAN 2B', 'GERMAN 2C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Human Geography', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Italian Language and Culture', 3, 8, ARRAY ['ITALIAN 1A', 'ITALIAN 1B', 'ITALIAN 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Italian Language and Culture', 4, 8, ARRAY ['ITALIAN 2A', 'ITALIAN 2B', 'ITALIAN 2C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Japanese Language and Culture', 3, 8, ARRAY ['JAPANESE 1A', 'JAPANESE 1B', 'JAPANESE 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Japanese Language and Culture', 4, 8, ARRAY ['JAPANESE 2A', 'JAPANESE 2B', 'JAPANESE 2C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Latin', 4, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Latin', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Macroeconomics', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Macroeconomics', 4, 4, ARRAY ['ECON 20B']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Microeconomics', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Microeconomics', 4, 4, ARRAY ['ECON 20A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Music Theory', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Music Theory', 4, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics 1', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics 2', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Electricity and Magnetism', 5, 4, ARRAY ['PHYSICS 2', 'PHYSICS 3B']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Electricity and Magnetism', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Electricity and Magnetism', 4, 4, ARRAY ['PHYSICS 2']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Mechanics', 5, 4, ARRAY ['PHYSICS 2', 'PHYSICS 3A']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Mechanics', 4, 4, ARRAY ['PHYSICS 2']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Physics C: Mechanics', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Psychology', 4, 4, ARRAY ['PSY BEH 9', 'PSYCH 7A.']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Psychology', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Spanish Language and Culture', 3, 8, ARRAY ['SPANISH 1A', 'SPANISH 1B', 'SPANISH 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Spanish Language and Culture', 4, 8, ARRAY ['SPANISH 2A', 'SPANISH 2B', 'SPANISH 2C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Spanish Literature and Culture', 4, 8, ARRAY ['SPANISH 2A', 'SPANISH 2B', 'SPANISH 2C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Spanish Literature and Culture', 3, 8, ARRAY ['SPANISH 1A', 'SPANISH 1B', 'SPANISH 1C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP Statistics', 3, 4, ARRAY ['STATS 7', 'STATS 8', 'MGMT 7', 'SOCECOL 13', 'EDUC 15']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP United States Government and Politics', 3, 4, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP United States History', 5, 8, ARRAY ['HISTORY 40A', 'HISTORY 40B', 'HISTORY 40C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP United States History', 3, 8, NULL);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP World History: Modern', 5, 8, ARRAY ['HISTORY 21A', 'HISTORY 21B', 'HISTORY 21C']);
-INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES ('AP World History: Modern', 3, 8, NULL);
+INSERT INTO ap_exam (
+    ap_exam_id, 
+    name, 
+    score, 
+    unit, 
+    course, 
+    ge
+) 
+    VALUES  (1, 'AP 2-D Art and Design', 3, 8, null, null),
+            (2, 'AP 3-D Art and Design', 3, 8, null, null),
+            (3, 'AP Art History', 3, 8, ARRAY ['ART HIS 40A'], ARRAY ['VIII']),
+            (4, 'AP Art History', 4, 8, ARRAY ['ART HIS 40A', 'ART HIS 40B'], ARRAY ['VIII']),
+            (5, 'AP Biology', 3, 8, null, null),
+            (6, 'AP Calculus AB', 3, 4, null, null),
+            (7, 'AP Calculus AB', 4, 4, ARRAY ['MATH 2A', 'MATH 5A'], null),
+            (8, 'AP Calculus BC', 3, 8, ARRAY ['MATH 2A', 'MATH 5A'], null),
+            (9, 'AP Calculus BC', 4, 8, ARRAY ['MATH 2A', 'MATH 2B', 'MATH 5A', 'MATH 5B'], null),
+            (10, 'AP Chemistry', 3, 8, null, null),
+            (11, 'AP Chemistry', 4, 8, ARRAY ['CHEM 1A', 'ENGR 1A'], null),
+            (12, 'AP Chinese Language and Culture', 3, 8, null, null),
+            (13, 'AP Chinese Language and Culture', 4, 8, ARRAY ['CHINESE 1A', 'CHINESE 1B', 'CHINESE 1C', 'CHINESE 2A'], ARRAY ['VI', 'VIII']),
+            (14, 'AP Comparative Government and Politics', 3, 4, null, null),
+            (15, 'AP Comparative Government and Politics', 4, 4, ARRAY ['POL SCI 51A'], null),
+            (16, 'AP Computer Science A', 3, 8, ARRAY ['ENGRMAE 10'], null),
+            (17, 'AP Computer Science Principles', 3, 8, ARRAY ['I&C SCI 20'], null),
+            (18, 'AP Drawing', 3, 8, null, null),
+            (19, 'AP English Language and Composition', 3, 8, null, ARRAY ['IA']),
+            (20, 'AP English Language and Composition', 4, 8, null, ARRAY ['IA']),
+            (21, 'AP English Literature and Composition', 3, 8, null, ARRAY ['IA']),
+            (22, 'AP English Literature and Composition', 4, 8, null, ARRAY ['IA']),
+            (23, 'AP Environmental Science', 3, 4, null, null),
+            (24, 'AP Environmental Science', 4, 4, ARRAY ['EARTHSS 1'], null),
+            (25, 'AP European History', 3, 8, null, null),
+            (26, 'AP European History', 5, 8, null, ARRAY ['VIII']),
+            (27, 'AP French Language and Culture', 3, 8, ARRAY ['FRENCH 1A', 'FRENCH 1B', 'FRENCH 1C'], ARRAY ['VI']),
+            (28, 'AP French Language and Culture', 4, 8, ARRAY ['FRENCH 2A', 'FRENCH 2B', 'FRENCH 2C'], ARRAY ['VI','VIII']),
+            (29, 'AP German Language and Culture', 3, 8, ARRAY ['GERMAN 1A', 'GERMAN 1B', 'GERMAN 1C'], ARRAY ['VI']),
+            (30, 'AP German Language and Culture', 4, 8, ARRAY ['GERMAN 2A', 'GERMAN 2B', 'GERMAN 2C'], ARRAY ['VI', 'VIII']),
+            (31, 'AP Human Geography', 3, 4, null, null),
+            (32, 'AP Italian Language and Culture', 3, 8, ARRAY ['ITALIAN 1A', 'ITALIAN 1B', 'ITALIAN 1C'], ARRAY ['VI']),
+            (33, 'AP Italian Language and Culture', 4, 8, ARRAY ['ITALIAN 2A', 'ITALIAN 2B', 'ITALIAN 2C'], ARRAY ['VI', 'VIII']),
+            (34, 'AP Japanese Language and Culture', 3, 8, ARRAY ['JAPANESE 1A', 'JAPANESE 1B', 'JAPANESE 1C'], ARRAY ['VI']),
+            (35, 'AP Japanese Language and Culture', 4, 8, ARRAY ['JAPANESE 2A', 'JAPANESE 2B', 'JAPANESE 2C'], ARRAY ['VI', 'VIII']),
+            (36, 'AP Latin', 3, 4, null, ARRAY ['VI']),
+            (37, 'AP Latin', 4, 4, null, ARRAY ['VI', 'VIII']),
+            (38, 'AP Macroeconomics', 3, 4, null, null),
+            (39, 'AP Macroeconomics', 4, 4, ARRAY ['ECON 20B', 'MGMT 4B'], null),
+            (40, 'AP Microeconomics', 3, 4, null, null),
+            (41, 'AP Microeconomics', 4, 4, ARRAY ['ECON 20A', 'MGMT 4A'], null),
+            (42, 'AP Music Theory', 3, 8, null, null),
+            (43, 'AP Music Theory', 4, 8, null, null),
+            (44, 'AP Physics 1', 3, 8, null, null),
+            (45, 'AP Physics 2', 3, 8, null, null),
+            (46, 'AP Physics C: Electricity and Magnetism', 5, 4, ARRAY ['PHYSICS 2', 'PHYSICS 3B'], null),
+            (47, 'AP Physics C: Electricity and Magnetism', 3, 4, null, null),
+            (48, 'AP Physics C: Electricity and Magnetism', 4, 4, ARRAY ['PHYSICS 2'], null),
+            (49, 'AP Physics C: Mechanics', 5, 4, ARRAY ['PHYSICS 2', 'PHYSICS 3A'], null),
+            (50, 'AP Physics C: Mechanics', 4, 4, ARRAY ['PHYSICS 2'], null),
+            (51, 'AP Physics C: Mechanics', 3, 4, null, null),
+            (52, 'AP Psychology', 3, 4, null, null),
+            (53, 'AP Psychology', 4, 4, ARRAY ['PSCI 9', 'PSYCH 7A'], null),
+            (54, 'AP Spanish Language and Culture', 3, 8, ARRAY ['SPANISH 1A', 'SPANISH 1B', 'SPANISH 1C'], ARRAY ['VI']),
+            (55, 'AP Spanish Language and Culture', 4, 8, ARRAY ['SPANISH 2A', 'SPANISH 2B', 'SPANISH 2C'], ARRAY ['VI', 'VIII']),
+            (56, 'AP Spanish Literature and Culture', 3, 8, ARRAY ['SPANISH 1A', 'SPANISH 1B', 'SPANISH 1C'], ARRAY ['VI']),
+            (57, 'AP Spanish Literature and Culture', 4, 8, ARRAY ['SPANISH 2A', 'SPANISH 2B', 'SPANISH 2C'], ARRAY ['VI','VIII']),
+            (58, 'AP Statistics', 3, 4, ARRAY ['STATS 7', 'STATS 8', 'MGMT 7', 'SOCECOL 13', 'EDUC 15'], null),
+            (59, 'AP United States Government and Politics', 3, 4, null, null),
+            (60, 'AP United States Government and Politics', 4, 4, ARRAY ['POL SCI 21A'], null),
+            (61, 'AP United States History', 3, 8, null, null),
+            (62, 'AP United States History', 5, 8, ARRAY ['HISTORY 40A', 'HISTORY 40B', 'HISTORY 40C'], ARRAY ['IV']),
+            (63, 'AP World History: Modern', 3, 8, null, null),
+            (64, 'AP World History: Modern', 5, 8, ARRAY ['HISTORY 21B', 'HISTORY 21C'], ARRAY ['IV','VIII']);
