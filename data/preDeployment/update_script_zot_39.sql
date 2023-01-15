@@ -38,3 +38,4 @@ CREATE TABLE IF not exists reports (
     created_date timestamp DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (playlist_id) REFERENCES playlists(playlist_id)
 );
+

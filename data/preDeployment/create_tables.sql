@@ -1,7 +1,7 @@
 -- DROP TABLE IF EXISTS courses_in_ge;
 -- DROP TABLE IF EXISTS courses;
 
-CREATE TABLE courses (
+CREATE TABLE if not exists courses (
     course_id VARCHAR(25) PRIMARY KEY,
     name TEXT,
     department TEXT,
@@ -21,7 +21,8 @@ CREATE TABLE courses (
     concurrent_with TEXT,
     repeatability integer,
     ge TEXT,
-    terms TEXT
+    terms TEXT,
+    alt_course_id VARCHAR(25) UNIQUE
 );
 
 CREATE TABLE if not exists programs(
@@ -39,7 +40,7 @@ CREATE TABLE if not exists general_education(
     note TEXT NOT NULL
 );
 
-CREATE TABLE courses_in_ge(
+CREATE TABLE if not exists courses_in_ge(
     id serial PRIMARY KEY,
     course_id VARCHAR(25) NOT NULL,
     ge_id VARCHAR(5) NOT NULL,
@@ -50,32 +51,21 @@ CREATE TABLE courses_in_ge(
 CREATE TABLE if not exists schedules (
     schedule_id VARCHAR(64) PRIMARY KEY,
     schedule json NOT NULL,
+    ap_exam json NULL, 
     active_date DATE NOT NULL,
     created_date DATE NOT NULL
 );
 
--- CREATE TABLE if not exists ap_exam(
---     ap_exam_id serial PRIMARY KEY,
---     name text NOT NULL,
---     score int NOT NULL,
---     credit int NOT NULL,
---     equivalent_courses TEXT []
--- );
+CREATE TABLE if not exists ap_exam(
+    ap_exam_id serial PRIMARY KEY,
+    name text NOT NULL,
+    score int NOT NULL,
+    unit int DEFAULT 0,
+    course TEXT [],
+    ge TEXT []
+);
 
--- CREATE TABLE sample_programs {
---     sample_id serial PRIMARY KEY,
---     program_ids integer [] NOT NULL,
---     schedule json NOT NULL,
---     author text,
--- };
-
--- CREATE TABLE if not exists schedules (
---     schedule_id VARCHAR(64) PRIMARY KEY,
---     schedule json NOT NULL,
---     program_ids integer [],
---     added_courses TEXT [],
---     last_access_date DATE NOT NULL
--- );
+CREATE INDEX name_idx ON ap_exam (name) WITH (deduplicate_items = off);
 
 CREATE TABLE IF not exists playlists(
     playlist_id VARCHAR(64) PRIMARY KEY,

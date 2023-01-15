@@ -3,7 +3,7 @@ from scraper.scrape_courses import scrape_courses
 from export.courses import export_courses
 from export.ap_exams import export_ap_exam
 
-root_sql = '../../data/'
+root_sql = '../../data/postDeployment/'
 root_json = '../../store/'
 
 def menu():

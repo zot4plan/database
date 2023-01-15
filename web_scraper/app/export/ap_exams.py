@@ -15,9 +15,10 @@ def export_ap_exam(file_path: str):
     
     with open(file_path, 'w') as f:
         for exam in ap_exam:
-            f.write('INSERT INTO ap_exam (name, score, credit, equivalent_courses) VALUES (\'' 
+            f.write('INSERT INTO ap_exam (name, score, credit, course, ge) VALUES (\'' 
                     + exam['name'] + '\', '
                     + str(exam['score']) +', '
                     + str(exam['credit']) + ', '
-                    + ('NULL' if not exam['equivalent_courses'] else ('ARRAY ' + str(exam['equivalent_courses'])))
+                    + ('NULL' if not exam['equivalent_courses'] else ('ARRAY ' + str(exam['equivalent_courses']))) + ', '
+                    + 'NULL'
                     + ');\n')
