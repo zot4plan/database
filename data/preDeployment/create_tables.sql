@@ -94,5 +94,5 @@ CREATE TABLE IF not exists reports (
 CREATE TABLE if not exists visits(
     date_visit DATE PRIMARY KEY,
     home integer DEFAULT 1,
-    virtual_cafe integer DEFAULT 0,
+    virtual_cafe integer DEFAULT 0
 );
